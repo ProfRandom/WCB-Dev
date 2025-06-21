@@ -1,3 +1,9 @@
+# WorldCrafting101: A Science-Adjacent Worldbuilding Toolkit
+
+> 🌍 **Modular worldbuilding system for designing habitable planets, stars, and systems.**  
+> 🚧 **Currently in active development — first module live!**  
+> 🎯 *Build plausible fictional worlds with narrated formulas and practical modeling tools — no calculus required.*
+
 # WorldCrafting 101: A Science-Adjacent Worldbuilding Toolkit
 
 > "Because sometimes you just want to build a world you can actually use."
