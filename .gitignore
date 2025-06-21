@@ -1,0 +1,11 @@
+
+# Obsidian workspace files
+.obsidian/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
