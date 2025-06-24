@@ -1,11 +1,39 @@
-
 # Obsidian workspace files
 .obsidian/
 
 # System files
 .DS_Store
 Thumbs.db
+.AppleDouble
+.Spotlight-V100
+.Trashes
+._*
+desktop.ini
 
 # Temporary files
 *.tmp
 *.swp
+
+# Backup files
+*~
+
+# Markdown Files
+*.md
+
+# Graphics Files
+*.jpg
+*.webp
+*.png
+
+# Export-only files (non-PDF)
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.html
+*.epub
+*.docx
+
+# Obsidian plugin data
+.obsidian/plugins/
