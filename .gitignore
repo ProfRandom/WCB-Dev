@@ -18,7 +18,7 @@ desktop.ini
 *~
 
 # Markdown Files
-*.md
+#*.md
 
 # Graphics Files
 *.jpg
