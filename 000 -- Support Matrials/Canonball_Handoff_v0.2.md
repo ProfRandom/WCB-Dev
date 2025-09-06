@@ -20,7 +20,8 @@ Please do the following:
 1. **Synopsize** the relevant parts of this discussion relating to **[topic]** in a structured way, focusing only on canonical decisions and glossary-worthy developments.  
 2. **Collate firm decisions** we established (e.g., new glossary entries, symbol adoptions, framework rules, deprecations).  
 3. **Generate a Markdown export file** that provides a brief cover note at the top (e.g., *“Handoff from Side Thread on [topic], dated [date]”*).  
-4. Do **not** attempt to update the Master Glossary or Master Thread Index yourself. The Master instance will handle integration — your job is to prepare the bundle.  
+4. Do **not** attempt to update the Master Glossary or Master Thread Index yourself. The Master instance will handle integration — your job is to prepare the bundle.
+5. Do not classify terms (exo/neo/insulex), assign coverage, or declare deprecations.  These actions are the responsibility of the **Master Glossary Thread** only. Your job is to provide a clean bundle of content and decisions for integration, leaving categorization and canonization to the Master instance.
 
 ---
 

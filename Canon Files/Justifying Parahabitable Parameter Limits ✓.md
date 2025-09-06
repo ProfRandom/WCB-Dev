@@ -4,7 +4,7 @@ We have specified that the five foundational parameters for _terrestrial-class_ 
 
 ![[Physical Properties of Planets ✓]]
 
-While [[1.01 — Planemo Classes ✓]] defines five envelopes — **Lithic**, **Geotic**, **Gaean**, **Rheatic**, and **Xenotic** — each with their own astrophysical and biological implications, this sidebar focuses on the rationale for preferring a narrower, _parahabitable_ range:
+While [[Planemo Classes ✓]] defines five envelopes — **Lithic**, **Geotic**, **Gaean**, **Rheatic**, and **Xenotic** — each with their own astrophysical and biological implications, this sidebar focuses on the rationale for preferring a narrower, _parahabitable_ range:
 
 $$\text{parameter} \in \langle0.5 \wedge 1.5\rangle\oplus$$
 This envelope is not meant to describe strict habitability in the Gaean sense. Rather, it defines a **flexible but centered range** where human life can be sustained or engineered, and where ecological and technological systems remain dynamically stable without extreme compensatory mechanisms. It reflects not only biological tolerance, but also **civilizational viability** — balancing survivability, mobility, infrastructure, and long-term planemo homeostasis.
