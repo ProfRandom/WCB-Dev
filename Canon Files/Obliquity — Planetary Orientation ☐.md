@@ -1,7 +1,8 @@
 ## Tilt (Obliquity: $\epsilon$)
-#### Notation
+
+## Obliquity Scope: ($\dot{T}$)
 $$
-\dot{T} = (\epsilon \pm : \epsilon^-, \epsilon^0, \epsilon^+)
+\dot{T} = (\epsilon \updownarrow : \epsilon^-, \epsilon^0, \epsilon^+)
 $$
 Where
  - $\epsilon$ = the current degree measure of the axial tilt
@@ -14,47 +15,49 @@ Where
 
 Example (for Earth):
 $$
-\dot{T} = (23.5^\circ-: 22.1^\circ, 23.32^\circ, 24.5^\circ)
+\dot{T} = (23.5^\circ\downarrow: 22.1^\circ, 23.32^\circ, 24.5^\circ)
 $$
-- Current tilt angle: $23.5^\circ-$, and _decreasing_
+- Current tilt angle: $23.5^\circ$, and _decreasing_ (↓)
 - Minimum tilt angle: $22.1^\circ$
 - Mean tilt angle: $23.3^\circ$
 - Maximum tilt angle: $24.5^\circ$
-## Tilt Oscillation ($T’$)
+## Tilt Oscillation Period ($T’$)
 The interval of oscillation between two occurrences of the maximum or the minimum axial tilt
 Example (for Earth):
 $$
 T’ = 41000^y
 $$
 ## Tilt Rate of Change ($\dot{T}_{rate}$)
-
 The rate of change of the axial tilt per year[^1]
 $$
-\dot{T}_{rate} = \pm\dfrac{\epsilon^+ - \epsilon^-}{T\prime}
+\dot{T}_{rate} = \dfrac{\varepsilon_x^+ - \varepsilon_x^-}{T’}
 $$
 Example (for Earth):
 $$
-\dot{T}_{rate} = \pm\dfrac{24.5^\circ - 22.1^\circ}{41000} = \pm0.000058537^\circ / year; $\pm0.0058537^\circ$ / kyr
+\begin{align}
+\dot{T}_{rate} &= \dfrac{24.5^\circ - 22.1^\circ}{41000} \\[0.5em]
+&= 0.000058537^\circ / year \\[0.5em]
+&= 0.0058537^\circ / kyr
+\end{align}
 $$
 ## Tilt Current Status ($\dot{T}_{cur}$)
 The current percentage of maximum tilt
 $$
-\dot{T}_{cur} = \dfrac{\epsilon\pm}{\epsilon^+} \times 100
+\dot{T}_{cur} = \dfrac{\varepsilon_x\updownarrow}{\varepsilon^+} \times 100
 $$
 
 Example (for Earth):
 $$
-	\dot{T}_{cur} = \dfrac{\epsilon}{\epsilon^+} \times 100 = \dfrac{23.5-}{24.5} \times 100 = 95.918\%-
+	\dot{T}_{cur} = \dfrac{\varepsilon_x\updownarrow}{\varepsilon^+} \times 100 = \dfrac{23.5\downarrow}{24.5} \times 100 = 95.918\%\downarrow
 	$$
 - $95.918\%$ of maximum tilt and _decreasing_)
-
-## Precession Cycle (ⲯ)
+## Precession Cycle (χ)
 
 The $\psi = 0^\circ$ direction of the precessional phase is defined as the northern hemisphere of the planet being tilted precisely *away* from the star at the perihelion of its orbit.
 
 The precessional phase follows an anticlockwise circuit such that at $\psi = 180^\circ$ the northern hemisphere of the planet it tilted precisely _toward_ the star at perihelion.
 
-Thus the _seasons precess through the calendar_, while the phase orientation remains static.  This means that at $\psi = 180°$ for Earth, northern _summer_ will be occurring in the December, January, February timeframe, _if the Gregorian calendar is still in use and hasn't been adjusted from its current configuration._
+Thus the _seasons precess through the calendar_, while the obliquity azimuth remains static.  This means that at $\psi = 180°$ for Earth, northern _summer_ will be occurring in the December, January, February timeframe, _if the Gregorian calendar is still in use and hasn't been adjusted from its current configuration._
 
 This is the _planetary gyre cycle_ for _all planets with a non-zero obliquity, _regardless of whether the tilt angle also shifts_.  However, if the plaent's orbit is perfectly circular, then "perihelion" simply becomes the term for when the planet is at the $0^\circ$ point its orbital path relative to the objective frame, because it won't be any closer-to or farther-from its star at that point than at any other point in its orbit.
 
@@ -104,42 +107,6 @@ $$
 - **Flux form** → good for climatic impact (“how much hotter/colder”).  
 - Both are simple, memorable shortcuts for estimating seasonal asymmetry.
 
-
-## Spin ($S_{sid}$)
-### (Sidereal Day)
-
-The planet's period of rotation around its axis.
-#### Notation: $D_{sid}; {}^{ds}$
-	
-Example (for Earth):
-
-- $1^{ds} = 23^h\; 56^m\; 04^s$
-## Apical Day
-
-The time between two instances of the star crossing the variable apex of its path across the sky as seen by any planet-bound observer.0
-#### Notation: $D; {}^d$
-
-Example (for Earth):
-
-- $1^d = 24^h$
-- Note: for Earth this is also known as the _apparent solar day_ or the _ephemeris day_.
-### Sidereal year
-
-The time for the planet to complete one full orbit around its star relative to the objective frame.
-#### Notation: $Y; {}^y$
-
-Example (for Earth):
-- $1^y = 365.256363004^d$; where $d$ is the local _apical day_.
-### Zenithal Year
-
-The time between two instances of the star passing the highest apex of its path across the sky as seen by any planet-bound observer.
-#### Notation: $Z; {}^z$
-	
-Example (for Earth):
-
-- $1^z = 365.24219^d$; where $d$ is the local _apical day_.
-
-[^1]: Usually expressed in Terran years
 
 # Earth's Seasons
 

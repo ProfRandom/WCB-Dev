@@ -6,7 +6,7 @@
 - **Lifetime:** 0.6623⊙; 6.623 Ga
 - **Spectral Type:** F7.97V
 - **Nucleal Orbit:** 1.3725 AU
-	- Thermozones:
+	- **Thermozones:**
 		- $H_0$: 0.686
 		- $H_1$: 1.029
 		- $H_2$: 1.304
@@ -14,6 +14,7 @@
 		- $H_4$: 2.429
 		- $H_5$: 6.657
 - **Perannual Orbit:** 1.0571 AU
+	- **OHI:** 54.04%
 
 
 

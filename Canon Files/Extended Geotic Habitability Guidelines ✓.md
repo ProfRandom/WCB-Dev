@@ -11,11 +11,11 @@ There are other parameters that have to do with habitability:
 | **Atmospheric Scale Height (H)**<br>(more on this later.)                                                                      | H = 8.5km<br>$P(H) = 0.37^H$<br>$P(km) = 0.37^{\frac{km}{8.5}}$                                                                                                                                                   |
 | **Average atmospheric composition**<br>(idealized; varies with geologic era, biological evolution,<br>and surface temperature) | Nitrogen (N₂) 78%<br>Oxygen (O₂): 21%<br>Argon (Ar)                     \|<br>Carbon dioxide (CO₂).    ⎸<br>Water (H₂O) vapor         \| ≈ 1%<br>Ozone (O₃)                     ⎸<br>Methane (CH₄), etc.       \| |
 | **Atmospheric Ozone (O₃)**                                                                                                     | Present in upper atmosphere                                                                                                                                                                                       |
-| **Axial Tilt/Obliquity (ε)**                                                                                                   | ε ≈ 23.44° ↓<br>ε ∈ ⟨22.1 ∧ 24.5⟩/41 ky<br>10-12 ky to minimum                                                                                                                                                    |
+| **Axial Tilt/Obliquity ($\varepsilon_x$)**                                                                                     | $\varepsilon_x$ ≈ 23.44° ↓<br>$\varepsilon_x$ ∈ ⟨22.1 ∧ 24.5⟩/41 ky<br>10-12 ky to minimum                                                                                                                        |
 | **Rotational period/Length of day (d)**                                                                                        | 24ʰ (synodic)<br>23ʰ  56ᵐ 4.091ˢ (sidereal)                                                                                                                                                                       |
-| **Orbital Period (y)**<br>(all the variations explained later)                                                                 | 365ᵈ 5ʰ 49ᵐ 12ˢ (ephemeris)<br>365ᵈ 5ʰ 48ᵐ 45ˢ (tropical)<br>365ᵈ 6ʰ 9ᵐ 9.764ˢ (sidereal)                                                                                                                         |
+| **Orbital Period (C)**<br>(all the variations explained later)                                                                 | 365ᵈ 5ʰ 49ᵐ 12ˢ (ephemeris)<br>365ᵈ 5ʰ 48ᵐ 45ˢ (tropical)<br>365ᵈ 6ʰ 9ᵐ 9.764ˢ (sidereal)                                                                                                                         |
 | **Orbital Eccentricity (e)**                                                                                                   | 0.0167 ↓<br>e ∈ ⟨0.01 ∧ 0.0⟩/413 ky<br>e ∈ ⟨0.02 ∧ 0.05⟩/100 ky                                                                                                                                                   |
-| **Axial precession period (ⲯ)**                                                                                                | 25.772 ky                                                                                                                                                                                                         |
+| **Axial precession period (χ)**                                                                                                | 25.772 ky                                                                                                                                                                                                         |
 | **Magnetosphere (radiation shielding) ($B_{surf}$)**                                                                           | ≈ ⟨25 ∧ 65⟩ μT (microtesla)                                                                                                                                                                                       |
 | **Land (lithosphere)-water (hydrosphere) proportion**                                                                          | 30%-70%                                                                                                                                                                                                           |
 | **Hydrospheric distribution**                                                                                                  | Five major oceans<br>Numerous smaller seas                                                                                                                                                                        |
@@ -32,12 +32,12 @@ Some; most not easily.  Others are completely independent of the physical parame
 **Average atmospheric composition**
 - (Please see *Sideber Module – Planning A Detailed Atmosphere*)
 
-**Rotational period/Length of day (d)**
-- d ∈ ⟨6ʰ ∧ 120ᵈ⟩ — General Geotic Range
-	- d ∈ ⟨6ʰ ∧ 48ʰ⟩ — Human-adaptable; supports familiar circadian rhythms        
-    - d ∈ ⟨2ᵈ ∧ 20ᵈ⟩ — Mild extremes; thermal contrast can be buffered with atmosphere or oceans 
-    - d ∈ ⟨20ᵈ ∧ 100ᵈ⟩ — Edge cases; require mitigation (dense atmosphere, global hydrosphere)     
-    - d ∈ ⟨100ᵈ ∧ 120ᵈ⟩ — Rare survivable zone        
+**Rotational period/Length of diurn (D)**
+- D ∈ ⟨6ʰ ∧ 120ᵈ⟩ — General Geotic Range
+	- D ∈ ⟨6ʰ ∧ 48ʰ⟩ — Human-adaptable; supports familiar circadian rhythms        
+    - D ∈ ⟨2ᵈ ∧ 20ᵈ⟩ — Mild extremes; thermal contrast can be buffered with atmosphere or oceans 
+    - D ∈ ⟨20ᵈ ∧ 100ᵈ⟩ — Edge cases; require mitigation (dense atmosphere, global hydrosphere)     
+    - D ∈ ⟨100ᵈ ∧ 120ᵈ⟩ — Rare survivable zone        
         - Habitability hinges on:            
             - Efficient heat distribution (atmosphere or oceans)                
             - Slow stellar heating (distant or cool star)                
@@ -74,44 +74,44 @@ As a matter of fact, astrophysicists are beginning to **simulate probable spin s
 		- Possible **transit through and out of the system's habitable zone (HZ)** during a single orbit
 			- Note: On a world with zero axial tilt (ε = 0), high eccentricity might act as a surrogate for seasonal variation — producing orbit-phase-based temperature cycles.  This is *technically viable*, but requires very careful tuning of orbital shape, atmospheric thermal inertia, and surface conditions to avoid extreme or catastrophic conditions.
 
-**Orbital Period (y)**
+**Orbital Period (C)**
 - This parameter **can't be freely chosen** — it's governed by **Kepler's Third Law**, originally formulated as $$P^2 \propto a^3$$and later regularized by Newton to account for the total mass of the system
 - The orbital period depends on both the distance of the planemo's orbit and the _combined masses of the star(s) and planemo_.
-$$P = \sqrt{\dfrac{a^3}{M + m}}$$
+$$C = \sqrt{\dfrac{a^3}{M + m}}$$
 where:
-- P = the orbital period of the planemo in Earth years (y)
+- C = the orbital period of the planemo in perannum
 - a = the planemo's orbit's **semi-major axis** in ***Astronomical Units***
 - M = the mass of the star in solar units (⊙)
 - m = the mass of the planemo (also in solar units)
 - In most systems, m « M and can be neglected for quick calculations:
-$$P = \sqrt{\dfrac{a^3}{M}}$$	...However, if the planemo's mass exceeds ≈ 10% of the mass of the star(s), its contribution to the period of its orbit begins to have noticeable effects.  This is especially relevant for:
+$$C = \sqrt{\dfrac{a^3}{M}}$$	...However, if the planemo's mass exceeds ≈ 10% of the mass of the star(s), its contribution to the period of its orbit begins to have noticeable effects.  This is especially relevant for:
 		- Super-Jovian mass planemos orbiting red-dwarf stars (q.v.)
 		- Binary planemo systems
 			- See *Sidebar Module – Two-body Systems*
 			- See also *Sidebar Module – Double-planemo or Planemo-moon*?
 
-- I include _y_ here not because it's adjustable, but because it’s **crucial to the seasonal dynamics** of a world:   
-    - It modulates how **axial tilt (ε)** and **eccentricity (e)** express over time        
-    - It defines the **length of seasons**, and whether rotation (d) is **fast or slow relative to the year**  
-    - It affects the **precession timescale (ψ)** through long-term resonances
-- In short: _IF_ you _declare y_, that choice *constrains what kind of star your system can have*.
+- I include _C_ here not because it's adjustable, but because it’s **crucial to the seasonal dynamics** of a world:   
+    - It modulates how **axial tilt ($\varepsilon_x$)** and **eccentricity (e)** express over time        
+    - It defines the **length of seasons**, and whether rotation (D) is **fast or slow relative to the year**  
+    - It affects the **precession timescale (χ)** through long-term resonances
+- In short: _IF_ you _declare C_, that choice *constrains what kind of star your system can have*.
 	- See *Sidebar Module – Stars, Planetary Orbits, and Habitable Zones* for details
 - *Note that the masses of other planemos in the system have no effect in this equation!*
 
 **Obliquity (Axial tilt) (ε)**
-- ε ∈ ⟨0° ∧ 5°⟩ — Negligible seasonal variation
-- ε ∈ ⟨15° ∧ 35°⟩ — Plausible range for active seasonal variation
-- ε ∈ ⟨20° ∧ 30°⟩ — Earth-normal like
-- ε ∈ ⟨35° ∧ 45°⟩ — Extreme seasonal variation unless mitigated by atmosphere/oceans
-- ε > 45° — Potentially unstable
+- $\varepsilon_x$ ∈ ⟨0° ∧ 5°⟩ — Negligible seasonal variation
+- $\varepsilon_x$ ∈ ⟨15° ∧ 35°⟩ — Plausible range for active seasonal variation
+- $\varepsilon_x$ ∈ ⟨20° ∧ 30°⟩ — Earth-normal like
+- $\varepsilon_x$ ∈ ⟨35° ∧ 45°⟩ — Extreme seasonal variation unless mitigated by atmosphere/oceans
+- $\varepsilon_x$ > 45° — Potentially unstable
 	- Polar and tropical regions actually reverse!
 
 A planemo does not _have_ to have an axial tilt, but most do, because their mass isn't evenly distributed throughout their volume, and that mass is tugged on by the host star(s), companion Moons, other planemos in their star system, etc.
 
-**Obliquity Precession Period (ⲯ)**
-- ⲯ ∈ ⟨15 ∧ 60⟩ ky — General Geotics range
-- ⲯ ∈ ⟨20 ∧ 30⟩ ky — Earth-clone ideal range
-	- Note: If your planemo has an axial tilt (ε ≠ 0), it *will* have an axial precession period.
+**Obliquity Precession Period (χ)**
+- χ ∈ ⟨15 ∧ 60⟩ ky — General Geotics range
+- χ ∈ ⟨20 ∧ 30⟩ ky — Earth-clone ideal range
+	- Note: If your planemo has an axial tilt ($\varepsilon_x ≠ 0$), it *will* have an axial precession period.
 - < 5 ky
 	- Too fast
 	- Rapid climatic swings
@@ -133,28 +133,28 @@ A planemo does not _have_ to have an axial tilt, but most do, because their mass
 	- Precession rate is influenced by planemo tilt, mass distribution, rotation rate, and gravitational interactions (especially from moons or nearby planemos).
 	- Moderately long precessional periods (25–30 kyr) help establish stable, regular Milankovitch cycles conducive to long-term ecosystem resilience. 
 	- Affected by:
-		- Axial tilt (ε) — higher tilts tend to precess faster.
+		- Axial tilt ($\varepsilon_x$) — higher tilts tend to precess faster.
 		- Rotation rate — faster rotation yields a stronger equatorial bulge (which enhances precession).
 		- Internal structure — core-to-mantle mass distribution changes the planemo’s moment of inertia.
 		- Gravitational interactions — especially from moons or other planemos in the system.
 
-**Obliquity Azimuth (ʊ)**
-- ʊ ∈ ⟨0° ∧ 359°⟩ — Measure of the _directionality_ of the planemos' obliquity relative to the periastron of its orbit.
-- ʊ₀ is _defined_ as the orientation when the plamemo's northern hemisphere is tilted precisely away from the star or system **barycenter (ḅ)** (northern solstice) at periastron.
+**Obliquity Azimuth ($\zeta_x$)**
+- $\zeta_x$ ∈ ⟨0° ∧ 359°⟩ — Measure of the _directionality_ of the planemos' obliquity relative to the periastron of its orbit.
+- $\zeta_0$ is _defined_ as the orientation when the plamemo's northern hemisphere is tilted precisely away from the star or system **barycenter (ḅ)** (northern solstice) at periastron.
 	- This is called ***periaptic zero***.
-- ʊ₉₀ would indicate that northern solstice has _precessed_ 90° around the planemo's orbital path from **periaptic zero**.
-- ʊ₁₈₀ would indicate that the northern solstice is occurring at _apastron_, the point in the planemo's orbit _farthest away_ from the star/barycenter.
+- $\zeta_{90}$ would indicate that northern solstice has _precessed_ 90° around the planemo's orbital path from **periaptic zero**.
+- $\zeta_{180}$ would indicate that the northern solstice is occurring at _apastron_, the point in the planemo's orbit _farthest away_ from the star/barycenter.
 - IMPORTANT:
-	- For ε₀ planemos (they have no axial tilt), ʊ is _undefined_, as there is no obliquity to precess.
+	- For $\varepsilon_0$ planemos (they have no axial tilt), $\zeta_x$ is _undefined_.
 
-**Precession Phase (ⲧ)**
+**Precession Phase ($\tau$)**
 - This is a measure of how far along in its precessional cycle a planemo is.
-- Calculated by:$$\text{ⲧ} = \left(\dfrac{\text{ʊ}}{360}\right)\psi$$-  IMPORTANT:
-	- For ε₀ planemos (they have no axial tilt), ⲧ is _undefined_, as there is no obliquity to precess and no precessional duration to calculate a fraction of.
-- Relationship of ⲯ, ʊ, and ⲧ: $$
+- Calculated by:$$\text{$\tau$} = \left(\dfrac{\zeta_x}{360}\right)\chi$$-  IMPORTANT:
+	- For $\varepsilon_0$ planemos (they have no axial tilt), ⲧ is _undefined_, as there is no obliquity to precess and no χ to measure against.
+- Relationship of χ, $\zeta_x$, and ⲧ: $$
  \begin{align}
- \text{ʊ} &= 360\left(\dfrac{ⲧ}{\psi}\right) \\
- \psi &= \dfrac{360 \text{ⲧ}}{\text{ʊ}}
+ \zeta_x &= 360\left(\dfrac{$\tau$}{\chi}\right) \\
+ \chi &= \dfrac{360 \text{$\tau$}}{\zeta_x}
  \end{align}
  $$**Magnetosphere (radiation shielding) ($B_{surf}$)**
 - $B_{surf}$ refers to the **surface magnetic field strength**, measured in **microteslas (μT)**.    
@@ -164,7 +164,7 @@ A planemo does not _have_ to have an axial tilt, but most do, because their mass
 - $B_{surf} \in \langle20 \wedge 40\rangle \mu T$ — Weak field; still protective but slightly more porous
 - $B_{surf} \in \langle40 \wedge 70\rangle \mu T$ — Comparable to Earth; effective radiation shielding
 	- $B_{surf} \in \langle25 \wedge 65\rangle \mu T$ — Earth's typical magnetosphere strength range
-- $B_{surf} \in \langle70,\..\,100\rangle \mu T$ — Significant shielding, but with growing secondary effects
+- $B_{surf} \in \langle70, ..,100\rangle \mu T$ — Significant shielding, but with growing secondary effects
 - $B_{surf} \gt 100 \mu T$ — Magnetosphere begins trapping too much radiation
 	- Where the magnetosphere is concerned, there is such a thing as "too much of a good thing"; once the field strength exceeds ~100 μT, the magnetosphere may begin to trap radiation instead of deflecting it — causing the very problems it’s meant to prevent.
 - $B_{surf} \gt 400 \mu T$ — Gas giant strength; radiation belts around planemo make space travel exceedingly hazardous.

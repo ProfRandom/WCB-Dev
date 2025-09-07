@@ -1,7 +1,7 @@
 # 📖 Season-Length Estimation Methods
 This process assumes that you have already determined the duration of your planet's orbit around its star (its *sidereal chronum*, $Y$).
-## Phase Orientation ($\phi$)
-The *phase orientation* of your planet's obliquity is determined by the point in its orbit when the northern hemisphere is tilted directly away from the star. If your planet's northern hemisphere is tilted away from the star when it is at the closest point in its orbit (its *periastron*), then its phase orientation is $\phi = 0$.
+## Obliquity azimuth ($\phi$)
+The *obliquity azimuth* of your planet's obliquity is determined by the point in its orbit when the northern hemisphere is tilted directly away from the star. If your planet's northern hemisphere is tilted away from the star when it is at the closest point in its orbit (its *periastron*), then its obliquity azimuth is $\phi = 0$.
 
 | $\phi$ | Orientation                                                                              |
 | -----: | ---------------------------------------------------------------------------------------- |
@@ -14,25 +14,25 @@ The *phase orientation* of your planet's obliquity is determined by the point in
 ## 1. Sinusoidal Approximation (Fast vs. Slow Half)
 Here is a quick, algebra-only method that captures the *main effect of eccentricity* on seasons:
 $$
-\Delta t \;\approx\; \dfrac{Y}{4} + \left(\dfrac{2e}{\pi} Y \times \sin \nu\right)
+\Delta t \;\approx\; \dfrac{C}{4} + \left(\dfrac{2e}{\pi} C \times \sin \nu\right)
 $$
 Where:  
-- $Y$ = year length (chronum, in diurns or days)  
+- $C$ = year length (chronum, in diurns or days)  
 - $e$ = orbital eccentricity  
 - $\nu$ = central true anomaly of the season (0° = perihelion, 180° = aphelion)  
 ### Step 1 — Seasonal Baseline Length
 Equal quarter of the chronum:
 $$
-\dfrac{Y}{4}
+\dfrac{C}{4}
 $$
 ### Step 2 — Correction Factor
 This is a dimensionless ratio determined by eccentricity:
 $$
 \dfrac{2e}{\pi}
 $$
-To get the actual correction in diurns, it is multiplied by the full length of the chronum ($Y$) in the main equation.
+To get the actual correction in diurns, it is multiplied by the full length of the chronum ($C$) in the main equation.
 ### Step 3 — Seasonal Adjustment
-True anomaly of each season midpoint is tied to the phase orientation $\phi$:
+True anomaly of each season midpoint is tied to the obliquity azimuth $\phi$:
 $$
 \begin{align}
 &\nu = (\phi + 90n) \bmod 360 \\[1em]
@@ -47,16 +47,16 @@ $$
 ## 1. Sinusoidal Approximation (Fast vs. Slow Half)
 Here is a quick, algebra-only method that captures the *main effect of eccentricity* on seasons:
 $$
-\Delta t \;\approx\; \dfrac{Y}{4} + \left(\dfrac{2e}{\pi} Y \times \sin \nu\right)
+\Delta t \;\approx\; \dfrac{C}{4} + \left(\dfrac{2e}{\pi} C \times \sin \nu\right)
 $$
 Where:  
-- $Y$ = year length (chronum, in diurns or days)  
+- $C$ = year length (chronum, in diurns or days)  
 - $e$ = orbital eccentricity  
 - $\nu$ = central true anomaly of the season (0° = perihelion, 180° = aphelion)  
 ### Step 1 — Seasonal Baseline Length
 Equal quarter of the chronum:
 $$
-\dfrac{Y}{4}
+\dfrac{C}{4}
 $$
 ### Step 2 — Correction Factor
 This is a dimensionless ratio determined by eccentricity:
@@ -65,7 +65,7 @@ $$
 $$
 To get the actual correction in diurns, it is multiplied by the full length of the chronum ($Y$) in the main equation.
 ### Step 3 — Seasonal Adjustment
-True anomaly of each season midpoint is tied to the phase orientation $\phi$:
+True anomaly of each season midpoint is tied to the obliquity azimuth $\phi$:
 $$
 \begin{align}
 &\nu = (\phi + 90n) \bmod 360 \\[1em]
@@ -77,19 +77,19 @@ n = 3 &\text{autumn equinox}
 \end{cases}
 \end{align}
 $$
-#### Worked Example: Earth (Sinusoidal Approximation, Sidereal Year)
+#### Worked Example: Earth (Sinusoidal Approximation, Sidereal Chronum)
 Given:  
 - $\phi = 0$  
-- $Y = 365.2564$ d (sidereal year)  
+- $C = 365.2564$ d (sidereal year)  
 - $e = 0.0167$  
 
 **Step 1 — Baseline**
 $$
-\frac{Y}{4} = \frac{365.2564}{4} = 91.31
+\frac{C}{4} = \frac{365.2564}{4} = 91.31
 $$
 **Step 2 — Correction Factor**
 $$
-\frac{2e}{\pi} Y = \frac{2 \times 0.0167}{\pi} \times 365.2564 = 3.88
+\frac{2e}{\pi} C = \frac{2 \times 0.0167}{\pi} \times 365.2564 = 3.88
 $$
 **Step 3 — Seasonal Adjustments**
 True anomalies from $\phi = 0$:
@@ -106,7 +106,7 @@ n = 3 & \nu = 270^\circ & \text{autumn equinox}
 $$
 **Step 4 — Apply the Formula**
 $$
-\Delta t \;\approx\; \frac{Y}{4} + \left(\frac{2e}{\pi} Y \times \sin\nu\right)
+\Delta t \;\approx\; \frac{C}{4} + \left(\frac{2e}{\pi} C \times \sin\nu\right)
 $$
 $$
 \begin{cases}
@@ -134,7 +134,7 @@ The observed lengths of Earth's seasons are approximately:
 - Spring: +2.4 d  
 - Summer: –2.3 d  
 - Autumn: –2.5 d  
-The method captures the *overall pattern* (a longer spring, a shorter autumn) but forces **two seasons to pair**, which Earth does not actually do because its phase orientation $\phi$ is offset from 0° by about 13°.
+The method captures the *overall pattern* (a longer spring, a shorter autumn) but forces **two seasons to pair**, which Earth does not actually do because its obliquity azimuth $\phi$ is offset from 0° by about 13°.
 **Advice**
 
 When using the sinusoidal method, you have two options:
@@ -149,7 +149,7 @@ When using the sinusoidal method, you have two options:
    - Use the rule:   $$
      f = 10e
      $$
-- Subtract $f \times \left(\tfrac{2e}{\pi}Y\right)$ from the long seasons (those with $\sin\nu = +1$).  
+- Subtract $f \times \left(\tfrac{2e}{\pi}C\right)$ from the long seasons (those with $\sin\nu = +1$).  
 - Add the same amount to the short seasons (those with $\sin\nu = -1$).  
 - Baseline seasons (where $\sin\nu = 0$) remain unchanged.  
 
@@ -169,15 +169,15 @@ Ultimately, whether you ‘fudge’ is up to you as the worldbuilder: do you wan
 #### Worked Example: Rosetta (Sinusoidal Approximation, Sidereal Chronum)
 Given:  
 - $\phi = 180^\circ$  
-- $Y = 492$ diurns (sidereal chronum)  
+- $C = 492$ diurns (sidereal chronum)  
 - $e = 0.05$  
 **Step 1 — Baseline**
 $$
-\frac{Y}{4} = \frac{492}{4} = 123.0
+\frac{C}{4} = \frac{492}{4} = 123.0
 $$
 **Step 2 — Correction Factor**
 $$
-\frac{2e}{\pi} Y = \frac{2 \times 0.05}{\pi} \times 492 = 15.66
+\frac{2e}{\pi} C = \frac{2 \times 0.05}{\pi} \times 492 = 15.66
 $$
 **Step 3 — Seasonal Adjustments**
 True anomalies from $\phi = 180^\circ$:
@@ -194,7 +194,7 @@ n = 3 & \nu = 90^\circ  & \text{autumn equinox}
 $$
 **Step 4 — Apply the Formula**
 $$
-\Delta t \;\approx\; \frac{Y}{4} + \left(\frac{2e}{\pi} Y \times \sin\nu\right)
+\Delta t \;\approx\; \frac{C}{4} + \left(\frac{2e}{\pi} C \times \sin\nu\right)
 $$
 
 $$
@@ -233,7 +233,7 @@ This more precise method uses full orbital geometry to derive season lengths.
 - If periastron is offset, yields **four distinct season lengths** (like Earth’s 93/94/90/89-day split).  
 - Requires a calculator, but no iteration — just `arctan` and `sin`.
 ### Step 1 — Choose True Anomalies
-Pick the true anomalies ($\nu$) for the four seasonal markers, offset by phase orientation $\phi$:
+Pick the true anomalies ($\nu$) for the four seasonal markers, offset by obliquity azimuth $\phi$:
 $$
 \begin{align}
 &\nu = (\phi + 90n) \bmod 360 \\[1em]
@@ -260,11 +260,15 @@ $$
 Once you have the mean anomalies for each seasonal marker:
 
 $$
-M_\text{winter},\; M_\text{spring},\; M_\text{summer},\; M_\text{autumn}
+\begin{align}
+&M_\text{winter} \\
+&M_\text{spring} \\
+&M_\text{summer} \\
+&M_\text{autumn}
+\end{align}
 $$
 
 subtract them in sequence to get the fractional year lengths:
-
 $$
 \begin{aligned}
 f_\text{winter} &= \frac{M_\text{spring} - M_\text{winter}}{2\pi} \\[6pt]
@@ -282,21 +286,21 @@ Where:
 ---
 ### Step 5 — Scale to Year Length
 
-Multiply each fraction by the chronum ($Y$) to convert fractions into diurns:
+Multiply each fraction by the chronum ($C$) to convert fractions into diurns:
 
 $$
 \begin{gather}
-\Delta t_\text{winter} = f_\text{winter}\,Y, \\
-\Delta t_\text{spring} = f_\text{spring}\,Y, \\
-\Delta t_\text{summer} = f_\text{summer}\,Y, \\
-\Delta t_\text{autumn} = f_\text{autumn}\,Y
+\Delta t_\text{winter} = f_\text{winter}\,C, \\
+\Delta t_\text{spring} = f_\text{spring}\,C, \\
+\Delta t_\text{summer} = f_\text{summer}\,C, \\
+\Delta t_\text{autumn} = f_\text{autumn}\,C
 \end{gather}
 $$
 ---
 #### Worked Example: Earth (Kepler’s Method, Sidereal Year)
 Given:  
 - $\phi = 0^\circ$  
-- $Y = 365.2564$ days (sidereal year)  
+- $C = 365.2564$ days (sidereal year)  
 - $e = 0.0167$  
 
 **Step 1 — True Anomalies**
@@ -341,11 +345,11 @@ $$
 &F_\text{autumn} \approx 0.2447
 \end{align}
 $$
-**Step 5 — Scale to Year Length**
-Multiply each fraction by $Y$ to get season lengths in diurns:  
+**Step 5 — Scale to chronum length**
+Multiply each fraction by $C$ to get season lengths in diurns:  
 $$
 \begin{align}
-&\Delta t = F \times Y \\[1em]
+&\Delta t = F \times C \\[1em]
 &\begin{cases}
 \Delta t_\text{winter} &≈ 0.2447 \times 365.2564 = 89.4 \\
 \Delta t_\text{spring} &\approx 0.2553 \times 365.2564 = 93.3 \\
@@ -382,7 +386,7 @@ Observed Earth season lengths (tropical year):
 #### Worked Example: Rosetta (Kepler’s Method, Sidereal Chronum)
 Given:  
 - $\phi = 180^\circ$  
-- $Y = 492$ diurns (sidereal chronum)  
+- $C = 492$ diurns (sidereal chronum)  
 - $e = 0.05$  
 
 **Step 1 — True Anomalies**
@@ -418,7 +422,6 @@ F_\text{autumn} &= \frac{(M_\text{winter}+2\pi) - M_\text{autumn}}{2\pi}
 \end{aligned}
 $$
 Numerical results:  
-
 $$
 \begin{align}
 &F_\text{winter} \approx 0.2463, \\
@@ -429,7 +432,6 @@ $$
 $$
 **Step 5 — Scale to Year Length**
 Multiply each fraction by $Y$:  
-
 $$
 \begin{cases}
 \Delta t_\text{winter} \approx 121.2 \\

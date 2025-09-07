@@ -15,7 +15,6 @@
 - Semimajor axis: **4.63 × 10⁸ m** (~463,000 km)    
 - Distance from Rosetta: ~**57.6 Rosetta radii**
 - Angular diameter: **0.38°** (~23 arcmin)
-
 ### Orbital mechanics
 Co-planar orbits
 Synodion (Synodic period: Σ = 22.587 days (18.78 diurns)

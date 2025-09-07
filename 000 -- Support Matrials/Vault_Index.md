@@ -70,7 +70,7 @@ This file lists all 216 Markdown files with their first heading or first line fo
 - **WorldCrafting101-DEV/000 -- Support Matrials/WorldCrafting_101_Style_Guide_v1_1_3.md** → # WorldCrafting 101 Style Guide — v1.1.3 (Hardened Authoring System Release)
 - **WorldCrafting101-DEV/000 -- Support Matrials/Hippy and Keppy Blocks.md** → > ![[Hippy-portrait.webp|60]]
 - **WorldCrafting101-DEV/000 -- Support Matrials/Font Tests.md** → ***Bold-Italic***
-- **WorldCrafting101-DEV/000 -- Support Matrials/Special Character Tables.md** → ̄α β 𝛾 ɣ δ ε ϵ ϶ ζ η θ ɩ κ λ μ ν ξ ο π ϖ ρ σ ς τ ʊ υ φ ϕ χ ѱ ω ɷ ϙ ᶿ ᵠ ᵩ ᶲ
+- **WorldCrafting101-DEV/000 -- Support Matrials/Special Character Tables.md** → ̄α β 𝛾 ɣ δ ε ϵ ϶ ζ η θ ɩ κ λ μ ν ξ ο π ϖ ρ σ ς τ ζ υ φ ϕ χ ѱ ω ɷ ϙ ᶿ ᵠ ᵩ ᶲ
 - **WorldCrafting101-DEV/000 -- Support Matrials/File Listing.md** → 1. Master_Glossary_v1.19.md
 - **WorldCrafting101-DEV/000 -- Support Matrials/Jean-Luc Margot's Planet Criterion.md** → _Adapted from Margot (2015) with minor changes in notation and unit conventions._
 - **WorldCrafting101-DEV/000 -- Support Matrials/Snippets/0001.md** → - rigistate
