@@ -1,33 +1,45 @@
-# 🔣 Symbols Index v0.3 — Worlds by the Numbers
+# Symbols Index v0.3
 *Supersedes v0.2*
 
-This file catalogs canonical symbols for parameters, constants, units, and notation in WBN.  
+---
+
+### Orbital / Exohorology Symbols
+- **D** — diurn (axial rotation).  
+- **C** — chronum (orbital period, perannum Ⓟ).  
+- **K** — cyclum (orbital period, diurns).  
+- **C_f** — chronum fraction.  
+- **H** — hora (diurn subdivision).  
+- **N** — mund (month).  
+- **W** — weke (week).  
+- **M** — minol (hora subdivision).  
+- **S** — secol (minol subdivision).  
+- **ζₓ** — obliquity azimuth.  
+- **τ** — precession phase.
 
 ---
 
-## ☀️ Stellar
-- **M, R, L, T, Q** — mass, radius, luminosity, surface temperature, lifetime.  
-- **⊙** — solar reference unit.
-
-## 🌍 Planemo
-- **m, r, ρ, g, vₑ** — mass, radius, density, surface gravity, escape velocity.  
-- **⨁** — Earth reference unit.  
-- **♃, ☾** — Jupiter and Moon reference symbols.
-
-## 🌀 Orbital & Synodial
-- **Σ (Sigma)** — synodion (synodic period).  
-- **Θ** — synodial angle.  
-- **Y₀** — synodial epoch aggregate.  
-- **Ψ** — epochal interval.  
-- **a, e** — semi-major axis, eccentricity.
-
-## 🕰 Units & Constants
-- **yr, d, h, m, s** — Earth-standard year, day, hour, minute, second.  
-- **Ⓟ** — *perannum*, orbital year unit for exohorology.  
-- **AU, c, π, σ, φ, Φ** — astronomical unit, speed of light, pi, Stefan-Boltzmann, phase angle, flux.
+### Planetary / Physics Symbols
+- **g** — surface gravity (relative to Earth).  
+- **Q** — solar radiance / insolation.  
+- **L** — stellar luminosity.  
+- **εₓ** — axial tilt / obliquity.  
+- **χ** — axial precession period.  
+- **e** — orbital eccentricity.  
+- **Bₛᵤᵣf** — surface magnetic field strength (μT).
 
 ---
 
-## 📌 Notes
-- Lowercase symbols reserved for planemos, uppercase for stars.  
-- Specialized unit symbols (Ⓟ, ⨁, ⊙) help distinguish exohorological and astrophysical conventions.  
+### Constants
+- **φ (phi)** — Golden Ratio ≈ 0.618…  
+- **Φ (Phi)** — Golden Ratio conjugate ≈ 1.618…  
+- **π** — pi.  
+- **c** — speed of light.  
+- **AU** — astronomical unit.
+
+---
+
+### New / Changed Symbols (v0.3)
+- **λ** — observer latitude. *(New)*  
+- **ζₓ** — obliquity azimuth. *(New)*  
+- **τ** — precession phase. *(Replaces ⲧ)*  
+- **Bₛᵤᵣf** — surface magnetic field strength. *(New)*
