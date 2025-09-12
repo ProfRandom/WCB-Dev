@@ -37,7 +37,7 @@ This makes it easier to:
 
 - Calculate stellar parameters from temperature
     
-- Relate stars to their orbits and thermozones
+- Relate stars to their orbits and Thermozones
     
 - Avoid the awkwardness of stars that fall “between classes”
     

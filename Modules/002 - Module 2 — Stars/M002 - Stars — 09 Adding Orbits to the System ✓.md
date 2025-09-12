@@ -40,14 +40,20 @@ What we are concerned with is the *orbital intervals*
 - The average interval is $I \approx 1.74\;AU$
 - The median interval is $I \approx 1.81\;AU$
 - The standard deviation is $\sigma = 0.2051$
-	- This gives a 1-σ range of ⟨1.531 ∧ 1.941⟩ AU
 
-This supports defining a **WBN-standard orbital interval range** of:
-- ⟨1.500  ∧  2.000⟩  AU
-for most planemo system layouts not dominated by resonance or migration effects.
+This supports defining a **WCB-conservative orbital interval range** of  ⟨1.400  ∧  2.000⟩  AU by rounding up the minimum and rounding down the maximum.
 
+However, a cursory survey of the Exoplanet Catalog seems to reveal a range of ⟨1.000 ∧ 5.000⟩ AU for planetary orbital intervals.  We'll define this as our optimistic orbital interval range, and, for completeness, average the two ranges at ⟨1.200 ∧ 3.500⟩ AU.
+
+**Orbital interval ranges**
+
+| Inner | Outer | Description  |
+| ----: | ----: | ------------ |
+|   1.4 |     2 | Conservative |
+|   1.2 |   3.5 | Medial       |
+|     1 |     5 | Optimistic   |
 ## Calculating Other Orbits
-This brings us to methods of calculating other orbits in a star system.  In practice, any method the thesiast chooses is _valid_, including just putting planemos where "it feels right"; however, even using this method _should_ ideally take into account the above statistics and try to avoid an orbital interval between a given planemo and its nearest neighbor of $< 1.500\;AU$ or $> 2.000\;AU$.
+This brings us to methods of calculating other orbits in a star system.  In practice, any method the worldmakerchooses is _valid_, including just putting planemos where "it feels right"; however, even using this method _should_ ideally take into account the above statistics and try to avoid an orbital interval between a given planemo and its nearest neighbor of $< 1.500\;AU$ or $> 2.000\;AU$.
 
 ### Starting From A Known Orbit
 Most of the time, you'll have pre-established a particular orbit  — usually either the *nucleal* or the *perannual* orbit, and want to arrange other planemos in the system relative to that orbit. Notating this orbit as the **base** orbit, we can set up two processes for calculating orbits inferior to (closer-in than) and superior to (farther-out than) that orbit.
@@ -69,23 +75,23 @@ Where:
 - *Ω* = orbital distance cuttoff (minimum or maximum allowed orbit based on the star system constraints)
 
 ### Usage Strategy
-*Assuming the standard interval range* $I \in ⟨⟨1.500 ∧ 2.000⟩⟩\;AU$:
+*Assuming the medial orbital interval range* $I \in ⟨⟨1.200 ∧ 3.500⟩⟩\;AU$:
 The **intrabasal** and **extrabasal** forms can be used independently depending on your desired anchoring strategy:
 
 > **Inward-Only Generation**  
   If you begin at the **basal orbit** (innermost, nucleal, perannual, etc.), use the **intrabasal** form to expand inward via divisive steps:
 $$
   r_0 = B;\; \Omega = «▢»:
-  \quad r_{i-1} = \dfrac{r_i} {⟨⟨1.500 ∧ 2.000⟩⟩}, \text{ while } r_{i-1} \geq \Omega
+  \quad r_{i-1} = \dfrac{r_i} {⟨⟨1.200 ∧ 3.500⟩⟩}, \text{ while } r_{i-1} \geq \Omega
 $$
 Where:
 - *Ω* = the minimum safe orbital distance  —  usually taken to be $a = 0.100\;AU$.
 
 > **Outward-Only Generation**  
-  If you begin at the **innermost permissible orbit** (e.g. a thermal, Roche, or design constraint), use the **intrabasal** form to expand outward via multiplicative steps:
+  If you begin at an **innermost orbit** (e.g. a thermal, Roche, or design constraint), use the **intrabasal** form to expand outward via multiplicative steps:
 $$
   r_0 = B;\; \Omega = «▢»:
-  \quad r_{i+1} = r_i \cdot ⟨⟨1.500 ∧ 2.000⟩⟩, \text{ while } r_{i+1} \leq \Omega
+  \quad r_{i+1} = r_i \cdot ⟨⟨1.200 ∧ 3.500⟩⟩, \text{ while } r_{i+1} \leq \Omega
 $$
 Where:
 - *Ω* = the farthest orbit desired for a planemo in the system — based on whatever criterion desired, but physically limited to the Hill Sphere radius of the central mass.
@@ -102,15 +108,15 @@ Let us say we've identified our nucleal orbit (N) as $N = 0.834\;AU$, and we wan
 ### Working Inward
 $$
   r_0 = 0.834;\; \Omega = 0.100:
-  \quad r_{i-1} = \dfrac{r_i} {⟨⟨1.500 ∧ 2.000⟩⟩}, \text{ while } r_{i-1} \geq 0.100
+  \quad r_{i-1} = \dfrac{r_i} {⟨⟨1.200 ∧ 3.500⟩⟩}, \text{ while } r_{i-1} \geq 0.100
 $$
 $$
 \begin{align}
-r_{i-1} &= \dfrac{0.834} {1.723} = 0.482\;AU \qquad 1.732 := \text{Randomized interval between ⟨1.500 ∧ 2.000⟩ AU} \\[1em]
-r_{i-1} &= \dfrac{0.482} {1.616} = 0.298\;AU \qquad 1.616 := \text{Randomized interval between ⟨1.500 ∧ 2.000⟩ AU} \\[1em]
-r_{i-1} &= \dfrac{0.298} {1.573} = 0.190\;AU \qquad 1.573 := \text{Randomized interval between ⟨1.500 ∧ 2.000⟩ AU} \\[1em]
-r_{i-1} &= \dfrac{0.190} {1.884} = 0.101\;AU \qquad 1.884 := \text{Randomized interval between ⟨1.500 ∧ 2.000⟩ AU} \\[1em]
-r_{i-1} &= \dfrac{0.101} {1.963} = 0.051\;AU \qquad 1.963 := \text{Randomized interval between ⟨1.500 ∧ 2.000⟩ AU}\;✘ \\[1em]
+r_{i-1} &= \dfrac{0.834} {1.723} = 0.482\;AU \qquad 1.732 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
+r_{i-1} &= \dfrac{0.482} {1.616} = 0.298\;AU \qquad 1.616 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
+r_{i-1} &= \dfrac{0.298} {1.573} = 0.190\;AU \qquad 1.573 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
+r_{i-1} &= \dfrac{0.190} {1.884} = 0.101\;AU \qquad 1.884 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
+r_{i-1} &= \dfrac{0.101} {1.963} = 0.051\;AU \qquad 1.963 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU}\;✘ \\[1em]
 \end{align}
 $$
 We stop at the fourth randomized orbit, because the next orbit randomly generated fails the $r ≥ 0.100\;AU$ test.
@@ -126,18 +132,18 @@ We now have a system of five orbits:
 We could stop here and have a fully legitimate star system, but let's say we want extranucleal orbits, as well.  Again, beginning with the nucleal orbit $B = 0.834\;AU$, and setting an outermost orbit of $\Omega = 35.0\;AU$:
 $$
   r_0 = 0.834;\; \Omega = 35.0:
-  \quad r_{i+1} = r_i \cdot ⟨⟨1.500 ∧ 2.000⟩⟩, \text{ while } r_{i+1} \leq 35.0
+  \quad r_{i+1} = r_i \cdot ⟨⟨1.200 ∧ 3.500⟩⟩, \text{ while } r_{i+1} \leq 35.0
 $$
 $$
 \begin{align}
-r_{i+1} &= 0.834(1.829) = 1.525\;AU \qquad 1.829 := \text{Randomized interval between ⟨1.500 ∧ 2.000⟩ AU} \\[1em]
-r_{i+1} &= 1.525(1.969) = 3.003\;AU \qquad 1.969 := \text{Randomized interval between ⟨1.500 ∧ 2.000⟩ AU} \\[1em]
-r_{i+1} &= 3.003(1.578) = 4.739\;AU \qquad 1.578 := \text{Randomized interval between ⟨1.500 ∧ 2.000⟩ AU} \\[1em]
-r_{i+1} &= 4.739(1.547) = 7.332\;AU \qquad 1.547 := \text{Randomized interval between ⟨1.500 ∧ 2.000⟩ AU} \\[1em]
-r_{i+1} &= 7.332(1.552) = 11.379\;AU \qquad 1.552 := \text{Randomized interval between ⟨1.500 ∧ 2.000⟩ AU} \\[1em]
-r_{i+1} &= 11.379(1.608) = 18.298\;AU \qquad 1.608 := \text{Randomized interval between ⟨1.500 ∧ 2.000⟩ AU} \\[1em]
-r_{i+1} &= 18.298(1.823) = 33.357\;AU \qquad 1.823 := \text{Randomized interval between ⟨1.500 ∧ 2.000⟩ AU} \\[1em]
-r_{i+1} &= 33.357(1.778) = 59.309\;AU \qquad 1.778 := \text{Randomized interval between ⟨1.500 ∧ 2.000⟩ AU} \; ✘ \\[1em]
+r_{i+1} &= 0.834(1.829) = 1.525\;AU \qquad 1.829 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
+r_{i+1} &= 1.525(1.969) = 3.003\;AU \qquad 1.969 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
+r_{i+1} &= 3.003(1.578) = 4.739\;AU \qquad 1.578 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
+r_{i+1} &= 4.739(1.547) = 7.332\;AU \qquad 1.547 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
+r_{i+1} &= 7.332(1.552) = 11.379\;AU \qquad 1.552 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
+r_{i+1} &= 11.379(1.608) = 18.298\;AU \qquad 1.608 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
+r_{i+1} &= 18.298(1.823) = 33.357\;AU \qquad 1.823 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \\[1em]
+r_{i+1} &= 33.357(1.778) = 59.309\;AU \qquad 1.778 := \text{Randomized interval between ⟨⟨1.200 ∧ 3.500⟩⟩ AU} \; ✘ \\[1em]
 \end{align}
 $$
 We stop at the seventh iteration, as the next value exceeds $\Omega = 35.0\;AU$.
@@ -163,4 +169,6 @@ This expands our system to 11 orbits:
 
 C'mon, you had to know I'd use that pun at _some point_ didn't you?
 
-With this method, a thesiast can quickly generate a full planemo system that is physically plausible, statistically grounded, and symbolically consistent with WBN cosmology.
+With this method, a worldmaker can quickly generate a full planemo system that is physically plausible, statistically grounded, and symbolically consistent with WBN cosmology.
+
+[[Kirkwood Gaps]]

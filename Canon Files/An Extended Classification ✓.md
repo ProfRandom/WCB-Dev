@@ -12,7 +12,7 @@ If you look online, particularly at the Exoplanet Catalog[^Exolog], you'll quick
 4. Gas Giant —  Upper mass not specified, but other sources put the limit at ≈ 0.08⊙ ≈ 13♃ ≈ 4131⨁
 5. Unknown (we know _something_ is there, but that's about it for now)
 
-I highly recommend exploring it and marveling at the sheer variety the universe offers us; but, the thesiast is left still bereft of any kind of organized, categorical, systematic way of thinking about planemos that can guide their construction for fictional and experimental purposes.  
+I highly recommend exploring it and marveling at the sheer variety the universe offers us; but, the worldmakeris left still bereft of any kind of organized, categorical, systematic way of thinking about planemos that can guide their construction for fictional and experimental purposes.  
 
 While the Exoplanet Catalog centers primarily on **mass**, this system uses those categories only as familiar **compositional metaphors**. Our classification instead prioritizes the **configuration** — the material nature and density regime — of a planemo as the _primary axis_ of distinction. Mass may inform surface gravity or escape velocity, but it is not the defining classifier here.
 

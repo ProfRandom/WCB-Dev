@@ -1,6 +1,7 @@
 # Star (Stele)
 - **Mass:** 1.181⊙
 - **Radius:** 1.1618⊙
+	- 0.0054 AU
 - **Temperature:** 1.0869⊙; 6304 K
 - **Luminosity:** 1.884⊙
 - **Lifetime:** 0.6623⊙; 6.623 Ga
@@ -15,7 +16,11 @@
 		- $H_5$: 6.657
 - **Perannual Orbit:** 1.0571 AU
 	- **OHI:** 54.04%
-
+- **ISL:** 0.011 — 0.016 AU
+- **$\mathbf{CVL_?}$:**
+	- **Endotic:** 0.9706 AU
+	- **Xenotic:**  0.5012 AU
+	- **Exotic:** 0.3069 AU
 
 
 

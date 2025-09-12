@@ -7,7 +7,7 @@ The Standard Parameter Equations (see [[M002 - Stars — 02 Parameters ✓]]):
 
 > **Hippy**: "Wha–"
 
-… *which is too complex and extensive to detail here* — suggests that *modest* adjustments to a couple of key exponents yield parameter equations that better reflect observed stellar characteristics. Since thesiastics prioritizes plausible-world construction over strict theoretical purity, these revised values offer better performance across the mass range of interest.
+… *which is too complex and extensive to detail here* — suggests that *modest* adjustments to a couple of key exponents yield parameter equations that better reflect observed stellar characteristics. Since worldmaking prioritizes plausible-world construction over strict theoretical purity, these revised values offer better performance across the mass range of interest.
 ### Modified Parameters Table
 ![[Main Sequence Stellar Equations of State ✓]]
 

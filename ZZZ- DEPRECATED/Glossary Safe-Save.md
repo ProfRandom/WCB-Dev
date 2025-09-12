@@ -82,7 +82,7 @@ Each entry is tagged according to its origin in the WBN lexicon:
 - **Frost Line (ϝ)** — Orbital distance beyond which liquid water cannot persist. In WBN defined as $a = 4.850N$.  
 - **Thermozones** — WBN naming system for irradiance zones:  
   - Igniozone (←0.500N), Calorozone (0.500–0.750N), Heliozone (0.750–0.950N), Solarazone (0.950–1.385N), Hiberozone (1.385–1.770N), Brumazone (1.770–4.850N), Cryozone (→4.850N).  
-- **Thermozone Limit Notation (H₀–H₅)** — Reference shorthand for thermozone boundaries:  
+- **Thermozone Limit Notation (H₀–H₅)** — Reference shorthand for Thermozone boundaries:  
   - $H_0 = 0.500N$, $H_1 = 0.750N$, $H_2 = 0.950N$, $H_3 = 1.385N$, $H_4 = 1.770N$, $H_5 = 4.850N$.  
 - **Perannual Orbit (A)** — Orbital distance where a planemo completes one sidereal Earth year (365.256 days). $A = \sqrt[3]{M+m}$.  
 - **Solar Analogs** — Stars whose perannual orbits fall within ⟨0.500–4.850⟩ AU (F2–K9).  

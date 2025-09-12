@@ -55,16 +55,16 @@ $$
 L = 4 \pi R^2 \sigma T^4
 $$
 Where:
-- 4πR²  = the surface area of the body
-- T = is the temperature of the body in Kelvin
-- σ = the Stefan-Boltzmann constant
+- $4 \pi R^2$  = the surface area of the body
+- $T$ = is the temperature of the body in Kelvin
+- $σ$ = the Stefan-Boltzmann constant
 	- $\sigma = 5.670374419 \times 10^{-8} W m^{-2}K^{-4}$
 		- **Watts** per square meter per Kelvin to the fourth power 1 K⁴
 		- It tells you how much **radiant energy per second** (i.e., power) is emitted by a **1 square meter** portion of a **perfect blackbody** at **1 K⁴**.
 
 And this is why we needed the quick aside into the term "blackbody" earlier.
 
-In thesiastics terms, we can simplify the Stefan-Boltzmann equation to:
+In worldmaking terms, we can simplify the Stefan-Boltzmann equation to:
 $$
 \dfrac{L_s}{L_{Sun}} = \left(\dfrac{R_s}{R_{Sun}}\right)^2 \left(\dfrac{K_s}{K_{Sun}}\right)^4
 $$
