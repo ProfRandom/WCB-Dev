@@ -107,3 +107,60 @@ $$
 - **≥0.3 ⨁ (Mars+)** → can start to carve noticeable gaps.    
 - **Jovians (intermos, ~1000 ⨁)** → dominate belts, wide Kirkwood gaps.
 
+
+# Algorithm For Calculating and Placing Gaps and Widths
+
+## Find two orbits with at least two (2) AU between them.
+$$
+\begin{align}
+a_i = \text{Orbital distance of inner orbit} \\
+a_o = \text{Orbital distance of outer orbit}
+\end{align}
+$$
+## Calculate the periods of each orbit by
+   $$
+	 P = \sqrt{a_x^3}
+   $$
+## Calculate resonance orbit _distances_ from the inner orbit by:
+$$
+\begin{gather}
+a_{x_{inner}} = \sqrt[3]{\Big((P_i \times k)^2 \, M\Big)} \\[1em]
+\text{Where: }\;k \in \{1.333, \; 1.5, \; 1.667, \; 2, \; 2.5, \; 3, \; 4, \; 5\}
+\end{gather}
+$$
+## Calculate the resonance orbit _distances_ from the outer orbit by:
+$$
+\begin{gather}
+a_{x_{outer}} = \sqrt[3]{\left(\frac{P_o}{k}\right)^2 M} \\[1em]
+\text{Where: }\;k \in \{1.333, \; 1.5, \; 1.667, \; 2, \; 2.5, \; 3, \; 4, \; 5\}
+\end{gather}
+$$
+## Gather all resulting orbits into a single list
+## Sort in ascending order
+## Discard all orbits ≤ $a_i$
+## Discard all orbits ≥ $a_o$
+
+## Pairwise average remaning orbits
+### e.g. average 1 and 2, 3 and 4, etc.
+
+
+
+$$
+\Biggr\lfloor{\frac{16}{2}}\Biggr\rfloor
+$$
+
+
+$$
+\begin{gather}
+a_c = \frac{a_i + a_o}{2} \\[0.5em]
+\Delta a = \frac{a_o - a_i}{2} \\[0.5em]
+a\prime_c = a_c + \Delta a \left(\frac{m_o - m_i}{m_o + m_i}\right) \\[0.5em]
+a_\Delta = a_o - a_i \\[0.5em]
+m_\mu = \frac{m_i + m_o}{M_*} \\[0.5em]
+\beta = 1 - (C \sqrt[3]{m_\mu}) \\[0.5em]
+W_{belt} = a_\Delta \times \beta \\[0.5em]
+w_i = \frac{m_i}{m_i + m_o} \qquad w_o = \frac{m_o}{m_i + m_o} \\[0.5em]
+W_i = W_{belt} \times w_i \qquad W_o = W_{belt} \times w_o \\[0.5em]
+B_i = a\prime_c - W_i \qquad B_o = a\prime_c + W_o 
+\end{gather}
+$$
