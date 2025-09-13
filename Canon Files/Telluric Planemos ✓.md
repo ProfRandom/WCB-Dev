@@ -2,11 +2,11 @@
 
 ## Telluric
 **Telluric** := ⟨ m ∧ ρ ∧ g ∧ r ∧ vₑ ⟩  
-	m := ⟨0.02 ∧ 10.00⟩⨁  
+	m := ⟨0.01 ∧ 10.00⟩⨁  
 	ρ := ⟨0.50 ∧ 7.00⟩⨁  
-	g := ⟨0.15 ∧ 8.00⟩⨁  
-	r := ⟨0.15 ∧ 3.00⟩⨁  
-	vₑ := ⟨0.25 ∧ 3.00⟩⨁  
+	g := ⟨0.15 ∧ 8.00⟩⨁ 
+	r := ⟨0.15 ∧ 3.00⟩⨁
+	vₑ := ⟨0.20 ∧ 3.00⟩⨁
 
 > Tellurics are parahabitable worlds with solid or semi-solid surfaces — encompassing the full class of rocky, metallic, and icy planemos.  
 > This category includes Earthlike worlds, massive rocky exoplanets, marginal sub-Earths, and bodies like Mars, Ganymede, Titan, or large moons of gas giants.  

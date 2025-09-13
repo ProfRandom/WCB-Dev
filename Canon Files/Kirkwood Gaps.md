@@ -65,3 +65,45 @@ $$These are shorthand for the integer ratios:
 4. Discard resonances that fall outside the gap.  
 
 👉 The surviving $a_x$ values are your **candidate gap-makers** or **resonant trapping zones**.  
+
+
+$$
+w = a \times \sqrt{\frac{M_{p⨁}}{333000}}
+$$
+
+### Let’s set a **discernibility threshold**
+
+Suppose we say:
+
+- To count as a “real gap,” $$\frac{w}{a}≥10^{-3}$$… (i.e., ≥0.1% of the orbital radius).
+    
+- Smaller than that → you’re not clearing a swath of an asteroid belt, just nudging pebbles.
+    
+
+So:
+$$
+\begin{gather}
+\sqrt{\frac{M_p}{M_*}} \geq 10^{-3} \\
+\frac{M_p}{M_*} \geq 10^{-6} \\
+M_p \geq M_* \times 10^{-6} = \frac{M_*}{10^6}
+\end{gather}
+$$
+Given: $M_* = 333000 M_⨁$:
+$$
+M_p \geq 0.333 M_⨁
+$$
+
+### ✅ Meaning:
+
+- A body must be **at least 0.3 Earth masses** (~⅓ ⨁, about Mars-scale) to carve a **recognizable Kirkwood gap** in a main-belt analogue.    
+- **Below this** (midimos, small planemos), the “gap width” is so narrow it doesn’t register as a true Kirkwood void.
+    
+
+---
+
+📖 **Worldbuilder Heuristic:**
+
+- **<0.3 ⨁ (sub-Mars)** → negligible belt-gapping. May perturb local clumps/rings.    
+- **≥0.3 ⨁ (Mars+)** → can start to carve noticeable gaps.    
+- **Jovians (intermos, ~1000 ⨁)** → dominate belts, wide Kirkwood gaps.
+
