@@ -66,9 +66,9 @@ $$These are shorthand for the integer ratios:
 
 👉 The surviving $a_x$ values are your **candidate gap-makers** or **resonant trapping zones**.  
 
-
+# Width of Gaps
 $$
-w = a \times \sqrt{\frac{M_{p⨁}}{333000}}
+g = a \times \sqrt{\frac{M_{p⨁}}{333000M⊙}}
 $$
 
 ### Let’s set a **discernibility threshold**
@@ -142,14 +142,6 @@ $$
 
 ## Pairwise average remaning orbits
 ### e.g. average 1 and 2, 3 and 4, etc.
-
-
-
-$$
-\Biggr\lfloor{\frac{16}{2}}\Biggr\rfloor
-$$
-
-
 $$
 \begin{gather}
 a_c = \frac{a_i + a_o}{2} \\[0.5em]
