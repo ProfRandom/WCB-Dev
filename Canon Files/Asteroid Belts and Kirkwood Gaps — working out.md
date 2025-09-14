@@ -140,21 +140,25 @@ $$
 ## Discard all orbits ≤ $a_i$
 ## Discard all orbits ≥ $a_o$
 
-## Pairwise average remaning orbits
+## Pairwise average remaining orbits
 ### e.g. average 1 and 2, 3 and 4, etc.
+
+#### Placing The Belt and Identifying Its Dimensions
+
 $$
-\begin{gather}
-a_c = \frac{a_i + a_o}{2} \\[0.5em]
-\Delta a = \frac{a_o - a_i}{2} \\[0.5em]
-a\prime_c = a_c + \Delta a \left(\frac{m_o - m_i}{m_o + m_i}\right) \\[0.5em]
-a_\Delta = a_o - a_i \\[0.5em]
-m_\mu = \frac{m_i + m_o}{M_*} \\[0.5em]
-\beta = 1 - (C \sqrt[3]{m_\mu}) \quad \text{where C} \in \{1, 2, 3\} \\[0.5em]
-W_{belt} = a_\Delta \times \beta \\[0.5em]
-w_i = \frac{m_i}{m_i + m_o} \qquad w_o = \frac{m_o}{m_i + m_o} \\[0.5em]
-W_i = W_{belt} \times w_i \qquad W_o = W_{belt} \times w_o \\[0.5em]
-B_i = a\prime_c - W_i \qquad B_o = a\prime_c + W_o 
-\end{gather}
+\begin{align}
+a_c &= \frac{a_i + a_o}{2} \qquad &&\text{Average of the two orbits} \\[0.5em]
+\Delta a &= a_o - a_i \qquad &&\text{Difference between the two orbits} \\[0.5em]
+a_\Delta &= \frac{\Delta a}{2} \qquad &&\text{Midrange of the two orbits} \\[0.5em] 
+a_s &= a_c + a_\Delta \left(\frac{m_o - m_i}{m_o + m_i}\right) \qquad &&\text{Shifted central orbit of the belt} \\[0.5em]
+m_\mu &= \frac{m_i + m_o}{M_*} \qquad &&\textit{Not sure what to call this} \\[0.5em]
+\beta &= 1 - (C \sqrt[3]{m_\mu}) \qquad &&\text{Where C} \in \{1, 2, 3\} \\
+&&&\text{Belt width scaler} \\[0.5em]
+W_{belt} &= \Delta a \times \beta \qquad &&\text{Belt width calculation}\\[0.5em]
+w_i &= \frac{m_i}{m_i + m_o} \qquad w_o = \frac{m_o}{m_i + m_o} \quad &&\text{Belt inner and outer edge adjustments} \\[0.5em]
+W_i &= W_{belt} \times w_i \qquad W_o = W_{belt} \times w_o \quad && \text{Belt inner and outer edge offset calculations}\\[0.5em]
+B_i &= a_s - W_i \qquad B_o = a_s + W_o \qquad &&\text{Belt inner and outer edge calculations}
+\end{align}
 $$
 # Calculating Gap Widths
 $$
