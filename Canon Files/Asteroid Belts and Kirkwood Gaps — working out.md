@@ -1,11 +1,41 @@
-# Kirkwood Gaps
-### Sidebar: Calculating Resonant Orbits  
+# Asteroid Belt Placement and Extents
 
-When mapping possible **Kirkwood-style gaps** in an orbital region, use the bracketing orbits as **perturbers**. For each perturber, trial resonances can be found by scaling the orbital period with small integer ratios and converting back to distance with Kepler’s 3rd law.  
-### 🔹 Inner Orbit Resonances  
+## Placing The Belt and Identifying Its Dimensions
+
+$$
+\begin{align}
+a_i &= &&\text{Inner orbit distance} \\
+a_o &= &&\text{Outer orbit distance} \\[0.5em]
+m_i &= &&\text{Mass of inner body in Terrans} \\
+m_o &= &&\text{Mass of outer body in Terrans} \\[0.5em]
+M_* & = 333000M⊙ \qquad &&\text{Mass of star in Terrans} \\[0.5em]
+a_c &= \frac{a_i + a_o}{2} \qquad &&\text{Average of the two orbits} \\[0.5em]
+\Delta a &= a_o - a_i \qquad &&\text{Difference between the two orbits} \\[0.5em]
+a_\Delta &= \frac{\Delta a}{2} \qquad &&\text{Midrange of the two orbits} \\[0.5em] 
+a_s &= a_c + a_\Delta \left(\frac{m_o - m_i}{m_o + m_i}\right) \qquad &&\text{Asymmetric central orbit} \\[0.5em]
+m_\mu &= \frac{m_i + m_o}{M_*} \qquad &&\text{Dimensionless systemic mass ratio} \\[0.5em]
+\beta &= 1 - (C \times \sqrt[3]{m_\mu}) \qquad &&\text{Where C} \in \{1, 2, 3\} \\
+&&&\text{Belt width scaler} \\[0.5em]
+W_{belt} &= \Delta a \times \beta \qquad &&\text{Belt width calculation}\\[0.5em]
+w_i &= \frac{m_i}{m_i + m_o} \qquad w_o = \frac{m_o}{m_i + m_o} \quad &&\text{Belt inner and outer edge adjustments} \\[0.5em]
+W_i &= W_{belt} \times w_i \qquad W_o = W_{belt} \times w_o \quad && \text{Belt inner and outer edge offset calculations}\\[0.5em]
+B_i &= a_s - W_i \qquad B_o = a_s + W_o \qquad &&\text{Belt inner and outer edge calculations}
+\end{align}
+$$
+
+## Calculating Resonant Orbits  
+### Vocabulary Notes
+- Perturber: An orbiting object acting to perturb the orbit of other, less massive nearby objects.
+- Perturbant: The body exerting perturbing influence.
+- Resonant: Any of the resonances that result from the influence of the perturbant.
+- Tresonance: A resonance tending to trap orbiting bodies within a narrow orbital region.
+- Gresonance: A resonance tending to exclude orbiting bodies from a narrow orbital region.
+
+When mapping resonant gap orbits, use the bracketing orbits as **perturbers**. For each perturber, resonances can be found by scaling the orbital period with small integer ratios and converting back to distance with Kepler’s Third Law ($P^2 \propto a^3$).  
+### Inner Orbit Resonances
 Start from the **inner perturber** with period $P_i$.  
 $$
-P_x = P_i \times k
+P_x = P_i \times k \quad \text{Where: } k \in \{1.67, 2.00, 2.25, 2.33, 2.50, 2.67, 3.00, 3.50, 4.00, 5.00\}
 $$$$
 a_x = \sqrt[3]{\Big(P_x^2 \, M\Big)}
 $$  
@@ -15,16 +45,14 @@ Where:
 - $M$ = stellar mass (in solar units)  
 - $k$ = resonance scaler  
 
-Keep only values where $a_x < a_o$ (inside the outer orbit).  
+Keep only values where $a_x < B_o$ (inside the outer orbit).  
 
 **Combined form:**  
-$$
-a_x = \sqrt[3]{\Big((P_i \times k)^2 \, M\Big)}
-$$
+
 ### 🔹 Outer Orbit Resonances  
 Start from the **outer perturber** with period $P_o$.  
 $$
-P_x = \frac{P_o}{k}
+P_x = \frac{P_o}{k} \quad \text{Where: } k \in \{1.67, 2.00, 2.25, 2.33, 2.50, 2.67, 3.00, 3.50, 4.00, 5.00\}
 $$$$
 a_x = \sqrt[3]{\Big(P_x^2 \, M\Big)}
 $$Where:
@@ -34,43 +62,59 @@ $$Where:
 - $k$ = resonance scaler  
 
 Keep only values where $a_x > a_i$ (outside the inner orbit).  
+#### Combined forms:
 
-**Combined form:**  
+##### Inner Orbit Resonances
+$$
+a_x = \sqrt[3]{\Big((P_i \times k)^2 \, M\Big)}
+$$
+##### Outer Orbit Resonances
 $$
 a_x = \sqrt[3]{\left(\frac{P_o}{k}\right)^2 M}
-$$ 
-### 🔹 Resonance Scalers  
-The most dynamically significant resonances correspond to:  
 $$
-k \in \{1.333, \; 1.5, \; 1.667, \; 2, \; 2.5, \; 3, \; 4, \; 5\}
-$$These are shorthand for the integer ratios:  
 
-| <center>Scaler</center> | <center>Resonance<br>Ratio</center> | <center>Order</center> |      |
-| ----------------------: | ----------------------------------: | ---------------------: | ---- |
-|                   1.333 |                                 4:3 |                      1 | Trap |
-|                   1.500 |                                 3:2 |                      1 | Trap |
-|                   1.667 |                                 5:3 |                      2 | Gap  |
-|                   2.000 |                                 2:1 |                      1 | Gap  |
-|                   2.500 |                                 5:2 |                      3 | Gap  |
-|                   3.000 |                                 3:1 |                      2 | Gap  |
-|                   4.000 |                                 4:1 |                      3 | Gap  |
-|                   5.000 |                                 5:1 |                      4 | Gap  |
->**Note:**
->Preferentially choose resonance ratios with order 1 or 2 whenever possible
-> _“Some resonances destabilize small bodies, carving out **gaps**. Others stabilize them, creating long-lived populations or **traps**. In practice, 2:1, 3:1, and 5:2 are classic gap-makers, while 3:2 and 4:3 are trap-makers.”_
-### 📖 Worldmaker takeaway  
-1. Choose your perturber (inner or outer orbit).  
-2. Apply the resonance scaler to its orbital period.  
-3. Convert the trial period to AU with Kepler’s law.  
-4. Discard resonances that fall outside the gap.  
 
-👉 The surviving $a_x$ values are your **candidate gap-makers** or **resonant trapping zones**.  
+### Details: Resonance Scalers
+*Sorted in order of frequency*
+#### Gap Resonances (Gresonances)
+
+|  Notes   | Perturbant | Resonant |  Ratio  | Order | Frequency<br>$\tfrac{\text{Perturbant}}{\text{Resonant}}$ |
+| :------: | :--------: | :------: | :-----: | :---: | :-------------------------------------------------------: |
+|    4     |     5      |    3     |   5:3   |   2   |                           1.67                            |
+| **3, 4** |   **2**    |  **1**   | **2:1** | **1** |                         **2.00**                          |
+|          |     9      |    4     |   9:4   |   5   |                           2.25                            |
+|    4     |     7      |    3     |   7:3   |   4   |                           2.33                            |
+|    4     |     5      |    2     |   5:2   |   3   |                           2.50                            |
+|          |     8      |    3     |   8:3   |   5   |                           2.67                            |
+|    4     |     3      |    1     |   3:1   |   2   |                           3.00                            |
+|          |     7      |    2     |   7:2   |   5   |                           3.50                            |
+|    4     |     4      |    1     |   4:1   |   3   |                           4.00                            |
+|          |     5      |    1     |   5:1   |   4   |                           5.00                            |
+#### Trap Resonances (Tresonances)
+
+| Notes | Perturbant | Resonant | Ratio | Order | Frequency<br>$\tfrac{\text{Perturbant}}{\text{Resonant}}$ |
+| :---: | :--------: | :------: | :---: | :---: | :-------------------------------------------------------: |
+|   4   | 4          | 3        | 4:3   | 1     |                           1.33                            |
+|   4   | 3          | 2        | 3:2   | 1     |                           1.50                            |
+|       | 5          | 4        | 5:4   | 1     |                           1.25                            |
+|       | 6          | 5        | 6:5   | 1     |                           1.20                            |
+|       | 7          | 6        | 7:6   | 1     |                           1.17                            |
+
+> **Notes:**
+> 1. The higher the resonant order, the weaker the resonance.
+> 2. It is worth noting that all gap resonances have frequencies > 1.50 and all trap resonances have frequencies ≤ 1.50.
+> 3. Resonance 2:1 is the only first-order gap resonance, though it can, under certain circumstances, behave as a trap resonance.
+> 4. These resonance ratios are all observed in the Solar System asteroid belt, though the framework is generalizable to other systems.
+
+>**Usage:**
+>Preferentially choose resonance ratios with order 1 or 2 whenever possible: resonances of order 1 or 2 will have the strongest dynamical signatures (clear gaps or stable traps). Higher orders may be used sparingly to add fine structure, but their effects will be much weaker.
 
 # Width of Gaps
+
+For a gap resonance
 $$
 g = a \times \sqrt{\frac{M_{p⨁}}{333000M⊙}}
 $$
-
 ### Let’s set a **discernibility threshold**
 
 Suppose we say:
@@ -110,61 +154,33 @@ $$
 
 # Algorithm For Calculating and Placing Gaps and Widths
 
-## Find two orbits with at least two (2) AU between them.
+**Find two orbits with at least two (2) AU between them.**
 $$
 \begin{align}
 a_i = \text{Orbital distance of inner orbit} \\
 a_o = \text{Orbital distance of outer orbit}
 \end{align}
 $$
-## Calculate the periods of each orbit by
+**Calculate the periods of each orbit by:**
    $$
-	 P = \sqrt{a_x^3}
+	 P_x = \sqrt{\frac{a_x^3}{M}} \quad \text{Where M is the star's mass in solar units}
    $$
-## Calculate resonance orbit _distances_ from the inner orbit by:
+**Calculate resonance orbit _distances_ from the inner orbit by:**
 $$
 \begin{gather}
 a_{x_{inner}} = \sqrt[3]{\Big((P_i \times k)^2 \, M\Big)} \\[1em]
 \text{Where: }\;k \in \{1.333, \; 1.5, \; 1.667, \; 2, \; 2.5, \; 3, \; 4, \; 5\}
 \end{gather}
 $$
-## Calculate the resonance orbit _distances_ from the outer orbit by:
+**Calculate the resonance orbit _distances_ from the outer orbit by:**
 $$
 \begin{gather}
 a_{x_{outer}} = \sqrt[3]{\left(\frac{P_o}{k}\right)^2 M} \\[1em]
 \text{Where: }\;k \in \{1.333, \; 1.5, \; 1.667, \; 2, \; 2.5, \; 3, \; 4, \; 5\}
 \end{gather}
 $$
-## Gather all resulting orbits into a single list
-## Sort in ascending order
-## Discard all orbits ≤ $a_i$
-## Discard all orbits ≥ $a_o$
 
-## Pairwise average remaining orbits
-### e.g. average 1 and 2, 3 and 4, etc.
 
-#### Placing The Belt and Identifying Its Dimensions
-
-$$
-\begin{align}
-a_i &= \text{Inner orbit distance} \\
-a_o &= \text{Outer orbit distance} \\[0.5em]
-m_i &= \text{Mass of inner body in Terrans} \\
-a_o &= \text{Mass of outer body in Terrans} \\[0.5em]
-M_* & = 333000M⊙ \qquad &&\text{Mass of star in Terrans} \\[0.5em]
-a_c &= \frac{a_i + a_o}{2} \qquad &&\text{Average of the two orbits} \\[0.5em]
-\Delta a &= a_o - a_i \qquad &&\text{Difference between the two orbits} \\[0.5em]
-a_\Delta &= \frac{\Delta a}{2} \qquad &&\text{Midrange of the two orbits} \\[0.5em] 
-a_s &= a_c + a_\Delta \left(\frac{m_o - m_i}{m_o + m_i}\right) \qquad &&\text{Shifted central orbit of the belt} \\[0.5em]
-m_\mu &= \frac{m_i + m_o}{M_*} \qquad &&\text{Dimensionless systemic mass ratio} \\[0.5em]
-\beta &= 1 - (C \times \sqrt[3]{m_\mu}) \qquad &&\text{Where C} \in \{1, 2, 3\} \\
-&&&\text{Belt width scaler} \\[0.5em]
-W_{belt} &= \Delta a \times \beta \qquad &&\text{Belt width calculation}\\[0.5em]
-w_i &= \frac{m_i}{m_i + m_o} \qquad w_o = \frac{m_o}{m_i + m_o} \quad &&\text{Belt inner and outer edge adjustments} \\[0.5em]
-W_i &= W_{belt} \times w_i \qquad W_o = W_{belt} \times w_o \quad && \text{Belt inner and outer edge offset calculations}\\[0.5em]
-B_i &= a_s - W_i \qquad B_o = a_s + W_o \qquad &&\text{Belt inner and outer edge calculations}
-\end{align}
-$$
 # Calculating Gap Widths
 $$
 g_{net} = a \times \sqrt{\frac{m_i + m_o}{333000M⊙}} \qquad \text{Preferred method}
