@@ -171,4 +171,4 @@ C'mon, you had to know I'd use that pun at _some point_ didn't you?
 
 With this method, a worldmaker can quickly generate a full planemo system that is physically plausible, statistically grounded, and symbolically consistent with WBN cosmology.
 
-[[Asteroid Belts and Kirkwood Gaps — working out]]
+[[Asteroid Belts and Resonance Gaps — working out]]

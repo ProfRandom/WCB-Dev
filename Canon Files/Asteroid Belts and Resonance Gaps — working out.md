@@ -23,7 +23,7 @@ B_i &= a_s - W_i \qquad B_o = a_s + W_o \qquad &&\text{Belt inner and outer edge
 \end{align}
 $$
 
-## Calculating Resonant Orbits  
+## Calculating Resonant Orbits
 ### Vocabulary Notes
 - Perturber: An orbiting object acting to perturb the orbit of other, less massive nearby objects.
 - Perturbant: The body exerting perturbing influence.
@@ -43,14 +43,13 @@ $$
 P_x = P_i \times k \quad \text{Where: } k \in \{1.67, 2.00, 2.25, 2.33, 2.50, 2.67, 3.00, 3.50, 4.00, 5.00\}
 $$$$
 a_x = \sqrt[3]{P_x^2 \, M\odot}
-$$ 
-Where:
+$$ Where:
 - $P_x$ = resonant period  
 - $a_x$ = resonant distance (AU)  
 - $M\odot$ = stellar mass (in solar units)  
 - $k$ = resonance scaler (see below for details)  
 
-Keep only values where $a_x > B_i$ (beyond the inner orbit).  
+***Keep only values where $a_x > B_i$ (beyond the inner orbit).***  
 ### Outer Orbit Resonances
 Using from the **outer perturber** with period $P_o$.  
 $$
@@ -63,16 +62,22 @@ $$Where:
 - $M\odot$ = stellar mass (in solar units)  
 - $k$ = resonance scaler  
 
-Keep only values where $a_x < B_o$ (inside the outer orbit).  
+***Keep only values where $a_x < B_o$ (inside the outer orbit).***  
 #### Combined Equation Forms:
 
 ##### Inner Orbit Resonances
 $$
-a_x = \sqrt[3]{\Big((P_i \times k)^2 \, M\odot\Big)}
+\begin{align}
+a_x &= \sqrt[3]{\Big((P_i \times k)^2 \, M\odot\Big)} \\[0.5em]
+ \text{Where: } k &\in \{1.67, 2.00, 2.25, 2.33, 2.50, 2.67, 3.00, 3.50, 4.00, 5.00\}
+\end{align}
 $$
 ##### Outer Orbit Resonances
 $$
-a_x = \sqrt[3]{\left(\frac{P_o}{k}\right)^2 M\odot}
+\begin{align}
+a_x &= \sqrt[3]{\left(\frac{P_o}{k}\right)^2 M\odot} \\[0.5em]
+ \text{Where: } k &\in \{1.67, 2.00, 2.25, 2.33, 2.50, 2.67, 3.00, 3.50, 4.00, 5.00\}
+ \end{align}
 $$
 ### Details: Resonance Scalers
 *Sorted in order of frequency*
@@ -110,27 +115,23 @@ $$
 >Preferentially choose resonance ratios with order 1 or 2 whenever possible: resonances of order 1 or 2 will have the strongest dynamical signatures (clear gaps or stable traps). Higher orders may be used sparingly to add fine structure, but their effects will be much weaker.
 
 # Width of Gaps
+## Justification
 For a resonance gap in an asteroid belt to be significant, it should be ≥ 0.1% of the orbital radius of the gap, itself.
 $$
-\frac{g}{a}≥10^{-3}
-$$
-
-
-$$
-g = a \times \sqrt{\frac{M_{p⨁}}{333000M⊙}}
-$$
-Thus, given
-- $M_p$ = the mass of the planet
-- $M_*$ = the mass of the star (in the same units as $M_p$)
-$$
 \begin{gather}
-\sqrt{\frac{M_p}{M_*}} \geq 10^{-3} \quad → \quad \frac{M_p}{M_*} \geq 10^{-6}  \\ \therefore M_p \geq M_* \times 10^{-6} = \frac{M_*}{10^6}
+\frac{m_p}{M_*} \geq 10^{-6} \\
+\therefore m_p \geq \frac{M_*}{10^6}
 \end{gather}
 $$
-##### Example:
-Given: $M_* = 333000 M_⨁$ (for the Sun):
+Where:
+- $m_{p}$ = the mass of the perturber in Terrans
+- $M_*$ = the mass of the star in Terrans
+-        = 333000 × the mass of the star in solar units ($M_\odot$)
+
+### Example:
+Given: $M_* = 333000 M_⨁ = 333000(1)$ (for the Sun):
 $$
-M_p \geq \frac{333000}{10^6} = 0.333 M_⨁
+m_p \geq \frac{333000}{10^6} = 0.333 m_⨁
 $$
 **Meaning:**
 - A body must be **at least 0.333 Earth masses** (~⅓⨁) to carve a **recognizable Kirkwood gap** in a main-belt analogue.
@@ -147,4 +148,7 @@ g_{quad} = \sqrt{g_i^2 + g_o^2} \qquad \text{Requires calculating $g_i$ and $g_o
 g_i = a \times \sqrt{\frac{m_i}{333000M⊙}} \quad\text{and}\quad g_o = a \times \sqrt{\frac{m_o}{333000M⊙}}
 \end{gather}
 $$
-Both methods are algebraically equivalent: the $g_{quad}$ form expands ***exactly*** into the $g_w$ expression above.
+Both methods are algebraically equivalent: the $g_{quad}$ form expands ***exactly*** into the $g_w$ expression:
+$$
+g_{quad} = \sqrt{g_i^2 + g_o^2} = \sqrt{\left(a^2 \frac{m_i}{M_*}\right) + \left(a^2 \frac{m_o}{M_*}\right)} = a \times \sqrt{\frac{m_i + m_o}{M_*}} = g_w \; \checkmark
+$$
