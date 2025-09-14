@@ -31,49 +31,49 @@ $$
 - Tresonance: A resonance tending to trap orbiting bodies within a narrow orbital region.
 - Gresonance: A resonance tending to exclude orbiting bodies from a narrow orbital region.
 
-When mapping resonant gap orbits, use the bracketing orbits as **perturbers**. For each perturber, resonances can be found by scaling the orbital period with small integer ratios and converting back to distance with Kepler’s Third Law ($P^2 \propto a^3$).  
+When mapping resonant gap orbits, use the bracketing orbits as **perturbers**. For each perturber, resonances can be found by scaling the orbital period with small integer ratios and converting back to distance with Kepler’s Third Law ($P^2 \propto a^3$).
+
+1. When both perturbers have equal mass ($m_i = m_o$) calculate resonance orbits only from the mass and orbital distance of the outer perturber.
+2. When the perturbers have differenting masses:
+	- If their mass ratio ≤ 10:1, calculate resonance orbits for both inner and outer perturbers and pairwise-average them.
+	- If their mass ratio > 10:1, calculate resonance orbits using only the mass and orbital distance of the more massive perturber (regardless of location).
 ### Inner Orbit Resonances
-Start from the **inner perturber** with period $P_i$.  
+Using the **inner perturber** with period $P_i$.  
 $$
 P_x = P_i \times k \quad \text{Where: } k \in \{1.67, 2.00, 2.25, 2.33, 2.50, 2.67, 3.00, 3.50, 4.00, 5.00\}
 $$$$
-a_x = \sqrt[3]{\Big(P_x^2 \, M\Big)}
-$$  
+a_x = \sqrt[3]{P_x^2 \, M\odot}
+$$ 
 Where:
 - $P_x$ = resonant period  
 - $a_x$ = resonant distance (AU)  
-- $M$ = stellar mass (in solar units)  
-- $k$ = resonance scaler  
+- $M\odot$ = stellar mass (in solar units)  
+- $k$ = resonance scaler (see below for details)  
 
-Keep only values where $a_x < B_o$ (inside the outer orbit).  
-
-**Combined form:**  
-
-### 🔹 Outer Orbit Resonances  
-Start from the **outer perturber** with period $P_o$.  
+Keep only values where $a_x > B_i$ (beyond the inner orbit).  
+### Outer Orbit Resonances
+Using from the **outer perturber** with period $P_o$.  
 $$
 P_x = \frac{P_o}{k} \quad \text{Where: } k \in \{1.67, 2.00, 2.25, 2.33, 2.50, 2.67, 3.00, 3.50, 4.00, 5.00\}
 $$$$
-a_x = \sqrt[3]{\Big(P_x^2 \, M\Big)}
+a_x = \sqrt[3]{P_x^2 \, M\odot}
 $$Where:
 - $P_x$ = resonant period  
 - $a_x$ = resonant distance (AU)  
-- $M$ = stellar mass (in solar units)  
+- $M\odot$ = stellar mass (in solar units)  
 - $k$ = resonance scaler  
 
-Keep only values where $a_x > a_i$ (outside the inner orbit).  
-#### Combined forms:
+Keep only values where $a_x < B_o$ (inside the outer orbit).  
+#### Combined Equation Forms:
 
 ##### Inner Orbit Resonances
 $$
-a_x = \sqrt[3]{\Big((P_i \times k)^2 \, M\Big)}
+a_x = \sqrt[3]{\Big((P_i \times k)^2 \, M\odot\Big)}
 $$
 ##### Outer Orbit Resonances
 $$
-a_x = \sqrt[3]{\left(\frac{P_o}{k}\right)^2 M}
+a_x = \sqrt[3]{\left(\frac{P_o}{k}\right)^2 M\odot}
 $$
-
-
 ### Details: Resonance Scalers
 *Sorted in order of frequency*
 #### Gap Resonances (Gresonances)
@@ -110,87 +110,41 @@ $$
 >Preferentially choose resonance ratios with order 1 or 2 whenever possible: resonances of order 1 or 2 will have the strongest dynamical signatures (clear gaps or stable traps). Higher orders may be used sparingly to add fine structure, but their effects will be much weaker.
 
 # Width of Gaps
+For a resonance gap in an asteroid belt to be significant, it should be ≥ 0.1% of the orbital radius of the gap, itself.
+$$
+\frac{g}{a}≥10^{-3}
+$$
 
-For a gap resonance
+
 $$
 g = a \times \sqrt{\frac{M_{p⨁}}{333000M⊙}}
 $$
-### Let’s set a **discernibility threshold**
-
-Suppose we say:
-
-- To count as a “real gap,” $$\frac{w}{a}≥10^{-3}$$… (i.e., ≥0.1% of the orbital radius).
-    
-- Smaller than that → you’re not clearing a swath of an asteroid belt, just nudging pebbles.
-    
-
-So:
+Thus, given
+- $M_p$ = the mass of the planet
+- $M_*$ = the mass of the star (in the same units as $M_p$)
 $$
 \begin{gather}
-\sqrt{\frac{M_p}{M_*}} \geq 10^{-3} \\
-\frac{M_p}{M_*} \geq 10^{-6} \\
-M_p \geq M_* \times 10^{-6} = \frac{M_*}{10^6}
+\sqrt{\frac{M_p}{M_*}} \geq 10^{-3} \quad → \quad \frac{M_p}{M_*} \geq 10^{-6}  \\ \therefore M_p \geq M_* \times 10^{-6} = \frac{M_*}{10^6}
 \end{gather}
 $$
-Given: $M_* = 333000 M_⨁$:
+##### Example:
+Given: $M_* = 333000 M_⨁$ (for the Sun):
 $$
-M_p \geq 0.333 M_⨁
+M_p \geq \frac{333000}{10^6} = 0.333 M_⨁
 $$
-
-### ✅ Meaning:
-
-- A body must be **at least 0.3 Earth masses** (~⅓ ⨁, about Mars-scale) to carve a **recognizable Kirkwood gap** in a main-belt analogue.    
+**Meaning:**
+- A body must be **at least 0.333 Earth masses** (~⅓⨁) to carve a **recognizable Kirkwood gap** in a main-belt analogue.
 - **Below this** (midimos, small planemos), the “gap width” is so narrow it doesn’t register as a true Kirkwood void.
-    
-
----
-
-📖 **Worldbuilder Heuristic:**
-
-- **<0.3 ⨁ (sub-Mars)** → negligible belt-gapping. May perturb local clumps/rings.    
-- **≥0.3 ⨁ (Mars+)** → can start to carve noticeable gaps.    
-- **Jovians (intermos, ~1000 ⨁)** → dominate belts, wide Kirkwood gaps.
-
-
-# Algorithm For Calculating and Placing Gaps and Widths
-
-**Find two orbits with at least two (2) AU between them.**
+## Calculating Gap Widths
+For each resonant orbit calculated above, calculate a gap width by:
 $$
-\begin{align}
-a_i = \text{Orbital distance of inner orbit} \\
-a_o = \text{Orbital distance of outer orbit}
-\end{align}
-$$
-**Calculate the periods of each orbit by:**
-   $$
-	 P_x = \sqrt{\frac{a_x^3}{M}} \quad \text{Where M is the star's mass in solar units}
-   $$
-**Calculate resonance orbit _distances_ from the inner orbit by:**
-$$
-\begin{gather}
-a_{x_{inner}} = \sqrt[3]{\Big((P_i \times k)^2 \, M\Big)} \\[1em]
-\text{Where: }\;k \in \{1.333, \; 1.5, \; 1.667, \; 2, \; 2.5, \; 3, \; 4, \; 5\}
-\end{gather}
-$$
-**Calculate the resonance orbit _distances_ from the outer orbit by:**
-$$
-\begin{gather}
-a_{x_{outer}} = \sqrt[3]{\left(\frac{P_o}{k}\right)^2 M} \\[1em]
-\text{Where: }\;k \in \{1.333, \; 1.5, \; 1.667, \; 2, \; 2.5, \; 3, \; 4, \; 5\}
-\end{gather}
-$$
-
-
-# Calculating Gap Widths
-$$
-g_{net} = a \times \sqrt{\frac{m_i + m_o}{333000M⊙}} \qquad \text{Preferred method}
+g_w = a \times \sqrt{\frac{m_i + m_o}{333000M⊙}} \qquad \text{Preferred method}
 $$
 or
 $$
-\begin{align}
-g_{quad} &= \sqrt{g_i^2 + g_o^2} \qquad \text{Requires calculating $g_i$ and $g_o$ first by:} \\
-g_i &= a \times \sqrt{\frac{m_i}{333000M⊙}} \\
-g_o0 &= a \times \sqrt{\frac{m_o}{333000M⊙}}
-\end{align}
+\begin{gather}
+g_{quad} = \sqrt{g_i^2 + g_o^2} \qquad \text{Requires calculating $g_i$ and $g_o$ first by:} \\[1em]
+g_i = a \times \sqrt{\frac{m_i}{333000M⊙}} \quad\text{and}\quad g_o = a \times \sqrt{\frac{m_o}{333000M⊙}}
+\end{gather}
 $$
-Both methods are algebraically equivalent: the $g_{quad}$ form expands ***exactly*** into the $g_{net}$ expression.
+Both methods are algebraically equivalent: the $g_{quad}$ form expands ***exactly*** into the $g_w$ expression above.
