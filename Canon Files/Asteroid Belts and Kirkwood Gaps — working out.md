@@ -147,12 +147,17 @@ $$
 
 $$
 \begin{align}
+a_i &= \text{Inner orbit distance} \\
+a_o &= \text{Outer orbit distance} \\[0.5em]
+m_i &= \text{Mass of inner body in Terrans} \\
+a_o &= \text{Mass of outer body in Terrans} \\[0.5em]
+M_* & = 333000M⊙ \qquad &&\text{Mass of star in Terrans} \\[0.5em]
 a_c &= \frac{a_i + a_o}{2} \qquad &&\text{Average of the two orbits} \\[0.5em]
 \Delta a &= a_o - a_i \qquad &&\text{Difference between the two orbits} \\[0.5em]
 a_\Delta &= \frac{\Delta a}{2} \qquad &&\text{Midrange of the two orbits} \\[0.5em] 
 a_s &= a_c + a_\Delta \left(\frac{m_o - m_i}{m_o + m_i}\right) \qquad &&\text{Shifted central orbit of the belt} \\[0.5em]
-m_\mu &= \frac{m_i + m_o}{M_*} \qquad &&\textit{Not sure what to call this} \\[0.5em]
-\beta &= 1 - (C \sqrt[3]{m_\mu}) \qquad &&\text{Where C} \in \{1, 2, 3\} \\
+m_\mu &= \frac{m_i + m_o}{M_*} \qquad &&\text{Dimensionless systemic mass ratio} \\[0.5em]
+\beta &= 1 - (C \times \sqrt[3]{m_\mu}) \qquad &&\text{Where C} \in \{1, 2, 3\} \\
 &&&\text{Belt width scaler} \\[0.5em]
 W_{belt} &= \Delta a \times \beta \qquad &&\text{Belt width calculation}\\[0.5em]
 w_i &= \frac{m_i}{m_i + m_o} \qquad w_o = \frac{m_o}{m_i + m_o} \quad &&\text{Belt inner and outer edge adjustments} \\[0.5em]
