@@ -156,3 +156,16 @@ W_i = W_{belt} \times w_i \qquad W_o = W_{belt} \times w_o \\[0.5em]
 B_i = a\prime_c - W_i \qquad B_o = a\prime_c + W_o 
 \end{gather}
 $$
+# Calculating Gap Widths
+$$
+g_{net} = a \times \sqrt{\frac{m_i + m_o}{333000M⊙}} \qquad \text{Preferred method}
+$$
+or
+$$
+\begin{align}
+g_{quad} &= \sqrt{g_i^2 + g_o^2} \qquad \text{Requires calculating $g_i$ and $g_o$ first by:} \\
+g_i &= a \times \sqrt{\frac{m_i}{333000M⊙}} \\
+g_o0 &= a \times \sqrt{\frac{m_o}{333000M⊙}}
+\end{align}
+$$
+Both methods are algebraically equivalent: the $g_{quad}$ form expands ***exactly*** into the $g_{net}$ expression.
