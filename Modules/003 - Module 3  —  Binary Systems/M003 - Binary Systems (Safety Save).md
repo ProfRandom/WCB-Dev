@@ -17,7 +17,7 @@ The more massive object (the **primary body**) orbits closer to the barycenter, 
 ![[Binary System Basics.png|400]]
 
 A binary system is described by a total of nine dimensions (average dimensions not illustrated):
-- $T_{min}$ ,  $\mathcal{A}$ ,  $T_{max}$ :  The minimum, average, and maximum separations of the two bodies from one another
+- $T_{min}$ ,  $T_{avg}$ ,  $T_{max}$ :  The minimum, average, and maximum separations of the two bodies from one another
 - $P_{min}$ ,  $P_{avg}$ ,  $P_{max}$: The minimum, average, and maximum separations of the **primary** body (*P*) from the **barycenter** (*ḅ*)
 - $S_{min}$ ,  $S_{avg}$ ,  $S_{max}$ :  The minimum, average, and maximum separations of the **secondary** body (*P*) from the **barycenter** (*ḅ*)
 
@@ -28,34 +28,45 @@ These are related through a series of equations which may seem daunting at first
 ### Primary Dimensions
 $$
 \begin{align}
-P_{avg} &= \mathcal{A}\left(\dfrac{M_s}{M_p+M_s}\right) \\[1em]
-P_{min} &= P_{avg}(1 - e) \\[1em]
-P_{max} &= P_{avg}(1 + e)\\[1em]
+P_{min} &= P_{avg}(1 - e)
+= T_{avg}(1 - e)\left(\dfrac{M_s}{M_p + M_s}\right)
+= T_{min}\left(\dfrac{M_s}{M_p + M_s}\right)
+= T_{max}\left(\dfrac{M_s}{M_p + M_s}\right)\left(\dfrac{1 - e}{1 + e}\right)\\[0.5em]
+P_{max} &= P_{avg}(1 + e)
+= T_{avg}(1 + e)\left(\dfrac{M_s}{M_p + M_s}\right)
+= T_{max}\left(\dfrac{M_s}{M_p + M_s}\right)
+= T_{min}\left(\dfrac{M_s}{M_p + M_s}\right)\left(\dfrac{1 + e}{1 - e}\right)\\[0.5em]
+P_{avg} &= \dfrac{P_{min}}{1 - e} = \dfrac{P_{max}}{1 + e} = T_{avg}\left(\dfrac{M_s}{M_p+M_s}\right)
 \end{align}
 $$
 ### Secondary Dimensions
 $$
 \begin{align}
-S_{avg} &= \mathcal{A}\left(\dfrac{M_p}{M_p+M_s}\right) \\[1em]
-S_{min} &= S_{avg}(1 - e) \\[1em]
-S_{max} &= S_{avg}(1 + e)\\[1em]
+S_{min} &= S_{avg}(1 - e) 
+= T_{avg}(1 - e)\left(\dfrac{M_p}{M_p + M_s}\right)
+= T_{min}\left(\dfrac{M_p}{M_p + M_s}\right)
+= T_{max}\left(\dfrac{M_p}{M_p + M_s}\right)\left(\dfrac{1 - e}{1 + e}\right)\\[0.5em]
+S_{max} &= S_{avg}(1 + e)
+= T_{avg}(1 + e)\left(\dfrac{M_p)}{M_p + M_s}\right)
+= T_{max}\left(\dfrac{M_p}{M_p + M_s}\right)
+= T_{min}\left(\dfrac{M_p}{M_p + M_s}\right)\left(\dfrac{1 + e}{1 - e}\right)\\[0.5em]
+S_{avg} &= \dfrac{S_{min}}{1 - e} = \dfrac{S_{max}}{1 + e} = T_{avg}\left(\dfrac{M_p}{M_p+M_s}\right)
 \end{align}
 $$
 ### Total (Overall) Dimensions
-
 $$
 \begin{align}
-T_{min} &= \mathcal{A}(1 - e)
+T_{min} &= T_{avg}(1 - e)
 = P_{min} + S_{min} \\[0.5em]
-&= \mathcal{A}\left(\dfrac{1 - e}{1 + e}\right)
+&= T_{avg}\left(\dfrac{1 - e}{1 + e}\right)
 = P_{min}\left(\dfrac{M_p}{M_s} + 1\right)
 = S_{min}\left(\dfrac{M_s}{M_p} + 1\right) \\[0.5em]
-T_{max} &= \mathcal{A}(1 + e)
+T_{max} &= T_{avg}(1 + e)
 = P_{max} + S_{max} \\[0.5em]
-&= \mathcal{A}\left(\dfrac{1 + e}{1 - e}\right)
+&= T_{avg}\left(\dfrac{1 + e}{1 - e}\right)
 = P_{max}\left(\dfrac{M_p}{M_s} + 1\right)
 = S_{max}\left(\dfrac{M_s}{M_p} + 1\right) \\[0.5em]
-\mathcal{A} &= \dfrac{T_{min}}{1 - e}
+T_{avg} &= \dfrac{T_{min}}{1 - e}
 = \dfrac{T_{max}}{1 + e}
 = P_{avg} + S_{avg}\\[0.5em]
 &= P_{avg}\left(\dfrac{M_p}{M_s} + 1\right) 
@@ -75,8 +86,8 @@ $$
 e &= \dfrac{Max_\bullet - Min_{\bullet}}{Max_\bullet + Min_{\bullet}}
 = 1 - \left[\dfrac{Min_{\bullet}}{Avg_{\bullet}}\right]
 = \left[\dfrac{Max_{\bullet}}{Avg_{\bullet}}\right] - 1 \\[1em]
-&= \dfrac{P_{max}(M_p + M_s)}{M_s \mathcal{A}} - 1 = 1 - \dfrac{P_{min}(M_p + M_s)}{M_s \mathcal{A}} \\[1em]
-&= \dfrac{S_{max}(M_p + M_s)}{M_p \mathcal{A}} - 1 = 1 - \dfrac{S_{min}(M_p + M_s)}{M_p \mathcal{A}} \\[1em]
+&= \dfrac{P_{max}(M_p + M_s)}{M_s T_{avg}} - 1 = 1 - \dfrac{P_{min}(M_p + M_s)}{M_s T_{avg}} \\[1em]
+&= \dfrac{S_{max}(M_p + M_s)}{M_p T_{avg}} - 1 = 1 - \dfrac{S_{min}(M_p + M_s)}{M_p T_{avg}} \\[1em]
 \end{align}
 $$
 #### Crossing Orbit Parameter
@@ -113,13 +124,13 @@ e_\times \leq \dfrac{B_N - T_{lim}}{B_N + T_{lim}}
 \end{align}
 $$
 Where:
-- $T_{lim} = 4 T_{max} = 4 \mathcal{A}(1 - e) = 4 T_{min}\left(\dfrac{1 + e}{1 - e}\right)$
+- $T_{lim} = 4 T_{max} = 4 T_{avg}(1 - e) = 4 T_{min}\left(\dfrac{1 + e}{1 - e}\right)$
 $X_e$ is the largest system eccentricity that can be used with a given $T_{min}$ , ensuring that either the innermost habitable orbit ($B_0$), the perannual orbit (*A*), or the nucleal orbit (*N*) lies beyond $T_{lim}$.
 
 #### Quarles' Stability Limit
 $$
 \begin{align}
-\mathcal{Q}_L = 0.08 \mathcal{A} = 0.08\left(\dfrac{T_{min}}{1 - e}\right) \quad | \quad e = 1 - 0.08\left(\dfrac{T_{min}}{\mathcal{Q}_L}\right)
+\mathcal{Q}_L = 0.08 T_{avg} = 0.08\left(\dfrac{T_{min}}{1 - e}\right) \quad | \quad e = 1 - 0.08\left(\dfrac{T_{min}}{\mathcal{Q}_L}\right)
 \end{align}
 $$
 $\mathcal{Q}_L$ is the maximum distance a planemo can orbit either star in a wide-binary system.
