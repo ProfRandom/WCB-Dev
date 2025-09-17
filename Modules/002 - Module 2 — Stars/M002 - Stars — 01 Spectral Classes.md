@@ -43,10 +43,10 @@ For example:
 This allows for relatively simple mathematical treatment of the relationship between spectral type (T) and surface temperature (K).
 $$
 \begin{align}
-Ƨ &= \dfrac{\kappa - K}{þ} \\ \\
-\kappa & = Ƨ þ + K \\ \\
-K &= \kappa - Ƨ þ \\ \\
-þ &= \dfrac{\kappa - K}{Ƨ} \\
+\mathcal{S} &= \dfrac{\kappa - K}{þ} \\ \\
+\kappa & = \mathcal{S} þ + K \\ \\
+K &= \kappa - \mathcal{S} þ \\ \\
+þ &= \dfrac{\kappa - K}{\mathcal{S}} \\
 \end{align}
 $$
 
@@ -54,7 +54,7 @@ Where:
 - K = the star's surface temperature in Kelvin
 - κ = the _upper bound_ temperature of the relevant spectral class
 - þ = the thermal interval constant for the relevant spectral class
-- Ƨ = the spectral *type* number
+- $\mathcal{S}$ = the spectral *type* number
 #### The Thermal Interval Constant (þ)
 Where does þ come from?
 For a given spectral class þ can be calculated by:
@@ -85,28 +85,28 @@ Let's run the numbers for the Sun
 - Checking the table, 5800K falls between 5000K and 6000K, so the Sun is spectral class G
 - The high temperature (κ) for spectral class G is κ 6000K
 - The thermal interval constant (þ) for spectral class G is þ = 100
-- What is the Sun's spectral type (Ƨ)
+- What is the Sun's spectral type ($\mathcal{S}$)
 Running the numbers:
 $$
 \begin{align}
-Ƨ &= \dfrac{\kappa - K}{þ} \\
-Ƨ &= \dfrac{6000 - 5800}{100} \\
-Ƨ &= \dfrac{200}{100} \\
-Ƨ &= 2\;✓
+\mathcal{S} &= \dfrac{\kappa - K}{þ} \\
+\mathcal{S} &= \dfrac{6000 - 5800}{100} \\
+\mathcal{S} &= \dfrac{200}{100} \\
+\mathcal{S} &= 2\;✓
 \end{align}
 $$
 The Sun is spectral type *G2*.
 
 **Reversing the process:**
 - The known spectral class of the Sun is G
-- The known spectral type of the Sun is Ƨ = 2
+- The known spectral type of the Sun is $\mathcal{S}$ = 2
 - The high temperature (κ) for spectral class G is κ 6000K
 - The thermal interval constant (þ) for spectral class G is þ = 100
 - What is the Sun's Kelvin temperature (K)
 Running the numbers:
 $$
 \begin{align}
-K &= \kappa - Ƨ þ \\
+K &= \kappa - \mathcal{S} þ \\
 K &= 6000 - (2)(100) \\
 K &= 6000 - 200 \\
 K &= 5800\;✓
@@ -137,7 +137,7 @@ Let's say we have a star called Essem that we want to be spectral type *F3.65*. 
 Working through the equation:
 $$
 \begin{align}
-K &= \kappa - Ƨ þ \\
+K &= \kappa - \mathcal{S} þ \\
 K &= 7500 - (3.65)(150) \\
 K &= 7500 - 547.5 \\
 K &= 6952.5\;✓
@@ -172,10 +172,10 @@ Looking at our table we see that this value falls in spectral class G:
 The spectral type is:
 $$
 \begin{align}
-Ƨ &= \dfrac{\kappa - K}{þ} \\ \\
-Ƨ &= \dfrac{6000 - 5080.8}{100} \\ \\
-Ƨ &= \dfrac{919.2}{100} \\ \\
-Ƨ &= 9.192\;✓
+\mathcal{S} &= \dfrac{\kappa - K}{þ} \\ \\
+\mathcal{S} &= \dfrac{6000 - 5080.8}{100} \\ \\
+\mathcal{S} &= \dfrac{919.2}{100} \\ \\
+\mathcal{S} &= 9.192\;✓
 \end{align}
 $$
 Essel's spectral type is *G9.192*.

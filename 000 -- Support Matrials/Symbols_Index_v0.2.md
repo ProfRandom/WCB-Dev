@@ -22,7 +22,7 @@ Notation is given in plain text and (where useful) LaTeX form.
 ## ⚖ Units & Constants
 - **⊙** — Solar unit.  
 - **⨁** — Terran/Earth unit.  
-- **Ƨ** — Spectral Type.  
+- **$\mathcal{S}$** — Spectral Type.  
 - **♃** — Jovian (Jupiter).  
 - **☾** — Lunar (Moon).  
 
@@ -59,5 +59,5 @@ Notation is given in plain text and (where useful) LaTeX form.
 ## 📌 Notes
 - Uppercase (M, R, L, T, Q) reserved for stellar parameters.  
 - Lowercase (m, r, ρ, g, vₑ) reserved for planemos.  
-- Specialized glyphs (Ƨ, ⊙, ⨁, ♃, ☾) used sparingly, only where clarity is improved.  
+- Specialized glyphs ($\mathcal{S}$, ⊙, ⨁, ♃, ☾) used sparingly, only where clarity is improved.  
 - Constants and time units standardized from Vols. 1–2; deprecated or alternate forms tracked in **Symbols Change Log**.  

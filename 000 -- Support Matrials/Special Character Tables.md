@@ -1,4 +1,6 @@
-𝒬
+⊖ ⊝ 𝒬 $P_\blacklozenge$ $P_\circ$ $P_\Box$  $\dots$  $\ddots$   $\Box$  $\blacksquare$ $\tilde{P}$ $P_\mathcal{M}$
+$P_\mathcal{M}$
+
 ̄α β 𝛾 ɣ δ ε ϵ ϶ ζ η θ ɩ κ λ μ ν ξ ο π ϖ ρ σ ς τ ʊ υ φ ϕ χ ѱ ω ɷ ϙ ᶿ ᵠ ᵩ ᶲ
 Α Β Γ Ɣ Δ Ε Ζ Η Θ Ɩ Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Ʊ Υ Φ Χ Ѱ Ω Ϙ ∞
 ð þ Ð Þ ƒ ß £ ¥ ƿ Ƿ ᚹ Ȝ ȝ Ƨ ƨ Ə ə ʼ S Ȝ ȝ ᵹ Ᵹ 𝓁 𝓁 ϐ.
@@ -27,3 +29,7 @@
 𝔼: Expected value              𝕁: Irrational Numbers      ℕ: Natural Numbers         ℙ: Prime Numbers
 ℚ: Rational Numbers       ℝ: Real Numbers                𝕎: Whole Numbers          ℤ: Integers
 𝕄 🄜
+
+
+$P_{\ominus}, \quad S_{\ominus}$ 
+$P_{\circleddash}, \quad S_{\circleddash}$

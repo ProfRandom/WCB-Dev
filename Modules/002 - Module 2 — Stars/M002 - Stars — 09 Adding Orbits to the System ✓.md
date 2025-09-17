@@ -1,6 +1,6 @@
 # Fleshing Out A Star System
 
-We've established spectral classes and types, thermozones, ontozones, habitability indices, and the two critical orbital distances, *nucleal* (*N*) and *perannual* (*A*).
+We've established spectral classes and types, thermozones, ontozones, habitability indices, and the two critical orbital distances, *nucleal* ($\mathcal{N}$) and *perannual* ($\mathcal{P}$).
 
 But planemos don't orbit only at these discreet distances  – they're all over the place.  Here's a breakdown of our own Solar system's planemo orbit data:
 
@@ -71,7 +71,7 @@ r_{i+1} = r_i \cdot ⟨⟨ \text{min} ∧ \text{max} ⟩⟩
 \quad \text{while } r_{i+1} \leq \Omega
 $$
 Where:
-- *B* = basal orbital radius (e.g. the nucleal orbit *N*)
+- *B* = basal orbital radius (e.g. the nucleal orbit $\mathcal{N}$)
 - *Ω* = orbital distance cuttoff (minimum or maximum allowed orbit based on the star system constraints)
 
 ### Usage Strategy

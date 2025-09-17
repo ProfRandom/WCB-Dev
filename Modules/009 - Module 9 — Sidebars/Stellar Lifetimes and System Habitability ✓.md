@@ -28,10 +28,10 @@ Consulting our [[Stellar Thermal Interval Constant Table ✓]]
 Applying our Spectral Class calculation from Kelvin temperature:
 $$
 \begin{align}
-Ƨ &= \dfrac{\kappa - K}{þ} \\ \\
+\mathcal{S} &= \dfrac{\kappa - K}{þ} \\ \\
  &= \dfrac{7500 - 7379}{150} \\ \\
  &= \dfrac{121}{150} \\ \\
-Ƨ &= 0.807 \\ \\
+\mathcal{S} &= 0.807 \\ \\
 \end{align}
 $$So, no Main Sequence star above spectral type F0.81 will have _total Main Sequence lifetime_ long enough to qualify as "habitable".
 

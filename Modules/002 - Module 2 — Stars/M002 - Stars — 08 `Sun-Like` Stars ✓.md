@@ -43,7 +43,7 @@ For thesiastic purposes, our classifications relate directly to the _habitabilit
 ### Calculating The Spectral Types
 Previously, in [[M002 - Stars — 06 Relating the Nucleal and Perannual Orbits ✓]], we established that the _distance_ of the perannual orbit can be approximated by:
 $$
-A = \sqrt[3]{M}
+\mathcal{P} = \sqrt[3]{M}
 $$
 … and in [[M002 - Stars — 07 Fine-tuning Stellar Parameters ✓]], we established the relationship:
 $$
@@ -51,9 +51,9 @@ L = M^{3.8}
 $$
 … which lets us calculate that:
 $$
-A = \sqrt[3]{\sqrt[3.8]{L}} = \sqrt[11.4]{L}
+\mathcal{P} = \sqrt[3]{\sqrt[3.8]{L}} = \sqrt[11.4]{L}
 $$
-In  [[M002 - Stars — 04 Thermozone Orbits ✓]], we established that the thermozone limits are calculated by applying fixed scaling factors to the **nucleal orbit distance** (*N*), which is calculated from the square-root of the luminosity:
+In  [[M002 - Stars — 04 Thermozone Orbits ✓]], we established that the thermozone limits are calculated by applying fixed scaling factors to the **nucleal orbit distance** ($\mathcal{N}$), which is calculated from the square-root of the luminosity:
 
 | Limiting<br>Orbit |   Calculation   |
 | :---------------: | :-------------: |
@@ -65,7 +65,7 @@ In  [[M002 - Stars — 04 Thermozone Orbits ✓]], we established that the therm
 |       $H_5$       | $4.850\sqrt{L}$ |
 This means that we can set:
 $$
-A = \sqrt[11.4]{L} \quad \text{equal to} \quad A = 0.500\sqrt{L}
+\mathcal{P} = \sqrt[11.4]{L} \quad \text{equal to} \quad \mathcal{P} = 0.500\sqrt{L}
 $$
 … and solve for L:
 $$
@@ -95,14 +95,14 @@ $$
 … and we can calculate the spectral class and type:
 $$
 \begin{align}
-Ƨ &= \dfrac{\kappa - K}{þ}
+\mathcal{S} &= \dfrac{\kappa - K}{þ}
 \end{align}
 $$
 Where:
 - K = the star's surface temperature in Kelvin
 - κ = the _upper bound_ temperature of the relevant spectral class
 - þ = the thermal interval constant for the relevant spectral class
-- Ƨ = the spectral *type* number
+- $\mathcal{S}$ = the spectral *type* number
 
 Taken from the table:
 
@@ -122,14 +122,14 @@ Our Kelvin temperature is $7235.97\;K$ which is an F-type star, so
 - κ = 7500
 - þ = 150
 $$
-Ƨ = \dfrac{\kappa - K}{þ} = \dfrac{7500 - 7235.97}{150} = \dfrac{264.03}{150} = 1.76
+\mathcal{S} = \dfrac{\kappa - K}{þ} = \dfrac{7500 - 7235.97}{150} = \dfrac{264.03}{150} = 1.76
 $$
 So the spectral type of a star with a perannual orbit at 0.500 AU is F 1.76 ✓.
 
 ### The Other End Of The Range
 This means that we can set:
 $$
-A = \sqrt[11.4]{L} \quad \text{equal to} \quad A = 4.850\sqrt{L}
+\mathcal{P} = \sqrt[11.4]{L} \quad \text{equal to} \quad \mathcal{P} = 4.850\sqrt{L}
 $$
 … and solve for L:
 $$
@@ -157,7 +157,7 @@ K = 5800T = 5800(0.605) = 3503.85\;K
 $$
 … which is a K-Class star with a $\kappa = 5000 \text{  and  } þ = 150$, from which we can calculate the spectral type by:
 $$
-Ƨ = \dfrac{\kappa - K}{þ} = \dfrac{5000 - 3503.85}{150} = \dfrac{1496.185}{150} = 9.975
+\mathcal{S} = \dfrac{\kappa - K}{þ} = \dfrac{5000 - 3503.85}{150} = \dfrac{1496.185}{150} = 9.975
 $$
 So the spectral type of a star with a perannual orbit at $4.850$ AU is K9.975 ✓.
 

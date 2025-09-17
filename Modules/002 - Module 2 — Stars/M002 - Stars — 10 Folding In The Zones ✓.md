@@ -48,7 +48,7 @@ $$
 L &= 0.696 \\
 T &= \sqrt[7.6]{L} = \sqrt[7.6]{0.696} = 0.953\odot \\
 K &= 5800T = 5800(0.953) = 5529.92 \quad \text{Spectral Class G: κ = 6000; þ = 100} \\[2em]
-Ƨ &= \dfrac{\kappa - K}{100} = \dfrac{6000 - 5529.92}{100} = \dfrac{470.08}{100} = 4.701\\
+\mathcal{S} &= \dfrac{\kappa - K}{100} = \dfrac{6000 - 5529.92}{100} = \dfrac{470.08}{100} = 4.701\\
 \end{align}
 $$
 The spectral type of our star is $G4.701$.

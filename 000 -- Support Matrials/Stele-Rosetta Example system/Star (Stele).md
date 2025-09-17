@@ -6,7 +6,7 @@
 - **Luminosity:** 1.884⊙
 - **Lifetime:** 0.6623⊙; 6.623 Ga
 - **Spectral Type:** F7.97V
-- **Nucleal Orbit:** 1.3725 AU
+- **Nucleal Orbit:** $\mathcal{N} = 1.3725$ AU
 	- **Thermozones:**
 		- $H_0$: 0.686
 		- $H_1$: 1.029
@@ -14,7 +14,7 @@
 		- $H_3$: 1.901
 		- $H_4$: 2.429
 		- $H_5$: 6.657
-- **Perannual Orbit:** 1.0571 AU
+- **Perannual Orbit:** $\mathcal{P} = 1.0571$ AU
 	- **OHI:** 54.04%
 - **ISL:** 0.011 — 0.016 AU
 - **$\mathbf{CVL_?}$:**
@@ -45,7 +45,7 @@ a &= 1.3725\; AU
 $$
 And since
 $$
-N = a\;\text{and}\; L = N^2
+\mathcal{N} = a\;\text{and}\; L = \mathcal{N}^2
 $$
 … then
 $$
@@ -81,7 +81,7 @@ $K = 6304$ — Spectral class F; $TIC = 150$
 
 $$
 \begin{align}
-Ƨ &= \dfrac{\kappa - K}{þ} \\ \\
+\mathcal{S} &= \dfrac{\kappa - K}{þ} \\ \\
  &= \dfrac{7500 - 6304}{150} \\ \\
  &= \dfrac{1196}{150} = 7.97
 \end{align}
@@ -114,13 +114,13 @@ M = T^2 = 1.0869 = 1.181⊙
 $$
 … so, Stele's _perannual orbit_:
 $$
-A = \sqrt[3]{M} = \sqrt[3]{1.181} = 1.0571\;AU
+\mathcal{P} = \sqrt[3]{M} = \sqrt[3]{1.181} = 1.0571\;AU
 $$
 
 
-For instance, if Rosetta's orbit is $0.86N$, then
+For instance, if Rosetta's orbit is $0.86\mathcal{N}$, then
 $$
-N = \frac{1}{0.86} = 1.1628\; AU
+\mathcal{N} = \frac{1}{0.86} = 1.1628\; AU
 $$
 $$
 L_{Stele} = 1.1628^2 = 1.3521⊙
@@ -139,7 +139,7 @@ $K = 6035$ — Spectral class F; $TIC = 150$
 
 $$
 \begin{align}
-Ƨ &= \dfrac{\kappa - K}{þ} \\ \\
+\mathcal{S} &= \dfrac{\kappa - K}{þ} \\ \\
  &= \dfrac{7500 - 6035}{150} \\ \\
  &= \dfrac{1465}{150} = 9.77
 \end{align}

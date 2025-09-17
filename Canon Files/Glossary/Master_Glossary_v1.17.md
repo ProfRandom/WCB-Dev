@@ -63,12 +63,12 @@ Each entry is tagged according to its origin in the WBN lexicon:
 
 ### New Neolexes (Stars 03–09)
 
-- **Nucleal Orbit (N)** — Orbital distance where a planemo receives the same irradiance Earth receives from the Sun at 1 AU. $N = \sqrt{L}$.  
+- **Nucleal Orbit ($\mathcal{N}$)** — Orbital distance where a planemo receives the same irradiance Earth receives from the Sun at 1 AU. $\mathcal{N} = \sqrt{L}$.  
 - **Ontozones** — Orbital classification framework scaled to multiples of N.  
 - **Frost Line (ϝ)** — Orbital distance beyond which liquid water cannot persist. In WBN defined as $a = 4.850N$.  
 - **Thermozones** — WBN naming system for irradiance zones.  
 - **Thermozone Limit Notation (H₀–H₅)** — Reference shorthand for thermozone boundaries.  
-- **Perannual Orbit (A)** — Orbital distance where a planemo completes one sidereal Earth year (365.256 days).  
+- **Perannual Orbit ($\mathcal{P}$)** — Orbital distance where a planemo completes one sidereal Earth year (365.256 days).  
 - **Solar Analogs** — Stars whose perannual orbits fall within ⟨0.500–4.850⟩ AU (F2–K9).  
 - **Solar Cognates** — Stars whose perannual orbits fall within ⟨0.750–1.770⟩ AU (F7.62–K1.11).  
 - **Solar Twins** — Stars whose perannual orbits fall within ⟨0.950–1.385⟩ AU (G1.04–G7.73).  

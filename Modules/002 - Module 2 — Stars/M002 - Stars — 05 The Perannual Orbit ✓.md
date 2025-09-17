@@ -13,7 +13,7 @@ $$
 > 
 > Please see [[Units and Measures of Time ✓]] for a more in-depth discussion of this topic.
 
-We denote the perannual year as *A*, and its location in the star system _is not constant_ (the same as the *nucleal orbit* (*N*) but is _determined_ by the mass of the star(s), and – to a small but measurable degree – by the mass of the planemo.
+We denote the perannual year as $\mathcal{P}$, and its location in the star system _is not constant_ (the same as the *nucleal orbit* ($\mathcal{N}$) but is _determined_ by the mass of the star(s), and – to a small but measurable degree – by the mass of the planemo.
 
 Please see [[M002 - Stars — 06 Relating the Nucleal and Perannual Orbits ✓]] for an in-depth exploration of this relationship.
 
@@ -73,10 +73,10 @@ a = \sqrt[3]{M+m}
 $$
 … such that the distance of the orbit is simply the cube-root of the sum of the masses.
 
-For clarity, we denote the _distance_ of the perannual orbit with an *A* (for _anno_), so our equation becomes:
+For clarity, we denote the _distance_ of the perannual orbit with a $\mathcal{P}$ (for _perannual_), so our equation becomes:
 $$
 \begin{align}
-A &= \sqrt[3]{M+m} &&\text{When taking into account both masses} \\
-A &= \sqrt[3]{M} &&\text{When using only the central mass} \\
+\mathcal{P} &= \sqrt[3]{M+m} &&\text{When taking into account both masses} \\
+\mathcal{P} &= \sqrt[3]{M} &&\text{When using only the central mass} \\
 \end{align}
 $$

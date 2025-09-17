@@ -84,7 +84,7 @@ Each entry is tagged according to its origin in the WBN lexicon:
   - Igniozone (←0.500N), Calorozone (0.500–0.750N), Heliozone (0.750–0.950N), Solarazone (0.950–1.385N), Hiberozone (1.385–1.770N), Brumazone (1.770–4.850N), Cryozone (→4.850N).  
 - **Thermozone Limit Notation (H₀–H₅)** — Reference shorthand for Thermozone boundaries:  
   - $H_0 = 0.500N$, $H_1 = 0.750N$, $H_2 = 0.950N$, $H_3 = 1.385N$, $H_4 = 1.770N$, $H_5 = 4.850N$.  
-- **Perannual Orbit (A)** — Orbital distance where a planemo completes one sidereal Earth year (365.256 days). $A = \sqrt[3]{M+m}$.  
+- **Perannual Orbit ($\mathcal{P}$)** — Orbital distance where a planemo completes one sidereal Earth year (365.256 days). $\mathcal{P} = \sqrt[3]{M+m}$.  
 - **Solar Analogs** — Stars whose perannual orbits fall within ⟨0.500–4.850⟩ AU (F2–K9).  
 - **Solar Cognates** — Stars whose perannual orbits fall within ⟨0.750–1.770⟩ AU (F7.62–K1.11).  
 - **Solar Twins** — Stars whose perannual orbits fall within ⟨0.950–1.385⟩ AU (G1.04–G7.73).  

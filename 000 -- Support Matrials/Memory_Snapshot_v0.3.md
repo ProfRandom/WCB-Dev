@@ -20,7 +20,7 @@ Use with the **Master Thread Index** to sync up a new ChatGPT session if needed.
 
 ## 🔣 Symbols
 - Current version: **Symbols_Index_v0.2.md**  
-- Includes: stellar (M, R, L, T, Q), planemo (m, r, ρ, g, vₑ), orbital/synodial (Σ, Θ, Y₀, Ψ), units/constants (⊙, ⨁, Ƨ, ♃, ☾, AU, c, π, σ, φ, Φ).  
+- Includes: stellar (M, R, L, T, Q), planemo (m, r, ρ, g, vₑ), orbital/synodial (Σ, Θ, Y₀, Ψ), units/constants (⊙, ⨁, $\mathcal{S}$, ♃, ☾, AU, c, π, σ, φ, Φ).  
 - Change Log: **Symbols_Change_Log_v0.2.md** (e.g., Y0 → Y₀, m → n for months).  
 
 ## 📊 Coverage

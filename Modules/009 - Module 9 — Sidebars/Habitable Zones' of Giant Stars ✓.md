@@ -8,7 +8,7 @@ Thus, were Aldebaran to replace the Sun in the Solar system, its surface would f
 
 >Aldebaran’s true mass is measured at $1.16 M⊙$​. If, however, we incorrectly applied the main-sequence radius–mass scaling, we’d get $M \approx 67.34⊙$\​; the main-sequence luminosity–mass scaling would give $M \approx 4.959⊙$​. Both are wildly wrong — illustrating why Main Sequence relations must only be applied to Main Sequence stars; using them on evolved stars like Aldebaran gives wildly misleading results.
 
-Using Aldebaran's correct (measured) mass value, its perannual orbit falls at $A =\sqrt[3]{1.16} = 1.051$ AU, which is only $0.845$ AU beyond the star’s surface.
+Using Aldebaran's correct (measured) mass value, its perannual orbit falls at $\mathcal{P} =\sqrt[3]{1.16} = 1.051$ AU, which is only $0.845$ AU beyond the star’s surface.
 
 Aldebaran’s habitable zone limits and nucleal orbit calculate to be:
 $$
@@ -24,7 +24,7 @@ H_5 = 4.850\sqrt{439} = 101.619 \\
 $$
 The orbital period of the nucleal orbit is:
 $$
-P = \sqrt{\dfrac{20.952^3}{1.16}} = \sqrt{\dfrac{9197.94}{1.16}} = \sqrt{7929} = 89.05 \text{ years}
+\mathcal{N}_p = \sqrt{\dfrac{20.952^3}{1.16}} = \sqrt{\dfrac{9197.94}{1.16}} = \sqrt{7929} = 89.05 \text{ years}
 $$
 … or about $54\%$ of Neptune's orbital period.
 
@@ -59,7 +59,7 @@ H_5 &= 4.850\sqrt{3.168 \times 10^6} = 8632.46 \quad \text{(almost 14\% of a lig
 $$
 … but a perannual orbit of only
 $$
-A = \sqrt[3]{M} = \sqrt[3]{200} = 5.848\;\text{AU}
+\mathcal{P} = \sqrt[3]{M} = \sqrt[3]{200} = 5.848\;\text{AU}
 $$
 … which is **18.152 AU _inside_** the minimum estimated 24 AU radius of such a star.
 
@@ -78,7 +78,7 @@ H_5 &= 4.850\sqrt{440000} = 3217.13 \\
 $$
 … and a perannual orbit of:
 $$
-A = \sqrt[3]{M} = \sqrt[3]{45} = 3.557\;\text{AU}
+\mathcal{P} = \sqrt[3]{M} = \sqrt[3]{45} = 3.557\;\text{AU}
 $$
 … 6.442 AU _inside_ the radius of the star.
 

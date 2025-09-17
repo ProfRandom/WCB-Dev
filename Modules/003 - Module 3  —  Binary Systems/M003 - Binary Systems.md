@@ -28,7 +28,7 @@ These are related through a series of equations which may seem daunting at first
 ### Primary Dimensions
 $$
 \begin{align}
-P_{avg} &= \mathcal{A}\left(\dfrac{M_s}{M_p+M_s}\right) \\[1em]
+P_{avg} &= \mathcal{A} \cdot\dfrac{S_{mass}}{P_{mass}+S_{mass}} \\[1em]
 P_{min} &= P_{avg}(1 - e) \\[1em]
 P_{max} &= P_{avg}(1 + e)\\[1em]
 \end{align}
@@ -36,7 +36,7 @@ $$
 ### Secondary Dimensions
 $$
 \begin{align}
-S_{avg} &= \mathcal{A}\left(\dfrac{M_p}{M_p+M_s}\right) \\[1em]
+S_{avg} &= \mathcal{A} \cdot\dfrac{P_{mass}}{P_{mass}+S_{mass}} \\[1em]
 S_{min} &= S_{avg}(1 - e) \\[1em]
 S_{max} &= S_{avg}(1 + e)\\[1em]
 \end{align}
@@ -46,27 +46,14 @@ $$
 $$
 \begin{align}
 T_{min} &= \mathcal{A}(1 - e)
-= P_{min} + S_{min} \\[0.5em]
-&= \mathcal{A}\left(\dfrac{1 - e}{1 + e}\right)
-= P_{min}\left(\dfrac{M_p}{M_s} + 1\right)
-= S_{min}\left(\dfrac{M_s}{M_p} + 1\right) \\[0.5em]
+= P_{min} + S_{min} = T_{max}\left(\dfrac{1 - e}{1 + e}\right) \\
 T_{max} &= \mathcal{A}(1 + e)
-= P_{max} + S_{max} \\[0.5em]
-&= \mathcal{A}\left(\dfrac{1 + e}{1 - e}\right)
-= P_{max}\left(\dfrac{M_p}{M_s} + 1\right)
-= S_{max}\left(\dfrac{M_s}{M_p} + 1\right) \\[0.5em]
+= P_{max} + S_{max} = T_{min}\left(\dfrac{1 + e}{1 - e}\right) \\
 \mathcal{A} &= \dfrac{T_{min}}{1 - e}
 = \dfrac{T_{max}}{1 + e}
 = P_{avg} + S_{avg}\\[0.5em]
-&= P_{avg}\left(\dfrac{M_p}{M_s} + 1\right) 
-= S_{avg}\left(\dfrac{M_s}{M_p} + 1\right) \\[0.5em]
-&= P_{min}\left(\dfrac{M_p + M_s}{M_s (1 - e)}\right)
-= P_{max}\left(\dfrac{M_p + M_s}{M_s (1 + e)}\right) \\[0.5em]
-&= S_{min}\left(\dfrac{M_p + M_s}{M_p (1 - e)}\right)
-= S_{max}\left(\dfrac{M_p + M_s}{M_p (1 + e)}\right)
 \end{align}
 $$
-
 ### Eccentricity Relationships
 In the equations below a subscript dot $_{\bullet}$ means any two matching parameters; e.g. if $Max_{\bullet} - Min{\bullet}$ means any maximum value minus any minimum value of the same, such as $P_{max} - P_{min}$ .
 #### System Eccentricity
@@ -75,21 +62,23 @@ $$
 e &= \dfrac{Max_\bullet - Min_{\bullet}}{Max_\bullet + Min_{\bullet}}
 = 1 - \left[\dfrac{Min_{\bullet}}{Avg_{\bullet}}\right]
 = \left[\dfrac{Max_{\bullet}}{Avg_{\bullet}}\right] - 1 \\[1em]
-&= \dfrac{P_{max}(M_p + M_s)}{M_s \mathcal{A}} - 1 = 1 - \dfrac{P_{min}(M_p + M_s)}{M_s \mathcal{A}} \\[1em]
-&= \dfrac{S_{max}(M_p + M_s)}{M_p \mathcal{A}} - 1 = 1 - \dfrac{S_{min}(M_p + M_s)}{M_p \mathcal{A}} \\[1em]
+&= \left(P_{max} \cdot \dfrac{P_{mass} + S_{mass}}{\mathcal{A} \cdot S_{mass}}\right) - 1
+= 1 - \left(P_{min} \cdot \dfrac{P_{mass} + S_{mass}}{\mathcal{A} \cdot S_{mass}}\right) \\[1em]
+&= \left(S_{max} \cdot \dfrac{P_{mass} + S_{mass}}{\mathcal{A} \cdot P_{mass}}\right) - 1
+= 1 - \left(S_{min} \cdot \dfrac{P_{mass} + S_{mass}}{\mathcal{A} \cdot P_{mass}}\right) \\[1em]
 \end{align}
 $$
 #### Crossing Orbit Parameter
 The circle $_{\circ}$ subscript is used to indicate expressions in which all terms share the **same positional magnitude** (e.g., max, min, or average), regardless of parameter type.
 $$
 \begin{align}
-\acute{e} = \dfrac{M_p - M_s}{M_p + M_s}
+\acute{e} = \dfrac{P_{mass} - S_{mass}}{P_{mass} + S_{mass}}
 = \dfrac{|S_{\circ} - P_{\circ}|}{S_{\circ} + P_{\circ}} 
-= \dfrac{|S_{\circ} - P_{\circ}|}{T_{\circ}} \\[1em]
-\text{Where } \frac{M_s}{M_p} = 0.8, \acute{e} ≥ 0.8519
+= \dfrac{|S_{\circ} - P_{\circ}|}{T_{\circ}}
 \end{align}
 $$
-$é$ (e-prime) is the system eccentricity value at which the orbits of the stars become *_adjoined tangential_* $(e \gt 0; M_p \neq M_s)$
+- $é$ (e-prime) is the system eccentricity value at which the orbits of the stars become *_adjoined tangential_* $(e \gt 0; P_{mass} \neq S_{mass})$
+- For a mass ratio of $^{S_{mass}}/_{P_{mass}} = 0.8$, the system requires $\acute{e} \geq 0.8519$ for the primary and secondary orbits to adjoin tangentially.
 #### Limiting Eccentricity
 $$
 \begin{align}
@@ -97,7 +86,7 @@ $$
 T_{max} \geq 0.100\left(\dfrac{1 + \bar{e}}{1 - \bar{e}}\right)
 \end{align}
 $$
-$ē$ (e-bar) is the largest system eccentricity that can be used with a given $T_{max}$ , while ensuring that $T_{min} ≥ 0.100$.
+- $ē$ (e-bar) is the largest system eccentricity that can be used with a given $T_{max}$ , while ensuring that $T_{min} ≥ 0.100$.
 #### System Limiting Parameter ($T_{lim}$)
 The $T_{lim}$ parameter is closest any object can orbit to the system barycenter, and is simply defined as:
 $$
@@ -106,27 +95,77 @@ $$
 … 4 times the system $T_{max}$ parameter.
 #### Forbidden Eccentricity
 $$
-\begin{align}
+\begin{gather}
 e_\times \leq \dfrac{B_0 - T_{lim}}{B_0 + T_{lim}} \quad | \quad 
-e_\times \leq \dfrac{B_A - T_{lim}}{B_A + T_{lim}} \quad | \quad 
-e_\times \leq \dfrac{B_N - T_{lim}}{B_N + T_{lim}}
-\end{align}
+e_\times \leq \dfrac{B_\mathcal{P} - T_{lim}}{B_\mathcal{P} + T_{lim}} \quad | \quad 
+e_\times \leq \dfrac{B_\mathcal{N} - T_{lim}}{B_\mathcal{N} + T_{lim}} \\[1em]
+T_{lim} = 4 T_{max} = 4 \mathcal{A}(1 + e) = 4 T_{min}\left(\dfrac{1 + e}{1 - e}\right)
+\end{gather}
 $$
-Where:
-- $T_{lim} = 4 T_{max} = 4 \mathcal{A}(1 - e) = 4 T_{min}\left(\dfrac{1 + e}{1 - e}\right)$
-$X_e$ is the largest system eccentricity that can be used with a given $T_{min}$ , ensuring that either the innermost habitable orbit ($B_0$), the perannual orbit (*A*), or the nucleal orbit (*N*) lies beyond $T_{lim}$.
+- $e_\times$ is the largest system eccentricity that can be used with a given $T_{min}$ , ensuring that either the innermost habitable orbit ($B_0$), the perannual orbit ($\mathcal{P}$), or the nucleal orbit ($\mathcal{N}$) lies beyond $T_{lim}$.
 
 #### Quarles' Stability Limit
 $$
 \begin{align}
-\mathcal{Q}_L = 0.08 \mathcal{A} = 0.08\left(\dfrac{T_{min}}{1 - e}\right) \quad | \quad e = 1 - 0.08\left(\dfrac{T_{min}}{\mathcal{Q}_L}\right)
+\mathcal{Q}_L &= 0.08 \mathcal{A} = 0.08\left(\dfrac{T_{min}}{1 - e}\right) \\[1em]
+e &= 1 - 0.08\left(\dfrac{T_{min}}{\mathcal{Q}_L}\right)
 \end{align}
 $$
-$\mathcal{Q}_L$ is the maximum distance a planemo can orbit either star in a wide-binary system.
+- $\mathcal{Q}_L$ is the maximum distance a planemo can orbit either star in a wide-binary system.
 #### Quarles' Eccentricity Limit
 $$
 \mathcal{Q}_e = 0.92
 $$
-$\mathcal{Q}_e$ is the maximum eccentricity a wide-binary system can have while keeping $T_{min} ≥ \mathcal{Q}_L$.
+- $\mathcal{Q}_e$ is the maximum eccentricity a wide-binary system can have while keeping $T_{min} ≥ \mathcal{Q}_L$.
+
+# Relative Orbit of the Secondary
+There are times (such as when the Secondary is much less massive than the Primary — typically $\frac{M_{star}}{m_{planet}} \gtrsim 4000$, the approximate star/brown dwarf mass dividing line — it is convenient to treat the Primary as stationary and the Secondary as following the relative orbit alone.  Therefore,
+$$
+\begin{gather}
+R_{min} = T_{min} \\[0.5em]
+R_{avg} = \mathcal{A} \\[0.5em]
+R_{max} = T_{max} \\
+\end{gather}
+$$
+For instance, in the case of the Earth-Sun system:
+$$
+\begin{align}
+\mathcal{A} &= 1.0 AU \\[0.5em]
+P_{avg} &= \mathcal{A} \cdot\dfrac{S_{mass}}{P_{mass}+S_{mass}} \\[1em]
+&= 1.0 \cdot \frac{1}{333000+1} \\[1em]
+&= 1.0 \cdot \frac{1}{333001} = 3.009299 \times 10^{-6} AU \\[1.5em]
+1 \text{ AU } &= 1.496 \times 10^6 \text{ km} \\
+\therefore P_{avg} &= 3.009299 \times 10^{-6} \times 1.496 \times 10^8 ≈ 449 \text{ km}  
+\end{align}
+$$
+
+Considering that the Sun’s radius is $696{,}340$ km, a wobble of only ≈450 km ($\approx 0.065\%$) is justifiably negligible.
+
+# Barycentrics
+$$
+\begin{align}
+B_{min} &= \mathcal{A} \cdot \frac{S_{mass} (1 - e)}{P_{mass} + S_{mass}} \\[0.5em]
+&= B_{avg}(1 - e) \\[1em]
+B_{avg} &= \mathcal{A} \cdot \frac{S_{mass}}{P_{mass} + S_{mass}} \\[1em]
+B_{max} &= \mathcal{A} \cdot \frac{S_{mass} (1 + e)}{P_{mass} + S_{mass}} \\[0.5em]
+&= B_{avg}(1 + e)
+\end{align}
+$$
+These equations are useful when working with a planet-moon or double-planet system where the two masses are closer to parity.  It becomes simpler to think of the two bodies as stationary and the barycenter as orbiting between then (***there will be several illustrations making this abundantly clear***)
+
+# Constant Equalities
+$$
+\begin{align}
+&\frac{S_\circ}{P_\circ} = \frac{P_{mass}}{S_{mass}} \qquad
+&&\frac{P_\circ}{S_\circ} = \frac{S_{mass}}{P_{mass}} \\[1em]
+&\frac{P_\circ}{T_\circ} = \frac{S_{mass}}{P_{mass} + S_{mass}}   \qquad
+&&\frac{S_\circ}{T_\circ} = \frac{P_{mass}}{P_{mass} + S_{mass}} \\[1em]
+&\frac{T_\circ}{P_\circ} = \frac{P_{mass}}{S_{mass}} + 1   \qquad
+&&\frac{T_\circ}{S_\circ} = \frac{S_{mass}}{P_{mass}} + 1 \\[3em]
+&\frac{Min_\bullet}{Max_\bullet} = \frac{1 - e}{1 + e} \qquad
+&&\frac{Max_\bullet}{Min_\bullet} = \frac{1 + e}{1 - e}
+\end{align}
+$$
+
 
 
