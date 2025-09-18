@@ -44,24 +44,25 @@ $$
 ### Total (Overall) Dimensions
 
 $$
-\begin{align}
-T_{min} &= \mathcal{A}(1 - e)
+\begin{gather}
+T_{min} = \mathcal{A}(1 - e)
 = P_{min} + S_{min} = T_{max}\left(\dfrac{1 - e}{1 + e}\right) \\
-T_{max} &= \mathcal{A}(1 + e)
+T_{max} = \mathcal{A}(1 + e)
 = P_{max} + S_{max} = T_{min}\left(\dfrac{1 + e}{1 - e}\right) \\
-\mathcal{A} &= \dfrac{T_{min}}{1 - e}
+\mathcal{A} = \dfrac{T_{min}}{1 - e}
 = \dfrac{T_{max}}{1 + e}
 = P_{avg} + S_{avg}\\[0.5em]
-\end{align}
+\end{gather}
 $$
+
 ### Eccentricity Relationships
 In the equations below a subscript dot $_{\bullet}$ means any two matching parameters; e.g. if $Max_{\bullet} - Min{\bullet}$ means any maximum value minus any minimum value of the same, such as $P_{max} - P_{min}$ .
 #### System Eccentricity
 $$
 \begin{align}
 e &= \dfrac{Max_\bullet - Min_{\bullet}}{Max_\bullet + Min_{\bullet}}
-= 1 - \left[\dfrac{Min_{\bullet}}{Avg_{\bullet}}\right]
-= \left[\dfrac{Max_{\bullet}}{Avg_{\bullet}}\right] - 1 \\[1em]
+= \left[1 - \dfrac{Min_{\bullet}}{Avg_{\bullet}}\right]
+= \left[\dfrac{Max_{\bullet}}{Avg_{\bullet}} - 1\right] \\[1em]
 &= \left(P_{max} \cdot \dfrac{P_{mass} + S_{mass}}{\mathcal{A} \cdot S_{mass}}\right) - 1
 = 1 - \left(P_{min} \cdot \dfrac{P_{mass} + S_{mass}}{\mathcal{A} \cdot S_{mass}}\right) \\[1em]
 &= \left(S_{max} \cdot \dfrac{P_{mass} + S_{mass}}{\mathcal{A} \cdot P_{mass}}\right) - 1
