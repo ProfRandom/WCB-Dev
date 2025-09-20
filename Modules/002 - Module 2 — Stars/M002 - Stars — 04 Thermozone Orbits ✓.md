@@ -15,15 +15,15 @@ I'm glad you asked; it's based on how much energy (irradiance) the planemo recei
 ### The Thermozones
 For ease of remembering these zones and their ontosomic characteristics we use the **thermozone** naming system:
 
-| Thermozone |  Orbital Range   | <center>Ontozones</center> | Notation |                       |
-| :--------- | :--------------: | -------------------------- | -------- | --------------------- |
-| Igniozone  |     ← 0.500N     | Inner Xenotic Zone         | $Z_{IX}$ | "Desert planemo Zone"  |
-| Calorozone | ⟨0.500 ∧ 0.750⟩N | Inner Parahabitable Zone   | $Z_{IP}$ |                       |
-| Heliozone  | ⟨0.750 ∧ 0.950⟩N | Inner Habitable Zone       | $Z_{IH}$ |                       |
-| Solarazone | ⟨0.950 ∧ 1.385⟩N | Hospitable Zone            | $Z_{H}$  |                       |
-| Hiberozone | ⟨1.385 ∧ 1.770⟩N | Outer Habitable Zone       | $Z_{OH}$ |                       |
-| Brumazone  | ⟨1.770 ∧ 4.850⟩N | Outer Parahabitable Zone   | $Z_{OP}$ |                       |
-| Cryozone   |     4.850N →     | Outer Xenotic Zone         | $Z_{OX}$ | "Glacier planemo Zone" |
+| Thermozone |        Orbital Range         | <center>Ontozones</center> | Notation |                        |
+| :--------- | :--------------------------: | -------------------------- | -------- | ---------------------- |
+| Igniozone  |     ← 0.500$\mathcal{N}$     | Inner Xenotic Zone         | $Z_{IX}$ | "Desert planemo Zone"  |
+| Calorozone | ⟨0.500 ∧ 0.750⟩$\mathcal{N}$ | Inner Parahabitable Zone   | $Z_{IP}$ |                        |
+| Heliozone  | ⟨0.750 ∧ 0.950⟩$\mathcal{N}$ | Inner Habitable Zone       | $Z_{IH}$ |                        |
+| Solarazone | ⟨0.950 ∧ 1.385⟩$\mathcal{N}$ | Hospitable Zone            | $Z_{H}$  |                        |
+| Hiberozone | ⟨1.385 ∧ 1.770⟩$\mathcal{N}$ | Outer Habitable Zone       | $Z_{OH}$ |                        |
+| Brumazone  | ⟨1.770 ∧ 4.850⟩$\mathcal{N}$ | Outer Parahabitable Zone   | $Z_{OP}$ |                        |
+| Cryozone   |     4.850$\mathcal{N}$ →     | Outer Xenotic Zone         | $Z_{OX}$ | "Glacier planemo Zone" |
 These names are derived from:
 - **Igniozone**: Latin *ignis*, "fire"
 - **Calorozone**: Latin *calor*, "hot, heat"
@@ -39,26 +39,26 @@ These names are derived from:
 #### Thermozone Limit Notation
 For ease of reference, the limiting orbital distances of the thermozones are denoted by an *H* accompanied by a subscript:
 
-| Notation | Orbital Distance |
-| :--------: | :----------------: |
-| H₀       | 0.500N           |
-| H₁       | 0.750N           |
-| H₂       | 0.950N           |
-| H₃       | 1.385N           |
-| H₄       | 1.770N           |
-| H₅       | 4.850N           |
+| Notation |  Orbital Distance  |
+| :------: | :----------------: |
+| H₀       | 0.500$\mathcal{N}$ |
+| H₁       | 0.750$\mathcal{N}$ |
+| H₂       | 0.950$\mathcal{N}$ |
+| H₃       | 1.385$\mathcal{N}$ |
+| H₄       | 1.770$\mathcal{N}$ |
+| H₅       | 4.850$\mathcal{N}$ |
 Adding these to our earlier table:
 
-| <center>Thermozone</center> | <center>Zone<br>Limits</center> | <center>Orbital<br>Range</center><br> | <center>Ontozones</center> | Notation |                      |
-| --------------------------- | :-----------------------------: | :-----------------------------------: | -------------------------- | -------- | -------------------- |
-| Igniozone                   |              ← H₀               |               ← 0.500N                | Inner Xenotic Zone         | $Z_{IX}$ | "Desert planemo Zone" |
-| Calorozone                  |            ⟨H₀ ∧ H₁⟩            |           ⟨0.500 ∧ 0.750⟩N            | Inner Parahabitable Zone   | $Z_{IP}$ |                      |
-| Heliozone                   |            ⟨H₁ ∧ H₂⟩            |           ⟨0.750 ∧ 0.950⟩N            | Inner Habitable Zone       | $Z_{IH}$ |                      |
-| Solarazone                  |            ⟨H₂ ∧ H₃⟩            |           ⟨0.950 ∧ 1.385⟩N            | Hospitable Zone            | $Z_{H}$  |                      |
-| Hiberozone                  |            ⟨H₃ ∧ H₄⟩            |           ⟨1.385 ∧ 1.770⟩N            | Outer Habitable Zone       | $Z_{OH}$ |                      |
-| Brumazone                   |            ⟨H₄ ∧ H₅⟩            |           ⟨1.770 ∧ 4.850⟩N            | Outer Parahabitable Zone   | $Z_{OP}$ |                      |
-| Cryozone                    |              H₅ →               |               4.850N →                | Outer Xenotic Zone         | $Z_{OX}$ | "Glaci planemo Zone"  |
+| <center>Thermozone</center> | <center>Zone<br>Limits</center> | <center>Orbital<br>Range</center><br> | <center>Ontozones</center> | Notation |                       |
+| --------------------------- | :-----------------------------: | :-----------------------------------: | -------------------------- | -------- | --------------------- |
+| Igniozone                   |              ← H₀               |         ← 0.500$\mathcal{N}$          | Inner Xenotic Zone         | $Z_{IX}$ | "Desert planemo Zone" |
+| Calorozone                  |            ⟨H₀ ∧ H₁⟩            |     ⟨0.500 ∧ 0.750⟩$\mathcal{N}$      | Inner Parahabitable Zone   | $Z_{IP}$ |                       |
+| Heliozone                   |            ⟨H₁ ∧ H₂⟩            |     ⟨0.750 ∧ 0.950⟩$\mathcal{N}$      | Inner Habitable Zone       | $Z_{IH}$ |                       |
+| Solarazone                  |            ⟨H₂ ∧ H₃⟩            |     ⟨0.950 ∧ 1.385⟩$\mathcal{N}$      | Hospitable Zone            | $Z_{H}$  |                       |
+| Hiberozone                  |            ⟨H₃ ∧ H₄⟩            |     ⟨1.385 ∧ 1.770⟩$\mathcal{N}$      | Outer Habitable Zone       | $Z_{OH}$ |                       |
+| Brumazone                   |            ⟨H₄ ∧ H₅⟩            |     ⟨1.770 ∧ 4.850⟩$\mathcal{N}$      | Outer Parahabitable Zone   | $Z_{OP}$ |                       |
+| Cryozone                    |              H₅ →               |         4.850$\mathcal{N}$ →          | Outer Xenotic Zone         | $Z_{OX}$ | "Glaci planemo Zone"  |
 This gives us a very robust way of discussing orbital distances in any star system.
 
-Note that the *nucleal orbit*, being always $N = 1.0N$, always falls within the Solarazone.  In fact, it always falls at 11.49% _into_ the Solarazone from its inner edge.
+Note that the *nucleal orbit*, being always $\mathcal{N} = 1.0N$, always falls within the Solarazone.  In fact, it always falls at 11.49% _into_ the Solarazone from its inner edge.
 

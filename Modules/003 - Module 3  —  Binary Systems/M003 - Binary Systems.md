@@ -28,7 +28,7 @@ These are related through a series of equations which may seem daunting at first
 ### Primary Dimensions
 $$
 \begin{align}
-P_{avg} &= \mathcal{A} \cdot\dfrac{S_{mass}}{P_{mass}+S_{mass}} \\[1em]
+P_{avg} &= \mathcal{A} \cdot\dfrac{M_S}{M_P+M_S} \\[1em]
 P_{min} &= P_{avg}(1 - e) \\[1em]
 P_{max} &= P_{avg}(1 + e)\\[1em]
 \end{align}
@@ -36,7 +36,7 @@ $$
 ### Secondary Dimensions
 $$
 \begin{align}
-S_{avg} &= \mathcal{A} \cdot\dfrac{P_{mass}}{P_{mass}+S_{mass}} \\[1em]
+S_{avg} &= \mathcal{A} \cdot\dfrac{M_P}{M_P+M_S} \\[1em]
 S_{min} &= S_{avg}(1 - e) \\[1em]
 S_{max} &= S_{avg}(1 + e)\\[1em]
 \end{align}
@@ -63,23 +63,23 @@ $$
 e &= \dfrac{Max_\bullet - Min_{\bullet}}{Max_\bullet + Min_{\bullet}}
 = \left[1 - \dfrac{Min_{\bullet}}{Avg_{\bullet}}\right]
 = \left[\dfrac{Max_{\bullet}}{Avg_{\bullet}} - 1\right] \\[1em]
-&= \left(P_{max} \cdot \dfrac{P_{mass} + S_{mass}}{\mathcal{A} \cdot S_{mass}}\right) - 1
-= 1 - \left(P_{min} \cdot \dfrac{P_{mass} + S_{mass}}{\mathcal{A} \cdot S_{mass}}\right) \\[1em]
-&= \left(S_{max} \cdot \dfrac{P_{mass} + S_{mass}}{\mathcal{A} \cdot P_{mass}}\right) - 1
-= 1 - \left(S_{min} \cdot \dfrac{P_{mass} + S_{mass}}{\mathcal{A} \cdot P_{mass}}\right) \\[1em]
+&= \left(P_{max} \cdot \dfrac{M_P + M_S}{\mathcal{A} \cdot M_S}\right) - 1
+= 1 - \left(P_{min} \cdot \dfrac{M_P + M_S}{\mathcal{A} \cdot M_S}\right) \\[1em]
+&= \left(S_{max} \cdot \dfrac{M_P + M_S}{\mathcal{A} \cdot M_P}\right) - 1
+= 1 - \left(S_{min} \cdot \dfrac{M_P + M_S}{\mathcal{A} \cdot M_P}\right) \\[1em]
 \end{align}
 $$
 #### Crossing Orbit Parameter
 The circle $_{\circ}$ subscript is used to indicate expressions in which all terms share the **same positional magnitude** (e.g., max, min, or average), regardless of parameter type.
 $$
 \begin{align}
-\acute{e} = \dfrac{P_{mass} - S_{mass}}{P_{mass} + S_{mass}}
+\acute{e} = \dfrac{M_P - M_S}{M_P + M_S}
 = \dfrac{|S_{\circ} - P_{\circ}|}{S_{\circ} + P_{\circ}} 
 = \dfrac{|S_{\circ} - P_{\circ}|}{T_{\circ}}
 \end{align}
 $$
-- $é$ (e-prime) is the system eccentricity value at which the orbits of the stars become *_adjoined tangential_* $(e \gt 0; P_{mass} \neq S_{mass})$
-- For a mass ratio of $^{S_{mass}}/_{P_{mass}} = 0.8$, the system requires $\acute{e} \geq 0.8519$ for the primary and secondary orbits to adjoin tangentially.
+- $é$ (e-prime) is the system eccentricity value at which the orbits of the stars become *_adjoined tangential_* $(e \gt 0; M_P \neq M_S)$
+- For a mass ratio of $^{M_S}/_{M_P} = 0.8$, the system requires $\acute{e} \geq 0.8519$ for the primary and secondary orbits to adjoin tangentially.
 #### Limiting Eccentricity
 $$
 \begin{align}
@@ -132,7 +132,7 @@ For instance, in the case of the Earth-Sun system:
 $$
 \begin{align}
 \mathcal{A} &= 1.0 AU \\[0.5em]
-P_{avg} &= \mathcal{A} \cdot\dfrac{S_{mass}}{P_{mass}+S_{mass}} \\[1em]
+P_{avg} &= \mathcal{A} \cdot\dfrac{M_S}{M_P+M_S} \\[1em]
 &= 1.0 \cdot \frac{1}{333000+1} \\[1em]
 &= 1.0 \cdot \frac{1}{333001} = 3.009299 \times 10^{-6} AU \\[1.5em]
 1 \text{ AU } &= 1.496 \times 10^6 \text{ km} \\
@@ -145,10 +145,10 @@ Considering that the Sun’s radius is $696{,}340$ km, a wobble of only ≈450 k
 # Barycentrics
 $$
 \begin{align}
-B_{min} &= \mathcal{A} \cdot \frac{S_{mass} (1 - e)}{P_{mass} + S_{mass}} \\[0.5em]
+B_{min} &= \mathcal{A} \cdot \frac{M_S (1 - e)}{M_P + M_S} \\[0.5em]
 &= B_{avg}(1 - e) \\[1em]
-B_{avg} &= \mathcal{A} \cdot \frac{S_{mass}}{P_{mass} + S_{mass}} \\[1em]
-B_{max} &= \mathcal{A} \cdot \frac{S_{mass} (1 + e)}{P_{mass} + S_{mass}} \\[0.5em]
+B_{avg} &= \mathcal{A} \cdot \frac{M_S}{M_P + M_S} \\[1em]
+B_{max} &= \mathcal{A} \cdot \frac{M_S (1 + e)}{M_P + M_S} \\[0.5em]
 &= B_{avg}(1 + e)
 \end{align}
 $$
@@ -157,12 +157,12 @@ These equations are useful when working with a planet-moon or double-planet syst
 # Constant Equalities
 $$
 \begin{align}
-&\frac{S_\circ}{P_\circ} = \frac{P_{mass}}{S_{mass}} \qquad
-&&\frac{P_\circ}{S_\circ} = \frac{S_{mass}}{P_{mass}} \\[1em]
-&\frac{P_\circ}{T_\circ} = \frac{S_{mass}}{P_{mass} + S_{mass}}   \qquad
-&&\frac{S_\circ}{T_\circ} = \frac{P_{mass}}{P_{mass} + S_{mass}} \\[1em]
-&\frac{T_\circ}{P_\circ} = \frac{P_{mass}}{S_{mass}} + 1   \qquad
-&&\frac{T_\circ}{S_\circ} = \frac{S_{mass}}{P_{mass}} + 1 \\[3em]
+&\frac{S_\circ}{P_\circ} = \frac{M_P}{M_S} \qquad
+&&\frac{P_\circ}{S_\circ} = \frac{M_S}{M_P} \\[1em]
+&\frac{P_\circ}{T_\circ} = \frac{M_S}{M_P + M_S}   \qquad
+&&\frac{S_\circ}{T_\circ} = \frac{M_P}{M_P + M_S} \\[1em]
+&\frac{T_\circ}{P_\circ} = \frac{M_P}{M_S} + 1   \qquad
+&&\frac{T_\circ}{S_\circ} = \frac{M_S}{M_P} + 1 \\[3em]
 &\frac{Min_\bullet}{Max_\bullet} = \frac{1 - e}{1 + e} \qquad
 &&\frac{Max_\bullet}{Min_\bullet} = \frac{1 + e}{1 - e}
 \end{align}

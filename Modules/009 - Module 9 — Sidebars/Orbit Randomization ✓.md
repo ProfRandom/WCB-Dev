@@ -19,7 +19,7 @@ r_{i+1} = r_i \cdot ⟨⟨ \text{min} ∧ \text{max} ⟩⟩
 \quad \text{while } r_i \leq \Omega
 $$
 Where:
-- B = basal orbital radius (e.g. the nucleal orbit N)
+- B = basal orbital radius (e.g. the nucleal orbit $\mathcal{N}$)
 - Ω = orbital distance cuttoff (minimum or maximum allowed orbit based on the star system constraints)
 
 ## 🔄 Usage Strategy

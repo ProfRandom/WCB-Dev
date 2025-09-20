@@ -1,41 +1,41 @@
 # Calculating the Thermozones
-Since we know our nucleal orbit is $N = 0.834\;AU$, we can calculate the thermozone limits:
+Since we know our nucleal orbit is $\mathcal{N} = 0.834\;AU$, we can calculate the thermozone limits:
 $$
 \begin{align}
-H_0 = 0.500N &= 0.500(0.834) = 0.417\;AU \\
-H_1 = 0.750N &= 0.750(0.834) = 0.626\;AU \\
-H_2 = 0.950N &= 0.950(0.834) = 0.792\;AU \\
-H_3 = 1.385N &= 1.385(0.834) = 1.115\;AU \\
-H_4 = 1.770N &= 1.770(0.834) = 1.476\;AU \\
-H_5 = 4.850N &= 4.850(0.834) = 4.045\;AU \quad \text{Frost Line} \\
+H_0 = 0.500\mathcal{N}N &= 0.500(0.834) = 0.417\;AU \\
+H_1 = 0.750\mathcal{N} &= 0.750(0.834) = 0.626\;AU \\
+H_2 = 0.950\mathcal{N} &= 0.950(0.834) = 0.792\;AU \\
+H_3 = 1.385\mathcal{N} &= 1.385(0.834) = 1.115\;AU \\
+H_4 = 1.770\mathcal{N} &= 1.770(0.834) = 1.476\;AU \\
+H_5 = 4.850\mathcal{N} &= 4.850(0.834) = 4.045\;AU \quad \text{Frost Line} \\
 \end{align}
 $$
 And we can add these to our orbits table from above and determine the thermozones and ontozones of the orbits:
 
-|  Orbit  | Distance | <center>Thermozone</center> | <center>Ontozone</center> |
-| :-----: | :------: | --------------------------- | ------------------------- |
-|    1    |  0.101   | Igniozone                   | Xenotic                   |
-|    2    |  0.190   | Igniozone                   | Xenotic                   |
-|    3    |  0.298   | Ignoizone                   | Xenotic                   |
-|  $H_0$  |  0.417   |                             |                           |
-|    4    |  0.482   | Calorozone                  | Inner Parahabitable       |
-|  $H_1$  |  0.626   |                             |                           |
-|  $H_2$  |  0.792   |                             |                           |
-| 5 (*N*) |  0.834   | Solarazone                  | Hospitable                |
-|  $H_3$  |  1.115   |                             |                           |
-|  $H_4$  |  1.476   |                             |                           |
-|    6    |  1.525   | Brumazone                   | Outer Parahabitable       |
-|    7    |  3.003   | Brumazone                   | Outer Parahabitable       |
-|  $H_5$  |  4.045   |                             |                           |
-|    8    |  4.739   | Cryozone                    | Xenotic                   |
-|    9    |  11.379  | Cryozone                    | Xenotic                   |
-|   10    |  18.298  | Cryozone                    | Xenotic                   |
-|   11    |  33.357  | Cryozone                    | Xenotic                   |
+|       Orbit        | Distance | <center>Thermozone</center> | <center>Ontozone</center> |
+| :----------------: | :------: | --------------------------- | ------------------------- |
+|         1          |  0.101   | Igniozone                   | Xenotic                   |
+|         2          |  0.190   | Igniozone                   | Xenotic                   |
+|         3          |  0.298   | Ignoizone                   | Xenotic                   |
+|       $H_0$        |  0.417   |                             |                           |
+|         4          |  0.482   | Calorozone                  | Inner Parahabitable       |
+|       $H_1$        |  0.626   |                             |                           |
+|       $H_2$        |  0.792   |                             |                           |
+| 5 (*$\mathcal{N}$) |  0.834   | Solarazone                  | Hospitable                |
+|       $H_3$        |  1.115   |                             |                           |
+|       $H_4$        |  1.476   |                             |                           |
+|         6          |  1.525   | Brumazone                   | Outer Parahabitable       |
+|         7          |  3.003   | Brumazone                   | Outer Parahabitable       |
+|       $H_5$        |  4.045   |                             |                           |
+|         8          |  4.739   | Cryozone                    | Xenotic                   |
+|         9          |  11.379  | Cryozone                    | Xenotic                   |
+|         10         |  18.298  | Cryozone                    | Xenotic                   |
+|         11         |  33.357  | Cryozone                    | Xenotic                   |
 And, we can calculate the perannual orbital distance and the star's spectral type by:
 **Perannual Orbit**
 $$
 \begin{align}
-L &= N^2 = 0.834^2 = 0.696 \\
+L &= \mathcal{N}^2 = 0.834^2 = 0.696 \\
 M &= \sqrt[3.8]{L} = \sqrt[3.8]{0.696} = 0.909 \\
 A &= \sqrt[3]{0.909} = 0.969\;AU\;✓
 \end{align}
@@ -59,7 +59,7 @@ Excellent catch!
 
 > **Keppy**: What....?
 
-Check this out: we already know that our nucleal orbit is at $N = 0.834\;AU$.  *If* we put planemo on the perannual orbit at $A = 0.969\;AU$ the interval between the nucleal orbit and the perannual orbit is only:
+Check this out: we already know that our nucleal orbit is at $\mathcal{N} = 0.834\;AU$.  *If* we put planemo on the perannual orbit at $A = 0.969\;AU$ the interval between the nucleal orbit and the perannual orbit is only:
 $$
 I = \dfrac{0.969}{0.834} = 1.162\;AU\;✓
 $$
@@ -77,25 +77,25 @@ In this case, we're forced to choose between a planemo with Earth's stellar flux
 
 Excellent thought... let's work that through.  Here's a modified orbit table taking that into account:
 
-| Orbit | Distance | <center>Thermozone</center> | <center>Ontozone</center> | Interval |
-| :---: | :------: | --------------------------- | ------------------------- | -------- |
-|   1   |  0.101   | Igniozone                   | Xenotic                   |          |
-|   2   |  0.190   | Igniozone                   | Xenotic                   | 1.884    |
-|   3   |  0.298   | Ignoizone                   | Xenotic                   | 1.573    |
-| $H_0$ |  0.417   |                             |                           |          |
-|   4   |  0.482   | Calorozone                  | Inner Parahabitable       | 1.616    |
-| $H_1$ |  0.626   |                             |                           |          |
-| $H_2$ |  0.792   |                             |                           |          |
-| 5 (A) |  0.969   | Solarazone                  | Hospitable                | »1.927«  |
-| $H_3$ |  1.115   |                             |                           |          |
-| $H_4$ |  1.476   |                             |                           |          |
-|   6   |  1.525   | Brumazone                   | Outer Parahabitable       | »1.574«  |
-|   7   |  3.003   | Brumazone                   | Outer Parahabitable       |          |
-| $H_5$ |  4.045   |                             |                           |          |
-|   8   |  4.739   | Cryozone                    | Xenotic                   | 1.552    |
-|   9   |  11.379  | Cryozone                    | Xenotic                   | 1.608    |
-|  10   |  18.298  | Cryozone                    | Xenotic                   | 1.823    |
-|  11   |  33.357  | Cryozone                    | Xenotic                   | 1.778    |
+|       Orbit       | Distance | <center>Thermozone</center> | <center>Ontozone</center> | Interval |
+| :---------------: | :------: | --------------------------- | ------------------------- | -------- |
+|         1         |  0.101   | Igniozone                   | Xenotic                   |          |
+|         2         |  0.190   | Igniozone                   | Xenotic                   | 1.884    |
+|         3         |  0.298   | Ignoizone                   | Xenotic                   | 1.573    |
+|       $H_0$       |  0.417   |                             |                           |          |
+|         4         |  0.482   | Calorozone                  | Inner Parahabitable       | 1.616    |
+|       $H_1$       |  0.626   |                             |                           |          |
+|       $H_2$       |  0.792   |                             |                           |          |
+| 5 ($\mathcal{A}$) |  0.969   | Solarazone                  | Hospitable                | »1.927«  |
+|       $H_3$       |  1.115   |                             |                           |          |
+|       $H_4$       |  1.476   |                             |                           |          |
+|         6         |  1.525   | Brumazone                   | Outer Parahabitable       | »1.574«  |
+|         7         |  3.003   | Brumazone                   | Outer Parahabitable       |          |
+|       $H_5$       |  4.045   |                             |                           |          |
+|         8         |  4.739   | Cryozone                    | Xenotic                   | 1.552    |
+|         9         |  11.379  | Cryozone                    | Xenotic                   | 1.608    |
+|        10         |  18.298  | Cryozone                    | Xenotic                   | 1.823    |
+|        11         |  33.357  | Cryozone                    | Xenotic                   | 1.778    |
 The interval between the perannual orbit and the next closer-in orbit is:
 $$
 I = \dfrac{0.969}{0.482} = 1.927\;AU
@@ -127,7 +127,7 @@ $$
 … about 74.1% of the stellar flux as the nucleal orbit does... but that's still:
 $$
 \begin{gather}
-H_I = -0.26\dfrac{D}{N} + 1.26 = -0.26\dfrac{0.969}{0.834} + 1.26 = -0.26(1.162) + 1.26 = -0.302 + 1.26 = 0.958
+H_I = -0.26\dfrac{D}{\mathcal{N}} + 1.26 = -0.26\dfrac{0.969}{0.834} + 1.26 = -0.26(1.162) + 1.26 = -0.302 + 1.26 = 0.958
 \end{gather}
 $$
 … an orbital habitability index of 95.8% that of the nucleal orbit.  Slightly cooler, but not drastically so.

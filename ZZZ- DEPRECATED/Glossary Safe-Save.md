@@ -70,15 +70,15 @@ Each entry is tagged according to its origin in the WBN lexicon:
 
 ### New Neolexes (Stars 03–09)
 
-- **Nucleal Orbit (N)** — Orbital distance where a planemo receives the same irradiance Earth receives from the Sun at 1 AU. $N = \sqrt{L}$.  
-- **Ontozones** — Orbital classification framework scaled to multiples of N:  
-  - Inner Xenotic Zone ($Z_{IX}$) — $a < 0.500N$  
-  - Inner Parahabitable Zone ($Z_{IP}$) — $0.500–0.750N$  
-  - Inner Habitable Zone ($Z_{IH}$) — $0.750–0.950N$  
-  - Hospitable Zone ($Z_{H}$) — $0.950–1.385N$  
-  - Outer Habitable Zone ($Z_{OH}$) — $1.385–1.770N$  
-  - Outer Parahabitable Zone ($Z_{OP}$) — $1.770–4.850N$  
-  - Outer Xenotic Zone ($Z_{OX}$) — $a > 4.850N$  
+- **Nucleal Orbit ($\mathcal{N}$)** — Orbital distance where a planemo receives the same irradiance Earth receives from the Sun at 1 AU. $\mathcal{N} = \sqrt{L}$.  
+- **Ontozones** — Orbital classification framework scaled to multiples of $\mathcal{N}$:  
+  - Inner Xenotic Zone ($Z_{IX}$) — $a < 0.500\mathcal{N}$  
+  - Inner Parahabitable Zone ($Z_{IP}$) — $0.500–0.750\mathcal{N}N$  
+  - Inner Habitable Zone ($Z_{IH}$) — $0.750–0.950\mathcal{N}$  
+  - Hospitable Zone ($Z_{H}$) — $0.950–1.385\mathcal{N}$  
+  - Outer Habitable Zone ($Z_{OH}$) — $1.385–1.770\mathcal{N}$  
+  - Outer Parahabitable Zone ($Z_{OP}$) — $1.770–4.850\mathcal{N}$  
+  - Outer Xenotic Zone ($Z_{OX}$) — $a > 4.850\mathcal{N}$  
 - **Frost Line (ϝ)** — Orbital distance beyond which liquid water cannot persist. In WBN defined as $a = 4.850N$.  
 - **Thermozones** — WBN naming system for irradiance zones:  
   - Igniozone (←0.500N), Calorozone (0.500–0.750N), Heliozone (0.750–0.950N), Solarazone (0.950–1.385N), Hiberozone (1.385–1.770N), Brumazone (1.770–4.850N), Cryozone (→4.850N).  

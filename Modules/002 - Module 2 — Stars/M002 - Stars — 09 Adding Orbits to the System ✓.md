@@ -104,7 +104,7 @@ Where:
 >> *If not starting from the perannual or nucleal orbit, always check randomized orbits against either (or both) to ensure proper interval gaps fall to either side of that orbit, and adjust accordingly!*
 
 ## Worked Example
-Let us say we've identified our nucleal orbit (N) as $N = 0.834\;AU$, and we want to calculate orbits interior-to and exterior-to that orbit, and we've chosen $a = 0.100\;AU$ as our innermost safe orbit.
+Let us say we've identified our nucleal orbit ($\mathcal{N}$) as $\mathcal{N} = 0.834\;AU$, and we want to calculate orbits interior-to and exterior-to that orbit, and we've chosen $a = 0.100\;AU$ as our innermost safe orbit.
 ### Working Inward
 $$
   r_0 = 0.834;\; \Omega = 0.100:

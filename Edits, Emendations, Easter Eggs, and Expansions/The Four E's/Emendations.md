@@ -9,9 +9,9 @@
 | [[Ontosomic Expansion of "Life" Concepts ✓]] | Crosslink this system to **Xenotic** (since many of these life modes are explicitly alien).<br>Add a “See also: Ontosomics (discipline)” pointer at the start. | ⏳ To Do |                          |
 ## Emendations (Glossary – Pending)
 
-- **Nucleal Orbit (N) / Perannual Orbit (A)** — Add approximation relations:  
-  - $A \approx \sqrt[3]{N}$, $N \approx A^3$.  
-  - Also note $A \approx \sqrt[6]{L}$, $N \approx \sqrt{M^3}$.  
+- **Nucleal Orbit ($\mathcal{N}$) / Perannual Orbit ($\mathcal{A}$)** — Add approximation relations:  
+  - $\mathcal{A} \approx \sqrt[3]{\mathcal{N}}$, $\mathcal{N} \approx \mathcal{A}^3$.  
+  - Also note $\mathcal{A} \approx \sqrt[6]{L}$, $\mathcal{N} \approx \sqrt{M^3}$.  
 
 - **Stellar Equations of State** — Add precision refinements to exponents:  
   - $T \propto M^{2.0}$ (rounded from 1.98).  
@@ -21,7 +21,7 @@
 ## Emendations (Glossary – Pending)
 
 - **Nucleal Orbit (N) / Perannual Orbit (A)** — Clarify that these are **mutually exclusive reference orbits**, except in the Solar case (or a perfect solar duplicate *with an Earth-mass planet*).  
-  - By definition, $N = \sqrt{L}$ (irradiance-based).  
+  - By definition, $\mathcal{N} = \sqrt{L}$ (irradiance-based).  
   - $A = \sqrt[3]{M + m}$ (period-based).  
   - They coincide only if $M = 1⊙$ and $m = 1⨁$.  
 
