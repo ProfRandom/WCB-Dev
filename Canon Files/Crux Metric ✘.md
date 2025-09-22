@@ -1,5 +1,5 @@
 
-**ˊ** (_e-prime_) is a metric derived from the mass ratio of the system and serves as the **upper bound** for eccentricity (eee) in nested orbits.
+(_e-prime_) is a metric derived from the mass ratio of the system and serves as the **upper bound** for eccentricity (eee) in nested orbits.
 
 
 $$ \acute{e} = \dfrac{M - m}{M + m} $$

@@ -1,5 +1,5 @@
 # 📖 Season-Length Estimation Methods
-This process assumes that you have already determined the duration of your planet's orbit around its star (its *sidereal chronum*, $Y$).
+This process assumes that you have already determined the duration of your planet's orbit around its star (its *sidereal chronum*, $C$).
 ## Obliquity azimuth ($\phi$)
 The *obliquity azimuth* of your planet's obliquity is determined by the point in its orbit when the northern hemisphere is tilted directly away from the star. If your planet's northern hemisphere is tilted away from the star when it is at the closest point in its orbit (its *periastron*), then its obliquity azimuth is $\phi = 0$.
 
@@ -37,43 +37,10 @@ $$
 \begin{align}
 &\nu = (\phi + 90n) \bmod 360 \\[1em]
 &\begin{cases}
-n = 0 &\text{winter solstice} \\
-n = 1 &\text{spring equinox} \\
-n = 2 &\text{summer solstice} \\
-n = 3 &\text{autumn equinox}
-\end{cases}
-\end{align}
-$$
-## 1. Sinusoidal Approximation (Fast vs. Slow Half)
-Here is a quick, algebra-only method that captures the *main effect of eccentricity* on seasons:
-$$
-\Delta t \;\approx\; \dfrac{C}{4} + \left(\dfrac{2e}{\pi} C \times \sin \nu\right)
-$$
-Where:  
-- $C$ = year length (chronum, in diurns or days)  
-- $e$ = orbital eccentricity  
-- $\nu$ = central true anomaly of the season (0° = perihelion, 180° = aphelion)  
-### Step 1 — Seasonal Baseline Length
-Equal quarter of the chronum:
-$$
-\dfrac{C}{4}
-$$
-### Step 2 — Correction Factor
-This is a dimensionless ratio determined by eccentricity:
-$$
-\dfrac{2e}{\pi}
-$$
-To get the actual correction in diurns, it is multiplied by the full length of the chronum ($Y$) in the main equation.
-### Step 3 — Seasonal Adjustment
-True anomaly of each season midpoint is tied to the obliquity azimuth $\phi$:
-$$
-\begin{align}
-&\nu = (\phi + 90n) \bmod 360 \\[1em]
-&\begin{cases}
-n = 0 &\text{winter solstice} \\
-n = 1 &\text{spring equinox} \\
-n = 2 &\text{summer solstice} \\
-n = 3 &\text{autumn equinox}
+n = 0 &\text{spring equinox} \\
+n = 1 &\text{summer solstice} \\
+n = 2 &\text{autumn equinox} \\
+n = 3 &\text{winter solstice}
 \end{cases}
 \end{align}
 $$
@@ -91,17 +58,17 @@ $$
 $$
 \frac{2e}{\pi} C = \frac{2 \times 0.0167}{\pi} \times 365.2564 = 3.88
 $$
-**Step 3 — Seasonal Adjustments**
+**Step 3 — Seasonal Adjustments (Earth)**
 True anomalies from $\phi = 0$:
 $$
 \nu = (\phi + 90n) \bmod 360
 $$
 $$
 \begin{cases}
-n = 0 & \nu = 0^\circ & \text{winter solstice} \\
-n = 1 & \nu = 90^\circ & \text{spring equinox} \\
-n = 2 & \nu = 180^\circ & \text{summer solstice} \\
-n = 3 & \nu = 270^\circ & \text{autumn equinox}
+n = 0 & \nu = 270^\circ & \text{spring equinox} \\
+n = 1 & \nu = 0^\circ & \text{summer solstice} \\
+n = 2 & \nu = 90^\circ   & \text{autumn equinox} \\
+n = 3 & \nu = 180^\circ  & \text{winter solstice}
 \end{cases}
 $$
 **Step 4 — Apply the Formula**
@@ -110,30 +77,30 @@ $$
 $$
 $$
 \begin{cases}
-n=0;\;\nu=0^\circ;\;\sin\nu=0 & \Delta t_\text{winter} \approx 91.31 \\
-n=1;\;\nu=90^\circ;\;\sin\nu=1 & \Delta t_\text{spring} \approx 91.31 + 3.88 = 95.20 \\
-n=2;\;\nu=180^\circ;\;\sin\nu=0 & \Delta t_\text{summer} \approx 91.31 \\
-n=3;\;\nu=270^\circ;\;\sin\nu=-1 & \Delta t_\text{autumn} \approx 91.31 - 3.88 = 87.43
+n=0;\;\nu=270^\circ;\;\sin\nu=1 & \Delta t_\text{spring} \approx 91.31 + 3.88 = 95.20 \\
+n=1;\;\nu=0^\circ;\;\sin\nu=0 & \Delta t_\text{summer} \approx 91.31 \\
+n=2;\;\nu=90^\circ;\;\sin\nu=-1 & \Delta t_\text{autumn} \approx 91.31 - 3.88 = 87.43 \\
+n=3;\;\nu=180^\circ;\;\sin\nu=0 & \Delta t_\text{winter} \approx 91.31
 \end{cases}
 $$
 **Result:**  
-- Winter ≈ 91.3 d  
 - Spring ≈ 95.2 d  
 - Summer ≈ 91.3 d  
 - Autumn ≈ 87.4 d  
+- Winter ≈ 91.3 d  
 (Total = 365.2564 d)
 
 **Conclusion**
 The observed lengths of Earth's seasons are approximately:
-- Winter ≈ 89.0 d  
 - Spring ≈ 92.8 d  
 - Summer ≈ 93.6 d  
 - Autumn ≈ 89.9 d  
+- Winter ≈ 89.0 d 
 **Errors:**  
-- Winter: +2.3 d  
 - Spring: +2.4 d  
 - Summer: –2.3 d  
 - Autumn: –2.5 d  
+- Winter: +2.3 d
 The method captures the *overall pattern* (a longer spring, a shorter autumn) but forces **two seasons to pair**, which Earth does not actually do because its obliquity azimuth $\phi$ is offset from 0° by about 13°.
 **Advice**
 
@@ -141,7 +108,7 @@ When using the sinusoidal method, you have two options:
 
 1. **Accept the values as returned.**  
    - This keeps the math simple and transparent.  
-   - The approximation will always add up to the correct year length ($Y$).  
+   - The approximation will always add up to the correct year length ($C$).  
    - Errors are usually small if $e \leq 0.1$ (a few diurns at most for Earth-like orbits).  
 
 2. **Apply the generalized fudge factor.**  
@@ -179,17 +146,17 @@ $$
 $$
 \frac{2e}{\pi} C = \frac{2 \times 0.05}{\pi} \times 492 = 15.66
 $$
-**Step 3 — Seasonal Adjustments**
+**Step 3 — Seasonal Adjustments (Rosetta)**
 True anomalies from $\phi = 180^\circ$:
 $$
 \nu = (\phi + 90n) \bmod 360
 $$
 $$
 \begin{cases}
-n = 0 & \nu = 180^\circ & \text{winter solstice} \\
-n = 1 & \nu = 270^\circ & \text{spring equinox} \\
-n = 2 & \nu = 0^\circ   & \text{summer solstice} \\
-n = 3 & \nu = 90^\circ  & \text{autumn equinox}
+n = 0 & \nu = 0^\circ & \text{spring equinox} \\
+n = 1 & \nu = 90^\circ & \text{summer solstice} \\
+n = 2 & \nu = 180^\circ   & \text{autumn equinox} \\
+n = 3 & \nu = 270^\circ  & \text{winter solstice}
 \end{cases}
 $$
 **Step 4 — Apply the Formula**
@@ -199,17 +166,17 @@ $$
 
 $$
 \begin{cases}
-n=0;\;\nu=180^\circ;\;\sin\nu=0 & \Delta t_\text{winter} \approx 123.0 \\
-n=1;\;\nu=270^\circ;\;\sin\nu=-1 & \Delta t_\text{spring} \approx 123.0 - 15.66 = 107.3 \\
-n=2;\;\nu=0^\circ;\;\sin\nu=0 & \Delta t_\text{summer} \approx 123.0 \\
-n=3;\;\nu=90^\circ;\;\sin\nu=1 & \Delta t_\text{autumn} \approx 123.0 + 15.66 = 138.7
+n=0;\;\nu=0^\circ;\;\sin\nu=-1 & \Delta t_\text{spring} \approx 123.0 - 15.66 = 107.3 \\
+n=1;\;\nu=90^\circ;\;\sin\nu=0 & \Delta t_\text{summer} \approx 123.0 \\
+n=2;\;\nu=180^\circ;\;\sin\nu=1 & \Delta t_\text{autumn} \approx 123.0 + 15.66 = 138.7 \\
+n=3;\;\nu=270^\circ;\;\sin\nu=0 & \Delta t_\text{winter} \approx 123.0 \\
 \end{cases}
 $$
 **Result:**  
-- Winter ≈ 123.0 diurns  
 - Spring ≈ 107.3 diurns  
 - Summer ≈ 123.0 diurns  
 - Autumn ≈ 138.7 diurns  
+- Winter ≈ 123.0 diurns
 (Total = 492 diurns)
 
 **Conclusion**
@@ -238,10 +205,10 @@ $$
 \begin{align}
 &\nu = (\phi + 90n) \bmod 360 \\[1em]
 &\begin{cases}
-n = 0; \;\text{winter solstice} \\
-n = 1; \;\text{spring equinox} \\
-n = 2; \;\text{summer solstice} \\
-n = 3; \;\text{autumn equinox}
+n = 0; \;\text{spring equinox} \\
+n = 1; \;\text{summer solstice} \\
+n = 2; \;\text{autumn equinox} \\
+n = 3; \;\text{winter solstice} \\
 \end{cases}
 \end{align}
 $$
@@ -258,23 +225,21 @@ $$
 ### Step 4 — Find Season Fractions
 
 Once you have the mean anomalies for each seasonal marker:
-
 $$
 \begin{align}
-&M_\text{winter} \\
 &M_\text{spring} \\
 &M_\text{summer} \\
-&M_\text{autumn}
+&M_\text{autumn} \\
+&M_\text{winter} 
 \end{align}
 $$
-
 subtract them in sequence to get the fractional year lengths:
 $$
 \begin{aligned}
-f_\text{winter} &= \frac{M_\text{spring} - M_\text{winter}}{2\pi} \\[6pt]
 f_\text{spring} &= \frac{M_\text{summer} - M_\text{spring}}{2\pi} \\[6pt]
 f_\text{summer} &= \frac{M_\text{autumn} - M_\text{summer}}{2\pi} \\[6pt]
-f_\text{autumn} &= \frac{(M_\text{winter}+2\pi) - M_\text{autumn}}{2\pi}
+f_\text{autumn} &= \frac{(M_\text{winter}+2\pi) - M_\text{autumn}}{2\pi} \\[6pt]
+f_\text{winter} &= \frac{M_\text{spring} - M_\text{winter}}{2\pi} \\[6pt]
 \end{aligned}
 $$
 
@@ -290,10 +255,10 @@ Multiply each fraction by the chronum ($C$) to convert fractions into diurns:
 
 $$
 \begin{gather}
-\Delta t_\text{winter} = f_\text{winter}\,C, \\
 \Delta t_\text{spring} = f_\text{spring}\,C, \\
 \Delta t_\text{summer} = f_\text{summer}\,C, \\
-\Delta t_\text{autumn} = f_\text{autumn}\,C
+\Delta t_\text{autumn} = f_\text{autumn}\,C, \\
+\Delta t_\text{winter} = f_\text{winter}\,C
 \end{gather}
 $$
 ---
@@ -310,10 +275,10 @@ $$
 $$
 $$
 \begin{cases}
-n = 0 & \nu = 0^\circ & \text{winter solstice} \\
-n = 1 & \nu = 90^\circ & \text{spring equinox} \\
-n = 2 & \nu = 180^\circ & \text{summer solstice} \\
-n = 3 & \nu = 270^\circ & \text{autumn equinox}
+n = 0 & \nu = 270^\circ & \text{spring equinox} \\
+n = 1 & \nu = 0^\circ & \text{summer solstice} \\
+n = 2 & \nu = 90^\circ & \text{autumn equinox} \\
+n = 3 & \nu = 180^\circ & \text{winter solstice}
 \end{cases}
 $$
 **Step 2 — Convert to Eccentric Anomaly**
@@ -330,53 +295,53 @@ This gives the “time angle” at each seasonal marker.
 Subtract successive $M$ values and normalize by $2\pi$:  
 $$
 \begin{aligned}
-F_\text{winter} &= \frac{M_\text{spring} - M_\text{winter}}{2\pi} \\[6pt]
 F_\text{spring} &= \frac{M_\text{summer} - M_\text{spring}}{2\pi} \\[6pt]
 F_\text{summer} &= \frac{M_\text{autumn} - M_\text{summer}}{2\pi} \\[6pt]
-F_\text{autumn} &= \frac{(M_\text{winter}+2\pi) - M_\text{autumn}}{2\pi}
+F_\text{autumn} &= \frac{(M_\text{winter}+2\pi) - M_\text{autumn}}{2\pi} \\[6pt]
+F_\text{winter} &= \frac{M_\text{spring} - M_\text{winter}}{2\pi}
 \end{aligned}
 $$
 Numerical results:  
 $$
 \begin{align}
-&F_\text{winter} \approx 0.2447, \\[.5em]
 &F_\text{spring} \approx 0.2553, \\[.5em]
 &F_\text{summer} \approx 0.2553, \\[.5em]
-&F_\text{autumn} \approx 0.2447
+&F_\text{autumn} \approx 0.2447 \\[0.5em]
+&F_\text{winter} \approx 0.2447, \\[.5em]
 \end{align}
 $$
 **Step 5 — Scale to chronum length**
 Multiply each fraction by $C$ to get season lengths in diurns:  
 $$
-\begin{align}
-&\Delta t = F \times C \\[1em]
-&\begin{cases}
-\Delta t_\text{winter} &≈ 0.2447 \times 365.2564 = 89.4 \\
+\begin{gather}
+\Delta t = F \times C \\[1em]
+\begin{cases}
 \Delta t_\text{spring} &\approx 0.2553 \times 365.2564 = 93.3 \\
 \Delta t_\text{summer} &\approx 0.2553 \times 365.2564 = 93.3 \\
-\Delta t_\text{autumn} &≈ 0.2447 \times 365.2564 = 89.4
+\Delta t_\text{autumn} &≈ 0.2447 \times 365.2564 = 89.4 \\
+\Delta t_\text{winter} &≈ 0.2447 \times 365.2564 = 89.4
 \end{cases}
-\end{align}
+\end{gather}
 $$
 **Result:**  
-- Winter ≈ 89.4 d  
 - Spring ≈ 93.3 d  
 - Summer ≈ 93.3 d  
 - Autumn ≈ 89.4 d  
+- Winter ≈ 89.4 d 
 (Total = 365.26 d)
 
 **Comparison to Actuals**
 Observed Earth season lengths (tropical year):  
-- Winter ≈ 89.0 d  
 - Spring ≈ 92.8 d  
 - Summer ≈ 93.6 d  
 - Autumn ≈ 89.9 d  
+- Winter ≈ 89.0 d
 
 **Errors:**  
-- Winter: +0.4 d  
 - Spring: +0.5 d  
 - Summer: –0.3 d  
 - Autumn: –0.5 d  
+- Winter: +0.4 d 
 
 **Conclusion**
 - The Kepler method reproduces Earth’s observed seasons within **half a day per season**.  
@@ -392,15 +357,15 @@ Given:
 **Step 1 — True Anomalies**
 Seasonal markers from $\phi = 180^\circ$:  
 $$
-\begin{align}
+\begin{gather}
 &\nu = (\phi + 90n) \bmod 360 \\[1em]
 &\begin{cases}
-n &= 0 & \nu = 180^\circ & \text{winter solstice} \\
-n &= 1 & \nu = 270^\circ & \text{spring equinox} \\
-n &= 2 & \nu = 0^\circ & \text{summer solstice} \\
-n &= 3 & \nu = 90^\circ & \text{autumn equinox}
+n &= 0 & \nu = 0^\circ & \text{spring equinox} \\
+n &= 1 & \nu = 90^\circ & \text{summer solstice} \\
+n &= 2 & \nu = 180^\circ & \text{autumn equinox} \\
+n &= 3 & \nu = 270^\circ & \text{winter solstice}
 \end{cases}
-\end{align}
+\end{gather}
 $$
 **Step 2 — Convert to Eccentric Anomaly**
 $$
@@ -415,51 +380,51 @@ $$
 Subtract successive $M$ values and normalize by $2\pi$:  
 $$
 \begin{aligned}
-F_\text{winter} &= \frac{M_\text{spring} - M_\text{winter}}{2\pi} \\[6pt]
 F_\text{spring} &= \frac{M_\text{summer} - M_\text{spring}}{2\pi} \\[6pt]
 F_\text{summer} &= \frac{M_\text{autumn} - M_\text{summer}}{2\pi} \\[6pt]
-F_\text{autumn} &= \frac{(M_\text{winter}+2\pi) - M_\text{autumn}}{2\pi}
+F_\text{autumn} &= \frac{(M_\text{winter}+2\pi) - M_\text{autumn}}{2\pi} \\[6pt]
+F_\text{winter} &= \frac{M_\text{spring} - M_\text{winter}}{2\pi} 
 \end{aligned}
 $$
 Numerical results:  
 $$
 \begin{align}
-&F_\text{winter} \approx 0.2463, \\
 &F_\text{spring} \approx 0.2180, \\
 &F_\text{summer} \approx 0.2537, \\
-&F_\text{autumn} \approx 0.2820
+&F_\text{autumn} \approx 0.2820, \\
+&F_\text{winter} \approx 0.2463
 \end{align}
 $$
 **Step 5 — Scale to Year Length**
-Multiply each fraction by $Y$:  
+Multiply each fraction by $C$:  
 $$
 \begin{cases}
-\Delta t_\text{winter} \approx 121.2 \\
 \Delta t_\text{spring} \approx 107.3 \\
 \Delta t_\text{summer} \approx 124.9 \\
-\Delta t_\text{autumn} \approx 138.6
+\Delta t_\text{autumn} \approx 138.6 \\
+\Delta t_\text{winter} \approx 121.2
 \end{cases}
 $$
 (Total = 492.0 d)
 
 **Result (Kepler):**  
-- Winter ≈ 121.2 d  
 - Spring ≈ 107.3 d  
 - Summer ≈ 124.9 d  
 - Autumn ≈ 138.6 d  
+- Winter ≈ 121.2 d
 
 **Comparison to Sinusoidal**
 From the sinusoidal shortcut (no fudge):  
-- Winter ≈ 123.0 d  
 - Spring ≈ 107.3 d  
 - Summer ≈ 123.0 d  
 - Autumn ≈ 138.7 d  
+- Winter ≈ 123.0 d
 
 **Differences:**  
-- Winter: –1.8 d  
 - Spring: 0.0 d  
 - Summer: +1.9 d  
 - Autumn: –0.1 d  
+- Winter: –1.8 d
 
 **Conclusion**
 The Kepler method and sinusoidal shortcut agree closely for Rosetta, but Kepler adds nuance:  
