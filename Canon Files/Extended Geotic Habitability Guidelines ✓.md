@@ -98,7 +98,7 @@ $$C = \sqrt{\dfrac{a^3}{M}}$$	...However, if the planemo's mass exceeds ≈ 10% 
 	- See *Sidebar Module – Stars, Planetary Orbits, and Habitable Zones* for details
 - *Note that the masses of other planemos in the system have no effect in this equation!*
 
-**Obliquity (Axial tilt) (ε)**
+**Obliquity (Axial tilt) ($\varepsilon_x$)**
 - $\varepsilon_x$ ∈ ⟨0° ∧ 5°⟩ — Negligible seasonal variation
 - $\varepsilon_x$ ∈ ⟨15° ∧ 35°⟩ — Plausible range for active seasonal variation
 - $\varepsilon_x$ ∈ ⟨20° ∧ 30°⟩ — Earth-normal like
@@ -108,7 +108,7 @@ $$C = \sqrt{\dfrac{a^3}{M}}$$	...However, if the planemo's mass exceeds ≈ 10% 
 
 A planemo does not _have_ to have an axial tilt, but most do, because their mass isn't evenly distributed throughout their volume, and that mass is tugged on by the host star(s), companion Moons, other planemos in their star system, etc.
 
-**Obliquity Precession Period (χ)**
+**Precession Cycle (χ)**
 - χ ∈ ⟨15 ∧ 60⟩ ky — General Geotics range
 - χ ∈ ⟨20 ∧ 30⟩ ky — Earth-clone ideal range
 	- Note: If your planemo has an axial tilt ($\varepsilon_x ≠ 0$), it *will* have an axial precession period.
@@ -138,8 +138,8 @@ A planemo does not _have_ to have an axial tilt, but most do, because their mass
 		- Internal structure — core-to-mantle mass distribution changes the planemo’s moment of inertia.
 		- Gravitational interactions — especially from moons or other planemos in the system.
 
-**Obliquity Azimuth ($\zeta_x$)**
-- $\zeta_x$ ∈ ⟨0° ∧ 359°⟩ — Measure of the _directionality_ of the planemos' obliquity relative to the periastron of its orbit.
+**Obliquity Azimuth ($\zeta_{n}$)**
+- $\zeta_{n}$ ∈ ⟨0° ∧ 359°⟩ — Measure of the _directionality_ of the planemos' obliquity relative to the periastron of its orbit.
 - $\zeta_0$ is _defined_ as the orientation when the plamemo's northern hemisphere is tilted precisely away from the star or system **barycenter (ḅ)** (northern solstice) at periastron.
 	- This is called ***periaptic zero***.
 - $\zeta_{90}$ would indicate that northern solstice has _precessed_ 90° around the planemo's orbital path from **periaptic zero**.
@@ -147,16 +147,7 @@ A planemo does not _have_ to have an axial tilt, but most do, because their mass
 - IMPORTANT:
 	- For $\varepsilon_0$ planemos (they have no axial tilt), $\zeta_x$ is _undefined_.
 
-**Precession Phase ($\tau$)**
-- This is a measure of how far along in its precessional cycle a planemo is.
-- Calculated by:$$\text{$\tau$} = \left(\dfrac{\zeta_x}{360}\right)\chi$$-  IMPORTANT:
-	- For $\varepsilon_0$ planemos (they have no axial tilt), ⲧ is _undefined_, as there is no obliquity to precess and no χ to measure against.
-- Relationship of χ, $\zeta_x$, and ⲧ: $$
- \begin{align}
- \zeta_x &= 360\left(\dfrac{$\tau$}{\chi}\right) \\
- \chi &= \dfrac{360 \text{$\tau$}}{\zeta_x}
- \end{align}
- $$**Magnetosphere (radiation shielding) ($B_{surf}$)**
+**Magnetosphere (radiation shielding) ($B_{surf}$)**
 - $B_{surf}$ refers to the **surface magnetic field strength**, measured in **microteslas (μT)**.    
 	- For Earth, the typical surface field ranges between **25–65 μT**, depending on latitude and local crustal anomalies.
 - $B_{surf} \lt 5 \mu T$ — Unshielded; high cosmic radiation exposure, especially polar regions- 
