@@ -1,5 +1,3 @@
-
-
 ### **Quick Method for Ring Shadows (Approximation)**  
 
 *This section presents a simplified, diagram-based way to estimate when and how the Sun may pass behind a planet’s rings. It avoids complex spherical trigonometry by using sky maps and focuses on qualitative visualization.*  

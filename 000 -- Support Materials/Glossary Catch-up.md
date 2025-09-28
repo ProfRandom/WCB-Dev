@@ -1,16 +1,16 @@
 # Canon Glossary Scan Queue
 
 ## High Priority (☐ = explicitly unglossed)
-- [ ] Approximating Season Lengths ☐.md
-- [ ] Azimuthal Intersections ☐.md
-- [ ] Calculating Stellar Sky Paths ☐.md
-- [ ] Crux Metric ✘.md
-- [ ] Earth-like Planemos — What Does That Even Mean ☐.md
-- [ ] Harmonic Periods ☐.md
-- [ ] Midi, Mini, and Micromos ☐.md
-- [ ] Monobody Compositions ☐.md
-- [ ] Obliquity — Planetary Orientation ☐.md
-- [ ] The SANC Principle ☐.md
+- [x] Approximating Season Lengths ☐.md
+- [x] Azimuthal Intersections ☐.md
+- [x] Calculating Stellar Sky Paths ☐.md
+- [x] Crux Metric ✘.md
+- [x] Earth-like Planemos — What Does That Even Mean ☐.md
+- [x] Harmonic Periods ☐.md
+- [x] Midi, Mini, and Micromos ☐.md
+- [x] Monobody Compositions ☐.md
+- [x] Obliquity — Planetary Orientation ☐.md
+- [x] The SANC Principle ☐.md
 
 ## Medium Priority (⚠️ unmarked — rescan for safety)
 - [ ] 1 Orbital Resonances — Mean Motion Resonance.md
@@ -24,7 +24,7 @@
 - [ ] Innermost Stable Limital and Critical Viable Limital.md
 - [ ] M002 - Stars — 01 Spectral Classes.md
 - [ ] M003 - Binary Systems.md
-- [ ] Monobody Mass Classes and Ontotypes.md
+- [x] Monobody Mass Classes and Ontotypes.md
 - [ ] Moons (Rashid & Hierax).md
 - [ ] Ontozones and Spectral Types.md
 - [ ] Parameter Ranges By Spectral Class.md

@@ -18,6 +18,6 @@ While the Exoplanet Catalog centers primarily on **mass**, this system uses thos
 
 Using this as our starting point, I propose the following system.
 
-[[Monobody Compositions ☐]]
+[[✓  Monobody Compositions]]
 
-[[Earth-like Planemos — What Does That Even Mean  ☐]]
+[[✓ Earth-like Planemos — What Does That Even Mean]]
