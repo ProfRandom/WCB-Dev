@@ -36,7 +36,7 @@ This file lists all 216 Markdown files with their first heading or first line fo
 - **WorldCrafting101-DEV/Modules/002 - Module 2 ΓÇö Stars/M002 - Stars ΓÇö 05 The Perannual Orbit Γ£ô.md** → ## The Perannual Orbit
 - **WorldCrafting101-DEV/Modules/002 - Module 2 ΓÇö Stars/M002 - Stars ΓÇö 08 `Sun-Like` Stars Γ£ô.md** → # Solar Analogs, Cognates, and Twins
 - **WorldCrafting101-DEV/Modules/002 - Module 2 ΓÇö Stars/M002 - Stars ΓÇö 03 The Nucleal Orbit Γ£ô.md** → ## The Nucleal Orbit
-- **WorldCrafting101-DEV/Modules/002 - Module 2 ΓÇö Stars/M002 - Stars ΓÇö 00 Compendium.md** → ![[M002 - Stars — 01 Spectral Classes]]
+- **WorldCrafting101-DEV/Modules/002 - Module 2 ΓÇö Stars/M002 - Stars ΓÇö 00 Compendium.md** → ![[M002 - Stars — 01 Spectral Classes ✓]]
 - **WorldCrafting101-DEV/Modules/002 - Module 2 ΓÇö Stars/M002 - Stars ΓÇö 07 Fine-tuning Stellar Parameters Γ£ô.md** → # Stars — 2.07 Fine-tuning Stellar Parameters
 - **WorldCrafting101-DEV/Modules/002 - Module 2 ΓÇö Stars/M002 - Stars ΓÇö 06 Relating the Nucleal and Perannual Orbits Γ£ô.md** → We have explored both [[M002 - Stars — 03 The Nucleal Orbit ✓|The Nucleal Orbit]] and [[M002 - Stars — 05 The Perannu...
 - **WorldCrafting101-DEV/Modules/002 - Module 2 ΓÇö Stars/M002 - Stars ΓÇö 10 Folding In The Zones Γ£ô.md** → # Calculating the Thermozones

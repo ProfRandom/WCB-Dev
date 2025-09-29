@@ -1,4 +1,4 @@
-![[M002 - Stars — 01 Spectral Classes]]
+![[M002 - Stars — 01 Spectral Classes ✓]]
 
 ---
 

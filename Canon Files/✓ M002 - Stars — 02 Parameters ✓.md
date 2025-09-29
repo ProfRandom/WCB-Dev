@@ -1,5 +1,5 @@
 # Stellar Parametrics
-In [[M002 - Stars — 01 Spectral Classes]], we covered spectral classes and spectral types and their association to the surface temperatures of stars.  Stars, like planemos, have a basic set of parameters that describe them:
+In [[M002 - Stars — 01 Spectral Classes ✓]], we covered spectral classes and spectral types and their association to the surface temperatures of stars.  Stars, like planemos, have a basic set of parameters that describe them:
 - **Temperature** — How hot is the surface?
 	- Absolute measure: Kelvin (K)
 	- Relative measure: Solar units (T)
