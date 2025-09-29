@@ -1,3 +1,34 @@
+
+## Abstract
+**Major Topics:**  
+- Methodology for calculating horizon intersections of stellar paths.  
+- Relationship between axial tilt (ε), observer latitude (λ), and time in the apical chronum (C_f).  
+- Step-by-step procedure to compute star declination, altitude range, and azimuthal intersections.  
+- Conditions for continuous daylight or continuous night.  
+- Introduction of geometric constructs: Altitudem, Azimuthem, Obliquem, Azimems.  
+
+**Key Terms & Symbols:**  
+- ε = obliquity (axial tilt).  
+- λ = observer latitude.  
+- C_f = fraction of the apical chronum.  
+- δ = star’s declination.  
+- h_max, h_min = maximum/minimum altitude.  
+- Altitudem = center altitude of ellipse relative to horizon.  
+- Azimuthem = great-circle east–west line (180°).  
+- Obliquem = half the obliquity (ε/2).  
+- Z = azimuthal angle magnitude.  
+- Z_e, Z_w = east and west azimems (horizon intersection points).  
+
+**Cross-Check Notes:**  
+- Connects obliquity (ε) with observable sky geometry.  
+- Azimem-related terminology is WCB-specific — ensure consistent glossary entries.  
+- Conditions for polar day/night align with habitability and cultural calendar considerations.  
+- Closely related to climate/seasonal notes and obliquity orientation concepts.  
+
+---
+---
+
+
 # Workflow for Calculating Azimuthal Intersections
 #### **Step 1: Input**
 - **Obliquity ($\varepsilon_x$)**: The planet’s axial tilt.

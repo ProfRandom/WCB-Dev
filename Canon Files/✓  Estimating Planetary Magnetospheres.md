@@ -1,4 +1,6 @@
 
+
+
 - **Magnetic moment (M)** and how it relates to $B_{surf}$    
 - Empirical scaling relationships (e.g., from Stevenson or Driscoll & Olson models)    
 - A simplified proportional form like:

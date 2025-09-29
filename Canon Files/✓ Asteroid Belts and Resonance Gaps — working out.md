@@ -1,3 +1,39 @@
+## Abstract
+**Major Topics:**  
+- Methods for placing and sizing asteroid belts between two major perturbers.  
+- Calculation of belt extent: inner/outer orbits, asymmetric central orbit, systemic mass ratio, belt width.  
+- Resonant orbit calculation using Kepler’s Third Law ($P^2 \propto a^3$).  
+- Distinction between **tresonances** (trapping resonances) and **gresonances** (gap-opening resonances).  
+- Resonance scalers and their observed roles in Kirkwood gaps.  
+- Gap width justification and minimum perturber mass (≥ 0.333⨁ for solar case).  
+- Example Kirkwood gap analogues.  
+
+**Key Terms & Symbols:**  
+- $a_i$, $a_o$ = inner/outer orbit distances.  
+- $m_i$, $m_o$ = inner/outer planemo masses (Terrans).  
+- $M_*$ = stellar mass (Terrans; 333,000 M⊙).  
+- $a_c$, Δa, $a_s$, $a_\Delta$ = derived orbital metrics.  
+- $m_\mu$ = systemic mass ratio.  
+- $W_{belt}$, $W_i$, $W_o$, $B_i$, $B_o$ = belt width and edge measures.  
+- Tresonance = trapping resonance.  
+- Gresonance = gap-opening resonance.  
+- $P_i$, $P_o$, $P_x$ = periods of perturber and resonance.  
+- $a_x$ = resonant distance.  
+- $g_w$, $g_{quad}$ = gap width measures.  
+
+**Cross-Check Notes:**  
+- Resonance framework builds on **Mean Motion Resonance** note.  
+- Tresonance vs. Gresonance terminology is WCB-specific.  
+- Gap resonance ratios (e.g., 2:1, 3:1, 5:2) match observed Solar System Kirkwood gaps.  
+- Trap resonance ratios (e.g., 3:2, 4:3) match stabilizing locations (e.g., Hilda asteroids).  
+- Canonical distinction: gap resonances = frequency > 1.5, trap resonances = frequency ≤ 1.5.  
+- Belt placement formulas integrate with broader Orbit Design Methods.  
+
+---
+---
+
+
+
 # Asteroid Belt Placement and Extents
 
 ## Placing The Belt and Identifying Its Dimensions

@@ -1,3 +1,29 @@
+
+## Abstract
+**Major Topics:**  
+- Exploration of what defines an “Earth-like” planemo.  
+- Reference baseline: Earth’s absolute physical parameters (mass, radius, density, gravity, escape velocity).  
+- Lack of consensus in astrophysics: ranges vs. environmental conditions.  
+- Distinction between **physical similarity** and **habitability classifications** (habitable, parahabitable, hospitable, xenotic, exotic).  
+
+**Key Terms & Symbols:**  
+- m = mass (Earth: 5.972 × 10²⁴ kg).  
+- r = radius (Earth: 6371 km).  
+- ρ = density (Earth: 5.514 g/cm³).  
+- g = surface gravity (Earth: 9.8 m/s²).  
+- vₑ = escape velocity (Earth: 11.186 km/s).  
+- “Earth-like” = physical conformity, not animosustent criteria.  
+
+**Cross-Check Notes:**  
+- Reinforces WCB convention: lowercase symbols (m, r) for planemo parameters.  
+- Distinguish clearly between **Earth-like (physical)** and **animocentric classifications** (habitable, parahabitable, hospitable, xenotic, exotic).  
+- Connects to glossary entries: animosustent (canon v1.21), planemo parameters.  
+- Prevent conflation of “Earth-like” with life-supporting qualities.  
+
+---
+---
+
+
 ## Earth-like Planemos: What Does That Even Mean?
 
 Let's revisit the _physical properties_ of planemos:

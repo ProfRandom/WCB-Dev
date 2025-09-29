@@ -1,6 +1,39 @@
-![[Ellipse Parameter Illustration.png]]
 
- # 🧭 Ellipse Geometry Solver — WBN Reference
+## Abstract
+**Major Topics:**  
+- Comprehensive algebraic toolkit for ellipse geometry and orbital mechanics.  
+- Full glossary of ellipse parameters: semi-major axis (a), semi-minor axis (b), linear eccentricity (c), eccentricity (e), flattening (f), axes (i, j), vertices, co-vertices, foci.  
+- Derived lengths: focus-maximus (d), focus-minimus (g), focal span (h), semi-latus rectum (ℓ), latus rectum (q).  
+- Directrix system: center-to-directrix (m), focus-to-directrix (n), vertex-to-directrix (s).  
+- Canonical equations for geometric relations, orbital radii, and directrix properties.  
+- “Given Any Two, Solve the Rest” matrix for deriving all ellipse properties from any two independent parameters.  
+
+**Key Terms & Symbols:**  
+- a = semi-major axis.  
+- b = semi-minor axis.  
+- c = linear eccentricity.  
+- e = eccentricity (unitless).  
+- f = flattening.  
+- i, j = major/minor axes (2a, 2b).  
+- d, g, h = focus-maximus, focus-minimus, focal span.  
+- ℓ, q = semi-latus rectum, latus rectum.  
+- m, n, s = directrix distances.  
+- r(θ) = orbital radius equation.  
+- rₚ, rₐ = periapsis, apoapsis distances.  
+
+**Cross-Check Notes:**  
+- Eccentricity (e) canonically unitless and invariant under scale.  
+- Flattening (f) defined here as $f = 1 - \dfrac{b}{a}$ — ensure consistency with other usage.  
+- Directrix is definitional: appears in geometry but not physical orbits (noted explicitly).  
+- “Solve the Rest” matrix designed for symbolic algebra; reinforces WCB’s **SANC** approach.  
+- Overlaps with **Orbital Eccentricity and Seasonal Effects.md** (use of rₚ, rₐ).  
+
+---
+---
+
+
+
+ # 🧭 Ellipse Geometry Solver — WCB Reference
 
 This reference provides a complete algebraic toolkit for solving any ellipse — geometric or orbital — from any two independent parameters. All terms match the diagram above.  
 ## 📘 Glossary of Ellipse Parameters

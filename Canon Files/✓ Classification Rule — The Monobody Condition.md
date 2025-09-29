@@ -1,6 +1,29 @@
+
+## Abstract
+**Major Topics:**  
+- Definition of the **–mo condition**: all WCB ontotypes (planemo, intermo, stellamo, etc.) apply only to single, gravitationally coherent bodies.  
+- Scope clarification: ontotypes exclude multi-body systems, aggregates, and regions.  
+- Distinction between *ontological object* vs. *mathematical abstraction*.  
+- Ontological boundary rule: barycentered approximations ≠ ontotypes.  
+
+**Key Terms & Symbols:**  
+- –mo suffix = ontotype indicator (e.g., planemo, stellamo, intermo).  
+- Center of mass (singular) = necessary condition for –mo classification.  
+- Cryptomo, supermo, ultramo, hypermo = ontotype variants.  
+- Barycenter = mathematical construct; not a physical –mo.  
+
+**Cross-Check Notes:**  
+- Canonical clarification: multi-body systems (binaries, clusters, galaxies, nebulae) are **not –mo**, even if composed of –mo members.  
+- Rule resolves ambiguity: a system of planemos is not itself a planemo.  
+- Complements **Monobody Mass Classes** and **Monobody Compositions** as ontotype framework foundations.  
+- Ensure consistent usage: “–mo” suffix always denotes singular gravitationally self-bound entities, never systems.  
+
+---
+---
+
 # Classification Rule — The Monobody Condition
 
-> **All WBN –mo ontotypes (planemo, intermo, stellamo)** refer exclusively to **individual, gravitationally coherent bodies** — not to multi-body **systems**, **collections**, or **regions**.
+> **All WCB –mo ontotypes (planemo, intermo, stellamo)** refer exclusively to **individual, gravitationally coherent bodies** — not to multi-body **systems**, **collections**, or **regions**.
 
 ### 🔒 What *Is* a –mo
 A **–mo** is defined by:
@@ -19,7 +42,7 @@ The following are **not –mo**, regardless of total mass:
 | **Galaxies**            | Milky Way, Andromeda             | Gravitationally bound aggregates |
 | **Binary Systems**      | Sirius A+B, Pluto–Charon         | Contain ≥2 centers of mass       |
 | **Black Hole Binaries** | LIGO-detected pairs              | Still system-level               |
-## **WBN Monobody Rule (Ontotype Scope Clarification)**
+## **WCB Monobody Rule (Ontotype Scope Clarification)**
 
 > **All -mo classifications (planemo, intermo, stellamo, cryptomo)** refer to **individual, contiguous, gravitationally self-bound objects**.
 > 

@@ -1,3 +1,34 @@
+## Abstract
+**Major Topics:**  
+- Five core planemo parameters: mass (m), density (ρ), surface gravity (g), escape velocity (vₑ), and radius (r).  
+- Distinction between **physical properties** (m, ρ) and **emergent properties** (g, vₑ, r).  
+- WCB convention: density (ρ) treated as **uncompressed density** to avoid recursive modeling.  
+- Symbolic precedence hierarchy:  
+  1. Mass (m), Uncompressed Density (ρ) — composition-driven.  
+  2. Surface Gravity (g), Escape Velocity (vₑ) — experiential.  
+  3. Radius (r) — emergent.  
+- Validation: computed values for g, vₑ, and r from Geotic-range m and ρ remain within acceptable Geotic bounds.  
+
+**Key Terms & Symbols:**  
+- m = mass.  
+- ρ = uncompressed density.  
+- g = surface gravity.  
+- vₑ = escape velocity.  
+- r = radius (emergent).  
+- Geotic range: ⟨0.5 ∧ 1.5⟩⨁.  
+- Order of calculation: begin with m and ρ for valid outputs.  
+
+**Cross-Check Notes:**  
+- Canonical clarification: radius (r) is *not* arbitrarily chosen — it emerges from m and ρ.  
+- Replaces recursive compression modeling with a WCB-friendly simplification.  
+- Geotic range justification links to habitability framework.  
+- Integrates with prior note **Example: When Good Values Go Bad** (edge-case validation).  
+- Ensure consistent update: “WBN” → “WCB” across this file and related notes.  
+
+---
+---
+
+
 # Close-focus on Parameter Precedence
 Elsewhere, I stated that
 

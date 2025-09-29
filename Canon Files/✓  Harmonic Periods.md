@@ -1,3 +1,27 @@
+## Abstract
+**Major Topics:**  
+- Harmonic period as a synchronization interval of two cycles.  
+- Equivalence to the synodic period formula.  
+- Application to Earth’s solar day vs. sidereal day (≈ tropical year).  
+- Application to Earth’s solar day vs. stellar day (≈ sidereal year).  
+
+**Key Terms & Symbols:**  
+- H = harmonic period  
+- P₁ = solar day  
+- P₂ = sidereal day / stellar day  
+- Synodic period (noted as mathematically identical).  
+
+**Cross-Check Notes:**  
+- Bridges the concepts of daily cycles and year-length periods.  
+- Explicitly links harmonic period to *tropical* and *sidereal year* definitions.  
+- Potential overlaps with glossary entries on *solar day*, *sidereal day*, *stellar day*, and *synodic period*.  
+- Candidate staging milestone: Glossary v1.215 (Harmonic Period added).  
+
+---
+---
+
+
+
 _Harmonic periods_ are crucial for understanding how a planet's rotational and orbital cycles synchronize.  The harmonic period $H$ is the time interval over which the two independent motions align in their periodicity.
 $$
 H = \dfrac{P_1 \times P_2}{|P_1 - P_2|}

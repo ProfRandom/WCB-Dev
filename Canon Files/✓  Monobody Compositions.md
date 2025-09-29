@@ -1,3 +1,27 @@
+## Abstract
+**Major Topics:**  
+- Monobody composition taxonomy (configuration classes).  
+- Four primary categories: Lithic, Astatic, Aetheric, Ulsic.  
+- Density ranges for Lithic, Astatic, and Aetheric.  
+- Subclasses (conformations) within each category.  
+
+**Key Terms & Symbols:**  
+- Lithic → Petriform (silicate), Carboform (carbon).  
+- Astatic → Pagoform (ice-rich), Fluxiform (liquid-dominated).  
+- Aetheric → Transiform (gas dwarfs), Pneumoform (ice giants), Haliform (gas giants).  
+- Ulsic → placeholder for exotic/degenerate matter (neutron stars, quark stars, black holes).  
+- Densities expressed in g/cm³ and ⨁ (Earth-density units).  
+
+**Cross-Check Notes:**  
+- Canon as of Glossary v1.217.  
+- Complements **Monobody Mass Classes** (size taxonomy), creating a two-axis classification system (mass × composition).  
+- “Haliform” here = Gas Giants → ensure no confusion with earlier Haliform (halogen-bearing lithic variant).  
+- Overlaps with terms already staged in Glossary: Lithic, Astatic, Aetheric, Ulsic.  
+
+---
+---
+
+
 ## Monobody Compositions
 
 All monobodies should be thought of as falling roughly into one of four categories of ***configuration***:

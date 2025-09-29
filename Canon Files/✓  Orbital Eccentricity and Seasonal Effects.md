@@ -1,3 +1,28 @@
+## Abstract
+**Major Topics:**  
+- Orbital eccentricity and its impact on planemo–star systems.  
+- Periastron (Rₘᵢₙ) and apastron (Rₘₐₓ) distances.  
+- Fractional Distance Asymmetry (Ḋ) as a measure of orbital skew.  
+- Flux Ratio (Fₘᵢₙ/Fₘₐₓ) and insolation contrast.  
+- Climatic implications of eccentricity-driven flux differences.  
+
+**Key Terms & Symbols:**  
+- 𝒜 = average orbital separation (semimajor axis).  
+- e = orbital eccentricity.  
+- Rₘᵢₙ, Rₘₐₓ = periastron and apastron distances:contentReference[oaicite:0]{index=0}.  
+- Ḋ = fractional distance asymmetry:contentReference[oaicite:1]{index=1}.  
+- Fₘᵢₙ/Fₘₐₓ = flux ratio (climatic effect):contentReference[oaicite:2]{index=2}.  
+
+**Cross-Check Notes:**  
+- Canonical terminology: *periastron/apastron* with Rₘᵢₙ/Rₘₐₓ for star–planemo systems.  
+- Deprecated symbols: ß, rₚ, rₐ (legacy only).  
+- Ḋ introduced in Glossary v1.211 as preferred WCB metric.  
+- Overlaps conceptually with orbital design/insolation notes; interacts with climate/habitability discussions.  
+
+---
+---
+
+
 # Orbital Eccentricity and Seasonal Effects
 
 For a planemo orbiting a star (M₂ ⋘ M₁):

@@ -1,3 +1,35 @@
+## Abstract
+**Major Topics:**  
+- Methods for estimating seasonal lengths on eccentric orbits.  
+- Obliquity azimuth (φ) as orientation marker for seasons.  
+- Sinusoidal approximation method (fast vs. slow half of orbit).  
+- Fudge factor (f = 10e) to break paired-season symmetry.  
+- Kepler’s exact method (eccentric anomaly → mean anomaly → season fractions).  
+- Worked examples: Earth and Rosetta.  
+
+**Key Terms & Symbols:**  
+- C = sidereal chronum (WCB-specific orbital year length).  
+- P = generic orbital period (not used here, but standard astrophysical symbol).  
+- e = orbital eccentricity.  
+- φ = obliquity azimuth.  
+- ν = true anomaly (season midpoint).  
+- Δt = seasonal length.  
+- f = fudge factor (10e).  
+- E = eccentric anomaly, M = mean anomaly.  
+
+**Cross-Check Notes:**  
+- Canonical obliquity azimuth φ (glossary v0.4+).  
+- Sinusoidal method is **SANC** (Simple, Approximate, Notationally Clear).  
+- Fudge factor optional; gives four distinct season lengths when desired.  
+- Kepler method more exact; captures asymmetry without fudge.  
+- Overlaps with **Orbital Eccentricity and Seasonal Effects.md** (flux and climate implications).  
+- Important: WCB distinguishes between generic orbital period (P) and sidereal chronum (C).  
+
+
+---
+---
+
+
 # 📖 Season-Length Estimation Methods
 This process assumes that you have already determined the duration of your planet's orbit around its star (its *sidereal chronum*, $C$).
 ## Obliquity azimuth ($\phi$)

@@ -1,3 +1,30 @@
+
+## Abstract
+**Major Topics:**  
+- Planetary albedo (A) as a measure of reflectivity.  
+- Estimated albedo ranges for different planemo types (snowball, cloudy Earthlike, rocky desert, oceanic, Venus-like).  
+- Planetary Albedo Estimator: breakdown of surface types and modifiers (snow, desert, forest, ocean, clouds).  
+- Climatic implications: high albedo → cooling/snowball effect; low albedo → warming.  
+
+**Key Terms & Symbols:**  
+- A = albedo (fraction of incident light reflected).  
+- Contextual ranges:  
+  - Snowball planemo: ⟨0.6 ∧ 0.8⟩:contentReference[oaicite:0]{index=0}  
+  - Cloudy temperate Earthlike: ⟨0.25 ∧ 0.35⟩:contentReference[oaicite:1]{index=1}  
+  - Rocky desert world: ⟨0.15 ∧ 0.25⟩:contentReference[oaicite:2]{index=2}  
+  - Ocean planemo (few clouds): ⟨0.05 ..0.15⟩:contentReference[oaicite:3]{index=3}  
+  - Thick sulfur clouds (Venus-like): ~0.75:contentReference[oaicite:4]{index=4}  
+
+**Cross-Check Notes:**  
+- Canon as of Glossary (albedo already present, this note expands estimates by world-type).  
+- Albedo estimator table introduces finer subdivisions (surface modifiers, cloud effects).  
+- Overlaps with climate/habitability notes; relates to **Orbital Eccentricity and Seasonal Effects.md** (seasonal insolation context).  
+- Ensure no symbol collision: albedo consistently A.  
+
+---
+---
+
+
 | planemo Type                | Estimated Albedo (A) |
 | --------------------------- | -------------------- |
 | Snowball planemo            | ⟨0.6 ∧ 0.8⟩          |

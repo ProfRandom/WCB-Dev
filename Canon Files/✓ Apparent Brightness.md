@@ -1,3 +1,30 @@
+
+## Abstract
+**Major Topics:**  
+- Apparent brightness (flux) as a function of luminosity and distance.  
+- Absolute form: $B_A = \dfrac{L_W}{4 \pi d^2}$:contentReference[oaicite:0]{index=0}.  
+- Relative form (solar units): $B_{A⊙} = \dfrac{L}{D^2}$:contentReference[oaicite:1]{index=1}.  
+- Inverse-square law for radiation intensity.  
+- Worked examples: Sun as seen from Mars; star Kalveru (L = 1.618⊙) at 1 AU and 1.524 AU:contentReference[oaicite:2]{index=2}.  
+
+**Key Terms & Symbols:**  
+- $B_A$ = apparent brightness (flux, W/m²).  
+- $L_W$ = luminosity (watts).  
+- $d$ = distance (meters).  
+- $B_{A⊙}$ = apparent brightness in solar units.  
+- $L$ = luminosity in solar units.  
+- $D$ = distance in AU (semi-major axis).  
+
+**Cross-Check Notes:**  
+- Canonical use: $B_{A⊙}$ form is preferred for thesiastic accessibility.  
+- Related to glossary entries: luminosity, flux, inverse-square law, semi-major axis (𝒜).  
+- Examples provide concrete context (Mars orbit, Kalveru–Dynon system).  
+- Ensure no collision with existing brightness/flux notation elsewhere.  
+
+---
+---
+
+
 # Apparent Brightness
 How bright something that shines _is_ and how bright it _appears_ to an observer is a function of distance.  The absolute apparent brightness can be calculated by:
 $$

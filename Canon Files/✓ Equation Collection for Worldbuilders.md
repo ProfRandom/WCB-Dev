@@ -1,3 +1,31 @@
+## Abstract
+**Major Topics:**  
+- Reference sheet of exponent and logarithm rules for worldbuilding math.  
+- General-use algebraic identities and transformations.  
+- Ratio, sum/difference, mean, product/quotient relationships between bounds.  
+- Percentage calculations and range transformations.  
+- Integer sequences, summations, odd/even sequences.  
+- Special transforms (involutive, reciprocal percentages).  
+- Generalized metallic mean formula.  
+- Point–slope and slope–intercept line equations.  
+- Temperature scale conversions (Fahrenheit, Celsius, Kelvin).  
+
+**Key Terms & Symbols:**  
+- Exponents, roots, logs (standard algebra rules).  
+- Variables for bounds: u (upper), l (lower), s (sum), d (difference), r (ratio), m (mean), p (product), q (quotient).  
+- Percentages: p, x, n, v.  
+- Σ = summation over integer ranges.  
+- Metallic mean: Nₓ.  
+- Line equations: slope (m), intercept (b), points (x₁, y₁), (x₂, y₂).  
+- Temperature variables: F (Fahrenheit), C (Celsius), K (Kelvin).  
+
+**Cross-Check Notes:**  
+- Functions as a **toolbox reference** rather than a conceptual note.  
+- Reinforces WCB’s **SANC** principle: simple, approximate, notationally clear.  
+- Purely mathematical — no worldbuilding-specific notation introduced beyond standard algebra.  
+- Should remain a **utility reference** to support other canon notes.  
+
+
 A reference sheet of exponent and logarithm rules useful in constructing systems of thermal, gravitational, orbital, and energetic relationships in scientifically-grounded worldbuilding.
 
 ---

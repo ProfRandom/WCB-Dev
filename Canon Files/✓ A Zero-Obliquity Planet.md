@@ -1,4 +1,26 @@
 
+## Abstract
+**Major Topics:**  
+- Characteristics of a zero-obliquity (ε ≈ 0°) planet.  
+- Climatic consequences: absence of seasons, uniform day length.  
+- Astronomical consequences: no annual change in stellar altitude or apparent size.  
+- Cultural/calendar implications: limited concept of “year,” reliance on lunar or stellar cycles.  
+- Alternative mechanisms for “seasons” via high orbital eccentricity.  
+
+**Key Terms & Symbols:**  
+- ε = obliquity (axial tilt).  
+- e = orbital eccentricity.  
+- Periastron / Apastron distances (Rₘᵢₙ, Rₘₐₓ).  
+
+**Cross-Check Notes:**  
+- Relates to glossary terms: obliquity (ε), eccentricity (e), periastron/apastron.  
+- Complements **Orbital Eccentricity and Seasonal Effects.md** by exploring a special case.  
+- Conceptual overlap with habitability/seasonality discussions in climate-related notes.  
+
+---
+---
+
+
 # A Zero-Obliquity Planet
 ## Basics
 A planet with no axial tilt (or a very, very modest one — anything <2.5°)

@@ -1,3 +1,23 @@
+
+## Abstract
+**Major Topics:**  
+- Definition of the **SANC Principle** (*Science-Adjacent, No Calculus*).  
+- Scope of mathematical tools for WCB: algebra, geometry, trigonometry.  
+- Exclusion of higher-level tools: calculus, tensors, advanced astrophysics.  
+- Guiding philosophy: “Rigor without rigidity.”  
+
+**Key Terms & Symbols:**  
+- SANC = Science-Adjacent, No Calculus.  
+
+**Cross-Check Notes:**  
+- Canon as of Glossary v1.212.  
+- Reinforces the methodological boundaries of WCB — mathematical accessibility for builders without requiring advanced formal training.  
+- Companion mottos: *Simple, Approximate, Notationally Clear* and *Sufficient and Necessary Constructs*.  
+
+---
+---
+
+
 # 🔑 The SANC Principle
 
 **SANC = Science-Adjacent, No Calculus.**

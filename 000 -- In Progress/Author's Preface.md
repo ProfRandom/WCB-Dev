@@ -1,3 +1,5 @@
+> I'd love to be able to say I did this all by myself, but that would be a lie.  The reason it took me decades to pull all this together is the sheer volume of the material involved and the monumental work of cross-referencing, cross-indexing, aligning, etc.  Were it not for Obsidian (v##) and ChatGPT (v##), this project would still be languishing in Cyberia drowsily dreaming of a material existence that would like never have come.
+
 **Dedication**
 
 _To that young me who wanted to build whole worlds but didn’t yet have the tools — and couldn’t find them already available.  
