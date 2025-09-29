@@ -99,3 +99,6 @@ Repo       → Git workflow, housekeeping, file structure
 ---
 
 ✨ With this system, Git becomes your **time machine**: every canon bump, experiment, or story draft is preserved, searchable, and recoverable forever.
+
+
+|
