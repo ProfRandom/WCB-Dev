@@ -1,3 +1,31 @@
+
+## Abstract  
+**Major Topics:**  
+- Defines **Geotic planemos** as **habitable** terrestrial-class worlds (rocky–metallic composition) where humans can survive with minimal adaptation.  
+- Establishes parameter corridors wider than Gaeans but still viable for Earth-based life:  
+  - Mass (m): 0.30–3.35 ⨁  
+  - Density (ρ): 0.85–1.25 ⨁  
+  - Surface Gravity (g): 0.60–1.65 ⨁  
+  - Radius (r): 0.60–1.50 ⨁  
+  - Escape Velocity (vₑ): 0.65–1.50 ⨁  
+- Emphasizes that density is tightly bounded to ensure terrestrial composition, while mass and radius are more flexible.  
+- Geotics may require **atmospheric processing, infrastructure, or selective siting**, but can still yield shirtsleeve environments.  
+
+**Key Terms & Symbols:**  
+- **Geotic** — Habitable terrestrial-class planemo.  
+- **m, ρ, g, r, vₑ** — Fundamental planemo parameters (Earth-relative).  
+- **Marginal Earth-twins** — Near the edge of Gaean ranges.  
+- **Super-Earths (high-gravity Geotics)** — Heavier but still habitable.  
+- **Cooler, lighter Earthlikes** — Lower-pressure, lower-gravity variants.  
+
+**Cross-Check Notes:**  
+- All **Gaeans** are Geotics, but not all Geotics are Gaeans.  
+- Broader corridors allow for habitability beyond strict shirtsleeve optimum.  
+- Complements **Gaean** and **Gravity One Corridor** entries by defining the wider viable zone.  
+
+---
+---
+
 ## Geotic
 **Geotic** := ⟨ m ∧ ρ ∧ g ∧ r ∧ vₑ ⟩
   m := ⟨0.30 ∧ 3.35⟩⨁

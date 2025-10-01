@@ -1,3 +1,29 @@
+## Abstract  
+**Major Topics:**  
+- Explores calculation of habitable zones (thermozones) around **giant and supergiant stars**.  
+- Notes that HZ limits depend on **luminosity**, but actual distances must be measured from the **stellar surface** — giant radii become a critical factor.  
+- Worked example: **Aldebaran (K5 III)** with R = 44.2 ⊙, L = 439 ⊙, M = 1.16 ⊙ → nucleal orbit N ≈ 20.95 AU with orbital period ≈ 89 yr.  
+- Discusses why main-sequence scaling laws fail for evolved stars (incorrect masses from radius–mass or luminosity–mass relations).  
+- Extends to theoretical **200 M⊙ stars** (upper stellar mass limit), comparing MS scaling vs. the **Eddington limit**.  
+- Worked example: **Stephenson 2-18**, largest known star (R ≈ 2150 ⊙, L ≈ 440,000 ⊙, M ≈ 45 ⊙) → nucleal orbit ≈ 663 AU.  
+- Concludes that while thermozones can be calculated, giant/supergiant systems are **not Terran-hospitable**: their short lifetimes, unstable envelopes, and huge radii preclude long-term habitability.  
+
+**Key Terms & Symbols:**  
+- **Thermozone** — Habitable zone (HZ) limits derived from √L scaling.  
+- **Nucleal Orbit (N)** — Central HZ reference orbit (√L).  
+- **Lₑdd (Eddington limit)** — Maximum luminosity scaling for massive stars.  
+- **Perannual Orbit (𝓟)** — Orbital distance yielding a one-year (Earth sidereal) period.  
+- **Terran-hospitable** — Worlds truly habitable by unmodified humans.  
+- **Mathematically parahabitable** — Worlds calculable as within HZs but uninhabitable in practice.  
+
+**Cross-Check Notes:**  
+- Expands habitable zone framework by highlighting limitations of **stellar lifetimes and radii**.  
+- Connects to **Stellar Lifetimes and System Habitability** (short giant lifespans).  
+- Introduces terminology to distinguish **theoretical HZs** from **practical human-centered habitability**.  
+---
+---
+
+
 # 'Habitable Zones' of Giant Stars
 Remember that although the habitable zone limits are *calculated* using the luminosity of the star, they are *measured* in distance from its center of mass. Thus, a giant star like Aldebaran, with a radius of $44.2$⊙ and a luminosity of $439$⊙, will have much larger fundamental orbits than the Sun.
 

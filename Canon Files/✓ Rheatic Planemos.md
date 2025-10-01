@@ -1,3 +1,35 @@
+
+## Abstract  
+**Major Topics:**  
+- Defines **Rheatic planemos** as **parahabitable super-Earths**, favorable to robust biospheres but often inhospitable to unmodified humans.  
+- Parameter corridors:  
+  - Mass (m): 1.00–3.00 ⨁  
+  - Density (ρ): 0.85–1.25 ⨁  
+  - Surface Gravity (g): 0.85–1.70 ⨁  
+  - Radius (r): 0.90–1.50 ⨁  
+  - Escape Velocity (vₑ): 0.95–1.50 ⨁  
+- **Overlap with Gaeans:** ≈13.9% of Rheatics fall within Gaean gravity bounds (0.9–1.1 ⨁), making them unusually favorable worlds with both Earthlike conditions and enhanced biospheric potential.  
+- **Core Feature:** Larger, denser terrestrial bodies → broader climatic bands, longer tectonic–volcanic cycling, stronger magnetospheres, and more biospheric resilience (“superhabitable” qualities).  
+- **Implications for settlement:** Human colonization possible but requires adaptation: medical mitigation for high gravity, structural reinforcement, climate control.  
+- **Distinction:**  
+  - All Rheatics are Geotics, but skew toward higher mass/density.  
+  - Only a small subset are Gaean.  
+  - Serves as the WCB counterpart to **“superhabitable” exoplanets** in the scientific literature.  
+
+**Key Terms & Symbols:**  
+- **Rheatic** — Parahabitable terrestrial super-Earth, biosphere-rich but human-straining.  
+- **m, ρ, g, r, vₑ** — Fundamental planemo parameters (Earth-relative).  
+- **Superhabitable Zone** — WCB framing of biosphere-enhancing corridors.  
+- **Overlap Fraction:** ≈13.9% of Rheatics are also Gaean.  
+
+**Cross-Check Notes:**  
+- Consolidates external “superhabitable” terminology under the WCB neolex **Rheatic**.  
+- Provides numeric corridors to distinguish Rheatics from Geotics and Gaeans.  
+- Complements **Justifying Parahabitable Parameter Limits** by filling in the higher-mass end of the spectrum.  
+---
+---
+
+
 # Rheatic Plamemos
 ## Rheatic
 **Rheatic** := ⟨ m ∧ ρ ∧ g ∧ r ∧ vₑ ⟩

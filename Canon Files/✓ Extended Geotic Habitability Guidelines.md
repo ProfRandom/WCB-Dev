@@ -1,3 +1,36 @@
+## Abstract  
+**Major Topics:**  
+- Extended parameters for defining geotic (human-hospitable) conditions.  
+- Habitability ranges for rotation period (D), orbital eccentricity (e), orbital period (C), axial tilt (εₓ), precession cycle (χ), and obliquity azimuth (ζₙ).  
+- Magnetosphere strength (Bsurf) as radiation shielding criterion.  
+- Atmospheric baseline conditions: pressure, scale height, composition, ozone presence.  
+- Surface balance of land and water.  
+- Geotic gravity corridor (0.5–1.5 ⨁) as strict human-hospitable bound.  
+
+**Key Terms & Symbols:**  
+- **D** — Rotational period (diurn length).  
+- **e** — Orbital eccentricity.  
+- **C** — Orbital period (sidereal chronum).  
+- **εₓ** — Axial tilt (obliquity).  
+- **χ** — Axial precession cycle.  
+- **ζₙ** — Obliquity azimuth relative to periapsis.  
+- **Bsurf** — Surface magnetic field strength (μT).  
+- **Tₛ** — Average surface temperature (K).  
+- **H** — Atmospheric scale height (km).  
+- **g** — Surface gravity (⨁).  
+- Land–sea distribution (lithosphere–hydrosphere balance).  
+
+**Cross-Check Notes:**  
+- Reinforces prior geotic bounds with expanded atmospheric, rotational, orbital, and magnetic criteria.  
+- Clarifies *why* gravity corridor (0.5–1.5 ⨁) defines Geotic worlds: outside this, planemos may be Telluric/parahabitable but not Geotic.  
+- Orbital period C not freely chosen: constrained by Kepler’s Third Law, tying world design to stellar parameters.  
+- Magnetosphere thresholds emphasize that both too weak and too strong fields can undermine habitability.  
+- Complements and extends core Geotic definitions; functions as a reference sheet for designers setting secondary parameters.  
+
+---
+---
+
+
 # Extended Geotic Habitability Guidelines
 
 There are other parameters that have to do with habitability:

@@ -1,3 +1,26 @@
+
+## Abstract  
+**Major Topics:**  
+- Core algebraic relationships linking the five fundamental planemo parameters: **mass (m), radius (r), density (ρ), surface gravity (g), and escape velocity (vₑ)**.  
+- Provides multiple equivalent formulations, allowing any parameter to be derived from any two others.  
+- Functions as the canonical **equation-of-state matrix** for planemo design.  
+- Establishes normalized Earth-relative scaling (⨁ units).  
+
+**Key Terms & Symbols:**  
+- **m** — Planemo mass (⨁).  
+- **r** — Planemo radius (⨁).  
+- **ρ** — Mean density (⨁).  
+- **g** — Surface gravity (⨁).  
+- **vₑ** — Escape velocity (⨁).  
+
+**Cross-Check Notes:**  
+- Reinforces **Core Parameter Precedence** by showing equivalences and constraints.  
+- Serves as the mathematical backbone for all ontosomic classifications (Geotic, Gaean, Rheatic).  
+- Companion to **Geotic Ground States**, which simplifies these identities when one or more parameters = 1.  
+---
+---
+
+
 # Planemo Equations of State
 
 |          Mass<br>(m)           |         Radius<br>(r)         |             Density<br>(ρ)             |     Gravity<br>(g)     |   Escape Velocity<br>(vₑ)    |

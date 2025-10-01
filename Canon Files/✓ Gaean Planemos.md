@@ -1,3 +1,35 @@
+## Abstract  
+**Major Topics:**  
+- Defines **Gaean planemos** as the subset of Geotics that are fully **hospitable** (shirtsleeve worlds).  
+- Parameter bounds:  
+  - Mass (m): 0.45–1.85 ⨁  
+  - Density (ρ): 0.85–1.25 ⨁  
+  - Gravity (g): 0.90–1.10 ⨁  
+  - Radius (r): 0.70–1.30 ⨁  
+  - Escape velocity (vₑ): 0.80–1.20 ⨁  
+- Core criterion: **Earth-normal surface gravity** (±10%).  
+- Introduces the **Gravity One Corridor** — the locus of mass–density pairs that yield g = 1.000 ⨁.  
+
+**Key Terms & Symbols:**  
+- **m** — Mass (⨁).  
+- **ρ** — Density (⨁).  
+- **g** — Surface gravity (⨁).  
+- **r** — Radius (⨁).  
+- **vₑ** — Escape velocity (⨁).  
+- **Gravity One Corridor** — Parameter-space path yielding g = 1.000 ⨁.  
+- **Gaean** — Shirtsleeve-hospitable planemo.  
+- **Geotic** — Broader class of human-hospitable or parahabitable planemos.  
+
+**Cross-Check Notes:**  
+- All **Gaeans** are **Geotics**, but not all Geotics are Gaeans.  
+- Gravity One Corridor acts as the **ideal comfort baseline**; deviations reduce biomechanical ease, increase escape energy cost, or complicate stability/terraforming.  
+- About 17.7% of Geotics fall within/near this corridor.  
+- Provides reference framework for distinguishing **hospitable** (Gaean) vs. merely **habitable** (Geotic) worlds.  
+
+---
+---
+
+
 ## Gaean
 **Gaean** := ⟨ m ∧ ρ ∧ g ∧ r ∧ vₑ ⟩
   m := ⟨0.45 ∧ 1.85⟩⨁

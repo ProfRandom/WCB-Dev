@@ -1,3 +1,43 @@
+## Abstract  
+**Major Topics:**  
+- Establishes rationale for the **parahabitable envelope**:  
+  $$
+  \text{parameter} \in \langle0.5 \wedge 1.5\rangle \oplus
+  $$  
+  for the five foundational parameters (m, ρ, g, r, vₑ).  
+- Argues this range balances **biological tolerance** with **civilizational viability** — survivability, infrastructure, and long-term stability.  
+- Justifies limits for each parameter by examining consequences of values below ≈0.5 ⨁ or above ≈1.5 ⨁.  
+
+### Parameter-Specific Justifications  
+- **Mass:**  
+  - <0.5 ⨁ → atmosphere loss, weak magnetosphere, tectonic shutdown.  
+  - >1.5 ⨁ → runaway pressures, volatile over-retention, hostile chemistry, tech suppression.  
+- **Density:**  
+  - <0.5 ⨁ → volatile-rich ice/gas mix, poor tectonics, weak magnetosphere.  
+  - >1.5 ⨁ → iron-heavy compact worlds, stagnant lid tectonics, biomechanical barriers.  
+- **Gravity:**  
+  - <0.5 ⨁ → thin atmosphere, poor shielding, fluid/chemical instability.  
+  - >1.5 ⨁ → compressive barriers to life, atmosphere flattening, biochemical inhibition.  
+- **Radius:**  
+  - <0.8 ⨁ → compact/iron-rich, short tectonic lifespans.  
+  - >1.2 ⨁ → volatile-rich/iceball-class, poor atmospheric retention.  
+- **Escape Velocity (vₑ):**  
+  - <0.5 ⨁ (≈5.6 km/s) → thermal escape, atmosphere loss.  
+  - >1.5 ⨁ (≈16.8 km/s) → volatile over-retention, crushing pressures, runaway greenhouse, tech bottlenecks.  
+
+### Superhabitables  
+- Introduces **Superhabitable worlds**: planemos potentially *more conducive to life than Earth*.  
+- Traits: slightly higher mass (1.2–2.0 ⨁), moderate density (0.8–1.1 ⨁), g ≈ 1.1–1.4 ⨁, long tectonic lifespans, stronger magnetospheres, larger/ecologically diverse surfaces, thicker atmospheres.  
+- Not “superhuman-friendly” — may be hostile for humans but rich for biospheres.  
+- Shows habitability is a **plateau, not a peak**: higher mass can create opportunities, not just risks.  
+
+**Key Terms & Symbols:**  
+- **Parahabitable Envelope** — ⟨0.5–1.5⟩ ⨁ range across core parameters.  
+- **Superhabitable Planemos** — Worlds optimized for life’s flourishing, not human comfort
+---
+---
+
+
 # Justifying Parahabitable Parameter Limits
 
 We have specified that the five foundational parameters for _terrestrial-class_ planemos are:

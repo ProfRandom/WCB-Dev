@@ -1,3 +1,33 @@
+
+## Abstract  
+**Major Topics:**  
+- Simplified relationships among planemo parameters (m, ρ, g, r, vₑ) when one parameter is set to unity (Earth-normal).  
+- Demonstrates that if **any two parameters equal 1 simultaneously, all five must equal 1**.  
+- Provides worked equivalences for each “ground state” case:  
+  - m = 1 → other parameters derived directly.  
+  - ρ = 1 → r, g, vₑ equal; m is cube of these.  
+  - g = 1 → central case; defines “paramount geotic worlds.”  
+  - vₑ = 1 → ties radius, mass, and gravity.  
+  - r = 1 → m, g, ρ equal; vₑ is their square root.  
+- Highlights **paramount geotic worlds** as those with g = 1, i.e., Earth-normal gravity, yielding minimal physiological stress for humans.  
+
+**Key Terms & Symbols:**  
+- **m** — Planemo mass (⨁).  
+- **ρ** — Density (⨁).  
+- **g** — Surface gravity (⨁).  
+- **r** — Radius (⨁).  
+- **vₑ** — Escape velocity (⨁).  
+- **Geotic Ground States** — Parameter configurations where one or more parameters equal unity.  
+- **Paramount Geotic Worlds** — Worlds defined by g = 1, optimal for human habitation.  
+
+**Cross-Check Notes:**  
+- Expands the WCB **Core Parameter Precedence** framework by showing interdependencies in normalized form.  
+- Emphasizes that g = 1 is not just a mathematical simplification but the **biological optimum** for hospitable worlds.  
+- Serves as both a teaching tool (equation simplification) and a design guide (highlighting gravity’s primacy).  
+---
+---
+
+
 ## Geotic Ground States
 If you assume a value of 1 for any of the basic parameters, the equations for the other parameters simplify, as enumerated below.
 

@@ -1,3 +1,29 @@
+
+## Abstract
+**Major Topics:**  
+- Relationship between **land–water distribution** and planetary climate.  
+- Effects of different **continental/oceanic ratios** on atmospheric circulation, precipitation, and long-term habitability.  
+- Classification of hydrospheric patterns: aquaplanets, thalassoplanets, continental planets, mixed/ocean-hemisphere worlds.  
+- Impact of **polar vs. equatorial land placement** on ice caps, climate stability, and water cycle feedbacks.  
+- Worldbuilding guidelines for how water distribution influences **biospheric richness** and **geotic/gaean habitability envelopes**.  
+
+**Key Terms & Symbols:**  
+- **Aquaplanet** — world with near-total ocean coverage.  
+- **Thalassoplanet** — ocean-dominated planet with small landmasses.  
+- **Continental planet** — land-dominated planet with limited water.  
+- **Mixed pattern** — intermediate distribution of land and water.  
+- **Hydrospheric balance** — ratio of oceanic to continental coverage, often expressed as a percentage.  
+- **Cryosphere** — ice-covered portions of the hydrosphere, strongly latitude-dependent.  
+
+**Cross-Check Notes:**  
+- Connects directly with **Gaean Planemos** (Earth-like envelope definition) and **Geotic Guidelines** (extended habitability).  
+- Provides *pattern-based classification*, useful alongside **Ground States** and **Rheatic Planemos**.  
+- No explicit new symbols; introduces several neolexical classifications (*thalassoplanet, aquaplanet*).  
+- Stages additional glossary updates for **hydrospheric balance** and related world types.  
+---
+---
+
+
 ### 🔑 Core Insight:
 
 > **Habitability is shaped by _exposed land_, not just crustal proportion.**

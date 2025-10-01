@@ -1,3 +1,32 @@
+
+## Abstract  
+**Major Topics:**  
+- Outlines the **dual-branch classification system** for planemos (planetary monobodies).  
+- **Conformation branch** (structural/physical): based on composition and physical form.  
+  - Orders: Lithic, Astatic, Aetheric, Ulsic.  
+  - Forms: Petriform, Carboform, Pagoform, Fluxiform, Transiform, Pneumoform, Haliform, Neutraform, Quarkform, etc.  
+- **Ontosomic branch** (life-relevance): based on relation to biospheric potential.  
+  - Classes: Geotic, Gaean, Rheatic, Xenotic.  
+  - Types: Subdivisions (e.g., Marginal Geotic, Dense Hot Rheatic).  
+  - States (Climostates): Global climate regimes (Cryostate, Hydrostate, Pyrostate, Pluristate, etc.).  
+  - Conditions: Atmospheric/seasonal descriptors (Tempestal, Zephyral, Serenal, etc.).  
+- Both branches are independent but complementary lenses for describing the same planemo.  
+
+**Key Terms & Symbols:**  
+- **Planemo** — planetary monobody, trunk-level category.  
+- **Conformation** — physical/chemical classification.  
+- **Ontosomy** — life-relevance classification.  
+- **Orders/Forms** — structural breakdown of planemo types.  
+- **Classes/Types/States/Conditions** — biospheric breakdown of livability.  
+
+**Cross-Check Notes:**  
+- Provides the **master map** for all other planemo-related classifications.  
+- Ensures that **physical identity** (Conformation) and **biospheric identity** (Ontosomic) can coexist without collision.  
+- Anchors subordinate classifications (e.g., Gaean, Rheatic, Hydrostate subtypes).  
+---
+---
+
+
 # 🌍 Planemo Framework (Master Map)
 
 All **Planemos** (planetary monobodies) share a **common trunk** — then branch into two complementary classification systems.

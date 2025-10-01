@@ -1,3 +1,27 @@
+## Abstract  
+**Major Topics:**  
+- Examines how stellar luminosity evolution alters habitable zone (HZ) boundaries over time.  
+- Early Sun (1 Ga): luminosity ≈ 0.767 ⨀, pushing HZ inward; Venus and Mars both within the optimistic HZ at that epoch.  
+- Future Sun (10 Ga, end of main sequence): luminosity ≈ 2.02 ⨀, pushing HZ outward; Earth sterilized, Mars marginal, Jupiter within parahabitable zone.  
+- Defines and calculates habitable zone boundaries (H₀–H₅) and the **nucleal orbit (N)** using √L scaling.  
+- Connects stellar evolution directly to planetary habitability windows.  
+
+**Key Terms & Symbols:**  
+- **L** — Stellar luminosity (⊙).  
+- **H₀–H₅** — Successive habitable zone limits (inner, outer, parahabitable).  
+- **N** — Nucleal orbit (center of HZ).  
+- **Ga** — Giga-annum (10⁹ years).  
+- **ka** — kilo-annum (10³ years).  
+
+**Cross-Check Notes:**  
+- Reinforces the **Faint Young Sun Paradox**: early Earth outside conservative HZ yet still habitable.  
+- Shows habitability is time-dependent, not static — must account for stellar aging.  
+- Connects to **parahabitable classification** (outer HZ zones).  
+- Complements earlier HZ framework by adding a temporal axis.  
+---
+---
+
+
 As with all stars (even the most stable and long-lived) the Sun's luminosity has varied over its lifetime. Shortly after its formation, its luminosity was about $70\%$[^1] of its current value, and the luminosity has experienced an average increase of about $6.7\%$ per billion years to its present value. When the Sun was 1 billion years old, its luminosity was about $76.7$% of its current value of $3.828 \times 10^{26}$ W. Thus the habitable zone limits and the nucleal orbit of a star, all of which are *dependent upon its luminosity*, will also be different depending on its age, and vary as the star ages.
 
 For instance, the habitable zones for the Sun on its billion-year birthday were:
