@@ -1,4 +1,7 @@
 
+
+
+
 ### **✅ 1. Micromo is the umbrella term for all small stellar system bodies (SSSBs).**
 
 ✔ Distinct from **Planemo (planetary-mass objects)** and **Stellamo (stellar-mass objects).**  

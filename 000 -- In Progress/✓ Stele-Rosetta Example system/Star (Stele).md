@@ -5,7 +5,7 @@
 - **Temperature:** 1.0869⊙; 6304 K
 - **Luminosity:** 1.884⊙
 - **Lifetime:** 0.6623⊙; 6.623 Ga
-- **Spectral Type:** F7.97V
+- **Spectral Type:** $\mathcal{S} = F7.97V$
 - **Nucleal Orbit:** $\mathcal{N} = 1.3725$ AU
 	- **Thermozones:**
 		- $H_0$: 0.686

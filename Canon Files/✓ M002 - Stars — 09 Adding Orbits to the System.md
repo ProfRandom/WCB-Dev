@@ -1,3 +1,41 @@
+
+## Abstract  
+**Major Topics:**  
+- Extension from nucleal (𝒩) and perannual (𝒫) orbits to **full orbital system design**.  
+- Empirical analysis of the Solar System: orbital distances, eccentricities, ontozone placement, gaps, and intervals.  
+- Definition of **orbital intervals** (ratio of successive orbital distances):  
+  - Solar System ranges: 1.38–2.00 AU, μ ≈ 1.74 AU, σ ≈ 0.205.  
+  - WCB **conservative range:** ⟨1.400 ∧ 2.000⟩ AU.  
+  - WCB **medial range:** ⟨1.200 ∧ 3.500⟩ AU.  
+  - WCB **optimistic range:** ⟨1.000 ∧ 5.000⟩ AU.  
+- Introduction of **intrabasal** and **extrabasal orbit generation processes**:  
+  - **Intrabasal:** generate inward orbits from a base radius (divide by randomized interval).  
+  - **Extrabasal:** generate outward orbits from a base radius (multiply by randomized interval).  
+- Application strategies:  
+  - Start at nucleal/perannual orbit → expand inward/outward.  
+  - Start at innermost or outermost safe orbit → generate outward/inward.  
+  - Always check results against 𝒩 or 𝒫 to maintain coherent interval spacing.  
+- Worked example:  
+  - Starting from 𝒩 = 0.834 AU.  
+  - Generated inward to 0.101 AU, outward to 33.357 AU.  
+  - Produced 11 candidate orbital positions spanning inner rocky to distant icy regions.  
+
+**Key Terms & Symbols:**  
+- **Orbital Interval (I):** ratio of successive orbital distances, $I = O_n / O_{n-1}$.  
+- **Orbital Gap (G):** difference of successive orbital distances, $G = O_n - O_{n-1}$.  
+- **Intrabasal Orbit Calculation:** inward generation by division.  
+- **Extrabasal Orbit Calculation:** outward generation by multiplication.  
+- **Basal Orbit (B):** chosen anchor orbit (e.g., 𝒩 or 𝒫).  
+- **Ω (Omega):** cutoff distance (innermost safe orbit or outer system limit).  
+
+**Cross-Check Notes:**  
+- **New glossary entries needed:** Orbital Interval, Orbital Gap, Intrabasal Orbit Calculation, Extrabasal Orbit Calculation, Basal Orbit, Ω (system cutoff).  
+- Builds on previous anchors (𝒩, 𝒫, thermozones) to enable **statistically grounded system generation**.  
+- Provides WCB’s baseline method for populating star systems with planemo orbits.  
+---
+---
+
+
 # Fleshing Out A Star System
 
 We've established spectral classes and types, thermozones, ontozones, habitability indices, and the two critical orbital distances, *nucleal* ($\mathcal{N}$) and *perannual* ($\mathcal{P}$).

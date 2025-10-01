@@ -1,3 +1,39 @@
+
+## Abstract  
+**Major Topics:**  
+- Definition of the **Perannual Orbit (𝒫):** the orbital distance in a star system where a planemo completes exactly one Earth sidereal year (365.256363 ephemeris days).  
+- Distinction between **sidereal year** (fixed stars, used for 𝒫) and **tropical year** (surface experience of seasons).  
+- Calculation of orbital period using Kepler’s Third Law in Solar-relative units:  
+  - $P = \sqrt{\dfrac{a^3}{M+m}}$  
+  - $a = \sqrt[3]{P^2 (M+m)}$  
+  - $M+m = \dfrac{a^3}{P^2}$  
+- Effect of planemo mass (*m*) on orbital period (generally negligible but measurable; e.g., Earth’s mass shifts orbital period by ~47 seconds).  
+- 𝒫 compared with the **Nucleal Orbit (𝒩):**  
+  - Can be **intranucleal** (inside 𝒩) or **extranucleal** (outside 𝒩).  
+  - Only coincides with 𝒩 when $M = 1⊙$ (and $m = 1⨁$ ideally).  
+- Unlike 𝒩 (irradiance-based), 𝒫 depends on **mass**, making it a **temporal reference** rather than a thermal one.  
+- Final simplification: for the perannual orbit distance,  
+  - $\mathcal{P} = \sqrt[3]{M+m}$ (including planemo mass).  
+  - $\mathcal{P} = \sqrt[3]{M}$ (ignoring planemo mass).  
+
+**Key Terms & Symbols:**  
+- **Perannual Orbit (𝒫):** distance where orbital period = 1 Earth sidereal year.  
+- **Sidereal Year:** 365.256363 ephemeris days; fixed-star frame reference.  
+- **Intranucleal / Extranucleal:** perannual orbit lies inside or outside the nucleal orbit.  
+- **Symbols:**  
+  - $P$ = orbital period (in sidereal years).  
+  - $a$ = semi-major axis (AU).  
+  - $M$ = stellar mass (⊙).  
+  - $m$ = planemo mass (⊙).  
+  - 𝒫 = perannual orbital distance.  
+  - 𝒩 = nucleal orbit.  
+
+**Cross-Check Notes:**  
+- **New glossary entries needed:** Perannual Orbit (𝒫), Intranucleal, Extranucleal.  
+- Reinforces dual anchor system in WCB: 𝒩 (thermal/irradiance-based) vs. 𝒫 (temporal/mass-based).  
+- Links forward to *M002 — Stars 06: Relating the Nucleal and Perannual Orbits*.  
+---
+
 ## The Perannual Orbit
 There is one remaining essential star system orbit, which I have called the **perannual** orbit.  The word comes from the Latin *per annum*, meaning "per year" or "each year", and the name reflects that this is the orbit in any star system which has an orbital period (*P*) of exactly one Earth year.
 ##### IMPORTANT

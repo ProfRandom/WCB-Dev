@@ -41,7 +41,7 @@ In *Spectral Classes*, we covered spectral classes and spectral types and their 
 - **Mass** — How much material is there? (M)
 - **Luminosity** — How bright is it? (L)
 - **Radius** — How big is it? (R)
-- **Lifetime** — How long does it shine? (Q)
+- **Lifetime** — How long does it shine? ($\mathcal{Q}$)
 	- Chiefly relevant to _Main Sequence_ stars, particularly stars that are **Solar Cognates** (more on this below.)
 
 > Notes:
@@ -76,11 +76,11 @@ Yes, that's a bit technical and complicated, but it's also extremely _important_
 
 Here are the promised equations:
 
-| Temperature<br>(T) |    Mass<br>(M)    | Radius<br>(R) |       Lifetime<br>(Q)       |
-| :----------------: | :---------------: | :-----------: | :-------------------------: |
-| $T=\sqrt[1.98]{M}$ | $M=\sqrt[0.9]{R}$ |  $R=M^{0.9}$  |        $Q=M^{-2.5}$         |
-| $T=\sqrt[1.8]{R}$  |   $M=T^{1.98}$    |  $R=T^{1.8}$  | $Q \approx \sqrt[-0.36]{R}$ |
-|    $T=Q^{-0.2}$    |   $M=Q^{-0.4}$    | $R=Q^{-0.36}$ |         $Q=T^{-5}$          |
+|   Temperature<br>(T)   |      Mass<br>(M)       |      Radius<br>(R)      |            Lifetime<br>(Q)            |
+| :--------------------: | :--------------------: | :---------------------: | :-----------------------------------: |
+|   $T=\sqrt[1.98]{M}$   |   $M=\sqrt[0.9]{R}$    |       $R=M^{0.9}$       |        $\mathcal{Q}=M^{-2.5}$         |
+|   $T=\sqrt[1.8]{R}$    |      $M=T^{1.98}$      |       $R=T^{1.8}$       | $\mathcal{Q} \approx \sqrt[-0.36]{R}$ |
+| $T=\mathcal{Q}^{-0.2}$ | $M=\mathcal{Q}^{-0.4}$ | $R=\mathcal{Q}^{-0.36}$ |         $\mathcal{Q}=T^{-5}$          |
 
 > > **NOTE**:
 > > All of the above equations are _approximations_; stars are a much more variable set of objects (after all, they're mostly gas and plasma, so fluid dynamics plays a major role in their characteristics).  These equations work **best _in general_ for main sequence stars** of all classes.
@@ -134,7 +134,7 @@ T = \dfrac{K}{5800} \quad or \quad K = 5800T \\
 R = T^{1.8} \\
 L = R^2T^4 \\
 M = T^{1.98} \quad or \quad M = \sqrt[0.9]{R} \\
-Q = T^{-5} \quad or \quad Q = M^{-2.5}
+\mathcal{Q} = T^{-5} \quad or \quad \mathcal{Q} = M^{-2.5}
 \end{gather}
 $$
 #### Starting with Mass (*M*)
@@ -149,14 +149,14 @@ Q = T^{-5} \quad or \quad Q = M^{-2.5}
 \end{gather}
 $$
 #### Starting with Radius (*R*)
-**Primary dependency chain**: R → T → K → L → M → Q
+**Primary dependency chain**: R → T → K → L → M → 𝒬
 $$
 \begin{gather}
 T = \sqrt[1.8]{R} \\
 K = 5800T \\
 L = R^2T^4 \\
 M = T^{1.98} \\
-Q = T^{-5} \quad or \quad Q = M^{-2.5}
+\mathcal{Q} = T^{-5} \quad or \quad \mathcal{Q} = M^{-2.5}
 \end{gather}
 $$
 #### Starting With Luminosity (*L*)
@@ -170,14 +170,14 @@ M = T^{1.98} \\
 Q = T^{-5} \quad or \quad Q = M^{-2.5}
 \end{gather}
 $$
-#### Starting with Lifetime (*Q*)
+#### Starting with Lifetime (*𝒬*)
 \**As soon as you assume you'd never want to do this, you'll find a case for doing it.*\*
-**Primary dependency chain**: Q → T → K → R → L → M
+**Primary dependency chain**: 𝒬 → T → K → R → L → M
 $$
 \begin{gather}
-T=Q^{-0.2} \\
+T=\mathcal{Q}^{-0.2} \\
 K = 5800T \\
-R=Q^{-0.36} \\
+R=\mathcal{Q}^{-0.36} \\
 L = R^2T^4 \\
 M = \sqrt[3]{L}
 \end{gather}

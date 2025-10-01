@@ -1,3 +1,26 @@
+
+## Abstract  
+**Major Topics:**  
+- Introduction of **thermozones** as orbital bands derived from multiples of the Nucleal Orbit (𝒩).  
+- Mapping of thermozones to **Ontozones** (habitability categories): xenotic, parahabitable, habitable, hospitable.  
+- Distinct naming scheme rooted in **Latin/Greek etymologies**:  
+  - *Igniozone, Calorozone, Heliozone, Solarazone, Hiberozone, Brumazone, Cryozone*.  
+- **Thermozone Limit Notation (H₀…H₅):** standardized subscripts marking orbital cutoffs (0.5𝒩 through 4.85𝒩).  
+- Relationship of 𝒩 to Solarazone: always lies 11.49% inward from its inner edge.  
+- Provides a consistent, mnemonic framework for discussing orbital corridors across any star system.  
+
+**Key Terms & Symbols:**  
+- **Thermozone names:** Igniozone, Calorozone, Heliozone, Solarazone, Hiberozone, Brumazone, Cryozone.  
+- **Notation:** $Z_{..}$ for ontozones, H₀–H₅ for thermozone limits.  
+- **Nucleal Orbit (𝒩):** always located inside Solarazone.  
+- **Ontozones:** Inner/Outer Xenotic, Parahabitable, Habitable, Hospitable.  
+
+**Cross-Check Notes:**  
+- Several **new glossary terms** staged: thermozone names, *Thermozone Limit Notation (H₀–H₅)*.  
+- Builds directly on **Nucleal Orbit (𝒩)** (from Stars 03).  
+- Provides the **didactic bridge** between raw stellar flux math and corridor naming for worldbuilders.  
+
+
 # Star System Thermozones
 We've already introduced the term Habitable Zone before, sometimes also prosaically referred to as "The Goldilocks Zone".
 

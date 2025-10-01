@@ -1,3 +1,38 @@
+
+## Abstract  
+**Major Topics:**  
+- Critique of vague astronomical usage of “Sun-like star” and proposal of a **clearer WCB classification system** grounded in orbital habitability.  
+- Definitions nested by **Ontozone boundaries** and **perannual orbits (𝒫):**  
+  - **Solar Analogs:** perannual orbits spanning 0.500–4.850 AU (Inner → Outer Parahabitable Zone, H₀–H₅); spectral types F2–K9.  
+  - **Solar Cognates:** perannual orbits spanning 0.750–1.770 AU (Inner → Outer Habitable Zone, H₁–H₄); spectral types F7.62–K1.11.  
+  - **Solar Twins:** perannual orbits spanning 0.950–1.385 AU (Hospitable Zone, H₂–H₃); spectral types G1.04–G7.73.  
+- Hierarchical logic: all Twins ⊂ Cognates ⊂ Analogs:contentReference[oaicite:0]{index=0}.  
+- Mathematical framework for deriving stellar parameters:  
+  - Cross-relations between luminosity, perannual orbit (𝒫), and thermozone limits (H₀–H₅).  
+  - Generalized equation for stellar luminosity given thermozone factor (λ).  
+  - Direct temperature relation: $K = 5800(\lambda^{-0.3191})$.  
+- Thermal Axis for Perannual Orbits: diagram showing stellar temperature vs. spectral type for H₀–H₅.  
+- **Orbital Habitability Index (OHI):** scalar (0.00–1.00) quantifying relative habitability based on distance from the nucleal orbit (𝒩).  
+  - Piecewise function distinguishes intranucleal vs. extranucleal cases.  
+  - Index peaks at 1.00 for D = 𝒩, declines linearly to 0.00 at H₀ and H₅.  
+  - Illustrated via habitability atlas plate.  
+
+**Key Terms & Symbols:**  
+- **Solar Analog, Solar Cognate, Solar Twin:** nested categories of Sun-like stars based on ontozone/perannual placement.  
+- **𝒫 (Perannual Orbit):** temporal anchor.  
+- **𝒩 (Nucleal Orbit):** thermal anchor.  
+- **Thermozones (H₀–H₅):** reference corridors.  
+- **λ (Scaling Factor):** ratio linking perannual orbit to nucleal orbit.  
+- **OHI (Orbital Habitability Index):** 0.00–1.00 habitability scalar.  
+
+**Cross-Check Notes:**  
+- **New glossary entries needed:** Solar Analog, Solar Cognate, Solar Twin, Orbital Habitability Index (OHI).  
+- All other symbols and terms already staged in prior files (𝒩, 𝒫, thermozones, H₀–H₅, λ).  
+- This section bridges stellar classification with **habitability indices**, anchoring “Sun-like” terminology directly to WCB orbital framework.  
+---
+---
+
+
 # Solar Analogs, Cognates, and Twins
 
 The published literature often speaks of "solar analog" stars, but tends to be distressingly vague about exactly what the term means.  Generally speaking, it means "a star very much like the Sun".

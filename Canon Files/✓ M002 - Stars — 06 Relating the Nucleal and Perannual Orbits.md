@@ -1,3 +1,33 @@
+## Abstract  
+**Major Topics:**  
+- Relationship between the **Nucleal Orbit (𝒩)** and the **Perannual Orbit (𝒫)**.  
+- Both are **orbital environs**, not strict limiting distances — they describe contextual properties of a star system.  
+- Restatement of definitions:  
+  - 𝒩 = $\sqrt{L}$ (AU), where *L* = stellar luminosity (⊙).  
+  - 𝒫 = $\sqrt[3]{M+m}$ (AU), or $\sqrt[3]{M}$ if planemo mass *m* is disregarded.  
+- Mass–luminosity link: $M = \sqrt[3]{L}$ → allows cross-approximation between 𝒩 and 𝒫.  
+- Approximation formulas:  
+  - $\mathcal{P} \approx \sqrt[6]{L}$ (perannual from luminosity).  
+  - $\mathcal{N} \approx \sqrt{M^3}$ (nucleal from mass).  
+  - Cross-relations:  
+    - $\mathcal{P} \approx \sqrt[3]{\mathcal{N}}$  
+    - $\mathcal{N} \approx \mathcal{P}^3$  
+- Caution: these relations are **approximations**; robust calculation of 𝒩 and 𝒫 is recommended for precision:contentReference[oaicite:0]{index=0}.  
+
+**Key Terms & Symbols:**  
+- **𝒩 (Nucleal Orbit):** irradiance-based orbital benchmark.  
+- **𝒫 (Perannual Orbit):** period-based orbital benchmark.  
+- **Approximation relations:** linking 𝒩 and 𝒫 through stellar mass–luminosity scaling.  
+
+**Cross-Check Notes:**  
+- No new glossary entries beyond 𝒩 and 𝒫 (already staged in prior files).  
+- This section functions as a **bridge note**, unifying the thermal and temporal anchors in WCB orbital design.  
+- Emphasizes **approximation vs. precision**: usable shortcuts exist, but exact calculation is preferable.  
+---
+---
+
+
+
 We have explored both [[M002 - Stars — 03 The Nucleal Orbit ✓|The Nucleal Orbit]] and [[M002 - Stars — 05 The Perannual Orbit ✓|The Perannual Orbit]].  These two are not *limiting distances*, but **orbital environs** which both describe and contribute to the ontosomic nature of planemos.
 
 As a quick review:
