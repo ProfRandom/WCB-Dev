@@ -1,3 +1,39 @@
+
+## Abstract  
+**Major Topics:**  
+- Defines the **Nucleal Orbit (𝒩)** — orbital distance at which a planemo receives the same stellar irradiance as Earth does at 1 AU.  
+- Formula: 𝒩 = √L (where L = stellar luminosity in ⊙ units).  
+- Anchors the **habitable zone (HZ)** around a star as ranges proportional to 𝒩.  
+- Distinguishes between:  
+  - **Habitable Zone** — wider corridor (⟨0.750 ∧ 1.770⟩𝒩).  
+  - **Hospitable Zone** — narrower “middle lane” (⟨0.950 ∧ 1.385⟩𝒩).  
+- Defines **parahabitable, habitable, hospitable, xenotic** orbital spans as structured “Ontozones.”  
+- Introduces the **Frost Line (ϝ)** at 4.850𝒩, beyond which water cannot remain liquid.  
+- Specifies notation for inner and outer orbital regimes:  
+  - $Z_{IX}$, $Z_{IP}$, $Z_{IH}$, $Z_H$, $Z_{OH}$, $Z_{OP}$, $Z_{OX}$.  
+
+**Key Terms & Symbols:**  
+- **𝒩 (Nucleal Orbit)** — central reference orbit for irradiance equivalence.  
+- **ϝ (Frost Line)** — outer limit for liquid water (~4.850𝒩).  
+- **Ontozones** — structured orbital bands around stars.  
+- **Zone Notation:**  
+  - $Z_{IX}$ — Inner Xenotic Zone (<0.500𝒩).  
+  - $Z_{IP}$ — Inner Parahabitable Zone (0.500–0.750𝒩).  
+  - $Z_{IH}$ — Inner Habitable Zone (0.750–0.950𝒩).  
+  - $Z_H$ — Hospitable Zone (0.950–1.385𝒩).  
+  - $Z_{OH}$ — Outer Habitable Zone (1.385–1.770𝒩).  
+  - $Z_{OP}$ — Outer Parahabitable Zone (1.770–4.850𝒩).  
+  - $Z_{OX}$ — Outer Xenotic Zone (≥4.850𝒩).  
+
+**Cross-Check Notes:**  
+- Builds directly on **Habitable Zone Limits (H₀–H₅)** from v1.219.  
+- Adds layered refinement: narrower **Hospitable Zone** within the wider HZ.  
+- Introduces **Ontozones** and **zone notation system** for systematic classification.  
+- Establishes Frost Line (ϝ) as a formal WCB parameter.  
+---
+---
+
+
 ## The Nucleal Orbit
 The average distance from Earth to the Sun — about $1.496 \times 10^8$ km — is defined as one **astronomical unit (AU)**. Due to Earth’s slightly elliptical orbit, this distance varies by approximately ±2.5 million km between Earth's closest approach to and farthest distance from the Sun.
 

@@ -1,5 +1,39 @@
 
-![[Spectral Class Graphic.png]]
+## Abstract  
+**Major Topics:**  
+- Defines the **stellar spectral classification system** (O, B, A, F, G, K, M; plus L, T, Y) in a **linearized temperature model** for WCB use.  
+- Spectral Classes are set by **surface temperature ranges** ($T_{\text{eff}}$ in Kelvin).  
+- Each Class is subdivided into **Spectral Types** (0–9), numbered backwards (0 = hottest).  
+- Establishes formulas for interconversion between:  
+  - Spectral Type (𝓢),  
+  - Surface temperature in Kelvin (K),  
+  - Relative solar temperature (T),  
+  - High-class temperature bound (κ),  
+  - Thermal interval constant (þ).  
+- Introduces **thermal interval constants** (þ) for each Class, computed as (high – low)/10.  
+- Provides worked examples for:  
+  - The Sun (G2, 5800K, T=1.0),  
+  - Essem (F3.65, 6952.5K, T=1.199),  
+  - Essel (G9.192, 5081K, T=0.876).  
+- Includes expanded **parameter tables by spectral class**: Kelvin ranges, T⊙, R⊙, L⊙, M⊙, and Q⊙.  
+
+**Key Terms & Symbols:**  
+- **Spectral Class** — O, B, A, F, G, K, M (+ L, T, Y).  
+- **Spectral Type** — subclass 0–9 (backwards numbering).  
+- **K** — effective surface temperature in Kelvin.  
+- **T** — temperature relative to Sun (⊙ = 5800K ⇒ T = 1.0).  
+- **κ (kappa)** — high temperature bound of class.  
+- **þ (thorn)** — thermal interval constant = (high – low)/10.  
+- **𝓢** — spectral type number.  
+
+**Cross-Check Notes:**  
+- Provides **linearized model** vs. traditional classification irregularities.  
+- Supports interpolation (decimal values, e.g. G2.3, G2.9) without creating new types.  
+- Forms the **baseline module** for stellar characterization in WCB.  
+- Connects stellar parameters (L⊙, R⊙, M⊙, Q⊙) to habitability modeling.  
+---
+---
+
 
 # Stars and Spectral Classes: The Fusion-Fueled Continuum
 
@@ -14,7 +48,19 @@ Second: The spectral classes used in WBN are based on a **linearized temperature
 ## Spectral Class Table
 Here are the spectral classes we'll be working with.
 
-![[Spectral Class Base Table ✓]]
+|  Spectral<br>Class  | Low Temp. (K) | High Temp. (K) |
+| :-----------------: | ------------: | -------------: |
+|          O          |         25000 |          55000 |
+|          B          |         10000 |          25000 |
+|          A          |          7500 |          10000 |
+|          F          |          6000 |           7500 |
+|          G          |          5000 |           6000 |
+|          K          |          3500 |           5000 |
+|          M          |          2400 |           3500 |
+| Brown<br>↓ Dwarfs ↓ |               |                |
+|          L          |          1300 |           2400 |
+|          T          |           600 |           1300 |
+|          Y          |           300 |            600 |
 
 > Notes:
 > - Spectral Classes L, T, and Y are "special cases" which are covered in detail in another module ⟨⟨ insert module name here ⟩⟩
@@ -181,5 +227,33 @@ $$
 Essel's spectral type is *G9.192*.
 ### Parameter Ranges By Spectral Class
 
-![[Parameter Ranges By Spectral Class ✓]]
+# Parameter Ranges by Spectral Class
 
+|        | SC →       | <center>O</center> | <center>B</center> | <center>A</center> | <center>F</center> | <center>G</center> | <center>K</center> | <center>M</center> |
+| ------ | ---------- | -----------------: | -----------------: | -----------------: | -----------------: | -----------------: | -----------------: | -----------------: |
+|        |            |                    |                    |                    |                    |                    |                    |                    |
+|        | High       |              55000 |              25000 |              10000 |               7500 |               6000 |               5000 |               3500 |
+| Kelvin | Mean       |              40000 |              17500 |               8750 |               6750 |               5500 |               4250 |               2950 |
+|        | Low        |              25000 |              10000 |               7500 |               6000 |               5000 |               3500 |               2400 |
+|        | TIC¹ (*þ*) |               3000 |               1500 |                250 |                150 |                100 |                150 |                110 |
+|        |            |                    |                    |                    |                    |                    |                    |                    |
+|        | High       |             9.4828 |             4.3103 |             1.7241 |             1.2931 |             1.0345 |             0.8621 |             0.6034 |
+| T⊙     | Mean       |             6.8966 |             3.0172 |             1.5086 |             1.1638 |             0.9483 |             0.7328 |             0.5086 |
+|        | Low        |             4.3103 |             1.7241 |             1.2931 |             1.0345 |             0.8621 |             0.6034 |             0.4138 |
+|        |            |                    |                    |                    |                    |                    |                    |                    |
+|        | High       |            17.0690 |             7.7586 |             3.1034 |             2.3276 |             1.8621 |             1.5517 |             1.0862 |
+| R⊙     | Mean       |            12.4138 |             5.4310 |             2.7155 |             2.0948 |             1.7069 |             1.3190 |             0.9155 |
+|        | Low        |             7.7586 |             3.1034 |             2.3276 |             1.8621 |             1.5517 |             1.0862 |             0.7448 |
+|        |            |                    |                    |                    |                    |                    |                    |                    |
+|        | High       |            2.356 M |           20.779 k |            85.1093 |            15.1476 |             3.9709 |             1.3298 |             0.1565 |
+| L⊙     | Mean       |          348.608 k |            2.445 k |            38.1967 |             8.0501 |             2.3559 |             0.5015 |             0.0561 |
+|        | Low        |           20.779 k |             85.109 |            15.1476 |             3.9709 |             1.3298 |             0.1565 |             0.0163 |
+|        |            |                    |                    |                    |                    |                    |                    |                    |
+|        | High       |            18.7759 |             8.5345 |             3.4138 |             2.5603 |             2.0483 |             1.7069 |             1.1948 |
+| M⊙     | Mean       |            13.6552 |             5.9741 |             2.9871 |             2.3043 |             1.8776 |             1.4509 |             1.0071 |
+|        | Low        |             8.5345 |             3.4138 |             2.5603 |             2.0483 |             1.7069 |             1.1948 |             0.8193 |
+|        |            |                    |                    |                    |                    |                    |                    |                    |
+|        | High       |          64.10E-06 |           4.00E-03 |             0.1280 |             0.4684 |             1.3041 |             4.7336 |            29.3785 |
+| Q⊙     | Mean       |           0.67E-03 |          65.64E-03 |             0.2766 |             0.8441 |             2.1003 |            12.4968 |            82.4297 |
+|        | Low        |           0.69E-06 |          35.57E-06 |           3.47E-03 |             0.0146 |             0.0447 |             0.1112 |             0.6614 |
+¹ Thermal Interval Constant

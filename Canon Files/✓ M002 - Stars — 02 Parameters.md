@@ -1,5 +1,40 @@
+
+## Abstract  
+**Major Topics:**  
+- Defines the **five core stellar parameters**:  
+  - Temperature (K, T)  
+  - Mass (M)  
+  - Radius (R)  
+  - Luminosity (L)  
+  - Lifetime (Q)  
+- Establishes **parameter precedence**: temperature (T/K) is primary, radius (R) is secondary.  
+- Provides **equations of state** for main-sequence stars, allowing any parameter to be derived from another.  
+- Introduces the **blackbody approximation**, with emissivity (ϵ) correction.  
+- Explains the **Stefan–Boltzmann Law** and its solar-relative simplification ($L = R^2T^4$).  
+- Presents dependency chains for deriving all parameters starting from T, M, R, L, or Q.  
+- Emphasizes practical use in **worldbuilding calculations** (habitability, orbits, irradiance).  
+
+**Key Terms & Symbols:**  
+- **K** — Stellar surface temperature in Kelvin.  
+- **T** — Temperature relative to solar (T = K/5800).  
+- **M** — Stellar mass (⊙).  
+- **R** — Stellar radius (⊙).  
+- **L** — Stellar luminosity (⊙).  
+- **Q** — Stellar lifetime (⊙ units).  
+- **ϵ (epsilon)** — Emissivity, fraction of ideal blackbody radiation (0–1).  
+- **σ (Stefan–Boltzmann constant)** = $5.670374419 × 10^{-8} W·m^{-2}·K^{-4}$.  
+
+**Cross-Check Notes:**  
+- Direct analog to planemo parameter system (m, r, ρ, g, vₑ).  
+- Stars: **T primary, R secondary**.  
+- Planemos: **m primary, ρ secondary**.  
+- Provides unified framework for comparing stellar and planetary parameters.  
+---
+---
+
+
 # Stellar Parametrics
-In [[M002 - Stars — 01 Spectral Classes ✓]], we covered spectral classes and spectral types and their association to the surface temperatures of stars.  Stars, like planemos, have a basic set of parameters that describe them:
+In *Spectral Classes*, we covered spectral classes and spectral types and their association to the surface temperatures of stars.  Stars, like planemos, have a basic set of parameters that describe them:
 - **Temperature** — How hot is the surface?
 	- Absolute measure: Kelvin (K)
 	- Relative measure: Solar units (T)
@@ -41,7 +76,11 @@ Yes, that's a bit technical and complicated, but it's also extremely _important_
 
 Here are the promised equations:
 
-![[Standard Stellar Equations of State ✓]]
+| Temperature<br>(T) |    Mass<br>(M)    | Radius<br>(R) |       Lifetime<br>(Q)       |
+| :----------------: | :---------------: | :-----------: | :-------------------------: |
+| $T=\sqrt[1.98]{M}$ | $M=\sqrt[0.9]{R}$ |  $R=M^{0.9}$  |        $Q=M^{-2.5}$         |
+| $T=\sqrt[1.8]{R}$  |   $M=T^{1.98}$    |  $R=T^{1.8}$  | $Q \approx \sqrt[-0.36]{R}$ |
+|    $T=Q^{-0.2}$    |   $M=Q^{-0.4}$    | $R=Q^{-0.36}$ |         $Q=T^{-5}$          |
 
 > > **NOTE**:
 > > All of the above equations are _approximations_; stars are a much more variable set of objects (after all, they're mostly gas and plasma, so fluid dynamics plays a major role in their characteristics).  These equations work **best _in general_ for main sequence stars** of all classes.
