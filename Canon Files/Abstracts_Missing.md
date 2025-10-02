@@ -1,0 +1,31 @@
+# Files Missing Abstracts
+
+- ✓ Range Constraints & Random Assignment ✓.md
+- ✓ Principle of Mass Measurement ✓.md
+- ✓ Planning A Detailed Atmosphere ✓.md
+- ✓ Why Venus Isn't Gaean ✓.md
+- ✓ Superhabitable Planemos ✓.md
+- ✓ Physical Properties of Planets ✓.md
+- ✓ Parameter Ranges By Spectral Class ✓.md
+- ✓ Stellar Magnitude and The Distance Modulus ✓.md
+- ✓ Stellamo Framework (Master Map) ✓.md
+- ✓ Xenotic Planemos ✓.md
+- ✓ Stellar Thermal Interval Constant Table ✓.md
+- ✓ Stellar Populations ✓.md
+- ✓ Obliquity — Planetary Orientation.md
+- ✓ Estimating Planetary Magnetospheres.md
+- ✓ The Anthropic Norm ✓.md
+- ✓ The Euclidean Algorithm ✓.md
+- ✓ Physical Properties of Planemos ✓.md
+- ✓ Retrograde Rotation and Axial Tilt ✓.md
+- ✓ WBN Canonical -moic Ontotypes ✓.md
+- ✓ Mind the Gap – The Shortcomings of the Traditional Spectral Scale ✓.md
+- ✓ Orbit Randomization ✓.md
+- ✓ Setting The Stage ✓.md
+- ✓ Ontosomic Expansion of "Life" Concepts ✓.md
+- ✓ Stellar Lifetimes and System Habitability ✓.md
+- ✓ Planetary Rings and the Sun's Path.md
+- ✓ Midi, Mini, and Micromos.md
+- ✓ Telluric Planemos ✓.md
+- ✓ Units and Measures of Time ✓.md
+- ✓ Monobody Mass Classes and Ontotypes.md

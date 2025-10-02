@@ -1,4 +1,4 @@
-
+ 
 ## Abstract  
 **Major Topics:**  
 - Defines the **Nucleal Orbit (𝒩)** — orbital distance at which a planemo receives the same stellar irradiance as Earth does at 1 AU.  
