@@ -1,6 +1,32 @@
+## Abstract  
+**Major Topics:**  
+- Defines **Micromo** as a distinct category of **Small Stellar System Bodies (SSSBs)**, separate from Planemos (planetary-mass objects) and Stellamos (stellar-mass objects).  
+- Establishes a **compositional/conformational taxonomy** with three main classes:  
+  - **Telluroids**: rocky/metallic micromos (e.g., S-type, C-type, Vestoids, M-type).  
+  - **Astatoids**: volatile-rich micromos, subdivided into:  
+    - Pagooid (icy)  
+    - Fluxoid (liquid-dominated, hypothetical)  
+    - Ceroid (ice + subsurface ocean)  
+  - **Ulsoids**: exotic or cryptic micromos, subdivided into:  
+    - Exotoid (exotic matter)  
+    - Cryptoid (mysterious/unclassified, e.g. ‘Oumuamua).  
+- Establishes **upper bounds** for micromo classification: ≤ 250 µT (0.00025 T) or ≤ 600 km radius.  
+- Distinguishes **meteoroids** as a size-only category (<1 m), separate from micromo conformations.  
+- Draws parallels with familiar Solar System bodies (asteroids, comets, icy moons) while introducing new subtypes for speculative/exotic cases.  
 
+**Key Terms & Symbols:**  
+- **Micromo**: umbrella category for small stellar system bodies.  
+- **Telluroid, Astatoid, Ulsoid**: principal micromo conformations.  
+- **Pagooid, Fluxoid, Ceroid, Exotoid, Cryptoid**: subtype classifications.  
+- **µT (Teras Mass Unit)**: threshold measure for micromo mass (≤ 250 µT).  
 
-
+**Cross-Check Notes:**  
+- Glossary entries for Micromo and Telluroid were **newly added in v1.222**.  
+- Glossary entries for Astatoid, Ceroid, Fluxoid, Ulsoid, Exotoid, Cryptoid were **updated in v1.222** to replace placeholder structural definitions with these refined compositional/conformational definitions.  
+- Reinforces WCB’s hierarchical taxonomy: **Stellamo → Planemo → Micromo → Conformations**.  
+- Aligns terminology with the broader WCB classification framework and avoids conflict with deprecated placeholder definitions.  
+---
+---
 
 ### **✅ 1. Micromo is the umbrella term for all small stellar system bodies (SSSBs).**
 

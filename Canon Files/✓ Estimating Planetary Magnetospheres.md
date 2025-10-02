@@ -1,5 +1,29 @@
 
+## Abstract  
+**Major Topics:**  
+- Introduces methods for **estimating the strength and extent of planetary magnetospheres** using simplified dynamo scaling laws.  
+- Defines the planetary **magnetic moment (M)** as the primary parameter, derived from core radius (rc), core density (ρc), and rotation period (d).  
+- Relates magnetic moment to **surface magnetic field strength (Bsurf)** through empirical scaling relations.  
+- Discusses how **exponents (p, q, r)** in these formulas vary across different dynamo models (e.g., Stevenson, Driscoll & Olson).  
+- Emphasizes the protective role of magnetospheres in shielding planetary atmospheres from stellar wind and cosmic radiation, with implications for long-term **habitability**.  
+- Provides normalized formulas for use in worldbuilding, with Terran values as benchmarks.  
 
+**Key Terms & Symbols:**  
+- **M (Magnetic Moment):** Strength of a planet’s magnetic field.  
+- **Bsurf (Surface Magnetic Field Strength):** Field strength at planetary surface.  
+- **rc (Core Radius):** Planetary core radius (relative to Earth).  
+- **ρc (Core Density):** Planetary core density (relative to Earth).  
+- **d (Day Length):** Rotation period of the planet.  
+- **p, q, r:** Exponents in dynamo scaling laws.  
+
+**Cross-Check Notes:**  
+- No duplicate abstract exists; this is the **canonical magnetosphere reference**.  
+- Glossary updates required for **M, Bsurf, and dynamo scaling exponents (p, q, r)**.  
+- Closely related to notes on **habitability envelopes, atmospheric retention, and stellar wind interaction**.  
+---
+---
+
+# Estimating Planetary Magnetospheres
 
 - **Magnetic moment (M)** and how it relates to $B_{surf}$    
 - Empirical scaling relationships (e.g., from Stevenson or Driscoll & Olson models)    

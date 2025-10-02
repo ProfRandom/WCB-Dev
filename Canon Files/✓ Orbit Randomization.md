@@ -1,3 +1,6 @@
+
+
+
 # Orbit Randomization Notation
 This symbolic system defines how to procedurally generate a sequence of orbital radii using randomized multiplicative (or divisive) steps from a baseline (**basal**) value. It distinguishes between **intrabasal** (moving inward) and **extrabasal** (moving outward) orbit generation.
 

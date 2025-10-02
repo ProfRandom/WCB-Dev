@@ -1,0 +1,46 @@
+# Files With Abstracts (Alphabetical)
+
+- Canon_Abstracts.md
+- ✓ A Zero-Obliquity Planet.md
+- ✓ Albedo Estimates.md
+- ✓ Apparent Brightness.md
+- ✓ Approximating Season Lengths.md
+- ✓ Asteroid Belts and Resonance Gaps — working out.md
+- ✓ Calculating Stellar Sky Paths.md
+- ✓ Classification Rule — The Monobody Condition.md
+- ✓ Close-focus on Parameter Precedence.md
+- ✓ Earth-like Planemos — What Does That Even Mean.md
+- ✓ Ellipse Parameters and Equations.md
+- ✓ Equation Collection for Worldbuilders.md
+- ✓ Estimating Planetary Magnetospheres.md
+- ✓ Extended Geotic Habitability Guidelines.md
+- ✓ Gaean Planemos.md
+- ✓ Geotic Ground States.md
+- ✓ Geotic Planemos.md
+- ✓ Habitable Zones Over Stellar Lifetimes.md
+- ✓ Habitable Zones of Giant Stars.md
+- ✓ Harmonic Periods.md
+- ✓ Innermost Stable Limital and Critical Viable Limital.md
+- ✓ Justifying Parahabitable Parameter Limits.md
+- ✓ Justifying The Geotic and Gaean Parameter Envelopes.md
+- ✓ Land-Water Balance and Hydrospheric Patterns.md
+- ✓ M002 - Stars — 01 Spectral Classes.md
+- ✓ M002 - Stars — 02 Parameters.md
+- ✓ M002 - Stars — 03 The Nucleal Orbit.md
+- ✓ M002 - Stars — 04 Thermozone Orbits.md
+- ✓ M002 - Stars — 05 The Perannual Orbit.md
+- ✓ M002 - Stars — 06 Relating the Nucleal and Perannual Orbits.md
+- ✓ M002 - Stars — 07 Fine-tuning Stellar Parameters.md
+- ✓ M002 - Stars — 08 `Sun-Like` Stars.md
+- ✓ M002 - Stars — 09 Adding Orbits to the System.md
+- ✓ M002 - Stars — 10 Folding In The Zones.md
+- ✓ Midi, Mini, and Micromos.md
+- ✓ Mind the Gap – The Shortcomings of the Traditional Spectral Scale.md
+- ✓ Monobody Compositions.md
+- ✓ Monobody Mass Classes and Ontotypes.md
+- ✓ Obliquity — Planetary Orientation.md
+- ✓ Orbital Eccentricity and Seasonal Effects.md
+- ✓ Planemo Equations of State.md
+- ✓ Planemo Framework (Master Map).md
+- ✓ Rheatic Planemos.md
+- ✓ The SANC Principle.md

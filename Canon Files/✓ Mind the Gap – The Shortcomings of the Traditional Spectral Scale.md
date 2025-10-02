@@ -1,4 +1,30 @@
-# Sidebar Module — Mind the Gap – The Shortcomings of the Traditional Spectral Scale
+
+## Abstract  
+**Major Topics:**  
+- Critiques the **traditional stellar spectral sequence** (O, B, A, F, G, K, M) as inconsistent, non-linear, and historically accreted rather than systematically designed.  
+- Highlights specific discontinuities (e.g., **F9 → G0 only ~150 K**, while **F0 → F9 spans ~1350 K**) to show irregular subclass gaps.  
+- Explains how the **Worldmaking framework (WBN)** resolves these issues by adopting a **linearized spectral system**:  
+  - Each class is assigned a clean, evenly divided temperature range.  
+  - Subclasses interpolate predictably across the scale.  
+  - Enables symbolic clarity, ease of computation, and consistency with habitability modeling.  
+- Distinguishes use cases:  
+  - Use **traditional astrophysical data** when realism is desired.  
+  - Use the **linearized WBN scale** for symbolic and modeling coherence.  
+
+**Key Terms & Symbols:**  
+- **Spectral classes:** O, B, A, F, G, K, M.  
+- **Linearized spectral scale (WBN):** evenly spaced subclasses across temperature ranges.  
+- **Thermozones:** orbital/temperature relationships tied to stellar classification.  
+
+**Cross-Check Notes:**  
+- Complements *M002 — Stars: 01 Spectral Classes* (which already introduces the linearized scale).  
+- This note serves as a **sidebar critique and justification** for adopting the WBN linearized system.  
+- No new glossary terms or symbols required; all terms already established in existing canon.  
+---
+---
+
+
+# Mind the Gap – The Shortcomings of the Traditional Spectral Scale
 
 The classical stellar spectral sequence — O, B, A, F, G, K, M — originated as a cataloging system based on observed absorption lines in starlight. It was never designed to be linear, complete, or even particularly rational. And it shows.
 

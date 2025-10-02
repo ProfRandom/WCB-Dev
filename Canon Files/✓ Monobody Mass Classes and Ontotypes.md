@@ -1,3 +1,27 @@
+## Abstract  
+**Major Topics:**  
+- Provides the **canonical reference table** for **monobody mass classes and ontotypes**, establishing the taxonomy framework used across WCB.  
+- Defines the hierarchical structure of **–moic categories** by mass domain:  
+  - **Micromo, Minimo, Midimo, Planemo, Intermo, Stellamo, Supermo, Ultramo, Hypermo.**  
+- Associates each category with its **mass range, radius bounds, and representative examples** (from asteroids to stellar bodies).  
+- Establishes the system of **terracentric prefixes** (centiterran, deciterran, kiloterran, megaterran, etc.) for finer-grained scaling across mass domains.  
+- Connects ontotypes (e.g., **telluric, rheatic, gaean**) with their appropriate mass classes, showing where habitability-relevant subtypes emerge.  
+- Serves as the master framework to which specialized notes (e.g., **Gaean Planemos, Rheatic Planemos**) attach.  
+
+**Key Terms & Symbols:**  
+- **Mass classes:** Micromo, Minimo, Midimo, Planemo, Intermo, Stellamo, Supermo, Ultramo, Hypermo.  
+- **Terracentric scaling prefixes:** centiterran, deciterran, kiloterran, megaterran, etc.  
+- **Ontotypes:** compositional subtypes (telluric, rheatic, gaean, xenotic).  
+- **µT (microterran units):** mass measure used for micromos and smaller classes.  
+
+**Cross-Check Notes:**  
+- This file provides the **systemic backbone** for all WCB classification work.  
+- All major terms are already present in the glossary as of v1.222.  
+- Future consideration: whether **terracentric prefixes** warrant their own glossary entry or remain embedded in this reference note.  
+---
+---
+
+
 # Monobody Mass Classes and Ontotypes
 
 ## Listed by Mass Class

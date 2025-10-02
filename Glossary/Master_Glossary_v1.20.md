@@ -1,11 +1,11 @@
 # Worlds by the Numbers — Master Glossary v1.20
 
-This glossary collects **neolexes** (newly coined terms), **exolexes** (borrowed/adapted from external disciplines), and **insulexes** (internal conventions specific to WBN).  
+This glossary collects **neolexes** (newly coined terms), **exolexes** (borrowed/adapted from external disciplines), and **insulexes** (internal conventions specific to WCB).  
 Version 1.20 adds 26 new terms since v1.19.
 
 ---
 
-## 📗 Neolexes (WBN coinages)
+## 📗 Neolexes (WCB coinages)
 
 - **N-conjunction (N-orbiton systems)** — Alignment of N orbitons in a system; technically possible but practically impossible beyond three due to eccentricity and coplanarity requirements.  
 - **Synodion (Σ)** — The interval between successive alignments (synodia) of two orbitons.  
@@ -41,7 +41,7 @@ Version 1.20 adds 26 new terms since v1.19.
 
 ---
 
-## 📙 Insulexes (WBN internal conventions)
+## 📙 Insulexes (WCB internal conventions)
 
 - **Primary / secondary / tertiary hierarchy (by mass)** — Rule that system members are ranked by relative mass (not radius or volume) when assigning labels such as primary, secondary, tertiary.  
 

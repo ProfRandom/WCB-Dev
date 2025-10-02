@@ -1,3 +1,30 @@
+
+## Abstract  
+**Major Topics:**  
+- Defines **obliquity (ε)** as the axial tilt of a planemo relative to the perpendicular of its orbital plane.  
+- Describes how obliquity influences **seasons, climate regimes, and habitability** by redistributing stellar flux across latitudes.  
+- Introduces a set of **parameters for describing obliquity dynamics**:  
+  - **Obliquity Envelope (𝓔ε):** min, mean, and max tilt angles.  
+  - **Obliquity Scope (Δε):** range between maximum and minimum tilts.  
+  - **Obliquity Cycle (Tε):** timescale of oscillations in tilt.  
+  - **Obliquity Tempo (ẋε):** rate of change per year/kyr.  
+  - **Obliquity Phase (φε):** percentage of maximum tilt, with ↑/↓ trend markers.  
+  - **Obliquity Azimuth (ζn):** orientation of tilt relative to orbital periastron.  
+  - **Obliquity Azimuth Precession Cycle (χ):** period for ζn to complete a 360° precession.  
+- Provides notation conventions such as **trend arrows (↑/↓)** to indicate whether obliquity is increasing or decreasing.  
+- Highlights the role of obliquity in planetary stability and long-term climate cycles, framing it as a **core parameter for worldbuilding habitability modeling**.  
+
+**Key Terms & Symbols:**  
+- **ε (Obliquity):** axial tilt angle.  
+- **𝓔ε, Δε, Tε, ẋε, φε, ζn, χ:** formalized obliquity descriptors.  
+- **Trend arrows (↑/↓):** indicate increasing or decreasing tilt.  
+
+**Cross-Check Notes:**  
+- No existing abstract covers obliquity directly; this file provides the **canonical reference**.  
+- Several new glossary entries required for v1.223 (parameters listed above).  
+- Closely related to WCB notes on **season length, orbital eccentricity, and planetary orientation**.  
+---
+---
 # Obliquity — Planetary Orientation  
 
 ## Current Obliquity (Axial tilt) ($\varepsilon$) 

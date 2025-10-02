@@ -1,6 +1,42 @@
+
+# Development Notes
+
+# Ontosomic Expansion of "Life" Concepts  §
+
+## Canonization Triage  
+- **Strongly Suggest Canonizing:**  
+  - **Ontosomy** (n.): the classification and study of expanded "life-like" systems.  
+  - **Ontosomic** (adj.): relating to or characteristic of ontosomy.  
+  - Domain categories: Carbonic, Nitrogenic, Hydrogenic, Silicate, Exotic.  
+  - Structural categories: Parasitic, Colonial, Planetary-scale Ontosomics.  
+  - Ethical/philosophical frames: Terraforming = Genocide, Containment Hypothesis.  
+
+- **Revisit for Clarity / Refinement:**  
+  - Solvent/metabolic subtype names (Ammoniac, Bihydrazinic, etc.).  
+  - Uneven detail level between subtypes.  
+  - Planetary-scale Ontosomics (needs examples, clearer boundary with Exotic).  
+
+- **Developmental / Optional:**  
+  - Full neolex list of solvent-driven branches (keep grouped for now).  
+  - Ultra-speculative expansions (e.g., biofluoric, biophosphoric).  
+
+---
+
+### Derivative Forms (for flexible use)  
+- **Ontosomically** (adv.): in a manner relating to ontosomy.  
+- **Ontosome** (n.): an individual entity considered within ontosomy.  
+- **Ontosomial** (adj.): variant descriptive form, parallel to “anatomial.”  
+
+
+---
+---
+---
+
+
+
 # Ontosomic Expansion of "Life" Concepts
 
-> Please note: this is a WBN conceptual framework. It is not intended to define life in the real world, but to provide a structured, thesiastic system for worldbuilding.
+> Please note: this is a WCB conceptual framework. It is not intended to define life in the real world, but to provide a structured, thesiastic system for worldbuilding.
 
 ---
 
@@ -8,7 +44,7 @@
 
 Viruses **blur the line** between life and **self-replicating molecular machines**, and if that’s true in **biocarbon**, then **other biochemistries** could have **analogous "proto-life" forms.**
 
-🚀 **What if WBN expands "life" to include a broader range of "ontosomic chemical systems"?**  
+🚀 **What if WCB expands "life" to include a broader range of "ontosomic chemical systems"?**  
 ✔ Self-sustaining chemical networks (akin to prebiotic chemistry)  
 ✔ Replicating nanostructures (virus-like entities in any biochemistry)  
 ✔ Xenotic quasi-life that challenges our definitions of organismhood  
