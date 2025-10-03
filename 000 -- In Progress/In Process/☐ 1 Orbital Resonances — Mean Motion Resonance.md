@@ -1,10 +1,11 @@
+
+
+
 # Mean Motion Resonance
 
 When two bodies orbit a third body in common, there will be resonances in their orbits. If one body’s orbit is an exact integer value different from the other’s, the two are said to be in *mean motion resonance*, and the ratio of their orbits is **a : b**, denoted as the longer orbital period followed by the shorter orbital period, separated by a colon (∶).
 
-![[MeanMotionResonance2-1.jpg|300]]
-
-For example, in the figure above, Body 1 orbits twice for every one orbit of Body 2.  This is a _first order resonanc_, because the difference between the two values is only 1 unit:
+For example, in the figure above, Body 1 orbits twice for every one orbit of Body 2.  This is a _first order resonance_, because the difference between the two values is only 1 unit:
 $$
 2 - 1 = 1
 $$
