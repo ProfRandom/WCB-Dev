@@ -1,4 +1,175 @@
+
 ## Abstract  
+**Major Topics:**  
+- Core algebraic relationships linking the five fundamental planemo parameters: **mass (m), radius (r), density (ρ), surface gravity (g), and escape velocity (vₑ)**.  
+- Provides multiple equivalent formulations, allowing any parameter to be derived from any two others.  
+- Functions as the canonical **equation-of-state matrix** for planemo design.  
+- Establishes normalized Earth-relative scaling (⨁ units).  
+
+**Key Terms & Symbols:**  
+- **m** — Planemo mass (⨁).  
+- **r** — Planemo radius (⨁).  
+- **ρ** — Mean density (⨁).  
+- **g** — Surface gravity (⨁).  
+- **vₑ** — Escape velocity (⨁).  
+
+**Cross-Check Notes:**  
+- Reinforces **Core Parameter Precedence** by showing equivalences and constraints.  
+- Serves as the mathematical backbone for all ontosomic classifications (Geotic, Gaean, Rheatic).  
+- Companion to **Geotic Ground States**, which simplifies these identities when one or more parameters = 1.  
+---
+---
+
+
+# Planemo Equations of State
+
+|          Mass<br>(m)           |         Radius<br>(r)         |             Density<br>(ρ)             |     Gravity<br>(g)     |   Escape Velocity<br>(vₑ)    |
+| :----------------------------: | :---------------------------: | :------------------------------------: | :--------------------: | :--------------------------: |
+|            $m=gr^2$            |      $r=\dfrac{g}{\rho}$      |         $\rho=\dfrac{m}{r^3}$          |   $g=\dfrac{m}{r^2}$   |       $v_e=\sqrt{g r}$       |
+|          $m=\rho r^3$          |    $r=\sqrt{\dfrac{m}{g}}$    |          $\rho=\dfrac{g}{r}$           |       $g=r \rho$       |  $v_e=\sqrt{\dfrac{m}{r}}$   |
+|    $m=\dfrac{g^3}{\rho^2}$     | $r=\sqrt[3]{\dfrac{m}{\rho}}$ |      $\rho=\sqrt{\dfrac{g^3}{m}}$      | $g=\sqrt[3]{m \rho^2}$ | $v_e=\dfrac{g}{\sqrt{\rho}}$ |
+| $m=\dfrac{v_e^3}{\sqrt{\rho}}$ | $r=\dfrac{v_e}{\sqrt{\rho}}$  |  $\rho=\left(\dfrac{v_e}{r}\right)^2$  |  $g=v_e \sqrt{\rho}$   |     $v_e=\sqrt[4]{m g}$      |
+|      $m=\dfrac{v_e^4}{g}$      |     $r=\dfrac{v_e^2}{g}$      |  $\rho=\left(\dfrac{g}{v_e}\right)^2$  |  $g=\dfrac{v_e^2}{r}$  |     $v_e=r \sqrt{\rho}$      |
+|          $m=r v_e^2$           |     $r=\dfrac{m}{v_e^2}$      | $\rho=\left(\dfrac{v_e^3}{m}\right)^2$ |  $g=\dfrac{v_e^4}{m}$  |   $v_e=\sqrt[6]{m^2 \rho}$   |
+
+## Abstract  
+**Major Topics:**  
+- Outlines the **dual-branch classification system** for planemos (planetary monobodies).  
+- **Conformation branch** (structural/physical): based on composition and physical form.  
+  - Orders: Lithic, Astatic, Aetheric, Ulsic.  
+  - Forms: Petriform, Carboform, Pagoform, Fluxiform, Transiform, Pneumoform, Haliform, Neutraform, Quarkform, etc.  
+- **Ontosomic branch** (life-relevance): based on relation to biospheric potential.  
+  - Classes: Geotic, Gaean, Rheatic, Xenotic.  
+  - Types: Subdivisions (e.g., Marginal Geotic, Dense Hot Rheatic).  
+  - States (Climostates): Global climate regimes (Cryostate, Hydrostate, Pyrostate, Pluristate, etc.).  
+  - Conditions: Atmospheric/seasonal descriptors (Tempestal, Zephyral, Serenal, etc.).  
+- Both branches are independent but complementary lenses for describing the same planemo.  
+
+**Key Terms & Symbols:**  
+- **Planemo** — planetary monobody, trunk-level category.  
+- **Conformation** — physical/chemical classification.  
+- **Ontosomy** — life-relevance classification.  
+- **Orders/Forms** — structural breakdown of planemo types.  
+- **Classes/Types/States/Conditions** — biospheric breakdown of livability.  
+
+**Cross-Check Notes:**  
+- Provides the **master map** for all other planemo-related classifications.  
+- Ensures that **physical identity** (Conformation) and **biospheric identity** (Ontosomic) can coexist without collision.  
+- Anchors subordinate classifications (e.g., Gaean, Rheatic, Hydrostate subtypes).  
+---
+---
+
+
+# 🌍 Planemo Framework (Master Map)
+
+All **Planemos** (planetary monobodies) share a **common trunk** — then branch into two complementary classification systems.
+
+---
+## 🌳 Trunk (Shared Levels)
+
+- **Frame** → Monobody    
+- **Group** → Planemo   
+
+---
+## 🪨 Conformation Branch (Structural / Physical)
+Focus: **What the planemo is made of**
+- **Order** → Composition families    
+    - Lithic (rock/metal)        
+    - Astatic (mixed/volatile)        
+    - Aetheric (gaseous)        
+    - Ulsic (exotic/degenerate)
+        
+- **Form** → Subdivisions of each order    
+    - Lithic → Petriform, Carboform        
+    - Astatic → Pagoform, Fluxiform        
+    - Aetheric → Transiform, Pneumoform, Haliform        
+    - Ulsic → Neutraform, Quarkform, etc.        
+
+---
+## 🌱 Ontosomic Branch (Life-Relevance / Biospheric)
+Focus: **How the planemo relates to life (esp. Earthlike envelopes)**
+- **Class** → Broad livability envelopes    
+    - Geotic (Earth-normal range)        
+    - Gaean (Earth-twin slice of Geotic)        
+    - Rheatic (super-Earths with biospheric richness)        
+    - Xenotic (exotic chemistries / non-carbonic)
+        
+- **Type** → Subdivisions of classes    
+    - Marginal Geotic, Dense Hot Rheatic, etc.
+
+- **State (Climostates)** → Global climatic conditions    
+    - Cryostate (frozen)        
+    - Hydrostate (temperate hydrosphere)        
+    - Pyrostate (runaway greenhouse)        
+    - Pluristate (diverse climates)        
+    - etc.
+        
+- **Condition** → Finer descriptors of atmospheric/seasonal character    
+    - Tempestal (storm-dominated)        
+    - Zephyral (mild winds, gentle climate)        
+    - Serenal (stable, calm, serene environment)        
+
+---
+## 🧭 Principle
+- **Conformation** = _physical chemistry_ of the body.    
+- **Ontosomy** = _life-relevance_ of the body.    
+- Both are **valid, independent lenses** for describing the same planemo.
+    
+- Example:    
+    - Earth = Lithic (Order) → Petriform (Form)        
+    - Earth = Geotic (Class) → Gaean (Type) → Pluristate (State) → Serenal (Condition)## Abstract
+**Major Topics:**  
+- Monobody composition taxonomy (configuration classes).  
+- Four primary categories: Lithic, Astatic, Aetheric, Ulsic.  
+- Density ranges for Lithic, Astatic, and Aetheric.  
+- Subclasses (conformations) within each category.  
+
+**Key Terms & Symbols:**  
+- Lithic → Petriform (silicate), Carboform (carbon).  
+- Astatic → Pagoform (ice-rich), Fluxiform (liquid-dominated).  
+- Aetheric → Transiform (gas dwarfs), Pneumoform (ice giants), Haliform (gas giants).  
+- Ulsic → placeholder for exotic/degenerate matter (neutron stars, quark stars, black holes).  
+- Densities expressed in g/cm³ and ⨁ (Earth-density units).  
+
+**Cross-Check Notes:**  
+- Canon as of Glossary v1.217.  
+- Complements **Monobody Mass Classes** (size taxonomy), creating a two-axis classification system (mass × composition).  
+- “Haliform” here = Gas Giants → ensure no confusion with earlier Haliform (halogen-bearing lithic variant).  
+- Overlaps with terms already staged in Glossary: Lithic, Astatic, Aetheric, Ulsic.  
+
+---
+---
+
+
+## Monobody Compositions
+
+All monobodies should be thought of as falling roughly into one of four categories of ***configuration***:
+
+1. ***Lithic*** (from Greek _lithos_ "stone, rock") – Fully solid planemos (rocky, carbon-rich, metallic elements).
+2. ***Astatic*** (from Greek _a_ "not, none" + _status_ "state condition") – Mixed-phase planemos (icy, oceanic, or chemically altered worlds that have no fixed state).
+3. ***Aetheric*** (from Latin _aer_ "air") – Gaseous planemos (gas dwarfs, ice giants, and gas giants).
+4. ***Ulsic*** (from Latin _uls_ "beyond") – Exotic or theoretical matter planemos (placeholder for degenerate matter planemos — neutron stars, black holes, quark stars, etc. — if needed).
+
+The first three compositions span specific **density** ranges:
+
+1. **Lithic**: 3.5 g/cm³ – 8.0 g/cm³ (0.6347⨁ – 1.451⨁)
+2. **Astatic**: 1.0 g/cm³ – <3.5 g/cm³ (0.1814⨁ – 0.6347⨁) 
+3. **Aetheric**: 0.1 g/cm³ – 1.0 g/cm³ (0.0181⨁ – 0.1814⨁)
+
+And each has subsets, called ***conformations***:
+
+1. **Lithic**
+	- ***Petriform***: Rocky, silicate-based planemos.
+	- ***Carboform***: Carbon-dominated (graphite, diamond) planemos 
+2. **Astatic**
+	- ***Pagoform***: Ice-rich planemos (frozen volatiles like water, ammonia, methane, etc.)
+	- ***Fluxiform***: Liquid-dominated planemos (H₂O, but also other volatiles)
+3. **Aetheric**
+	- ***Transiform***: Gas Dwarfs
+	- ***Pneumoform***: Ice Giants
+	- ***Haliform***: Gas Giants
+
+These are intended to categorize monbodies_in their current configuration_.  A monobody may (usually will) assume different qualities depending on its age and environment.## Abstract  
 **Major Topics:**  
 - Provides the **canonical reference table** for **monobody mass classes and ontotypes**, establishing the taxonomy framework used across WCB.  
 - Defines the hierarchical structure of **–moic categories** by mass domain:  
@@ -400,3 +571,63 @@
 | Kepler-57b            | 5993.708  | kiloterran  | intermo  |
 | Kepler-39b            | 6387.780  | kiloterran  | intermo  |
 | Kepler-47c            | 8898.400  | kiloterran  | intermo  |
+
+## Abstract
+**Major Topics:**  
+- Definition of the **–mo condition**: all WCB ontotypes (planemo, intermo, stellamo, etc.) apply only to single, gravitationally coherent bodies.  
+- Scope clarification: ontotypes exclude multi-body systems, aggregates, and regions.  
+- Distinction between *ontological object* vs. *mathematical abstraction*.  
+- Ontological boundary rule: barycentered approximations ≠ ontotypes.  
+
+**Key Terms & Symbols:**  
+- –mo suffix = ontotype indicator (e.g., planemo, stellamo, intermo).  
+- Center of mass (singular) = necessary condition for –mo classification.  
+- Cryptomo, supermo, ultramo, hypermo = ontotype variants.  
+- Barycenter = mathematical construct; not a physical –mo.  
+
+**Cross-Check Notes:**  
+- Canonical clarification: multi-body systems (binaries, clusters, galaxies, nebulae) are **not –mo**, even if composed of –mo members.  
+- Rule resolves ambiguity: a system of planemos is not itself a planemo.  
+- Complements **Monobody Mass Classes** and **Monobody Compositions** as ontotype framework foundations.  
+- Ensure consistent usage: “–mo” suffix always denotes singular gravitationally self-bound entities, never systems.  
+
+---
+---
+
+# Classification Rule — The Monobody Condition
+
+> **All WCB –mo ontotypes (planemo, intermo, stellamo)** refer exclusively to **individual, gravitationally coherent bodies** — not to multi-body **systems**, **collections**, or **regions**.
+
+### 🔒 What *Is* a –mo
+A **–mo** is defined by:
+- A single **center of mass**  
+- Internally unified **gravitational structure**  
+- Physically continuous **volume** (or event horizon, in the case of black holes)  
+- E.g., **planemos, intermos, stellamos, supermos, ultramos, hypermos**
+
+### 🚫 What _Is Not_ a –mo:
+The following are **not –mo**, regardless of total mass:
+
+| Category                | Example                          | Why Excluded                     |
+| ----------------------- | -------------------------------- | -------------------------------- |
+| **Star Clusters**       | Globular clusters, open clusters | Multi-body systems               |
+| **Nebulae / Clouds**    | Giant Molecular Clouds (GMCs)    | Diffuse, non-contiguous          |
+| **Galaxies**            | Milky Way, Andromeda             | Gravitationally bound aggregates |
+| **Binary Systems**      | Sirius A+B, Pluto–Charon         | Contain ≥2 centers of mass       |
+| **Black Hole Binaries** | LIGO-detected pairs              | Still system-level               |
+## **WCB Monobody Rule (Ontotype Scope Clarification)**
+
+> **All -mo classifications (planemo, intermo, stellamo, cryptomo)** refer to **individual, contiguous, gravitationally self-bound objects**.
+> 
+> Multi-object systems — whether binary, ternary, or aggregate — are **not themselves -mos**, even if composed entirely of -mos.
+### 🧠 Key Principles:
+1. **Ontotype is not emergent**:  
+    A **system of planemos** is not a larger planemo.  
+    A **binary of stellamos** is not a single, larger stellamo.    
+2. **Modeling convenience ≠ ontological unity**:    
+    - For orbital mechanics, it's **useful** to model a binary pair as a single object of combined mass.        
+    - But **ontotypically**, the barycentered abstraction is **not** a -mo.        
+3. **Distinct gravitational fields**:    
+    - A –mo has **one center of mass**, even if dynamic (e.g., fast-rotating planemo).        
+    - A system has **multiple discrete gravitational centers**, even if mathematically reducible.
+For instance in a double-star planemo system, it is convenient to treat the two stellamos as a single stellamo of their combined mass, centered on the barycenter of their orbits, but there are not an _object_ but a mathematical construct based on a property of the _system_ they comprise.

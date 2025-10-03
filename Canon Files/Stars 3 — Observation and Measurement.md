@@ -144,3 +144,126 @@ Where:
 - $M$ = the star's absolute magnitude.
 
 This gives us a rough approximation of any star's absolute magnitude and we can use the **distance modulus** to calculate an apparent magnitude from that.
+## Abstract
+**Major Topics:**  
+- Apparent brightness (flux) as a function of luminosity and distance.  
+- Absolute form: $B_A = \dfrac{L_W}{4 \pi d^2}$:contentReference[oaicite:0]{index=0}.  
+- Relative form (solar units): $B_{A⊙} = \dfrac{L}{D^2}$:contentReference[oaicite:1]{index=1}.  
+- Inverse-square law for radiation intensity.  
+- Worked examples: Sun as seen from Mars; star Kalveru (L = 1.618⊙) at 1 AU and 1.524 AU:contentReference[oaicite:2]{index=2}.  
+
+**Key Terms & Symbols:**  
+- $B_A$ = apparent brightness (flux, W/m²).  
+- $L_W$ = luminosity (watts).  
+- $d$ = distance (meters).  
+- $B_{A⊙}$ = apparent brightness in solar units.  
+- $L$ = luminosity in solar units.  
+- $D$ = distance in AU (semi-major axis).  
+
+**Cross-Check Notes:**  
+- Canonical use: $B_{A⊙}$ form is preferred for thesiastic accessibility.  
+- Related to glossary entries: luminosity, flux, inverse-square law, semi-major axis (𝒜).  
+- Examples provide concrete context (Mars orbit, Kalveru–Dynon system).  
+- Ensure no collision with existing brightness/flux notation elsewhere.  
+
+---
+---
+
+
+# Apparent Brightness
+How bright something that shines _is_ and how bright it _appears_ to an observer is a function of distance.  The absolute apparent brightness can be calculated by:
+$$
+B_A = \dfrac{L_W}{4 \pi d^2}
+$$
+Where:
+- $B_A$ = apparent brightness (flux, in Watts/m²)
+- $L_W$ = luminosity of the star
+- d = distance between the star and the observer in meters
+
+This is a useful equation in general astrophysics, but it is less accessible for thesiastics, because one has to know the actual luminosity of the star in watts, which is not always an easy number to look up — and even harder to calculate.  Also, distance in _meters_?  Do you know how fast those numbers get _insanely large_?
+## Relative Apparent Brightness
+Here is a more useful equation for thesiastics:
+$$
+B_{A⊙} = \dfrac{L}{D^2}
+$$
+Where:
+- $B_A$ = the apparent brightness of the star _in solar units_
+- $L$ = the luminosity of the star _in solar units_
+- $D$ = the distance to the star in AU (i.e. the semi-major axis of the planemo's orbit)
+
+>Note that this is the same form as the _inverse-square law_.  The amount of energy (of _any kind_) detectable from a radiating object decreases with the square of the distance of the observer from that object.  If your campfire feels a certain intensity where you're standing, and you move twice as far away, the intensity will feel less by the inverse-square of the distance you've moved.  Since you're now twice as far away as you were
+$$
+E = \dfrac{1}{2^2} = \dfrac{1}{4}
+$$
+… one-fourth as much as before.
+
+### Example 1: How Bright Does The Sun Appear From Mars?
+Since we're talking about the Sun, here, $L = 1$.  The distance is Mars' orbital semi-major axis, $D = 1.524$ AU:
+$$
+B_{A⊙} = \dfrac{L}{D^2} = \dfrac{1}{1.524^2} = \dfrac{1}{2.323} = 0.431
+$$
+So, the sun is about 43% as bright seen from Mars as it is seen from Earth.
+### Example 2
+Let's imagine a star called Kalveru which has a luminosity $L=1.618$⊙.  How bright would it appear to an observer on a planet 1 AU away?  Here, the luminosity is what varies not the distance, so our equation becomes:
+$$
+B_{A⊙} = \dfrac{L}{D^2} = \dfrac{1.618}{1^2} = \dfrac{1.618}{1} = 1.618
+$$
+So, the apparent brightness in solar units of any star when viewed from 1 AU away is simply the relative luminosity of the star in solar units.
+$$
+\text{When}\quad D = 1, \quad B_{A⊙} = L⊙
+$$
+Now, let's put a planet (Dynon) in orbit around Kalveru at $D = 1.524$ AU.  How bright does Kalveru appear from Dynon?
+$$
+B_{A⊙} = \dfrac{L}{D^2} = \dfrac{1.618}{1.524^2} = \dfrac{1.618}{2.323} = 0.697
+$$
+So, Kalveru appears about 70% as bright from Dynon as the Sun does from Earth.
+## Abstract
+**Major Topics:**  
+- Planetary albedo (A) as a measure of reflectivity.  
+- Estimated albedo ranges for different planemo types (snowball, cloudy Earthlike, rocky desert, oceanic, Venus-like).  
+- Planetary Albedo Estimator: breakdown of surface types and modifiers (snow, desert, forest, ocean, clouds).  
+- Climatic implications: high albedo → cooling/snowball effect; low albedo → warming.  
+
+**Key Terms & Symbols:**  
+- A = albedo (fraction of incident light reflected).  
+- Contextual ranges:  
+  - Snowball planemo: ⟨0.6 ∧ 0.8⟩:contentReference[oaicite:0]{index=0}  
+  - Cloudy temperate Earthlike: ⟨0.25 ∧ 0.35⟩:contentReference[oaicite:1]{index=1}  
+  - Rocky desert world: ⟨0.15 ∧ 0.25⟩:contentReference[oaicite:2]{index=2}  
+  - Ocean planemo (few clouds): ⟨0.05 ..0.15⟩:contentReference[oaicite:3]{index=3}  
+  - Thick sulfur clouds (Venus-like): ~0.75:contentReference[oaicite:4]{index=4}  
+
+**Cross-Check Notes:**  
+- Canon as of Glossary (albedo already present, this note expands estimates by world-type).  
+- Albedo estimator table introduces finer subdivisions (surface modifiers, cloud effects).  
+- Overlaps with climate/habitability notes; relates to **Orbital Eccentricity and Seasonal Effects.md** (seasonal insolation context).  
+- Ensure no symbol collision: albedo consistently A.  
+
+---
+---
+
+
+| planemo Type                | Estimated Albedo (A) |
+| --------------------------- | -------------------- |
+| Snowball planemo            | ⟨0.6 ∧ 0.8⟩          |
+| Cloudy temperate Earthlike  | ⟨0.25 ∧ 0.35⟩        |
+| Rocky desert world          | ⟨0.15 ∧ 0.25⟩        |
+| Ocean planemo (few clouds)  | ⟨0.05 ..0.15⟩        |
+| Thick sulfur clouds (Venus) | ~0.75                |
+
+# Planetary Albedo Estimator
+
+| Surface Type / Modifier   |   Base Albedo Estimate (A) | Notes                                                 |
+|:--------------------------|---------------------------:|:------------------------------------------------------|
+| Fresh snow/ice            |                       0.8  | Highly reflective; contributes to snowball effect     |
+| Old snow / glacial crust  |                       0.6  | Still reflective but more absorptive than fresh snow  |
+| Desert (sand)             |                       0.3  | Can vary with mineral content and compaction          |
+| Grassland                 |                       0.2  | Moderate reflectivity; varies with seasonal dryness   |
+| Forest (deciduous)        |                       0.15 | Dark under canopy; absorbs most light                 |
+| Forest (coniferous)       |                       0.13 | Darker needles + canopy structure reduce reflectivity |
+| Rocky surface             |                       0.18 | Can vary widely depending on coloration and texture   |
+| Ocean (high sun angle)    |                       0.06 | Absorbs most sunlight when directly overhead          |
+| Ocean (low sun angle)     |                       0.2  | Reflects more at shallow angles; up to 0.20 or more   |
+| Dense clouds (Venus-like) |                       0.75 | Thick sulfuric clouds like on Venus; extremely bright |
+| Thin clouds (Earth-like)  |                       0.35 | Cloud cover over oceans or land increases albedo      |
+| No clouds / clear sky     |                       0.05 | Near-minimal reflectivity, especially over ocean      |
