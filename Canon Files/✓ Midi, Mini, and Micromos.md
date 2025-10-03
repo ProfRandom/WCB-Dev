@@ -122,4 +122,4 @@ Micromo (Small Stellar System Bodies) are distinct from Planemos (planetary-mass
 
 ### **4. Final Notes**
 
-This classification system ensures that **Micromos are clearly distinguished from Planemos**, while allowing for **refinement based on future discoveries.** It also maintains **internal consistency with WBN’s existing taxonomic structure.**
+This classification system ensures that **Micromos are clearly distinguished from Planemos**, while allowing for **refinement based on future discoveries.** It also maintains **internal consistency with WCB’s existing taxonomic structure.**

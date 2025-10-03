@@ -1,10 +1,10 @@
-# 📚 WBN Glossary (Master File — v1.17 Safe-Save)
+# 📚 WCB Glossary (Master File — v1.17 Safe-Save)
 
-Each entry is tagged according to its origin in the WBN lexicon:
+Each entry is tagged according to its origin in the WCB lexicon:
 
 - **Neolex** → Coined by the author (new terms).  
 - **Exolex** → Borrowed intact from external science/technical usage.  
-- **Insulex** → Common words given a **narrowed, specialized sense** inside WBN.  
+- **Insulex** → Common words given a **narrowed, specialized sense** inside WCB.  
 
 ---
 
@@ -14,13 +14,13 @@ Each entry is tagged according to its origin in the WBN lexicon:
 - **Thesiast** — One who engages in thesiastics.  
 - **Enthesiast** — A joyful/compulsive thesiast; a worldbuilder lost in maps, orbits, or alphabets.  
 - **Numerothesiastics (Tₙ)** — Quantitative branch (math, physics, astronomy).  
-  - *Abbreviated as Tₙ throughout WBN notation.*  
+  - *Abbreviated as Tₙ throughout WCB notation.*  
 - **Mirandothesiastics (Tₘ)** — Qualitative branch (myth, culture, aesthetics).  
-  - *Abbreviated as Tₘ throughout WBN notation.*  
+  - *Abbreviated as Tₘ throughout WCB notation.*  
 - **Ontotype** — Formal category of cosmic object, defined by intrinsic being and structure (mass, configuration, fusion state).  
 - **Ontosomics** — Study of life-relevant planemo characteristics (density, atmosphere, magnetosphere, hydrosphere, etc.) as they affect biosignature potential.  
 - **Ontosomic** — Adjectival form of ontosomics.  
-- **Ontosomic Life Classification** — Taxonomy of xenotic/non-standard life in WBN (fully living, quasi-living, chemical systems).  
+- **Ontosomic Life Classification** — Taxonomy of xenotic/non-standard life in WCB (fully living, quasi-living, chemical systems).  
   - **Domains (by chemistry):** Carbonic, Nitrogenic, Hydrogenic, Silicate, Exotic.  
   - **Structural Classes:** Traditional, Parasitic & Viral, Colonial & Modular, Planetary-Scale Ontosomic Systems.  
 - **Geotic Envelope** — An ontosomic tool defining a planemo’s **physical suitability for Earthlike life**, bounded by ranges of density, mass, atmosphere, and hydrosphere.  
@@ -48,21 +48,21 @@ Each entry is tagged according to its origin in the WBN lexicon:
   - **Serenal** — Stable, calm, serene climate.  
 - **Parahabitable** — Survivable with technological adaptation.  
 - **Gravity One Corridor** — Mass–density locus yielding Earthlike surface gravity (g = 1.0⨁).  
-- **–mo (Suffix)** — From Basri’s _planemo_ (“planetary mass object”), reinterpreted in WBN as **monobody**. Forms the Monobody Ontotypes: Planemo, Intermo, Stellamo, Supermo, Ultramo, Hypermo.  
+- **–mo (Suffix)** — From Basri’s _planemo_ (“planetary mass object”), reinterpreted in WCB as **monobody**. Forms the Monobody Ontotypes: Planemo, Intermo, Stellamo, Supermo, Ultramo, Hypermo.  
 - **Intermo** — Transitional ontotype, may fuse deuterium (brown dwarfs).  
 - **Stellamo** — Hydrogen-fusing stars.  
 - **Supermo** — Post-stellar remnants/black holes.  
 - **Ultramo** — Supermassive black holes.  
 - **Hypermo** — Speculative hypermassive bodies.  
 - **Monobody Ontotypes** — Ontotypes defined by the Monobody Condition.  
-- **Thermal Interval Constant (þ)** — A WBN-specific unit that defines the **temperature increment per subclass** within a spectral class.  
+- **Thermal Interval Constant (þ)** — A WCB-specific unit that defines the **temperature increment per subclass** within a spectral class.  
   - Formula: $þ = \dfrac{\text{High Temp} - \text{Low Temp}}{10}$  
   - Each spectral class is divided into 10 subclasses (e.g., G0–G9), each spanning one þ.  
-- **Principle of Mass Measurement** — WBN guideline that **planemo masses are purely numeric**, used for measurement and comparison only. Symbolic mass intervals do **not categorize or qualify** a world’s type.  
-- **Stellamo Framework Principle** — The guiding rule of stellar classification in WBN:  
+- **Principle of Mass Measurement** — WCB guideline that **planemo masses are purely numeric**, used for measurement and comparison only. Symbolic mass intervals do **not categorize or qualify** a world’s type.  
+- **Stellamo Framework Principle** — The guiding rule of stellar classification in WCB:  
   - **Spectral Branch** = surface physics (temperature, color, composition).  
   - **Luminosity Branch** = structural physics (radius, brightness, lifecycle).  
-- **QID Family (Authorial Fiat Mottos)** — Latin shorthand phrases used in WBN to signal when creative choice overrides strict science.  
+- **QID Family (Authorial Fiat Mottos)** — Latin shorthand phrases used in WCB to signal when creative choice overrides strict science.  
   - **QID (Quia ita dico)** — “Because I say so.”  
   - **QEF (Quia est fictiae)** — “Because it is fictional.”  
   - **QEP (Quia est phantasiae)** — “Because it is fantasy.”  
@@ -79,8 +79,8 @@ Each entry is tagged according to its origin in the WBN lexicon:
   - Outer Habitable Zone ($Z_{OH}$) — $1.385–1.770\mathcal{N}$  
   - Outer Parahabitable Zone ($Z_{OP}$) — $1.770–4.850\mathcal{N}$  
   - Outer Xenotic Zone ($Z_{OX}$) — $a > 4.850\mathcal{N}$  
-- **Frost Line (ϝ)** — Orbital distance beyond which liquid water cannot persist. In WBN defined as $a = 4.850N$.  
-- **Thermozones** — WBN naming system for irradiance zones:  
+- **Frost Line (ϝ)** — Orbital distance beyond which liquid water cannot persist. In WCB defined as $a = 4.850N$.  
+- **Thermozones** — WCB naming system for irradiance zones:  
   - Igniozone (←0.500N), Calorozone (0.500–0.750N), Heliozone (0.750–0.950N), Solarazone (0.950–1.385N), Hiberozone (1.385–1.770N), Brumazone (1.770–4.850N), Cryozone (→4.850N).  
 - **Thermozone Limit Notation (H₀–H₅)** — Reference shorthand for Thermozone boundaries:  
   - $H_0 = 0.500N$, $H_1 = 0.750N$, $H_2 = 0.950N$, $H_3 = 1.385N$, $H_4 = 1.770N$, $H_5 = 4.850N$.  
@@ -89,9 +89,9 @@ Each entry is tagged according to its origin in the WBN lexicon:
 - **Solar Cognates** — Stars whose perannual orbits fall within ⟨0.750–1.770⟩ AU (F7.62–K1.11).  
 - **Solar Twins** — Stars whose perannual orbits fall within ⟨0.950–1.385⟩ AU (G1.04–G7.73).  
 - **Orbital Habitability Index (OHI)** — Scalar measure of an orbit’s biological viability (0.00–1.00). Max = 1.00 at N.  
-- **Orbital Interval (I)** — Ratio of successive orbital radii: $I = O_n/O_{n-1}$. WBN standard range: ⟨1.500–2.000⟩.  
+- **Orbital Interval (I)** — Ratio of successive orbital radii: $I = O_n/O_{n-1}$. WCB standard range: ⟨1.500–2.000⟩.  
 - **Orbital Gap (G)** — Difference in orbital distance between successive planemos: $G = O_n - O_{n-1}$.  
-- **WBN Standard Orbital Interval Range** — Adopted ⟨1.500–2.000⟩ AU for most layouts.  
+- **WCB Standard Orbital Interval Range** — Adopted ⟨1.500–2.000⟩ AU for most layouts.  
 - **Basal Orbit (B)** — Reference orbit for system generation, usually N or A.  
 - **Intrabasal Orbit Process** — Method for generating inward orbits from a basal orbit, dividing radius by ⟨1.500–2.000⟩ until Ω is reached.  
 - **Extrabasal Orbit Process** — Method for generating outward orbits from a basal orbit, multiplying radius by ⟨1.500–2.000⟩ until Ω is exceeded.  
@@ -100,20 +100,20 @@ Each entry is tagged according to its origin in the WBN lexicon:
 
 ## 🌌 Exolexes
 
-- **Planemo** — Coined by Gibor Basri (~2003) as “planetary-mass object”; reinterpreted in WBN as “planetary monobody.”  
+- **Planemo** — Coined by Gibor Basri (~2003) as “planetary-mass object”; reinterpreted in WCB as “planetary monobody.”  
 - **Spectral Class** — Stellar temperature classification (O, B, A, F, G, K, M; extended to L, T, Y).  
-  - In WBN, class boundaries follow a **custom linear scaling**.  
+  - In WCB, class boundaries follow a **custom linear scaling**.  
   - *See also: Thermal Interval Constant (þ).*  
 - **Spectral Subclass** — Decimal subdivisions within a Spectral Class (e.g., G2, M5).  
 - **Spectral Type** — Spectral Class + Luminosity Class designation (e.g., G2V, K3III).  
-  - *In WBN, decimals (e.g., G2.3) are interpolations, not distinct types.*  
+  - *In WCB, decimals (e.g., G2.3) are interpolations, not distinct types.*  
 - **Luminosity Class** — Stellar size/brightness group (0–VII: hypergiants, supergiants, giants, dwarfs, etc.).  
 - **Evolutionary Phase** — Broad lifecycle stages of a star: Protostar → Main Sequence → Giant → White Dwarf → Remnant.  
 - **Main Sequence** — Phase of stellar evolution with hydrogen fusion in the core.  
 - **Stellar Equations of State** — Relations linking M, R, L, T, Q along the Main Sequence.  
 - **Planemo Equations of State** — Relations linking m, r, ρ, g, vₑ.  
 - **Blackbody** — Idealized emitter/absorber radiating only by temperature; stars approximate blackbodies.  
-- **Stefan–Boltzmann Law** — $L = 4πR^2σT^4$; in WBN: $L = R^2T^4$.  
+- **Stefan–Boltzmann Law** — $L = 4πR^2σT^4$; in WCB: $L = R^2T^4$.  
 - **Shirtsleeve** — Conditions survivable without protective gear (SF usage).  
 - **Super-Earth** — Exoplanetology term (large terrestrial planets; quotations only).  
 - **Superhabitable** — Exoplanetology term (worlds more biospherically rich than Earth; quotations only).  

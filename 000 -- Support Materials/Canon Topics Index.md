@@ -284,7 +284,7 @@
 - Replaces recursive compression modeling with a WCB-friendly simplification.  
 - Geotic range justification links to habitability framework.  
 - Integrates with prior note **Example: When Good Values Go Bad** (edge-case validation).  
-- Ensure consistent update: “WBN” → “WCB” across this file and related notes.  
+- Ensure consistent update: “WCB” → “WCB” across this file and related notes.  
 
 ---
 

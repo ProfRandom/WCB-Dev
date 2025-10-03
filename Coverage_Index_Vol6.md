@@ -26,5 +26,5 @@ Status: ✔ Revised | ❓ Partial | ✖ Not Yet Revisited
 - New material needed on:  
   - Framework for **non-terran calendars** (tidally locked worlds, binary systems, etc.).  
   - Treatment of **travel times and methods** (Newtonian, relativistic, speculative FTL).  
-- Consider whether **intergalactic travel** belongs in WBN core, or if scope should remain system/stellar neighborhood–focused.  
+- Consider whether **intergalactic travel** belongs in WCB core, or if scope should remain system/stellar neighborhood–focused.  
 

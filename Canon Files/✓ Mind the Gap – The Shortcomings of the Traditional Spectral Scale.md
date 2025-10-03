@@ -3,22 +3,18 @@
 **Major Topics:**  
 - Critiques the **traditional stellar spectral sequence** (O, B, A, F, G, K, M) as inconsistent, non-linear, and historically accreted rather than systematically designed.  
 - Highlights specific discontinuities (e.g., **F9 → G0 only ~150 K**, while **F0 → F9 spans ~1350 K**) to show irregular subclass gaps.  
-- Explains how the **Worldmaking framework (WBN)** resolves these issues by adopting a **linearized spectral system**:  
+- Explains how the **Worldmaking framework (WCB)** resolves these issues by adopting a **linearized spectral system**:  
   - Each class is assigned a clean, evenly divided temperature range.  
   - Subclasses interpolate predictably across the scale.  
   - Enables symbolic clarity, ease of computation, and consistency with habitability modeling.  
 - Distinguishes use cases:  
   - Use **traditional astrophysical data** when realism is desired.  
-  - Use the **linearized WBN scale** for symbolic and modeling coherence.  
-
-**Key Terms & Symbols:**  
-- **Spectral classes:** O, B, A, F, G, K, M.  
-- **Linearized spectral scale (WBN):** evenly spaced subclasses across temperature ranges.  
+  - Use the **lin Add notWCBwhy WCB uses neologisms (septi-, okti-, etc.)                                                                                                        ale (WCB):** evenly spaced subclasses across temperature ranges.  
 - **Thermozones:** orbital/temperature relationships tied to stellar classification.  
 
 **Cross-Check Notes:**  
-- Complements *M002 — Stars: 01 Spectral Classes* (which already introduces the linearized scale).  
-- This note serves as a **sidebar critique and justification** for adopting the WBN linearized system.  
+- Complements *M002 — Stars: 01WCBectral Classes* (which already introduces the linearized scale).  
+- This note serves as a **sidebar critique and justification** for adopting the WCB linearized system.  
 - No new glossary terms or symbols required; all terms already established in existing canon.  
 ---
 ---
@@ -26,7 +22,7 @@
 
 # Mind the Gap – The Shortcomings of the Traditional Spectral Scale
 
-The classical stellar spectral sequence — O, B, A, F, G, K, M — originated as a cataloging system based on observed absorption lines in starlight. It was never designed to be linear, complete, or even particularly rational. And it shows.
+The classWCBl stellar spectral sequence — O, B, A, F, G, K, M — originated as a cataloging system based on observed absorption lines in starlight. It was never designed to be linear, complete, or even particularly rational. And it shows.
 
 > 🔍 _Spectral types weren’t designed — they accreted._
 
@@ -48,13 +44,13 @@ The classical stellar spectral sequence — O, B, A, F, G, K, M — originated a
 
 ---
 
-## 🧭 Why WBN Fixes This
+## 🧭 Why WCB Fixes This
 
-Worldbuilder’s Notebook (WBN) adopts a **linearized spectral system**:
+Worldbuilder’s Notebook (WCB) adopts a **linearized spectral system**:
 
-- Each spectral class is assigned a clean temperature range
+- Each speWCBal class is assigned a clean temperature range
     
-- Subclasses divide that range evenly
+- Subclasses divide that WCBge evenly
     
 - The system becomes **interpolatable**, **predictable**, and **symbolically clear**
     
@@ -68,11 +64,11 @@ This makes it easier to:
 - Avoid the awkwardness of stars that fall “between classes”
     
 
-> ⚖️ _The WBN scale isn’t astrophysically perfect — but it’s symbolically powerful, and consistently usable._
+> ⚖️ _The WCB scale isn’t astrophysically perfect — but it’s symbolically powerful, and consistently usable._
 
 ---
 
-## 📌 Bottom Line
+## 📌 BottWCBLine
 
 If your fiction or modeling needs the exact, messy mess of real-world classification? Use real-world data.  
 But if you need a system that supports symbolic structure, habitability logic, and easy computation?

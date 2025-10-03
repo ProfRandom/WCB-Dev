@@ -1,10 +1,10 @@
-# 📚 WBN Glossary (Master File — v1.19 Safe-Save)
+# 📚 WCB Glossary (Master File — v1.19 Safe-Save)
 
-Each entry is tagged according to its origin in the WBN lexicon:
+Each entry is tagged according to its origin in the WCB lexicon:
 
 - **Neolex** → Coined by the author (new terms).  
 - **Exolex** → Borrowed intact from external science/technical usage.  
-- **Insulex** → Common words given a **narrowed, specialized sense** inside WBN.  
+- **Insulex** → Common words given a **narrowed, specialized sense** inside WCB.  
 
 ---
 
@@ -35,7 +35,7 @@ Each entry is tagged according to its origin in the WBN lexicon:
 - **Conditions** — Atmospheric/seasonal descriptors.  
 - **Parahabitable** — Survivable with technological adaptation.  
 - **Gravity One Corridor** — Mass–density locus yielding Earthlike gravity.  
-- **–mo (Suffix)** — From Basri’s _planemo_, reinterpreted in WBN as “monobody.”  
+- **–mo (Suffix)** — From Basri’s _planemo_, reinterpreted in WCB as “monobody.”  
 - **Intermo** — Transitional ontotype.  
 - **Stellamo** — Hydrogen-fusing stars.  
 - **Supermo** — Post-stellar remnants.  
@@ -44,23 +44,23 @@ Each entry is tagged according to its origin in the WBN lexicon:
 - **Monobody Ontotypes** — Ontotypes defined by the Monobody Condition.  
 - **Thermal Interval Constant (þ)** — Defines subclass temperature increments.  
 - **Principle of Mass Measurement** — Planemo masses are numeric only.  
-- **Stellamo Framework Principle** — Rule of stellar classification in WBN.  
+- **Stellamo Framework Principle** — Rule of stellar classification in WCB.  
 - **QID Family (Authorial Fiat Mottos)** — Narrative license mottos.  
 - **Mundus tuum est** — Latin for “It’s your world.”  
 
 ### New Neolexes (v1.19 additions)
 
-- **Orbit Randomization** — WBN symbolic framework for generating orbits from a basal orbit.  
+- **Orbit Randomization** — WCB symbolic framework for generating orbits from a basal orbit.  
 - **Gravitational Compression** — Increase in density due to self-gravity.  
-- **Buffer Gas** — Chemically inert bulk atmospheric gas in WBN.  
+- **Buffer Gas** — Chemically inert bulk atmospheric gas in WCB.  
 - **Scale Height (H)** — Characteristic height of atmospheric pressure decay.  
 - **Pressure–Altitude Relation** — Exponential law governing atmospheric pressure decline with altitude.  
-- **WBN Constraint Classes** — Four symbolic types (Evaluative, Comparative, Prescriptive, Mandative).  
-- **Range Connectives** — WBN symbols for inclusive/exclusive ranges.  
+- **WCB Constraint Classes** — Four symbolic types (Evaluative, Comparative, Prescriptive, Mandative).  
+- **Range Connectives** — WCB symbols for inclusive/exclusive ranges.  
 - **Random Assignment Grammar (⟨⟨ ⟩⟩)** — Procedural generation notation for ranges.  
-- **Symbolcrafter’s Creed (Axiom 7.1)** — WBN maxim: *“Better to have it and not need it…”*.  
+- **Symbolcrafter’s Creed (Axiom 7.1)** — WCB maxim: *“Better to have it and not need it…”*.  
 - **Temporal Biosignature Thresholds** — Planetary age cutoffs for biosignature plausibility.  
-- **Stellar Generations (I–III)** — WBN chronological reinterpretation of stellar populations.  
+- **Stellar Generations (I–III)** — WCB chronological reinterpretation of stellar populations.  
 
 ---
 
@@ -159,7 +159,7 @@ Pending (Compendium → Emendations):
 - Nucleal/Perannual orbits approximations & exclusivity.  
 - Stellar Equations of State refined exponents.  
 - Parahabitable nuance (mathematically parahabitable giants).  
-- Spectral Class → clarify WBN linearization (þ).  
+- Spectral Class → clarify WCB linearization (þ).  
 - Venus sidebar → retitled to “Why Venus Isn’t Gaean”.
 
 
@@ -426,7 +426,7 @@ Pending (Compendium → Emendations):
 - **Definition**: Abbreviation for *World Crafting and Building*, the project title.  
 - **Usage**: Serves as the canonical shorthand across glossary and canon files.  
 - **Cross-Check Notes**:  
-  - Replaces legacy abbreviation *WBN* (deprecated).  
+  - Replaces legacy abbreviation *WCB* (deprecated).  
   - Used to tag ontotypes, methodological rules, and system-specific notation.  
 
 ---

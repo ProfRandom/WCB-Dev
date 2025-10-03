@@ -41,8 +41,27 @@
 - ✓ Obliquity — Planetary Orientation.md
 - ✓ Orbit Randomization.md
 - ✓ Orbital Eccentricity and Seasonal Effects.md
+- ✓ Parameter Ranges By Spectral Class.md
+- ✓ Physical Properties of Planemos.md
 - ✓ Planemo Equations of State.md
 - ✓ Planemo Framework (Master Map).md
+- ✓ Planetary Rings and the Sun's Path.md
+- ✓ Planning A Detailed Atmosphere.md
+- ✓ Principle of Mass Measurement.md
 - ✓ Range Constraints & Random Assignment.md
+- ✓ Retrograde Rotation and Axial Tilt.md
 - ✓ Rheatic Planemos.md
+- ✓ Stellamo Framework (Master Map).md
+- ✓ Stellar Lifetimes and System Habitability.md
+- ✓ Stellar Magnitude and The Distance Modulus.md
+- ✓ Stellar Populations.md
+- ✓ Stellar Thermal Interval Constant Table.md
+- ✓ Superhabitable Planemos.md
+- ✓ Telluric Planemos.md
+- ✓ The Anthropic Norm.md
+- ✓ The Euclidean Algorithm.md
 - ✓ The SANC Principle.md
+- ✓ Units and Measures of Time.md
+- ✓ WCB Canonical -moic Ontotypes.md
+- ✓ Why Venus Isn't Gaean.md
+- ✓ Xenotic Planemos.md

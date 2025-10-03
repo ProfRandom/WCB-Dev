@@ -40,7 +40,7 @@ The Vault holds the **long-term memory**; ChatGPT provides the **live reasoning*
 2. **When Starting a New Thread**  
    - Upload latest **Master Thread Index** and **Memory Snapshot**.  
    - Optionally upload Vault `.zip` for full file access.  
-   - Tell GPT: *“This is the latest save point for WBN. Sync up using these files.”*  
+   - Tell GPT: *“This is the latest save point for WCB. Sync up using these files.”*  
 
 3. **During the New Thread**  
    - Carry forward version numbering (Glossary v1.21, Dashboard v0.3, etc.).  
@@ -78,4 +78,4 @@ The Vault holds the **long-term memory**; ChatGPT provides the **live reasoning*
 ## 📌 Notes
 - Snapshot = “save point” for Future GPT.  
 - Changelog = every version bump.  
-- Rule of thumb: **Snapshot when the state of WBN has shifted**, not for minor cosmetic edits.  
+- Rule of thumb: **Snapshot when the state of WCB has shifted**, not for minor cosmetic edits.  

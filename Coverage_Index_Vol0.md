@@ -1,6 +1,6 @@
 # 📊 Coverage Index v0.1 — Volume 0: Philosophy of Worldmaking
 
-Proposed addition to WBN as front-matter volume.  
+Proposed addition to WCB as front-matter volume.  
 Status: ✔ Revised | ❓ Partial | ✖ Not Yet Drafted  
 
 ---
@@ -21,13 +21,13 @@ Status: ✔ Revised | ❓ Partial | ✖ Not Yet Drafted
 - **Vault Matches:** None found.  
 - **Status:** ✖ Not yet drafted — Position “worldmaking” as philosophy, “worldcrafting/building” as practices.  
 
-## 5 — Why WBN Exists
+## 5 — Why WCB Exists
 - **Vault Matches:** None found.  
 - **Status:** ✖ Not yet drafted — Rationale, accessibility, audience, placement in worldbuilder’s toolkit.  
 
 ---
 
 ## 📌 Notes
-- Volume 0 provides *philosophical compass* for WBN.  
+- Volume 0 provides *philosophical compass* for WCB.  
 - Clarifies terminology shift (deprecates *-thesiastics*, foregrounds worldmaking/worldcrafting/worldbuilding).  
-- Ensures WBN is positioned as **both an encyclopedia of logosics** and a **manifesto for mythosics**.  
+- Ensures WCB is positioned as **both an encyclopedia of logosics** and a **manifesto for mythosics**.  

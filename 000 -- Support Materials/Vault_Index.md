@@ -14,7 +14,7 @@ This file lists all 216 Markdown files with their first heading or first line fo
 - **WorldCrafting101-DEV/Excalidraw/Ontozones and Spectral Types.md** → ---
 - **WorldCrafting101-DEV/ZZZ- DEPRECATED/Geotic Worlds.md** → # Definition
 - **WorldCrafting101-DEV/ZZZ- DEPRECATED/1.01(d) ΓÇö Geotic Worlds 1.md** → ← [[Setting The Stage ✓]]
-- **WorldCrafting101-DEV/ZZZ- DEPRECATED/Glossary Safe-Save.md** → # 📚 WBN Glossary (Master File — v1.17 Safe-Save)
+- **WorldCrafting101-DEV/ZZZ- DEPRECATED/Glossary Safe-Save.md** → # 📚 WCB Glossary (Master File — v1.17 Safe-Save)
 - **WorldCrafting101-DEV/ZZZ- DEPRECATED/WorldCrafting_101_Style_Guide_v1_2_Sovereign_Author_Manifesto.md** → # WorldCrafting 101 Style Guide — v1.2: Sovereign Author Manifesto Edition
 - **WorldCrafting101-DEV/ZZZ- DEPRECATED/0.02 Glossary of Thesiastics.md** → # Glossary of Thesiastics
 - **WorldCrafting101-DEV/ZZZ- DEPRECATED/WorldCrafting_101_Style_Guide_v1_3_Sovereign_Author_Manifesto.md** → # WorldCrafting 101 Style Guide — v1.3: Sovereign Author Manifesto — The New Sisyphus Edition
@@ -97,17 +97,17 @@ This file lists all 216 Markdown files with their first heading or first line fo
 - **WorldCrafting101-DEV/Canon Files/Geotic Planemos Γ£ô.md** → ## Geotic
 - **WorldCrafting101-DEV/Canon Files/Stellamo Framework (Master Map) Γ£ô.md** → # ⭐ Stellamo Framework (Master Map)
 - **WorldCrafting101-DEV/Canon Files/Planemo Equations of State Γ£ô.md** → # Planemo Equations of State
-- **WorldCrafting101-DEV/Canon Files/WBN Canonical -moic Ontotypes Γ£ô.md** → # WBN Canonical -moic Ontotypes
+- **WorldCrafting101-DEV/Canon Files/WCB Canonical -moic Ontotypes Γ£ô.md** → # WCB Canonical -moic Ontotypes
 - **WorldCrafting101-DEV/Canon Files/Stellar Thermal Interval Constant Table Γ£ô.md** → | Spectral<br>Class | <center>Low<br>Temp.<br>(Kelvin)</center> | <center>High<br>Temp.<br>(Kelvin)</center> | <cente...
 - **WorldCrafting101-DEV/Canon Files/Orbital Resonances/Orbital Resonances 3 ΓÇö The Synodial Epoch.md** → ## The Synodial Epoch
 - **WorldCrafting101-DEV/Canon Files/Orbital Resonances/Orbital Resonances 2 ΓÇö The Synodion.md** → ## The Synodian: Non-Integer Resonances
 - **WorldCrafting101-DEV/Canon Files/Orbital Resonances/Orbital Resonances 1 ΓÇö Mean Motion Resonance.md** → # Mean Motion Resonance
 - **WorldCrafting101-DEV/Canon Files/Glossary/Master_Glossary_v1.20_diff.md** → # Master Glossary v1.20 — New Entries Since v1.19
-- **WorldCrafting101-DEV/Canon Files/Glossary/Master_Glossary_v1.18.md** → # 📚 WBN Glossary (Master File — v1.18 Safe-Save)
-- **WorldCrafting101-DEV/Canon Files/Glossary/Master_Glossary_v1.19.md** → # 📚 WBN Glossary (Master File — v1.19 Safe-Save)
+- **WorldCrafting101-DEV/Canon Files/Glossary/Master_Glossary_v1.18.md** → # 📚 WCB Glossary (Master File — v1.18 Safe-Save)
+- **WorldCrafting101-DEV/Canon Files/Glossary/Master_Glossary_v1.19.md** → # 📚 WCB Glossary (Master File — v1.19 Safe-Save)
 - **WorldCrafting101-DEV/Canon Files/Glossary/Glossary_Crossref.md** → # 📖 Glossary Cross-Reference (v1.19)
 - **WorldCrafting101-DEV/Canon Files/Glossary/Cryptolexicon.md** → # Cryptolexicon (Reserved / Non-Canonical Terms)
-- **WorldCrafting101-DEV/Canon Files/Glossary/Master_Glossary_v1.17.md** → # 📚 WBN Glossary (Master File — v1.17 Safe-Save)
+- **WorldCrafting101-DEV/Canon Files/Glossary/Master_Glossary_v1.17.md** → # 📚 WCB Glossary (Master File — v1.17 Safe-Save)
 - **WorldCrafting101-DEV/Canon Files/Glossary/Master_Glossary_v1.20.md** → # Worlds by the Numbers — Master Glossary v1.20
 - **WorldCrafting101-DEV/Canon Files/Glossary/Glossary_Cross-Reference_v1.20.md** → # 📖 Glossary Cross-Reference (v1.20)
 - **__MACOSX/WorldCrafting101-DEV/._2025-07-21.md** → [Error reading file: 'utf-8' codec can't decode byte 0xcb in position 37: invalid continuation byte]
@@ -205,7 +205,7 @@ This file lists all 216 Markdown files with their first heading or first line fo
 - **__MACOSX/WorldCrafting101-DEV/Canon Files/._Geotic Planemos Γ£ô.md** → [Error reading file: 'utf-8' codec can't decode byte 0xf4 in position 99: invalid continuation byte]
 - **__MACOSX/WorldCrafting101-DEV/Canon Files/._Stellamo Framework (Master Map) Γ£ô.md** → [Error reading file: 'utf-8' codec can't decode byte 0xf4 in position 99: invalid continuation byte]
 - **__MACOSX/WorldCrafting101-DEV/Canon Files/._Planemo Equations of State Γ£ô.md** → [Error reading file: 'utf-8' codec can't decode byte 0xf4 in position 99: invalid continuation byte]
-- **__MACOSX/WorldCrafting101-DEV/Canon Files/._WBN Canonical -moic Ontotypes Γ£ô.md** → [Error reading file: 'utf-8' codec can't decode byte 0xcb in position 37: invalid continuation byte]
+- **__MACOSX/WorldCrafting101-DEV/Canon Files/._WCB Canonical -moic Ontotypes Γ£ô.md** → [Error reading file: 'utf-8' codec can't decode byte 0xcb in position 37: invalid continuation byte]
 - **__MACOSX/WorldCrafting101-DEV/Canon Files/._Stellar Thermal Interval Constant Table Γ£ô.md** → [Error reading file: 'utf-8' codec can't decode byte 0xcb in position 37: invalid continuation byte]
 - **__MACOSX/WorldCrafting101-DEV/Canon Files/Orbital Resonances/._Orbital Resonances 3 ΓÇö The Synodial Epoch.md** → [Error reading file: 'utf-8' codec can't decode byte 0xcb in position 37: invalid continuation byte]
 - **__MACOSX/WorldCrafting101-DEV/Canon Files/Orbital Resonances/._Orbital Resonances 2 ΓÇö The Synodion.md** → [Error reading file: 'utf-8' codec can't decode byte 0xcb in position 37: invalid continuation byte]

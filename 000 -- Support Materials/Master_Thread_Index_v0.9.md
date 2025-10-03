@@ -2,7 +2,7 @@
 *Supersedes v0.8*
 
 This file tracks all project outputs created and managed in the *Glossary Master Thread*.  
-It is the **single source of truth** for WBN editorial infrastructure.  
+It is the **single source of truth** for WCB editorial infrastructure.  
 
 ---
 

@@ -12,10 +12,10 @@ New/active symbols are in the Symbols Index; this file preserves editorial histo
 ---
 
 ## Constants & Units
-- **Year notation**: sometimes abbreviated as “a” (Latin *annum*). WBN standard = **yr**.  
-- **Month notation**: “m” deprecated (conflict with minutes, meters, mass). WBN standard = **n**.  
+- **Year notation**: sometimes abbreviated as “a” (Latin *annum*). WCB standard = **yr**.  
+- **Month notation**: “m” deprecated (conflict with minutes, meters, mass). WCB standard = **n**.  
 - **Golden Ratio**: previously given only as φ; now clarified as **φ (0.618…)** and **Φ (1.618…)**.  
-- **Byr vs Ga**: both appear in legacy sources. WBN standard = **Ga** (Giga-annum).  
+- **Byr vs Ga**: both appear in legacy sources. WCB standard = **Ga** (Giga-annum).  
 
 ---
 

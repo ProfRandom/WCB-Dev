@@ -13,7 +13,7 @@ Each glossary entry is linked to the file(s) in the Vault where it was first def
 - **Buffer Gas** → Planning A Detailed Atmosphere.md  
 - **Scale Height (H)** → Planning A Detailed Atmosphere.md  
 - **Pressure–Altitude Relation** → Planning A Detailed Atmosphere.md  
-- **WBN Constraint Classes** → Range Constraints & Random Assignment.md  
+- **WCB Constraint Classes** → Range Constraints & Random Assignment.md  
 - **Range Connectives** → Range Constraints & Random Assignment.md  
 - **Random Assignment Grammar (⟨⟨ ⟩⟩)** → Range Constraints & Random Assignment.md  
 - **Symbolcrafter’s Creed (Axiom 7.1)** → Range Constraints & Random Assignment.md  

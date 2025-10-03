@@ -51,4 +51,4 @@ Status: ✔ Revised | ❓ Partial | ✖ Not Yet Revisited
 - Of 9 major sections, only **Orbital Resonances/Synodic Period** has been significantly revised.  
 - **Ellipses**: covered mathematically, not narratively. Needs integration with orbital context.  
 - **Kepler/Hill/Roche** → still pending.  
-- **Milankovitch, Universe in a Shoebox, Galaxy Habitability** → potential scope question (are these essential in WBN 2e?).  
+- **Milankovitch, Universe in a Shoebox, Galaxy Habitability** → potential scope question (are these essential in WCB 2e?).  

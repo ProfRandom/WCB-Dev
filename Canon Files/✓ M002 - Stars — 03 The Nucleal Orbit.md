@@ -121,7 +121,7 @@ This gives us another range of orbits we can add to our accounting:
 | ⟨1.385 ∧ 1.770⟩$\mathcal{N}$ | Habitable Zone             |
 | ⟨1.770 ∧ 4.850⟩$\mathcal{N}$ | Parahabitable              |
 
-Jupiter's orbit is at $a = 5.204\;AU$, well _beyond_ the $4.850\;AU$ limit, and things just get colder from there, so we can specify that if any kind of "life" does exist in this region it is likely to be extremophile by Earth standards, which WBN denotes as "***xenotic***".
+Jupiter's orbit is at $a = 5.204\;AU$, well _beyond_ the $4.850\;AU$ limit, and things just get colder from there, so we can specify that if any kind of "life" does exist in this region it is likely to be extremophile by Earth standards, which WCB denotes as "***xenotic***".
 
 |         Orbital Range         | <center>Ontozones</center> |
 | :---------------------------: | -------------------------- |

@@ -1,7 +1,7 @@
 # 🗂 Master Thread Index — Worlds by the Numbers
 
 This file tracks all project outputs created and managed in the *Glossary Master Thread*.  
-It is the **single source of truth** for WBN editorial infrastructure.  
+It is the **single source of truth** for WCB editorial infrastructure.  
 
 ---
 
@@ -34,6 +34,6 @@ It is the **single source of truth** for WBN editorial infrastructure.
 ---
 
 ## 📌 Notes
-- This thread is the **control tower** for WBN.  
+- This thread is the **control tower** for WCB.  
 - Other conversations may explore concepts/expansions, but all **decisions and canonical files** must be ported back here.  
 - Future glossary versions (v1.21, etc.) and coverage updates will be tracked in this index.  

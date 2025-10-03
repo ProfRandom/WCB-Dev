@@ -62,7 +62,7 @@ Status: ✔ Revised | ❓ Partial | ✖ Not Yet Revisited
 - **Partials**: Ellipses (math only), Spectral Types, Stellar Populations, EOS fragments, Time Cycles, Orbital Periods.  
 - **Unrevised**: Most of Vols. 4–6, plus Kepler/Hill/Roche, Libration Points, Milankovitch, Galaxy Habitability, Orbit Design Methods.  
 - **Scope Questions**:  
-  - Galaxy Habitability (is this too astrophysical for WBN?)  
+  - Galaxy Habitability (is this too astrophysical for WCB?)  
   - Intergalactic Travel (does it fit the worldbuilder audience?)  
   - Moons & Rings (separate module vs. folded into Planemo framework)  
 - **Equation Compendium (Vol. 7)** → Skipped; equations integrated contextually.  

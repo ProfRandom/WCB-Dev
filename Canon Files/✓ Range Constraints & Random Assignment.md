@@ -99,7 +99,7 @@ This rule applies **even if the endpoints are excluded** from the valid output r
 
 ## 📜 Axioms
 
-### WBN Axiom 7.1 — The Symbolcrafter’s Creed  
+### WCB Axiom 7.1 — The Symbolcrafter’s Creed  
 > *“Better to have it and not need it than need it and not have it.”*
 
 All range connectives, including obscure ones like `⩡`, are retained in W101 to ensure semantic closure and support future or edge-case modeling needs.

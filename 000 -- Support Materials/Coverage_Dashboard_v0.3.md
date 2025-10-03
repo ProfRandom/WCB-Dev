@@ -2,7 +2,7 @@
 *Supersedes v0.2*
 
 Consolidated overview of coverage status across all volumes.  
-Tracks which sections of the old WBN PDFs have been revised, expanded, or remain to be integrated into the new Vault.  
+Tracks which sections of the old WCB PDFs have been revised, expanded, or remain to be integrated into the new Vault.  
 
 ---
 

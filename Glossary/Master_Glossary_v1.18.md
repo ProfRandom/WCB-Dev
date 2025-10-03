@@ -1,10 +1,10 @@
-# 📚 WBN Glossary (Master File — v1.18 Safe-Save)
+# 📚 WCB Glossary (Master File — v1.18 Safe-Save)
 
-Each entry is tagged according to its origin in the WBN lexicon:
+Each entry is tagged according to its origin in the WCB lexicon:
 
 - **Neolex** → Coined by the author (new terms).  
 - **Exolex** → Borrowed intact from external science/technical usage.  
-- **Insulex** → Common words given a **narrowed, specialized sense** inside WBN.  
+- **Insulex** → Common words given a **narrowed, specialized sense** inside WCB.  
 
 ---
 
@@ -14,13 +14,13 @@ Each entry is tagged according to its origin in the WBN lexicon:
 - **Thesiast** — One who engages in thesiastics.  
 - **Enthesiast** — A joyful/compulsive thesiast; a worldbuilder lost in maps, orbits, or alphabets.  
 - **Numerothesiastics (Tₙ)** — Quantitative branch (math, physics, astronomy).  
-  - *Abbreviated as Tₙ throughout WBN notation.*  
+  - *Abbreviated as Tₙ throughout WCB notation.*  
 - **Mirandothesiastics (Tₘ)** — Qualitative branch (myth, culture, aesthetics).  
-  - *Abbreviated as Tₘ throughout WBN notation.*  
+  - *Abbreviated as Tₘ throughout WCB notation.*  
 - **Ontotype** — Formal category of cosmic object, defined by intrinsic being and structure (mass, configuration, fusion state).  
 - **Ontosomics** — Study of life-relevant planemo characteristics (density, atmosphere, magnetosphere, hydrosphere, etc.) as they affect biosignature potential.  
 - **Ontosomic** — Adjectival form of ontosomics.  
-- **Ontosomic Life Classification** — Taxonomy of xenotic/non-standard life in WBN.  
+- **Ontosomic Life Classification** — Taxonomy of xenotic/non-standard life in WCB.  
 - **Geotic Envelope** — An ontosomic tool defining a planemo’s **physical suitability for Earthlike life**, bounded by ranges of density, mass, atmosphere, and hydrosphere.  
 - **Thermozone** — An ontosomic tool classifying **stellar orbits by thermal habitability**, based on distance from the star and stellar luminosity.  
 - **Gaean** — Earthlike planemos, hospitable to unmodified humans.  
@@ -45,25 +45,25 @@ Each entry is tagged according to its origin in the WBN lexicon:
 - **Ultramo** — Supermassive black holes.  
 - **Hypermo** — Speculative hypermassive bodies.  
 - **Monobody Ontotypes** — Ontotypes defined by the Monobody Condition.  
-- **Thermal Interval Constant (þ)** — A WBN-specific unit that defines the **temperature increment per subclass**.  
-- **Principle of Mass Measurement** — WBN guideline that planemo masses are purely numeric.  
-- **Stellamo Framework Principle** — The guiding rule of stellar classification in WBN.  
-- **QID Family (Authorial Fiat Mottos)** — Latin shorthand phrases used in WBN.  
+- **Thermal Interval Constant (þ)** — A WCB-specific unit that defines the **temperature increment per subclass**.  
+- **Principle of Mass Measurement** — WCB guideline that planemo masses are purely numeric.  
+- **Stellamo Framework Principle** — The guiding rule of stellar classification in WCB.  
+- **QID Family (Authorial Fiat Mottos)** — Latin shorthand phrases used in WCB.  
 - **Mundus tuum est** — Latin for *“It’s your world.”*  
 
 ### New Neolexes (v1.18 additions)
 
 - **ε₀ World** — A planemo on a perfectly circular orbit (eccentricity = 0). No seasonal variation, constant stellar size, identical day length year-round.  
 - **Anthropic Norm** — The dominant, modal state of matter and energy in the universe during the current epoch.  
-  - Named in resonance with the Anthropic Principle (Carter 1973; Barrow & Tipler 1986), but reinterpreted in WBN as the **modal cosmic baseline**.  
-- **Mediocritic Principle of State** — WBN principle that normativity is defined by modal clustering, not arithmetic mean.  
-- **Uncompressed Density (ρᵤ)** — WBN convention treating a planemo’s density as intrinsic, ignoring gravitational compression.  
-- **Parameter Precedence** — WBN hierarchy for planemo properties: physical constraints → experiential parameters → emergent radius.  
-- **Magnetosphere Scaling Law** — WBN approximation framework for estimating planetary magnetic fields.  
-- **Geotic Ground States** — WBN solutions for planemo parameters when one core property = 1.  
+  - Named in resonance with the Anthropic Principle (Carter 1973; Barrow & Tipler 1986), but reinterpreted in WCB as the **modal cosmic baseline**.  
+- **Mediocritic Principle of State** — WCB principle that normativity is defined by modal clustering, not arithmetic mean.  
+- **Uncompressed Density (ρᵤ)** — WCB convention treating a planemo’s density as intrinsic, ignoring gravitational compression.  
+- **Parameter Precedence** — WCB hierarchy for planemo properties: physical constraints → experiential parameters → emergent radius.  
+- **Magnetosphere Scaling Law** — WCB approximation framework for estimating planetary magnetic fields.  
+- **Geotic Ground States** — WCB solutions for planemo parameters when one core property = 1.  
 - **Paramount Geotic Worlds** — Worlds with g = 1⨁ (Earth-normal surface gravity).  
-- **Temporal Habitability (TH)** — WBN principle that habitability must be evaluated across stellar lifetimes as HZs shift outward.  
-- **Hydrospheric Balance** — WBN term for the relationship between water inventory, crustal relief, and tectonic activity that governs exposed land vs. ocean coverage.  
+- **Temporal Habitability (TH)** — WCB principle that habitability must be evaluated across stellar lifetimes as HZs shift outward.  
+- **Hydrospheric Balance** — WCB term for the relationship between water inventory, crustal relief, and tectonic activity that governs exposed land vs. ocean coverage.  
 
 ---
 
@@ -79,7 +79,7 @@ Each entry is tagged according to its origin in the WBN lexicon:
 - **Stellar Equations of State** — Relations linking M, R, L, T, Q.  
 - **Planemo Equations of State** — Relations linking m, r, ρ, g, vₑ.  
 - **Blackbody** — Idealized emitter/absorber radiating only by temperature.  
-- **Stefan–Boltzmann Law** — $L = 4πR^2σT^4$; WBN: $L = R^2T^4$.  
+- **Stefan–Boltzmann Law** — $L = 4πR^2σT^4$; WCB: $L = R^2T^4$.  
 - **Shirtsleeve** — Conditions survivable without protective gear.  
 - **Super-Earth** — Exoplanetology term.  
 - **Superhabitable** — Exoplanetology term.  
@@ -160,4 +160,4 @@ Pending (Compendium → Emendations):
 - Nucleal/Perannual orbits approximations & exclusivity.  
 - Stellar Equations of State refined exponents.  
 - Parahabitable nuance (mathematically parahabitable giants).  
-- Spectral Class → clarify WBN linearization (þ).  
+- Spectral Class → clarify WCB linearization (þ).  

@@ -207,6 +207,6 @@ This expands our system to 11 orbits:
 
 C'mon, you had to know I'd use that pun at _some point_ didn't you?
 
-With this method, a worldmaker can quickly generate a full planemo system that is physically plausible, statistically grounded, and symbolically consistent with WBN cosmology.
+With this method, a worldmaker can quickly generate a full planemo system that is physically plausible, statistically grounded, and symbolically consistent with WCB cosmology.
 
 [[Asteroid Belts and Resonance Gaps — working out]]

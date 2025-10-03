@@ -41,7 +41,7 @@ First: The spectral class system used throughout this guide — the sequence **O
 
 > For readers curious about its origins — including the critical work of **Annie Jump Cannon**, **Cecilia Payne-Gaposchkin**, and the less brilliant men who received most of the credit — see **[[Sidebar: The Spectral System and the Women Who Built It]]**.
 
-Second: The spectral classes used in WBN are based on a **linearized temperature model**. This approach smooths over the irregularities of the traditional system to support clean interpolation, symbolic clarity, and consistent orbital modeling.
+Second: The spectral classes used in WCB are based on a **linearized temperature model**. This approach smooths over the irregularities of the traditional system to support clean interpolation, symbolic clarity, and consistent orbital modeling.
 
 > If you're curious about the limitations of the classical OBAFGKM system — and why we’ve chosen to “straighten the curve” — see **[[Sidebar Module: _Mind the Gap — The Shortcomings of the Traditional Spectral Scale_]]**.
 
@@ -65,7 +65,7 @@ Here are the spectral classes we'll be working with.
 > Notes:
 > - Spectral Classes L, T, and Y are "special cases" which are covered in detail in another module ⟨⟨ insert module name here ⟩⟩
 > - Each range reflects a star's **surface temperature**, typically noted as $T_{\text{eff}}$ in astronomical literature.
-> - In WBN:
+> - In WCB:
 > 	- **K** = temperature in Kelvin 
 > 	- **T** = temperature _relative to the Sun_ (i.e., ⊙ = 5800K ⇒ T = 1.0)
 ### Spectral *Type*
@@ -80,7 +80,7 @@ For example:
 	- Spectral **Class**: G  
 	- Spectral **Type**: 2
 
-> #### Note on Spectral Type Precision in WBN
+> #### Note on Spectral Type Precision in WCB
 > In this system, a **spectral type** is defined by its **numerical position** within a spectral class.  For example:
 > - **G2**, **G2.3**, and **G2.9** are all **Type 2**    
 > - The decimal simply adds interpolation precision — it does **not** define a new type.

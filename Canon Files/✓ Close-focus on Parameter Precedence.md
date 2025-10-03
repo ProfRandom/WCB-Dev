@@ -23,7 +23,7 @@
 - Replaces recursive compression modeling with a WCB-friendly simplification.  
 - Geotic range justification links to habitability framework.  
 - Integrates with prior note **Example: When Good Values Go Bad** (edge-case validation).  
-- Ensure consistent update: “WBN” → “WCB” across this file and related notes.  
+- Ensure consistent update: “WCB” → “WCB” across this file and related notes.  
 
 ---
 ---
@@ -36,7 +36,7 @@ Elsewhere, I stated that
 
 Here, we learn _why_ that's the case.
 
-WBN defines five core parameters for modeling planemos:
+WCB defines five core parameters for modeling planemos:
 - Mass (m)
 - Density (ρ)
 - Surface Gravity (g)
@@ -49,7 +49,7 @@ The first two — **mass** and **density** — are fundamental **physical proper
 - Its **mass** is the product of that density and volume.
 These values are not “fuzzy” — they are _determined_ by composition. But there’s a complicating factor:
 
-### Uncompressed Density in WBN
+### Uncompressed Density in WCB
 In reality, high-mass planemos **compress themselves** under their own gravity. This self-compression:
 - Increases core pressure    
 - Reduces actual volume    
@@ -58,15 +58,15 @@ Unfortunately, the feedback between mass, gravity, and compression is:
 - This feedback loop is **nonlinear**    
 - The corrections vary by **material type**    
 - And modeling it accurately requires **complex equations of state**
-WBN intentionally avoids this complexity in favor of **practical worldcrafting**.
+WCB intentionally avoids this complexity in favor of **practical worldcrafting**.
 
-> **WBN Convention:**  
+> **WCB Convention:**  
 > We treat _ρ_ (density) as the **uncompressed density** of the planemo — the intrinsic density of its materials assuming no internal gravitational compression.
 
 This keeps _ρ_ symbolically **independent** from _m_ and allows us to calculate _r_, _g_, and _vₑ_ without recursive modeling.  Compression effects are minimal within the Geotic range ⟨0.5 ∧ 1.5⟩⨁, so this simplification is physically tolerable and worldcrafter-friendly.
 
 ### Parameter Precedence: A Symbolic Hierarchy
-In WBN, we adopt a symbolic precedence system to clarify **what depends on what**.
+In WCB, we adopt a symbolic precedence system to clarify **what depends on what**.
 #### First Precedence: Composition-Driven Parameters
 - **Mass** (_m_)    
 - **Uncompressed Density** (_ρ_)
@@ -95,7 +95,7 @@ r &= \sqrt[3]{\frac{m}{\rho}} &&\qquad \text{Relative calculation}
 $$
 By defining _ρ_ as uncompressed, we sidestep recursive compression modeling and free _r_ to play its proper role as a derived result.
 
-> **In short:** Radius is not arbitrarily assigned in WBN — it emerges from first principles, and that’s exactly what gives it flexibility.
+> **In short:** Radius is not arbitrarily assigned in WCB — it emerges from first principles, and that’s exactly what gives it flexibility.
 
 However, if a planemo meets all other Geotic criteria but falls slightly outside the ⟨0.5 ∧ 1.5⟩⨁ radius guideline, **there is room for flex** — especially when symbolic or experiential factors support it.
 ### Surface Gravity, Escape Velocity, and Radius "Flexibility"
@@ -120,14 +120,14 @@ All outputs for _g_, _vₑ_, and _r_ computed from Geotic-range values of _m_ an
 > While _mass_ and _density_ serve as **primary constraints**, the values they generate for _gravity_, _escape velocity_, and _radius_ are **emergent** — and may push right up to the edges of Geotic acceptability. Planemos with marginal values on one or more of these outputs may still qualify symbolically, depending on biospheric or narrative justification.
 
 ## Order of Parameter Calculation
-WBN allows you to begin with **any two** of the five core planemo parameters and calculate the remaining three. For example:
+WCB allows you to begin with **any two** of the five core planemo parameters and calculate the remaining three. For example:
 - You might specify a desired **gravity** (_g_) and **radius** (_r_) to match narrative or symbolic needs — and then calculate **mass**, **density**, and **escape velocity** from those.
 However:
 
 > ⚠️ **Caution:**  
-> **Mass** (_m_) and **uncompressed density** (_ρ_) are treated as **inflexible physical constraints** in WBN. They must fall within the Geotic envelope ⟨0.5 ∧ 1.5⟩⨁ to yield plausibly habitable worlds.
+> **Mass** (_m_) and **uncompressed density** (_ρ_) are treated as **inflexible physical constraints** in WCB. They must fall within the Geotic envelope ⟨0.5 ∧ 1.5⟩⨁ to yield plausibly habitable worlds.
 
-### WBN Recommendation
+### WCB Recommendation
 > **Start with mass and uncompressed density.**  
 > These two parameters:> 
 > - Reflect the physical composition of your planemo

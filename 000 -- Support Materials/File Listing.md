@@ -10,7 +10,7 @@
 10. Parameter Ranges By Spectral Class ✓.md
 11. Main Sequence Stellar Equations of State ✓.md
 12. An Extended Classification ✓.md
-13. WBN Canonical -moic Ontotypes ✓.md
+13. WCB Canonical -moic Ontotypes ✓.md
 14. Stellamo Framework (Master Map) ✓.md
 15. Planemo Framework (Master Map) ✓.md
 16. Extended Geotic Habitability Guidelines ✓.md

@@ -1,6 +1,6 @@
 # Cryptolexicon (Reserved / Non-Canonical Terms)
 
-A parking space for WBN coinages, playful terms, and experimental categories that are **not canonized** in the glossary at present, but are reserved for possible future use.
+A parking space for WCB coinages, playful terms, and experimental categories that are **not canonized** in the glossary at present, but are reserved for possible future use.
 
 ---
 
@@ -8,7 +8,7 @@ A parking space for WBN coinages, playful terms, and experimental categories tha
 
 - **Status:** Deprecated.
     
-- Early WBN coinages for sub-planemo bodies.
+- Early WCB coinages for sub-planemo bodies.
     
 - Superseded by the Terran Mass Intervals (microterran, milliterran, etc.).
     

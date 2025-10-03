@@ -1,7 +1,7 @@
 # 🧠 Memory Snapshot v0.3 — Worlds by the Numbers
 *Supersedes v0.2*
 
-This file provides a condensed state of the WBN project as of this snapshot.  
+This file provides a condensed state of the WCB project as of this snapshot.  
 Use with the **Master Thread Index** to sync up a new ChatGPT session if needed.  
 
 ---

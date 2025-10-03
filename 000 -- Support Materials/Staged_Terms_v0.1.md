@@ -9,7 +9,7 @@ Once ~20 entries accumulate, they will be merged into a new **Master Glossary** 
 
 ### Euclidean Algorithm (exolex)
 - A method for finding the **greatest common divisor (GCD)** of two integers by repeated division with remainder.  
-- Useful in WBN for simplifying ratios or detecting integer relationships in synodic and resonance systems.  
+- Useful in WCB for simplifying ratios or detecting integer relationships in synodic and resonance systems.  
 - Process: divide the larger number by the smaller, replace, repeat until remainder = 0. The last non-zero remainder is the GCD.  
 - Provides the mathematical underpinning for calculating **LCM** in the **Synodial Epoch** framework.  
 

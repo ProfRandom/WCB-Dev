@@ -3,7 +3,7 @@
 | Location                                   | Decision / Action                                                                                                                                              | Status  | Notes                    |
 | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | ------------------------ |
 | Gaean Planemos.md                          | Add sidebar: introduce "Marginals" as boundary concept                                                                                                         | ⏳ To Do | tie in "Earth-twin"      |
-| Objective Mass Scale.md                    | Add note: why WBN uses neologisms (septi-, okti-, etc.)                                                                                                        | ⏳ To Do | in Notes section         |
+| Objective Mass Scale.md                    | Add note: why WCB uses neologisms (septi-, okti-, etc.)                                                                                                        | ⏳ To Do | in Notes section         |
 | Preface.md                                 | Insert tone note: "serious in content, playful in style"                                                                                                       | ⏳ To Do | sets reader expectations |
 | Reserved Words.md                          | Add entry for "Cryptomo" (non-canonical)                                                                                                                       | ⏳ To Do | keep as parked term      |
 | [[Ontosomic Expansion of "Life" Concepts ✓]] | Crosslink this system to **Xenotic** (since many of these life modes are explicitly alien).<br>Add a “See also: Ontosomics (discipline)” pointer at the start. | ⏳ To Do |                          |
@@ -28,8 +28,8 @@
 
 ## Emendations (Glossary – Pending)
 
-- **Spectral Class** — Clarify that WBN replaces the inconsistent MK spectral subclass intervals with a **linearized system** defined by the Thermal Interval Constant (þ).  
+- **Spectral Class** — Clarify that WCB replaces the inconsistent MK spectral subclass intervals with a **linearized system** defined by the Thermal Interval Constant (þ).  
   - Real-world subclasses vary in width (e.g. F0→F9 ≈ 1350 K vs F9→G0 ≈ 150 K).  
-  - WBN enforces consistent, evenly spaced subclass intervals for better modeling.
+  - WCB enforces consistent, evenly spaced subclass intervals for better modeling.
 
 - **Parahabitable** — Refine definition to note that giant and supergiant stars may generate *mathematically parahabitable* orbital zones (thermozones exist by calculation) but these do not correspond to genuinely Terran-hospitable regions due to stellar instability and short lifespans.

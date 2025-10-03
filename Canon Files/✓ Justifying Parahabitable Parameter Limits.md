@@ -558,7 +558,7 @@ This isn't just a rocket science number — it governs whether a world can:
 - **Retain an atmosphere**
 - **Allow for viable space access**
 - **Support Earthlike solvent cycles**
-In WBN terms, escape velocity is a *constraint amplifier*. It binds together mass and radius, and exerts compound effects on chemistry, biospheres, and technology.
+In WCB terms, escape velocity is a *constraint amplifier*. It binds together mass and radius, and exerts compound effects on chemistry, biospheres, and technology.
 
 ---
 

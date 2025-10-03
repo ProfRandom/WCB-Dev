@@ -1,6 +1,6 @@
 # 🔣 Symbols Index v0.2 — Worlds by the Numbers
 
-This index defines canonical symbols used throughout WBN.  
+This index defines canonical symbols used throughout WCB.  
 Notation is given in plain text and (where useful) LaTeX form.  
 
 ---

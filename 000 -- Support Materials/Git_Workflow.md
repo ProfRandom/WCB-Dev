@@ -1,6 +1,6 @@
 # 📝 Git Workflow Cheat Sheet — Worlds by the Numbers
 
-This file provides a quick reference for using Git with the WBN Vault.  
+This file provides a quick reference for using Git with the WCB Vault.  
 Keep this in the repo so **Future You** (or collaborators) can sync, commit, and push without friction.  
 
 ---
@@ -79,6 +79,6 @@ Ignore:
 - **Start of session:** `git pull`  
 - **End of session:** `git add -A && git commit -m "Session summary" && git push`  
 
-If you do nothing else, just follow this ritual — and GitHub will always have your latest WBN work.  
+If you do nothing else, just follow this ritual — and GitHub will always have your latest WCB work.  
 
 ---
