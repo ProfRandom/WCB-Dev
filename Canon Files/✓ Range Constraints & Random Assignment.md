@@ -1,4 +1,24 @@
 
+## Abstract  
+**Major Topics:**  
+- Defines a **symbolic grammar for constraints**:  
+  - **Evaluative** (truth tests), **Comparative** (descriptions), **Prescriptive** (soft rules), **Mandative** (hard rules).  
+- Introduces **range connectives** for closed, open, half-open, and exterior ranges (∧, ∨, ⩜, ⩝, ⊼, ⩟, ⊽, ⩡).  
+- Establishes **random assignment syntax** with ⟨⟨ ⟩⟩ brackets to select values from ranges, including mandated vs. optional assignments.  
+- Adds the **precision inference rule**: result precision matches the most precise endpoint.  
+- Provides **axiomatic justification** (WCB Axiom 7.1 — Symbolcrafter’s Creed) for including a wide range of connectives to preserve semantic completeness.  
+
+**Key Terms & Symbols:**  
+- Constraint operators: `≤.`, `.≤`.  
+- Range connectives: ∧, ∨, ⩜, ⩝, ⊼, ⩟, ⊽, ⩡.  
+- Randomization operator: ⟨⟨ ⟩⟩.  
+- Precision inference rule.  
+
+**Cross-Check Notes:**  
+- **[NEW]** All notation is new [ins] — no overlaps with existing canon.  
+- Serves as the **symbolic foundation** for other randomization methods (e.g., Orbit Randomization).  
+---
+---
 
 
 # Range Constraints & Random Assignment

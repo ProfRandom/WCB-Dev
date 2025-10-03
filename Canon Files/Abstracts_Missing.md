@@ -2,14 +2,12 @@
 
 - Abstracts_Covered.md
 - Abstracts_Missing.md
-- ✓ Orbit Randomization ✓.md
 - ✓ Parameter Ranges By Spectral Class ✓.md
 - ✓ Physical Properties of Planemos ✓.md
 - ✓ Physical Properties of Planets ✓.md
 - ✓ Planetary Rings and the Sun's Path.md
 - ✓ Planning A Detailed Atmosphere ✓.md
 - ✓ Principle of Mass Measurement ✓.md
-- ✓ Range Constraints & Random Assignment ✓.md
 - ✓ Retrograde Rotation and Axial Tilt ✓.md
 - ✓ Setting The Stage ✓.md
 - ✓ Stellamo Framework (Master Map) ✓.md

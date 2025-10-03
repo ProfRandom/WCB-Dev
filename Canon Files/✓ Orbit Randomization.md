@@ -1,10 +1,32 @@
 
+## Abstract  
+**Major Topics:**  
+- Establishes a **symbolic system** for generating orbital radii procedurally via multiplicative steps.  
+- Defines **intrabasal** (inward from baseline) and **extrabasal** (outward from baseline) orbit generation.  
+- Uses **basal orbital radius (B)** and **system cutoff (Ω)** as anchors, with optional use of nucleal orbit (𝒩) as B.  
+- Expresses orbital placement through **randomized multiplicative factors** (⟨⟨min ∧ max⟩⟩).  
+- Describes strategies: outward-only, inward-only, or bidirectional scaffolding from a central anchor.  
+
+**Key Terms & Symbols:**  
+- **Intrabasal [EXPANDED neo]:** Now canonized as any orbit inside a basal reference (broader than just calculations).  
+- **Extrabasal [EXPANDED neo]:** Any orbit outside a basal reference.  
+- **B (Basal orbital radius) [NEW ins].**  
+- **Ω (System cutoff) [NEW ins].**  
+- Random assignment operator (⟨⟨ ⟩⟩) [ins].  
+
+**Cross-Check Notes:**  
+- **[EXPANDED]** Intrabasal/Extrabasal promoted from calculation-only to general relational terms.  
+- **[NEW]** Basal radius (B) and cutoff (Ω).  
+- No conflicts with existing canon.  
+- Extends *Range Constraints & Random Assignment*; best read together.  
+---
+---
 
 
 # Orbit Randomization Notation
 This symbolic system defines how to procedurally generate a sequence of orbital radii using randomized multiplicative (or divisive) steps from a baseline (**basal**) value. It distinguishes between **intrabasal** (moving inward) and **extrabasal** (moving outward) orbit generation.
 
-The notation is fully symbolic and compatible with WBN's randomization and range assignment grammar.
+The notation is fully symbolic and compatible with WCB's randomization and range assignment grammar.
 
 ---
 

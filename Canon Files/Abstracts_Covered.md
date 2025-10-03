@@ -39,8 +39,10 @@
 - ✓ Monobody Compositions.md
 - ✓ Monobody Mass Classes and Ontotypes.md
 - ✓ Obliquity — Planetary Orientation.md
+- ✓ Orbit Randomization.md
 - ✓ Orbital Eccentricity and Seasonal Effects.md
 - ✓ Planemo Equations of State.md
 - ✓ Planemo Framework (Master Map).md
+- ✓ Range Constraints & Random Assignment.md
 - ✓ Rheatic Planemos.md
 - ✓ The SANC Principle.md
