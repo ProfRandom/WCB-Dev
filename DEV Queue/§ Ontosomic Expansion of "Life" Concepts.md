@@ -1,7 +1,39 @@
+## Abstract  
+**Major Topics:**  
+- Introduces **Ontosomy [neo]** as a WCB framework for classifying *life and life-analog systems*, parallel to ontotypes for planemos.  
+- Defines **ontosomic domains** as broad categories of self-sustaining, replicating, or quasi-life chemical/metabolic regimes:  
+  - **Carbonic:** carbon–water biochemistry (Earth standard).  
+  - **Nitrogenic:** ammonia/methane-based biochemistries.  
+  - **Hydrogenic:** hydrogen-dominated metabolic networks.  
+  - **Silicate:** silicon/silicate lattice biochemistries.  
+  - **Exotic:** placeholder for speculative, non-traditional ontosomes.  
+- Expands beyond biochemistry to include **structural ontosomics**:  
+  - Parasitic systems.  
+  - Colonial or networked organisms.  
+  - Planetary-scale or ecosystem-level ontosomes.  
+- Raises **ethical/philosophical questions**:  
+  - **Terraforming = Genocide? [meta]** — posed as an ethical inquiry, not a settled law.  
+  - **Containment Hypothesis [meta]** — civilizations may avoid alien ontosomes to prevent contamination or conflict.  
+  - **“Are We the Virus?” [meta]** — reframes humanity’s planetary impact through ontosomic categories.  
+
+**Key Terms & Symbols:**  
+- **Ontosomy [neo]:** study/classification of life and quasi-life systems.  
+- **Ontosome [neo]:** a distinct system classified under ontosomic rules.  
+- **Ontosomic domains [neo]:** carbonic, nitrogenic, hydrogenic, silicate, exotic.  
+- **Structural ontosomics [neo].**  
+- **Terraforming = Genocide? [meta].**  
+
+**Cross-Check Notes:**  
+- No contradictions with existing Meta or Planemo canon.  
+- Complements **Planemos 3 — Types** and **Planemos 4 — Habitability** by expanding the meaning of “habitable” into life-context.  
+- Detailed chemical subtypes (biofluoric, biophosphoric, etc.) remain **DEV-only** until refined.  
+- **Status:** [NEW] — an enrichment module; not required for system construction but deepens worldmaking philosophy.  
+---
+---
 
 # Development Notes
 
-# Ontosomic Expansion of "Life" Concepts  §
+# Ontosomic Expansion of "Life" Concepts
 
 ## Canonization Triage  
 - **Strongly Suggest Canonizing:**  
