@@ -1,6 +1,6 @@
 ## Abstract  
 **Major Topics:**  
-- Introduces **Ontosomy [neo]** as a WCB framework for classifying *life and life-analog systems*, parallel to ontotypes for planemos.  
+- Introduces **Ontosomy [neo]** as a WCB framework for classifying *life and life-analog systems*, parallel to monoclasses and morphotypes for monons.  
 - Defines **ontosomic domains** as broad categories of self-sustaining, replicating, or quasi-life chemical/metabolic regimes:  
   - **Carbonic:** carbon–water biochemistry (Earth standard).  
   - **Nitrogenic:** ammonia/methane-based biochemistries.  
