@@ -1,3 +1,19 @@
+---
+title: <% tp.file.title %>
+created: <% tp.date.now("YYYY-MM-DD") %>
+tags:
+status: draft
+---
+<% tp.file.title %>
+Created: <% tp.date.now("YYYY-MM-DD HH:mm") %>
+
+## Tasks
+- [ ] 
+
+## Notes
+<% tp.file.cursor() %>
+
+
 # LaTeX Equation Environments — Quick Reference
 
 This note collects the most useful LaTeX math environments that also render in Markdown (Obsidian, Jupyter, etc.).
