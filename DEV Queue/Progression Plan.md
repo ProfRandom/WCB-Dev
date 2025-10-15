@@ -93,13 +93,13 @@ Within a parenson (where one monon orbits a more massive primeron), five points 
 | **L₅** | Trailing Triangular | 60° behind the parenmon in its orbit | Conditionally Stable |
 
 In barycentric coordinates, equilibrium occurs when  
-\[
+$$
 \nabla Φ_{\text{eff}} = 0,
-\]
+$$
 where the effective potential combines gravitational and centrifugal components:
-\[
+$$
 Φ_{\text{eff}} = -\frac{G M₁}{r₁} - \frac{G M₂}{r₂} - \tfrac{1}{2} ω^2 r^2 .
-\]
+$$
 
 The positions of L₁–L₃ can be approximated by the standard restricted three-body relations, or more simply by numerical solutions of \( dΦ_{\text{eff}}/dr = 0 \).
 
