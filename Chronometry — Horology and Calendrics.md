@@ -45,7 +45,7 @@ A minute is defined as a set of 60 contiguous seconds, and an hour is defined as
 
 > **Keppy**: Uh — 
 
-I know, I know... don't shoot the messenger.
+I know, I know... don't shoot the messenger.  There's a whole other tutorial that can be written about that
 
 ### Typographical Conventions
 
@@ -71,6 +71,11 @@ There are two other "kinds" of day:
 	- $86{,}164.0905^s$
 	- $23^h\,56^m\,4.0905^s$
 
+A "day" can be timed in several ways:
+- Sunrise-to-sunrise
+- Sunset-to-sunset (Judaism famously follows this custom)
+- Midday-to-midday
+- Midnight-to-midnight (the official span for astronomy and most civil systems)
 ### The Year
 We skip over **weeks** and **months**, because they are completely arbitrary collections of days based on how one formats one's _calendar_ (which we'll cover more thoroughly below).
 
@@ -118,10 +123,86 @@ Where:
 - $C_S$ = the sidereal chronum
 - $\Gamma$ = the obliquity-azimuth precession cycle (See Orbits 2 for the calculation of $\Gamma$)
 
+### The Week
+The English word "week" comes from Old English _wice / wicu / wucu_, meaning " period of seven days", related to Proto-Germanic _wikōn_ a feminine noun meaning "a turning, succession, change, or series", itself from a proposed Proto-Indo-European root _weik-_ — to bend, turn, or move in a circle.
 
- 
+It is related to Old Norse _vika_, "change, shift, week"; Gothic _wikō_, "week"; Dutch _week_, "week"; and German _Woche (from wekō)_, "week".
 
+A week, unlike a **day** or a **year** is not an astronomical period, but a socially defined period of time usually referencing an interval of human activity, such as work, rest, or ritual.
+#### Seven Days
+The earliest example of a seven-day week dates back to Babylonian astrology — one day for each of the Seven Wanderers: The Sun, Moon, Mercury, Venus, Mars, Jupiter, and Saturn.  This was adopted by the Hebrews and later the Greeks, and the Romans after Augustus (before that, they had an 8-day week), and ultimately became embedded in both Christian and Islamic timekeeping.
 
+For Earth, it works as a good subdivider of the year:
+$$
+\frac{365^d}{7^d} ≈ 52.143^w
+$$
+ — which is almost exactly $52$ weeks and one day.  Using the Gregorian year:
+$$
+\frac{365.25^d}{7^d} ≈ 52.179^w 
+$$
+ — which works out to $52$ weeks and $1.25$ days.
 
+### The Month
+The modern English word "month" comes from Old English _mōnaþ_, meaning "month," (literally "moon-time"); from the Proto-Germanic _mēnōþs_, "a moon, a month," probably related to the Proto-Indi-European root _mḗh₁n̥s_, "moon, month, measure of time," from the base _meh₁-_, "to measure".
+
+It is related to Old High German _mānōd_, "month"; Gothic _mēnōþs_, "month"; Old Norse _mánadr_, "month"; Latin _mensis_, "month", Greek _mḗn (μήν)_, "month, moon"; and Sanskrit _mā́s_, "month, moon".
+
+So, the concept of a month is, indeed, old in human consciousness, precisely because of its association with the Moon.  Wherever one is on the surface of Earth, the Moon passes through the same sequence of phases over the same span of time.  If any span of time may be said to be "thoroughly human", it would be the **month**.
+
+#### Period of the Moon's Orbit
+##### Sidereal Month
+This is the amount of time it takes for the Moon to make one complete orbit around the Earth with respect to the "fixed stars"; its current official duration is:
+- $27.3217^d$
+
+##### Synodic Month
+This is the amount of time it takes for the Moon to pass through one full change of phases (from new-to-new or full-to-full):
+- $29.5306^d$
+
+The **synodic month** is longer than the **sidereal month** due to the Earth's rotation.  During a sidereal month, the Earth "rotates under" the Moon, and in order for the Moon to appear in exactly the same phase, the Earth has to complete $2.2089$ additional rotations (about $2^d\,5^h$).
+
+The relationship between the sidereal month and the synodic month is more straightforward than that between the sidereal year and tropical year:
+
+$$
+\begin{aligned}
+\dfrac{1}{L_{syn}} &= \dfrac{1}{L_{sid}} - \dfrac{1}{C_S} \\[1em]
+L_{syn} &= \dfrac{C_S \times L_{sid}}{C_S - L_{sid}} 
+\end{aligned}
+$$
+Where:
+- $L_{syn}$ = length of the synodic month in days
+- $L_{sid}$ = length of the sidereal month in days
+- $C_S$ = Earth's **sidereal year** in days
+
+## Calendars
+A **calendar**—from Latin _calendae_, the “called” first day of the Roman month—originated as the priestly announcement of the new moon and, by extension, of debts and due dates.  Over time, the term came to mean **any structured representation of the year**, a framework by which a culture names and numbers its days.
+
+At its simplest, a calendar is a **model of recurrence**: it regularizes the rhythms of the heavens—solar, lunar, or otherwise—into cycles of civic life.  It defines what a people count as beginnings and endings, which days they mark as ordinary or sacred, and how they synchronize the work of the present with the memory of the past.
+### Types
+Theoretically, there are as many types of calendars as one can design, but historically three types predominate:
+- Solar — based on observations of the position of the Sun;
+- Lunar — based on observations of the phases of the Moon; and,
+- Luni-solar — combining aspects of both solar and lunar.
+#### Solar Calendars
+The key component to a solar calendar is the recognition that the position of the Sun in the sky is variant, but predictable (because of the Earth's orbit and rotation).  If you note the position of the Sun in the sky (or relative to a significant landmark) at a particular moment of a particular day, and count the sunrises and sunsets between that moment and when the Sun is in that _exact_ position again, you have a measure of the **year**.  The same can be done marking the positions of the shadow of a pole in the ground from day-to-day (this is the basis of the sundial).
+
+The Egyptians were apparently one of the first civilizations to recognize that this interval was 365 _solar_ days — but, in fact it wasn't the _Sun_ that prompted their discovery, but the bright star Sirius (Eg. *Sopdet* or *Sothis*; Gk. *Seirios*).  They noted that the rising of the star just before the Sun's brightness drowned it out in the dawn sky coincided with the yearly Nile flood, and a careful count of sunrises between any two such instances yielded 365 dawns.
+
+> So, in a sense, the first "solar" calendar was — in fact — a _stellar_ calendar.
+
+#### Lunar Calendars
+As discussed above, the Moon "changes shape" on a regular basis, taking just over $29.5^d$ to complete one full cycle.  A **lunar** calendar is arranged according to the interval of that cycle, sometimes _ignoring_ the solar cycle, altogether.
+#### Luni-Solar
+
+However, when a lunar calendar _does_ acknowledge the solar cycle, the problem of _incommensurability_ arises: there is no integer divisor that equally divides a year (civic, sidereal, _or_ tropical) and a synodic month:
+$$
+\frac{365}{29.5} ≈ 12.373
+$$
+ — which can be interpreted as "$12$ months and $11$ days":
+ $$
+\begin{array}{llll}
+ \left\lfloor \dfrac{365}{29.5} \right\rfloor &= &\mathbf{12} &\text{whole months} \\[1em]
+\mathop {\dfrac{365}{29.5}}\limits_{-\bullet-}^{-\bullet-}  \times 29.5 &= &\mathbf{11} & \text{remaining days}
+\end{array}
+$$
 
 
