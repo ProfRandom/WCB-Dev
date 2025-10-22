@@ -8,11 +8,11 @@ How do you choose when you use either $\sim$, $\simeq$, $\cong$, or $\approx$?
 
 
 # General To-Dos
-1. Port Ontosomy over from -DEV
+1. Port Animotics over from -DEV
 
 
 # From Volume 1-5e
-1. Galaxy type and Ontosomy
+1. Galaxy type and Animotics
 
 
 # From Volume 2-5e

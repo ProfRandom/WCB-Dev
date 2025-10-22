@@ -39,7 +39,7 @@ _Orbits 2 & Meta 4_
 An exploration of calendars, days, and epochs — how civilizations carve meaning from motion.
 
 **Episode 11 — The Breath of the Cosmos**  
-_Ontosomy (upcoming Canon)_  
+_Animotics (upcoming Canon)_  
 Philosophical: when does a system become self-aware? Includes Hyppy’s reflection on “Are We the Virus?”
 
 **Episode 12 — The Craft of Creation**  
