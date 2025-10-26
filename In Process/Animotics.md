@@ -1,9 +1,32 @@
 # 🧬 Animotics — The Science of Vital Order
 
+
+Singular: Animote
+Plural: Animotes
+Collective: Animota
+
+## 🧭 Canonical Hierarchy (Animotic Framework)# Animotics
+
 **Animotics** is the discipline within the WCB framework concerned with the **origin, persistence, and diversity of vitality** — the study of how self-organizing, self-sustaining systems (*animota*) arise and endure across all chemistries, temperatures, and media.  
 
 Where **Mononics** describes a world’s **body** and **Morphotics** its **form**,  
 **Animotics** describes its **breath** — the capacity for life.
+
+- Biotic Order
+  - Realms & Provinces
+    - Geotic Realm
+      - Gaean Province
+    - Rheic Realm
+    - Telluric Realm
+- Exotic Order
+  - Realms & Provinces
+    - Xenotic Realm
+      - Ammoniac Province
+      - Silicate Province
+      - Cryotic Province
+      - Plasmic Province
+
+
 
 ---
 
@@ -43,24 +66,24 @@ distinct environmental expressions of the same animotic principle.
 | **Telluric Realm**                     | 0.3–0.9 ⨁          | Marginally viable worlds; extremophile biomes                                          |
 | **Geotic Realm**                       | 0.5–1.5 ⨁          | Broadly Earthlike, stable hydrospheres                                                 |
 | **Gaean Province** within Geotic Realm | 0.8–1.2 ⨁          | Optimal carbonic equilibrium; archetypal biospheres                                    |
-| **Rheatic Realm**                      | 1.0–3.0 ⨁          | High-mass, dense, superhabitable worlds; robust but physiologically intense for humans |
+| **Argeic Realm**                       | 1.0–3.0 ⨁          | High-mass, dense, superhabitable worlds; robust but physiologically intense for humans |
 
 > These Realms differ by *expression*, not by chemistry —  
 > all are carbonic; each balances heat, gravity, and atmosphere differently.
 
 ---
 
-## 3. Xenotic Realms
+## 3. Xenotic Realm
 
 Beyond the Biotic Range, carbon-based life fails — yet other chemistries may thrive.  
-These **Xenotic Realms** describe alternate modes of animotic persistence.
+These **Xenotic Provinces** describe alternate modes of animotic persistence.
 
-| Realm | Basis | Optimal Setting | Description |
-|:------|:------|:----------------|:-------------|
-| **Silicate Realm** | Si–O lattice metabolism | High temperature, low volatility | Crystal-lattice animota; “living minerals.” |
-| **Cryotic Realm** | NH₃, CH₄, or quantum solids | Low temperature, low radiation | Cryogenic, slow-metabolic animota. |
-| **Ammonic Realm** | N–H–H solvents | Cold, pressurized environments | Ammonia-solvent biota; possible in outer Brumazone. |
-| **Plasmic Realm** | Ionized or magnetic structures | Stellar coronae, magnetospheres | Energy-field consciousness; Aetheric animota. |
+| Province              | Basis                          | Optimal Setting                  | Description                                         |
+| :-------------------- | :----------------------------- | :------------------------------- | :-------------------------------------------------- |
+| **Silicate Province** | Si–O lattice metabolism        | High temperature, low volatility | Crystal-lattice animota; “living minerals.”         |
+| **Cryotic Province    | NH₃, CH₄, or quantum solids    | Low temperature, low radiation   | Cryogenic, slow-metabolic animota.                  |
+| **Ammonic Province**  | N–H–H solvents                 | Cold, pressurized environments   | Ammonia-solvent biota; possible in outer Brumazone. |
+| **Plasmic Province**  | Ionized or magnetic structures | Stellar coronae, magnetospheres  | Energy-field consciousness; Aetheric animota.       |
 
 > In Xenotics, life trades **speed for endurance** —  
 > slower reactions, higher stability, and vastly extended lifespans.
