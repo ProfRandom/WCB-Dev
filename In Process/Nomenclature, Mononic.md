@@ -11,7 +11,6 @@ related: [Monons 1 — Framework and Equations, Binaries 2 — Star Systems, Met
 contributors: [M. Conrad]
 source: https://gitlab.com/wcbcanon/mononics
 ---
-
 # 🪐 The Hierarchy of Mononic Systems
 
 ## 1 · Monons — The Singular
