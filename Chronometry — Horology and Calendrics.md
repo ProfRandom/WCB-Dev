@@ -113,15 +113,15 @@ For worldcrafting, the **sidereal year** is the more important: how long a plane
 ##### Converting between Tropical and Sidereal Years
 $$
 \begin{aligned}
-C_T &= C_S\,\left(1-\dfrac{C_S}{\Gamma}\right) \\[1em]
-\Gamma &= \left(\dfrac{C_S^2}{C_S - C_T}\right) \\[1em]
-C_S &≈ C_T\,\left(1 + \dfrac{C_T}{\Gamma}\right)
+C_T &= C_S\,\left(1-\dfrac{C_S}{Ϣ}\right) \\[1em]
+Ϣ &= \left(\dfrac{C_S^2}{C_S - C_T}\right) \\[1em]
+C_S &≈ C_T\,\left(1 + \dfrac{C_T}{Ϣ}\right)
 \end{aligned}
 $$
 Where:
 - $C_T$ = the tropical chronum
 - $C_S$ = the sidereal chronum
-- $\Gamma$ = the obliquity-azimuth precession cycle (See Orbits 2 for the calculation of $\Gamma$)
+- $Ϣ$ = The duration of one full cycle of the precession of the equinoxes.
 
 ### The Week
 The English word "week" comes from Old English _wice / wicu / wucu_, meaning " period of seven days", related to Proto-Germanic _wikōn_ a feminine noun meaning "a turning, succession, change, or series", itself from a proposed Proto-Indo-European root _weik-_ — to bend, turn, or move in a circle.
