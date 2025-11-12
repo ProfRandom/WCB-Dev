@@ -1,0 +1,98 @@
+---
+title: "Orbits–0 — Orbital and Seasonal Primer"
+summary: Foundational framework for interpreting orbital divisions, anomalies, and seasonal approximations within WCB.
+domain: metric
+category: framework
+status: canonical
+version: 1.0
+updated: 2025-11-08
+contributors: [M. Conrad, GPT-5]
+---
+
+# 🜂 Orbital and Seasonal Primer
+
+## 1 · Secta and Quadrants
+
+In WCB, the orbital period (*chronum*, $\chi$) is divided two ways:
+
+| Division | Nature | Symbol | Description |
+|:--|:--|:--|:--|
+| **Sectal** (pl. *secta*) | *Temporal* — equal fractions of orbital **time** | S₀…S₃ | Represent the four quarters of the *chronum*; may differ in angular extent due to orbital eccentricity. |
+| **Quadrant** | *Spatial* — equal divisions of orbital **angle** | Represent four 90° sectors of **true anomaly**, dividing the ellipse into geometric quarters. |
+
+Thus, **secta** describe *where* the body is, while **secta** describe *when* during the orbit it occurs.  
+At zero eccentricity, secta and secta coincide; as eccentricity rises, they diverge.
+
+---
+
+## 2 · Canonical Relationships
+
+
+
+| Parameter | Symbol | Definition |
+|:--|:--|:--|
+| **True Anomaly** | $ν_n = (ζ + 90n) \bmod 360°$ | Defines the angular loci (secta) for sectal boundaries. |
+| **Eccentric Tangent Factor** | $ξ = \sqrt{\frac{1 - e}{1 + e}}$ | Relates true and eccentric anomalies. |
+| **Eccentric Anomaly** | $E = 2 \arctan(ξ\tan\frac{ν}{2})$ | Projects true anomaly onto the auxiliary circle. |
+| **Mean Anomaly** | $M = E - e\sin E$ | Converts geometry to uniform time; basis for sectum fractions. |
+
+---
+
+## 3 · Seasonal Geometry
+
+Each sectum $S_n$ spans one-quarter of the chronum, but not necessarily 90° in true anomaly.  
+The sectum boundaries are offset by the **chronex (ζ)** — the true anomaly of the *tempostat*, the first cardinal event following periapsis.
+
+$$
+\nu_n = (ζ + 90n) \bmod 360
+$$
+
+For Earth, $ζ ≈ 77°$; for the Rosetta model, $ζ = 180°$.
+
+---
+
+## 4 · Practical Simplifications
+
+### 4.1 Sidereal Sectal Durations
+The **Eccentric Anomaly Method** provides reliable sidereal season lengths within 1% accuracy for low-eccentricity orbits.  
+Example (Earth):  
+
+| Sectal | Fraction | Duration (sidereal) | |
+|:--|:--|--:|:--|
+| Q₀ | 0.252 | 92.0 d | Spring |
+| Q₁ | 0.253 | 92.5 d | Summer |
+| Q₂ | 0.248 | 90.6 d | Autumn |
+| Q₃ | 0.247 | 90.1 d | Winter |
+
+---
+
+### 4.2 Tropical Approximation (Calendrical)
+Because precession causes the tropical year to drift slightly shorter than the sidereal year, sidereal season lengths can be adjusted by ±1 day to emulate tropical values:
+
+| Sectal | Adjustment | Rationale |
+|:--|--:|:--|
+| S₀ (spring) | +1 day | Precessional advance of equinox |
+| S₁ (summer) | +1 day | Forward phase lead |
+| S₂ (autumn) | –1 day | Retrograde lag |
+| S₃ (winter) | –1 day | Retrograde lag |
+
+This heuristic correction yields tropical season durations accurate to within a few hours.
+
+> *For most worldbuilding purposes, the sidereal results alone are sufficient — who’s going to argue?*  
+> *Mundus tuum est.*
+
+---
+
+## 5 · Precessional Ratio (Optional Refinement)
+
+When a world’s precession period $\varpi$ is known, the tropical–sidereal relationship may be refined:
+
+$$
+p = \frac{\chi}{Ϣ}, \qquad \chi_{trop} = chi_{sid}^{1+p}.
+$$
+
+For Earth, $\chi = 1$ yr, $Ϣ ≈ 26{,}000$ yr, giving $p ≈ 3.85×10^{-5}$.  
+The effect is negligible for long-precession systems and becomes meaningful only for rapid axial precession (≲10³ orbits).
+
+---
+
