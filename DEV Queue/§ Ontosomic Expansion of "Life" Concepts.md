@@ -256,24 +256,6 @@ the chemistry or energetic substrate through which vitality is expressed.
 
 ---
 
-## 2. Biotic Realms
-
-Within the **Biotic Order**, life flourishes under carbon–water chemistry.  
-The *Biotic Realms* represent the major equilibria of this regime —  
-distinct environmental expressions of the same animotic principle.
-
-| Realm                                  | Typical Mass Range | Description                                                                            |
-| :------------------------------------- | :----------------- | :------------------------------------------------------------------------------------- |
-| **Telluric Realm**                     | 0.3–0.9 ⨁          | Marginally viable worlds; extremophile biomes                                          |
-| **Geotic Realm**                       | 0.5–1.5 ⨁          | Broadly Earthlike, stable hydrospheres                                                 |
-| **Gaean Province** within Geotic Realm | 0.8–1.2 ⨁          | Optimal carbonic equilibrium; archetypal biospheres                                    |
-| **Argeic Realm**                       | 1.0–3.0 ⨁          | High-mass, dense, superhabitable worlds; robust but physiologically intense for humans |
-
-> These Realms differ by *expression*, not by chemistry —  
-> all are carbonic; each balances heat, gravity, and atmosphere differently.
-
----
-
 ## 3. Xenotic Realm
 
 Beyond the Biotic Range, carbon-based life fails — yet other chemistries may thrive.  
